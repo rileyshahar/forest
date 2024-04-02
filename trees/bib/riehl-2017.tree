@@ -1,0 +1,21 @@
+\title{category theory in context}
+\taxon{reference}
+\author{Emily Riehl}
+\meta{isbn}{9780486820804}
+\meta{bibtex}{\startverb
+@book{riehl-2017,
+  title = {Category Theory in Context},
+  author = {Riehl, Emily},
+  isbn = {9780486820804},
+  series = {Aurora: Dover Modern Math Originals},
+  year = {2017},
+  publisher = {Dover Publications}
+}\stopverb}
+
+\p{Suitable for advanced undergraduates and graduate students in mathematics,
+the text provides tools for understanding and attacking difficult problems in
+algebra, number theory, algebraic geometry, and algebraic topology. Drawing upon
+a broad range of mathematical examples from the categorical perspective, the
+author illustrates how the concepts and constructions of category theory arise
+from and illuminate more basic mathematical ideas. Prerequisites are limited to
+familiarity with some basic set theory and logic.}

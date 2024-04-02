@@ -1,0 +1,42 @@
+\title{category}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\cite{riehl-2017}{Riehl}{Definition 1.1.1}
+
+\import{macros01}
+
+\p{A \em{category} #{C} consists of the following data:}
+\ul{
+  \li{a collection of \em{objects}, overloadingly also called #{C};}
+  \li{for each pair of objects #{x,y\in C}, a collection of \em{morphisms} #{C(x, y)};}
+  \li{for each object #{x\in C}, a designated \em{identity morphism}
+      #{x\xrightarrow{1_x} x};}
+  \li{for each pair of morphisms #{x\xrightarrow{f} y\xrightarrow{g} z}, a
+      designated \em{composite morphism} #{x\xrightarrow{gf} z}.}
+}
+
+\p{This data must satisfy the following axioms:}
+\ul{
+  \li{\em{unitality}: for any #{x\xrightarrow{f} y}, #{1_yf = f = f1_x};}
+	\li{\em{associativity}: for any #{x\xrightarrow{f}
+		y\xrightarrow{g}z\xrightarrow{h}w}, #{(hg)f = h(gf)}.
+	}
+}
+
+\p{In other words, the following diagrams must commute:}
+\tx{
+  \begin{tikzcd}
+    x\ar[r, "f"]\ar[rr, "gf", bend left=45] & y\ar[r, "g"]\ar[rr, "hg"', bend right=45] & z\ar[r, "h"] & w
+  \end{tikzcd}
+
+  \begin{tikzcd}
+    x\ar[r, "1_x"]\ar[dr, "f"'] & x\ar[d, "f"] \\
+    & y
+  \end{tikzcd}
+  \begin{tikzcd}
+    x\ar[r, "f"]\ar[dr, "f"'] & y\ar[d, "1_y"] \\
+    & y
+  \end{tikzcd}
+}
