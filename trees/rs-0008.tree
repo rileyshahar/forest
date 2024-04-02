@@ -1,0 +1,19 @@
+\title{opposite category}
+\date{2024-04-01}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.2.1}
+\tag{construction:category}
+
+\p{Let #{C} be a [category](rs-0001). The \em{opposite category} #{C^{\op}}
+    has:}
+
+\ul{
+  \li{the same objects as in #{C};}
+  \li{for each morphism #{x\xto{f} y} in #{C}, a morphism
+      #{y\xto{f^{\text{op}}} x};}
+	\li{composition and identities as in #{C}.}
+}

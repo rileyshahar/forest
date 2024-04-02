@@ -1,0 +1,29 @@
+\title{isomorphism}
+\date{2024-04-01}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.1.9}
+\tag{structure:morphism}
+
+\p{A morphism #{x\xto{f} y} in a [category](rs-0001) is an \em{isomorphism} if there exists an
+\em{inverse morphism} #{y\xto{f^{-1}}x} such that #{f^{-1}f = 1_x} and #{ff^{-1}
+= 1_y}, i.e.}
+
+\tx{
+  \begin{tikzcd}
+	x\ar[r, "f"]\ar[rr, bend right, "1_x"'] & y\ar[r, "f^{-1}"] & x
+  \end{tikzcd}
+}
+
+\p{and}
+
+\tx{
+  \begin{tikzcd}
+	y\ar[r, "f^{-1}"]\ar[rr, bend right, "1_y"'] & x\ar[r, "f"] & y
+  \end{tikzcd}
+}
+
+\p{commute.}

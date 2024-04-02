@@ -1,0 +1,13 @@
+\title{monomorphism}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+\dual{rs-000B}{epimorphism}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.2.7(i)}
+\tag{structure:morphism}
+
+\p{A [morphism](rs-0001) #{x\xinto{f} y} is a \em{monomorphism} if for any pair of
+parallel arrows #{z\xrightarrow{g,h} x}, #{fg = fh} implies #{g = h}.}

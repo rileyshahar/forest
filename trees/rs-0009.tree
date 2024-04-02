@@ -1,0 +1,12 @@
+\title{categorical duality}
+\date{2024-04-02}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{awodey-2010}{Awodey}{Proposition 3.1}
+
+\p{Category theory admits a kind of syntactic duality via the [opposite
+category](rs-0008), through which any theorem or construction immediately
+obtains a dual via "reversing all the arrows."}

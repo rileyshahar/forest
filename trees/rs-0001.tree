@@ -1,20 +1,20 @@
 \title{category}
-\date{2024-04-02}
+\date{2024-04-01}
 \taxon{definition}
 \author{rileyshahar}
 
-\cite{riehl-2017}{Riehl}{Definition 1.1.1}
-
 \import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.1.1}
 
 \p{A \em{category} #{C} consists of the following data:}
 \ul{
   \li{a collection of \em{objects}, overloadingly also called #{C};}
   \li{for each pair of objects #{x,y\in C}, a collection of \em{morphisms} #{C(x, y)};}
   \li{for each object #{x\in C}, a designated \em{identity morphism}
-      #{x\xrightarrow{1_x} x};}
-  \li{for each pair of morphisms #{x\xrightarrow{f} y\xrightarrow{g} z}, a
-      designated \em{composite morphism} #{x\xrightarrow{gf} z}.}
+      #{x\xto{1_x} x};}
+  \li{for each pair of morphisms #{x\xto{f} y\xto{g} z}, a
+      designated \em{composite morphism} #{x\xto{gf} z}.}
 }
 
 \p{This data must satisfy the following axioms:}
@@ -37,6 +37,6 @@
   \end{tikzcd}
   \begin{tikzcd}
     x\ar[r, "f"]\ar[dr, "f"'] & y\ar[d, "1_y"] \\
-    & y
+    & y\punctuation{.}
   \end{tikzcd}
 }

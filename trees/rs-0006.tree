@@ -1,0 +1,27 @@
+\title{under category}
+\date{2024-04-01}
+\taxon{definition}
+\author{rileyshahar}
+\dual{rs-0007}{over category}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Exercise 1.1.iii.i}
+\tag{construction:category}
+
+\p{Let #{C} be a [category](rs-0001) and #{c} be an object. Then the \em{under category}
+#{c/C} has:}
+
+\ul{
+  \li{as objects, morphisms #{c\xto{f} x} in #{C};}
+	\li{as morphisms #{(c\xto{f} x)\to (c\xto{g}y)} , commutative triangles
+	  \tx{
+	    \begin{tikzcd}
+	  	  & c\ar[dl, "f"']\ar[dr, "g"] \\
+	  		x\ar[rr, "h"'] && y\punctuation{;}
+	    \end{tikzcd}
+	  }
+	}
+	\li{as composition, pasting along the shared morphism;}
+	\li{as identities, the unit laws in #{C}.}
+}

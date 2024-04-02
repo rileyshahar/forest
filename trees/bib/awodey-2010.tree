@@ -1,0 +1,35 @@
+\title{category theory}
+\taxon{reference}
+\author{Steve Awodey}
+\date{2010}
+\meta{isbn}{9780486820804}
+\meta{bibtex}{\startverb
+@book{awodey-2010,
+  author = {Awodey, Steve},
+  title = {Category Theory},
+  year = {2010},
+  isbn = {9780486820804},
+  publisher = {Oxford University Press, Inc.},
+}
+}\stopverb}
+
+\p{Category theory is a branch of abstract algebra with incredibly diverse
+applications. This text and reference book is aimed not only at mathematicians,
+but also researchers and students of computer science, logic, linguistics,
+cognitive science, philosophy, and any of the other fields in which the ideas
+are being applied. Containing clear definitions of the essential concepts,
+illuminated with numerous accessible examples, and providing full proofs of all
+important propositions and theorems, this book aims to make the basic ideas,
+theorems, and methods of category theory understandable to this broad
+readership. Although assuming few mathematical pre-requisites, the standard of
+mathematical rigour is not compromised. The material covered includes the
+standard core of categories; functors; natural transformations; equivalence;
+limits and colimits; functor categories; representables; Yoneda's lemma;
+adjoints; monads. An extra topic of cartesian closed categories and the
+lambda-calculus is also provided - a must for computer scientists, logicians and
+linguists!This Second Edition contains numerous revisions to the original text,
+including expanding the exposition, revising and elaborating the proofs,
+providing additional diagrams, correcting typographical errors and, finally,
+adding an entirely new section on monoidal categories. Nearly a hundred new
+exercises have also been added, many with solutions, to make the book more
+useful as a course text and for self-study.}

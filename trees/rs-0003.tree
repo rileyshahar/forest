@@ -1,0 +1,12 @@
+\title{endomorphism}
+\date{2024-04-01}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.1.9}
+\tag{structure:morphism}
+
+\p{A morphism in a [category](rs-0001) is an \em{endomorphism} if its domain and
+codomain agree.}

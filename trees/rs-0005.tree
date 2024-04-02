@@ -1,0 +1,14 @@
+\title{inverses are unique}
+\date{2024-04-01}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Exercise 1.1.i.ii}
+
+\p{Let #{x\xto{f}y} be an [isomorphism](rs-0002) with inverses #{g} and #{h}. Then #{g = h}.}
+
+\proof{
+  We have ##{g = g1_y = gfh = 1_xh = h.}
+}
