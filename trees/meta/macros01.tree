@@ -6,7 +6,6 @@
 	\meta{ref-at}{\at}
 	\meta{ref-note}{\note}
 	[](\note)
-	\tag{cite:\note}
 }
 
 \def\tx[body]{\tex{

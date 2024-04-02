@@ -1,7 +1,9 @@
 \title{category theory in context}
 \taxon{reference}
 \author{Emily Riehl}
+\date{2017}
 \meta{isbn}{9780486820804}
+\meta{external}{https://math.jhu.edu/~eriehl/context/}
 \meta{bibtex}{\startverb
 @book{riehl-2017,
   title = {Category Theory in Context},
