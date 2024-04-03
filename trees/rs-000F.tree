@@ -1,0 +1,12 @@
+\title{homeomorphism}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\tag{ex:rs-0002}
+
+\p{A \em{homeomorphism} is an [isomorphism](rs-0002) in [\scat{Top}](rs-000D).
+Explicitly, it is a [continuous](TODO) [bijection](rs-000E) with continuous
+inverse.}

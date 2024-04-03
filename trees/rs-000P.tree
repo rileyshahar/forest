@@ -1,0 +1,17 @@
+\title{functors preserve isomorphisms}
+\date{2024-04-02}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Lemma 1.3.8}
+
+\p{Let #{C\xto{F} D} be a [functor](rs-000L). If #{x\xto{f} y} is an
+[isomorphism](rs-0002) in #{C}, then #{Ff} is an isomorphism in #{D}.}
+
+\proof{
+	The inverse is #{Ff^{-1}}. We have ##{
+	  (Ff^{-1})(Ff) = F(f^{-1}f) = F(1_x) = 1_{F(x)},
+	} and the same works on the other side.
+}

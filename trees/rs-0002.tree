@@ -3,6 +3,15 @@
 \taxon{definition}
 \author{rileyshahar}
 
+\xml{bm-inject}{
+  \put\transclude/numbered{false}
+  \put\transclude/metadata{true}
+  \put\transclude/title{Examples}
+  \query{
+    \query/tag{ex:rs-0002}
+  }
+}
+
 \import{macros01}
 
 \cite{riehl-2017}{Riehl}{Definition 1.1.9}
@@ -26,4 +35,5 @@
   \end{tikzcd}
 }
 
-\p{commute.}
+\p{commute. If there exists an isomorphism between #{x} and #{y}, we say they
+are \em{isomorphic} and write #{x\cong y}.}

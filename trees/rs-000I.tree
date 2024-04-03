@@ -1,0 +1,12 @@
+\title{surjection}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-000B}
+
+\p{An \em{surjection} is an [epimorphism](rs-000B) in [\scat{Set}](rs-000C).
+Explicitly, a map #{A\xto{f} B} is surjective if, for every #{y\in B}, there
+exists an #{x\in A} such that #{f(x)=y}.}
+

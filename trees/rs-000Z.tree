@@ -1,0 +1,13 @@
+\title{identity natural transformation}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\tag{ex:rs-000V}
+\cite{riehl-2017}{Riehl}{p. 44}
+
+\p{Let #{C\xto{F} D} be a [functor](rs-000L). The \em{identity [natural
+transformation](rs-000V)} #{F\xto{1_F} F} is the natural transformation with
+components #{(1_F)_c = 1_{Fc}}.}

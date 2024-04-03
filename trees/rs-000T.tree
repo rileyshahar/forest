@@ -1,0 +1,28 @@
+\title{bifunctor}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{p. 19}
+
+\p{A \em{bifunctor} is a [functor](rs-000L) whose domain is a [product
+category](rs-000S).}
+
+\xml{bm-inject}{
+  \put\transclude/numbered{false}
+  \put\transclude/metadata{true}
+  \put\transclude/title{Constructions}
+  \query{
+    \query/tag{construction:rs-000T}
+  }
+  \put\transclude/title{Examples}
+  \query{
+    \query/tag{ex:rs-000T}
+  }
+  \put\transclude/title{Structures}
+  \query{
+    \query/tag{structure:rs-000T}
+  }
+}

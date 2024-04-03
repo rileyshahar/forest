@@ -1,0 +1,14 @@
+\title{inverse image functor}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Example 1.3.7(i)}
+\tag{ex:rs-000L}
+\tag{ex:rs-000N}
+
+\p{The \em{inverse image [functor](rs-000N)} #{\cP:} \scat{Set}#{^\op\to}\scat{Set} takes a set to
+its [powerset](TODO) and a map #{X\xto{f}Y}  to its action #{f^{-1}} by inverse
+images, i.e. ##{f_*(A) = \{x\in X: f(x)\in A\}.}}

@@ -1,0 +1,26 @@
+\title{hom bifunctor}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.3.13}
+\tag{ex:rs-000L}
+\tag{ex:rs-000T}
+
+\p{Let #{C} be a [category](rs-0001). The \em{hom bifunctor} #{C^\op\times
+C\xto{C(-, -)}} \scat{Set} takes objects #{x} and #{y} to the hom-set #{C(x,
+y)}, and morphisms #{x\xfrom{f} y} and #{z\xto{g} w} to their action by pre- and
+post-composition #{f^*g_*}, i.e.}
+
+\tx{
+  \begin{tikzcd}
+			C^\op\times C\ar[rr, "{C(-, -)}"] && \textsc{Set} \\
+			x,z\ar[rr, mapsto]\ar[shift left=2, dd, "g"] && C(x,z)\ar[dd, "f^*g_*"] &&
+			x\ar[rrr, "h"] &\ar[dd, shift left=8, mapsto] && z\\
+			\hspace{1.8em}\ar[rr, mapsto, shift right=1] && \hspace{0em}\\
+			y,w\ar[rr, mapsto]\ar[shift left=2, uu, "f"] && C(y,w) && y\ar[r, "f"'] &
+			x\ar[r, "h"'] & z\ar[r, "g"'] & w\punctuation{.}
+  \end{tikzcd}
+}

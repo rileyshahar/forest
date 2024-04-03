@@ -1,0 +1,11 @@
+\title{groupoid}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\tag{structure:rs-0001}
+
+\p{A \em{groupoid} is a [category](rs-0001) whose morphisms are each
+[isomorphisms](rs-0002).}

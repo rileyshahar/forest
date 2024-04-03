@@ -1,0 +1,11 @@
+\title{identity functor}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\tag{ex:rs-000L}
+
+\p{Let #{C} be a [category](rs-0001). The \em{identity [functor](rs-000L)}
+#{C\xto{1_C}C} sends each object and morphism to itself.}

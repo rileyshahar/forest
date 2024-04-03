@@ -1,0 +1,14 @@
+\title{equivalence of categories}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{property:rs-000L}
+\cite{riehl-2017}{Riehl}{Definition 1.5.4}
+
+\p{A [functor](rs-000L) #{C\xto{F} D} is an \em{equivalence of categories} if
+there exists a functor #{D\xto{G} C} together with [natural
+isomorphisms](rs-0010) #{FG\cong 1_D} and #{GF\cong 1_C}. Two categories are
+\em{equivalent} if there exists an equivalence of categories between them, in
+which case we write #{C\simeq D} .}

@@ -1,0 +1,11 @@
+\title{injection}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-000A}
+
+\p{An \em{injection} is a [monomorhpism](rs-000A) in [\scat{Set}](rs-000C).
+Explicitly, a map #{A\xto{f} B} is injective if, for every #{x,y\in A},
+#{f(x)=f(y)} implies #{x=y}.}

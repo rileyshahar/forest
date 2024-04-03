@@ -1,0 +1,16 @@
+\title{retraction}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\dual{rs-000J}{section}
+
+\cite{riehl-2017}{Riehl}{Definition 1.2.9}
+
+\import{macros01}
+\tag{structure:rs-000B}
+\tag{structure:morphism}
+
+\p{A [morphism](rs-0001) #{y\xto{r}x} is a \em{retraction}, \em{post-inverse},
+or \em{split [epimorphism](rs-000B)} if there exists a morphism #{x\xto{s}y} such that
+#{rs = 1_x}.}

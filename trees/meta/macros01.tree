@@ -33,6 +33,10 @@
 \def\span{\text{span}}
 \def\op{\text{op}}
 
+% TODO: can we do this with \iftex
+\def\scat[name]{\xml{span}[class]{scat}{\name}}
+\def\foo[name]{\textsc{\name}}
+
 \def\into{\hookrightarrow}
 \def\onto{\twoheadrightarrow}
 \def\from{\leftarrow}

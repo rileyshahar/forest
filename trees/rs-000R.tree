@@ -1,0 +1,24 @@
+\title{contravariant hom-functor}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.3.11}
+\tag{ex:rs-000L}
+\dual{rs-000Q}{covariant hom-functor}
+
+\p{Let #{c} be an object in a [category](rs-0001) #{C}. The
+\em{[contravariant](rs-000N) hom-[functor](rs-000L)} #{C^\op\xto{C(-, c)}} \scat{Set} takes an object #{x} to the hom-set #{C(x,
+c)} and a morphism #{x\xto{f} y} to its action #{f^*} by pre-composition:}
+
+\tx{
+  \begin{tikzcd}
+			C\ar[rr, "{C(-, c)}"] && \textsc{Set} \\
+			x\ar[rr, mapsto] && C(x, c)\ar[dd, "f^*"] && x\ar[rr, "g"] &\ar[dd, mapsto] & c\\
+			\ar[rr, mapsto] && \hspace{0em}\\
+			y\ar[rr, mapsto]\ar[uu, "f"] && C(y, c) && y\ar[r, "f"] & x\ar[r, "g"] & c\punctuation{.}
+  \end{tikzcd}
+}
+

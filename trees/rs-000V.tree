@@ -1,0 +1,42 @@
+\title{natural transformation}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.4.1}
+
+\p{A \em{natural transformation} #{F\xto{\alpha} G} between [functors](rs-000L)
+#{C\xto{F,G} D} 
+consists of, for every object #{x\in C}, a morphism #{\alpha_x: Fx\to Gx} (the
+\em{components}) such
+that, for every morphism #{x\xto{f}y} in #{C}, the following diagram commutes:}
+\tx{
+  \begin{tikzcd}
+    Fx\ar[r, "\alpha_x"]\ar[d, "Ff"'] & Gx\ar[d, "Gf"] \\
+    Fy\ar[r, "\alpha_y"'] & Gy\punctuation{.}
+  \end{tikzcd}
+}
+
+\xml{bm-inject}{
+  \put\transclude/numbered{false}
+  \put\transclude/metadata{true}
+  \put\transclude/title{Constructions}
+  \query{
+    \query/tag{construction:rs-000V}
+  }
+  \put\transclude/title{Examples}
+  \query{
+    \query/tag{ex:rs-000V}
+  }
+  \put\transclude/title{Structures}
+  \query{
+    \query/tag{structure:rs-000V}
+  }
+  \put\transclude/title{Properties}
+  \query{
+    \query/tag{property:rs-000V}
+  }
+}
+

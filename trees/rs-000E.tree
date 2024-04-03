@@ -1,0 +1,12 @@
+\title{bijection}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\tag{ex:rs-0002}
+
+\p{A \em{bijection} is an [isomorphism](rs-0002) in [\scat{Set}](rs-000C).
+Explicitly, a map is bijective if it is both [injective](rs-000H) and
+[surjective](rs-000I).}

@@ -1,0 +1,12 @@
+\title{natural isomorphism}
+\date{2024-04-02}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{p. 24}
+\tag{ex:rs-0002}
+
+\p{A \em{natural isomorphism} is an [isomorphism](rs-0002) in a [functor
+category](rs-000Y). Explicitly, it is a [natural transformation](rs-000V) whose
+components are each isomorphisms.}

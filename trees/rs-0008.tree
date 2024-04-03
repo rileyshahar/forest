@@ -6,7 +6,7 @@
 \import{macros01}
 
 \cite{riehl-2017}{Riehl}{Definition 1.2.1}
-\tag{construction:category}
+\tag{construction:rs-0001}
 
 \p{Let #{C} be a [category](rs-0001). The \em{opposite category} #{C^{\op}}
     has:}
