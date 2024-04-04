@@ -1,0 +1,11 @@
+\title{trivial category}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-0001}
+
+\p{The \em{trivial [category](rs-0001)} is the [ordinal category](rs-001E) #{1}.
+Explicitly, it is the category with one object and no non-identity morphisms.}
+

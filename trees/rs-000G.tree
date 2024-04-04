@@ -5,7 +5,7 @@
 
 \import{macros01}
 
-\tag{structure:rs-0001}
+\tag{property:rs-0001}
 
 \p{A \em{groupoid} is a [category](rs-0001) whose morphisms are each
 [isomorphisms](rs-0002).}

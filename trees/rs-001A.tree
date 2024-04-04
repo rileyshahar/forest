@@ -1,0 +1,9 @@
+\title{the philosophy of category theory}
+\date{2024-04-03}
+\taxon{moral}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The philosophy of [category theory](cat) is that \em{to study an object, one
+should study its morphisms.}}

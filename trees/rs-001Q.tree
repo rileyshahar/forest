@@ -1,0 +1,11 @@
+\title{computing universal elements}
+\date{2024-04-03}
+\taxon{method}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Suppose we are given a [representation](rs-0013) #{C(c, -)\xcong{\alpha} F} of a [functor](rs-000L)
+#{C\xto{F} D}. Then by the construction of the bijection in the [Yoneda
+lemma](rs-0014), we can compute the [universal element](rs-001P) characterizing
+this representation as #{\alpha_c(1_c)}.}

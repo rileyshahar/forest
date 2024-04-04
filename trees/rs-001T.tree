@@ -1,0 +1,34 @@
+\title{comma category}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-0001}
+\tag{construction:rs-000L}
+\cite{riehl-2017}{Riehl}{Exercise 1.3.vi}
+
+\p{Let #{D\xto{F} C} and #{E\xto{G} C} be [functors](rs-000L). Then the
+\em{comma category} #{F\downarrow G} has:}
+
+\ul{
+  \li{as objects, triples #{(d\in D, e\in E, Fd\xto{f} Ge\in C)};}
+  \li{as morphisms #{(d,e,f)\to(d',e',f')}, pairs #{(d\xto{h}d')} and
+  #{(e\xto{k}e')} making \tx{
+    \begin{tikzcd}
+      Fd\ar[r, "f"]\ar[d, "Fh"'] & Ge\ar[d, "Gk"]\\
+      Fd'\ar[r, "f'"'] & Ge'
+    \end{tikzcd}
+  } commute;}
+  \li{composition by gluing along the bottom and top;}
+  \li{identities as in #{D} and #{E}.}
+}
+
+\xml{bm-inject}{
+  \put\transclude/numbered{false}
+  \put\transclude/metadata{true}
+  \put\transclude/title{Examples}
+  \query{
+    \query/tag{ex:rs-001T}
+  }
+}

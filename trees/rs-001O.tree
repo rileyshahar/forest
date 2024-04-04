@@ -1,0 +1,24 @@
+\title{representable isomorphism is isomorphism}
+\date{2024-04-03}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 2.3.1}
+
+\p{Let #{x} and #{y} be objects in a [category](rs-0001) #{C}. Then the following are equivalent:}
+
+\ul{
+  \li{#{x} and #{y} are [isomorphic](rs-0002);}
+  \li{the [covariant hom-functors](rs-000Q) #{C(x, -)} and #{C(y, -)} are [naturally isomorphic](rs-0010);}
+  \li{the [contravariant hom-functors](rs-000R) #{C(-, x)} and #{C(-, y)} are [naturally isomorphic](rs-0010).}
+}
+
+\p{Furthermore, by the [Yoneda embedding](rs-0016), a choice of any such isomorphism canonically determines a choice
+of each of the others.}
+
+\proof{
+  \p{This is immediate from the [Yoneda lemma](rs-0019), since
+  [fully faithful functors create isomorphism](rs-001N).}
+}
+

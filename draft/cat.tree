@@ -1,5 +1,5 @@
 \title{category theory}
-\date{2024-04-02}
+\date{2024-04-03}
 \taxon{notes}
 \author{rileyshahar}
 
@@ -10,8 +10,28 @@
 \subtree{
   \title{Basics}
   \taxon{Section}
-  \transclude{rs-0001}
-  \transclude{rs-0002}
-  \transclude{rs-0003}
-  \transclude{rs-0004}
+  \subtree[cat-definition]{
+    \title{Category}
+    \taxon{Definition}
+    \scope{
+      \put\transclude/toc{false}
+      \put\transclude/heading{false}
+      \transclude{rs-0001}
+    }
+    \p{Categories are ubiquitous in mathematics, as the following examples show.}
+    \scope{
+      \put\transclude/taxon{Example}
+      \transclude{rs-000C}
+      \transclude{rs-000D}
+    }
+    \p{We call these examples \em{concrete}. However, as the following examples
+    show, not all categories look like this.}
+    \scope{
+      \put\transclude/taxon{Example}
+      \transclude{rs-0025}
+      \transclude{rs-0026}
+      \transclude{rs-0021}
+      \transclude{rs-0023}
+    }
+  }
 }

@@ -1,0 +1,11 @@
+\title{discrete category}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{property:rs-0001}
+
+\p{A \em{discrete category} is a [category](rs-0001) with no non-identity
+morphisms.}
+

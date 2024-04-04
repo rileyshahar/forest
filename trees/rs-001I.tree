@@ -1,0 +1,9 @@
+\title{forgetful functor}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{forgetful functor} is morally a [functor](rs-000L) which "forgets" some
+of the structure of its domain category.}

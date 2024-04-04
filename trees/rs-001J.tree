@@ -1,0 +1,9 @@
+\title{reflection of a property}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [morphism](rs-0001) \em{reflects} a property if, whenever
+the property obtains in its codomain, it obtains in its domain.}

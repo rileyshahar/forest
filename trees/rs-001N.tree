@@ -1,0 +1,23 @@
+\title{fully faithful functors create isomorphisms}
+\date{2024-04-03}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-001L}
+\cite{riehl-2017}{Riehl}{Exercise 1.5.iv(ii)}
+
+\p{[Fully](rs-0017) [faithful functors](rs-0018) [create](rs-001L)
+[isomorphisms](rs-0002).}
+
+\p{Explicitly, let #{C\xto{F} D} be a full and faithful functor. Then
+#{x\cong y} in #{C} if and only if #{Fx\cong Fy} in #{D}.}
+
+\proof{
+  \p{In the forwards direction, we already know that [functors preserve isomorphisms](rs-000P).}
+
+  \p{Let #{Fx\xto{g} Fy} be an isomorphism in #{D}. Since #{F} is full, there is a
+  morphism #{x\xto{f} y} in #{C} such that #{Ff = g}. Now the result follows
+  because [fully faithful functors reflect isomorphisms](rs-001M).}
+}
+

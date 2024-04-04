@@ -1,0 +1,11 @@
+\title{ordinal category}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-0001}
+\cite{riehl-2017}{Riehl}{Example 1.1.4(iv)}
+
+\p{For any [ordinal](TODO) #{\alpha}, there is a [preorder](rs-001D) whose
+objects are the smaller ordinals with the usual order.}

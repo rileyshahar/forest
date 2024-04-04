@@ -1,0 +1,16 @@
+\title{universal property}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 2.3.3}
+
+\p{Let #{C\xto{F}} [\scat{Set}](rs-000C) be a [functor](rs-000L) and let #{c\in C} be an object.
+By the [Yoneda lemma](rs-0014), a choice of #{x\in Fc}
+corresponds to a natural transformation #{C(c, -)\xto{\alpha_x} F}. Such a choice
+expresses a \em{universal property} of #{c} if #{\alpha_x} is an
+[isomorphism](rs-0010), and hence a [representation](rs-0013). In this case,
+#{x} is called a \em{universal element}.}
+
+\p{The analogous dual definition applies to [contravariant functors](rs-000N).}

@@ -1,0 +1,10 @@
+\title{creation of a property}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [morphism](rs-0001) \em{creates} a property if it [reflects](rs-001J) and
+[preserves](rs-001K) that property and if, whenever the property obtains in the
+codomain, it is in the image of the morphism.}

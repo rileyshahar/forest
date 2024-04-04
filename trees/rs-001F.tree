@@ -1,0 +1,10 @@
+\title{empty category}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-0001}
+
+\p{The \em{empty [category](rs-0001)} is the [ordinal category](rs-001E) #{0}.
+Explicitly, it is the category with no objects and no morphisms.}

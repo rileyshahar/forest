@@ -1,0 +1,24 @@
+\title{full and faithfullness of the Yoneda embedding}
+\date{2024-04-03}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Corollary 2.2.8}
+
+\p{The [Yoneda embedding](rs-0016) is [full](rs-0017) and [faithful](rs-0018).
+This result is sometimes conflated with the [Yoneda lemma](rs-0014).}
+
+\subtree{
+  \taxon{Proof}
+
+  \p{Consider a [natural transformation](rs-000V) #{
+    yA\xto{\alpha}yB.
+  } By the [Yoneda lemma](rs-0014), there is a canonical morphism #{A\xto{f}B}
+  corresponding to #{\alpha}, which in particular satisfies #{\alpha_A(1_A) = f}. The natural
+  transformation #{yf = f^*} satisfies this condition, and so by the Yoneda lemma
+  is the only morphism to do so. As such, the Yoneda embedding induces exactly
+  the bijection ##{
+    C(A, B) = yBA \cong \psh{C}(yA, yB)
+  }established by the Yoneda lemma.}
+}

@@ -1,0 +1,10 @@
+\title{preservation of a property}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [morphism](rs-0001) \em{preserves} a property if, whenever
+the property obtains in its domain, it obtains in its codomain.}
+

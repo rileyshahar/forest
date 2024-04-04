@@ -1,12 +1,17 @@
-\title{full functor}
-\date{2024-04-02}
+\title{representable functor}
+\date{2024-04-03}
 \taxon{definition}
 \author{rileyshahar}
 
 \import{macros01}
 \tag{property:rs-000L}
-\cite{riehl-2017}{Riehl}{Definition 1.5.7}
+\cite{riehl-2017}{Riehl}{Definition 2.1.4}
 
-\p{A [functor](rs-000L) is \em{full} if the induced maps on
-hom-sets are [surjective](rs-000I).}
+\p{A (covariant) [functor](rs-000L) #{C\xto{F}} \scat{Set} is \em{representable} if there
+exists an object #{c\in C} and a [natural isomorphism](rs-0010) #{C(c, -)\cong
+F} to the [covariant hom-functor](rs-000Q). A \em{representation} of #{F} is a
+choice of such data.}
 
+\p{Dually, a [contravariant functor](rs-000N) #{C^\op\xto{F}} \scat{Set} is
+\em{representable} if there exists an object #{c\in C} and a natural isomorphism
+#{C(-, c)\cong F} to the [contravariant hom-functor](rs-000R).}

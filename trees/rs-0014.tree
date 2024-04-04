@@ -1,12 +1,100 @@
-\title{faithful functor}
-\date{2024-04-02}
-\taxon{definition}
+\title{yoneda lemma}
+\date{2024-04-03}
+\taxon{theorem}
 \author{rileyshahar}
 
+\cite{riehl-2017}{Riehl}{Theorem 2.2.4}
+
 \import{macros01}
-\tag{property:rs-000L}
-\cite{riehl-2017}{Riehl}{Definition 1.5.7}
 
-\p{A [functor](rs-000L) is \em{faithful} if the induced maps on
-hom-sets are [injective](rs-000H).}
+\p{Let #{C^\op\xto{F}} [\scat{Set}](rs-000C) be a [presheaf](rs-0015) and #{A\in C} an
+object. Let #{y} be the [Yoneda embedding](rs-0016) and #{\psh{C}} be the
+[presheaf category](rs-0015). Then ##{\psh{C}(yA, F)\cong FA,} and this
+[bijection](rs-000E) is [natural](rs-0010) in #{F} and #{A}.}
 
+\p{Dually, let #{C\xto{F}} \scat{Set} be a [functor](rs-000L) and #{A\in C} an
+object. Then ##{\Hom(C(A, -), F)\cong FA.}}
+
+\proof{
+  \p{We prove the contravariant (presheaf) case. The proof is in three parts:
+  the bijection, and the two naturality claims.}
+
+  \put\transclude/heading{false}
+
+  \subtree{
+    \number{Bijectivity}
+
+    \p{First, we claim that the map ##{
+      \begin{aligned}
+      \Phi \colon \psh{C}(yA, F) &\to FA\\
+            \alpha &\mapsto \alpha_A(1_A)
+      \end{aligned}
+    }
+    is a bijection. The inverse ##{
+      \Psi \colon FA \to \psh{C}(yA, F)
+    }sends any #{x\in FA} to the natural transformation with components ##{
+      \Psi x_B: C(B,A)\to FB,\quad f\mapsto Ff(x).
+    }
+    Naturality of #{\Psi x} entails, for any #{B\xfrom{f} B'\in C^\op}, commutativity of \tx{
+      \begin{tikzcd}
+        C(B,A)\ar[d, "f^*"']\ar[r, "\Psi x_B"] & FB\ar[d, "Ff"] \\
+        C(B',A)\ar[r, "\Psi x_{B'}"'] & FB'\punctuation{,}
+      \end{tikzcd}
+    }which is desmonstrated by \tx{
+      \begin{tikzcd}
+        g\ar[dd, mapsto, "f^*"']\ar[r, mapsto, "\Psi x_B"] & Fg(x)\ar[d, mapsto, "Ff"] \\
+                                                          &  Ff (Fg (x)) \\
+        gf\ar[r, mapsto, "\Psi x_{B'}"'] & F(gf)(x)\ar[u, equals]\punctuation{.}
+      \end{tikzcd}
+    }
+    To show these are inverses, first let #{x\in FA}; now ##{
+      \Psi(\Phi(x)) = \Phi x_A (1_A) = F1_A (a) = a.
+    }
+    Next, let #{yA \xto{\alpha} F}; we want to show that ##{
+      \alpha = \Phi(\Psi(\alpha)).
+    } We will do this by showing the components agree. Again letting
+    #{A\xfrom{f} B}, naturality of #{\alpha} asserts that \tx{
+      \begin{tikzcd}
+        C(A, A)\ar[d, "f^*"']\ar[r, "\alpha_A"] & FA\ar[d, "Ff"] \\
+        C(B, A)\ar[r, "\alpha_B"] & FB
+      \end{tikzcd}
+    } commutes. Tracking #{1_A}, we see that ##{
+      \Phi(\Psi(\alpha))_B(f) = \Phi (\alpha_A(1_A))_{B}(f) = Ff (\alpha_A(1_A))
+      = \alpha_B(f),
+    }as desired.}
+  }
+
+  \subtree{
+    \number{Naturality in F}
+
+    \p{We next show naturality in #{F}. Given #{F\xto{\beta}G}, we wish to show that \tx{
+      \begin{tikzcd}
+        \psh{C}(yA, F)\ar[d, "\beta_*"']\ar[r, "\Phi_F"] & FA\ar[d, "\beta_A"] \\
+        \psh{C}(yA, G)\ar[r, "\Phi_G"'] & GA
+      \end{tikzcd}
+    }commutes, as demonstrated by \tx{
+      \begin{tikzcd}
+        \alpha\ar[dd, mapsto, "\beta_*"']\ar[r, mapsto, "\Phi_F"] & \alpha_A(1_A) \ar[d, mapsto, "\beta_A"] \\
+                                                                   & \beta_A(\alpha_A(1_A)) \\
+        \beta\alpha\ar[r, mapsto, "\Psi_G"'] & (\beta\alpha)_A(1_A)\ar[u, equals]\punctuation{.}
+      \end{tikzcd}
+    }}
+  }
+
+  \subtree{
+    \number{Naturality in A}
+
+    \p{Finally, naturality in #{A} asserts that, given #{A\xfrom{f} B}, \tx{
+      \begin{tikzcd}
+        \psh{C}(yA, F)\ar[d, "(f_*)^*"']\ar[r, "\Phi_A"] & FA\ar[d, "Ff"] \\
+        \psh{C}(yB, F)\ar[r, "\Phi_B"'] & FB
+      \end{tikzcd}
+    }commutes, as entailed by \tx{
+      \begin{tikzcd}
+        \alpha\ar[dd, mapsto, "(f_*)^*"']\ar[r, mapsto, "\Phi_A"] & \alpha_A(1_A)\ar[d, "Ff"] \\
+                                                                & Ff(\alpha_c(1_c))\\
+        \alpha f_*\ar[r, mapsto, "\Phi_B"'] & (\alpha f_*)_B(1_B)\ar[u, equals]\punctuation{,}
+      \end{tikzcd}
+    }where the equality is exactly the final step of the bijectivity proof.}
+  }
+}

@@ -1,16 +1,25 @@
-\title{under category}
+\title{coslice category}
 \date{2024-04-01}
 \taxon{definition}
 \author{rileyshahar}
-\dual{rs-0007}{over category}
+\dual{rs-0007}{slice category}
 
 \import{macros01}
 
 \cite{riehl-2017}{Riehl}{Exercise 1.1.iii(i)}
 \tag{construction:rs-0001}
+\tag{ex:rs-001S}
+\tag{ex:rs-001T}
 
-\p{Let #{C} be a [category](rs-0001) and #{c} be an object. Then the \em{under category}
-#{c/C} has:}
+\p{Let #{C} be a [category](rs-0001) and #{c} be an object. Then the \em{coslice
+category} or \em{under category} #{c/C} is:}
+
+\ul{
+  \li{the [category of elements](rs-001S) of the [covariant hom-functor](rs-000Q) #{C(c, -)};}
+  \li{the [comma category](rs-001T) #{(c\downarrow 1_C)}, where #{*\xto{c} C} is the inclusion of the [point](rs-001G).}
+}
+
+\p{Explicitly, it has:}
 
 \ul{
   \li{as objects, morphisms #{c\xto{f} x} in #{C};}

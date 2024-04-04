@@ -1,0 +1,21 @@
+\title{fully faithful functors reflect isomorphisms}
+\date{2024-04-03}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-001J}
+\cite{riehl-2017}{Riehl}{Exercise 1.5.iv(i)}
+
+\p{[Fully](rs-0017) [faithful functors](rs-0018) [reflect](rs-001J)
+[isomorphisms](rs-0002).}
+
+\p{Explicitly, let #{C\xto{F} D} be a full and faithful functor. Then if #{x\xto{f} y} in
+#{C} is such that #{Ff} is an isomorphism, then #{f} is an isomorphism.}
+
+\proof{
+  \p{Let #{g} be the inverse of #{Ff}. Since #{F} is full, there exists an
+  #{f^{-1}} in #{C} such that #{Ff^{-1} = g}. Now, ##{F(f^{-1}f) = Ff^{-1}Ff =
+  1_{Fx} = F1_x,}and the same on the other side, which completes the proof by
+  faithfulness of #{F}.}
+}

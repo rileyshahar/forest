@@ -10,5 +10,5 @@
 \p{Let #{x\xto{f}y} be an [isomorphism](rs-0002) with inverses #{g} and #{h}. Then #{g = h}.}
 
 \proof{
-  We have ##{g = g1_y = gfh = 1_xh = h.}
+  \p{We have ##{g = g1_y = gfh = 1_xh = h.}}
 }

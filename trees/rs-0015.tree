@@ -1,12 +1,12 @@
-\title{essentially surjective on objects functor}
-\date{2024-04-02}
+\title{presheaf}
+\date{2024-04-03}
 \taxon{definition}
 \author{rileyshahar}
 
 \import{macros01}
-\tag{property:rs-000L}
-\cite{riehl-2017}{Riehl}{Definition 1.5.7}
 
-\p{A [functor](rs-000L) #{C\xto{F} D} is \em{essentially surjective on objects} if for every
-object #{y\in D}, there exists an object #{x\in C} an an [isomorphism](rs-0002) #{y\cong Fx}.}
+\cite{riehl-2017}{Riehl}{Example 1.3.7(v)}
 
+\p{A \em{presheaf} on a [category](rs-0001) #{C} is a [contravariant
+functor](rs-000N) #{C^\op\to} [\scat{Set}](rs-000C). The \em{presheaf category}
+#{\psh{C}} is the [functor category](rs-000Y) #{\lbrack C^\op,} \scat{Set}#{\rbrack} of presheaves on #{C}.}

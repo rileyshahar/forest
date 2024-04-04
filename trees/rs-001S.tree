@@ -1,0 +1,35 @@
+\title{category of elements}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-0001}
+\tag{ex:rs-001T}
+\tag{construction:rs-000L}
+\cite{riehl-2017}{Riehl}{Definition 2.4.1}
+
+\p{Let #{C\xto{F}} [\scat{Set}](rs-000C) be a [functor](rs-000L). The
+\em{category of elements} #{\el{F}} is the [comma category](rs-001T) #{*\downarrow F}, where
+#{*\xto{*}} \scat{Set} is the inclusion of the [point](rs-001G) into
+the [singleton set](TODO). Explicitly, the category of elements has:}
+
+\ul{
+  \li{as objects, pairs #{(c, x)} where #{c\in C} and #{x\in Fc};}
+  \li{as morphisms #{(c, x)\to (d, y)}, morphisms #{c\xto{f} d} in #{C} such that
+  #{Ff(x) = y};}
+  \li{composition and identities inherited from #{C}.}
+}
+
+\p{This notion dualizes to [presheaves](rs-0015) considered as
+covariant functors from the [opposite category](rs-0008).}
+
+
+\xml{bm-inject}{
+  \put\transclude/numbered{false}
+  \put\transclude/metadata{true}
+  \put\transclude/title{Examples}
+  \query{
+    \query/tag{ex:rs-001S}
+  }
+}

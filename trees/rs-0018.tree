@@ -1,0 +1,12 @@
+\title{faithful functor}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{property:rs-000L}
+\cite{riehl-2017}{Riehl}{Definition 1.5.7}
+
+\p{A [functor](rs-000L) #{C\xto{F} D} is \em{faithful} if it induces [injective](rs-000H)
+maps on hom-sets.}
+

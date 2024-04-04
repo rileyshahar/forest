@@ -1,0 +1,24 @@
+\title{universal properties characterize objects}
+\date{2024-04-03}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:ntn-0001}
+\cite{riehl-2017}{Riehl}{p. 66}
+
+\p{Let #{c} and #{d} be objects in a [category](rs-0001) #{C}, and suppose that
+#{F} and #{x} express [universal properties](rs-001P) of both #{c} and #{d}.
+Then there is a canonical [isomorphism](rs-0002) #{c\cong d}; in particular, a unique
+isomorphism that commutes with the corresponding [representations](rs-0013).}
+
+\p{We are thus justified in referring to "[\em{the}](ntn-0001) universal object with
+an #{x}."}
+
+\proof{
+  \p{Let #{C(c, -)\xcong{\alpha_x} F} and #{C(d, -)\xcong{\beta_x} F} be the
+  corresponding [natural isomorphisms](rs-0010) given by definition of a
+  universal property. Then their composition gives an isomorphism #{C(c, -)\cong
+  C(d, -)}, which lifts to an isomorphism #{c\cong d} by the [Yoneda
+  lemma](rs-001O).}
+}

@@ -1,0 +1,10 @@
+\title{concrete category}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 1.6.17}
+
+\p{A \em{concrete category} is a [category](rs-0001) #{C} equipped with a [forgetful
+functor](rs-001I) #{C\xto{U}} \scat{Set}.}
