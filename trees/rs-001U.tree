@@ -1,0 +1,12 @@
+\title{diagram}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 1.6.4}
+
+\p{A \em{commutatitive diagram} in a [category](rs-0001) #{C} is a [functor](rs-000L)
+#{J\xto{D} C}. The domain #{J} is called the \em{indexing category} or the
+\em{shape} of the diagram.}

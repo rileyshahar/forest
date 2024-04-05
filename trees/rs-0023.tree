@@ -1,0 +1,37 @@
+\title{product}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-001Y}
+\cite{riehl-2017}{Riehl}{Definition 3.1.9}
+\dual{rs-0024}{coproduct}
+
+\p{A \em{product} is a [limit](rs-001Y) of a [discrete](rs-001H)
+[diagram](rs-001U). Its [legs](rs-001W) are called \em{projections}.}
+
+\subtree[rs-0023-up]{
+  \taxon{Proposition}
+  \title{universal property of the product}
+  
+  \p{The [universal property](rs-001Y-up) of the [product](rs-0023) #{P =
+  \prod_{j\in J} X_j} with projections #{P \xto{\pi_k} X_k} is that, for any
+  object #{Z} equipped with morphisms #{Z\xto{\tau_k} X_k}, there exists a unique
+  morphism #{Z\to P} making the following diagrams commute:\tx{
+    \begin{tikzcd}
+    Z\ar[dr, "\tau_j"]\ar[d, dashed, "\exists !"'] \\
+    P\ar[r, "\pi_j"'] & X_j\punctuation{.}
+    \end{tikzcd}
+  }}
+  
+  \p{When #{J} is the [ordinal category](rs-001E) #{2}, hence the [diagram](rs-001U) is of
+  shape #{\bullet\,\bullet}, and so the product is of two objects #{X} and #{Y},
+  this property has the following nice form:\tx{
+    \begin{tikzcd}
+    & Z\ar[ddl, bend right, "f"']\ar[ddr, bend left, "g"]\ar[d, dashed, "\exists !"] \\
+    & X\times Y\ar[dl, "\pi_X"]\ar[dr, "\pi_Y"'] \\
+    X & & Y\punctuation{.}
+    \end{tikzcd}
+  }}
+}

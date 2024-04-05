@@ -1,0 +1,38 @@
+\title{coproduct}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-001Z}
+\cite{riehl-2017}{Riehl}{Definition 3.1.23}
+\dual{rs-0023}{product}
+
+\p{A \em{coproduct} is a [colimit](rs-001Z) of a [discrete](rs-001H)
+[diagram](rs-001U). Its [colegs](rs-001X) are called \em{coprojections}.}
+
+\subtree[rs-0024-up]{
+  \taxon{Proposition}
+  \title{universal property of the coproduct}
+  
+  \p{The [universal property](rs-001Z-up) of the [coproduct](rs-0024) #{P =
+  \coprod_{j\in J} X_j} with coprojections #{X_k\xto{\iota_k} P} is that, for any
+  object #{Z} equipped with morphisms #{X_k\xto{\kappa_k} Z}, there exists a unique
+  morphism #{P\to Z} making the following diagrams commute:\tx{
+    \begin{tikzcd}
+      X_k\ar[r, "\iota_k"]\ar[dr, "\kappa_k"'] & P\ar[d, dashed, "\exists !"] \\
+      & Z\punctuation{.}
+    \end{tikzcd}
+  }}
+
+  \p{When #{J} is the [ordinal category](rs-001E) #{2}, hence the [diagram](rs-001U) is
+  of shape #{\bullet\,\bullet}, and so the coproduct is of two objects #{X} and
+  #{Y}, this property has the following nice form:\tx{
+    \begin{tikzcd}
+    X\ar[ddr, bend right, "f"']\ar[dr, "\iota_X"] & & Y\ar[dl, "\iota_Y"']\ar[ddl, bend left, "g"] \\
+    & X+Y\ar[d, dashed, "\exists !"] \\
+    & Z\punctuation{.}
+    \end{tikzcd}
+  }}
+}
+

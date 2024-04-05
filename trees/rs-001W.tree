@@ -1,0 +1,29 @@
+\title{cone}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\cite{riehl-2017}{Riehl}{Definition 3.1.2}
+\dual{rs-001X}{cocone}
+
+\p{A \em{cone} over a [diagram](rs-001U) #{J\xto{D} C} with \em{apex} #{c\in C}
+is a [natural transformation](rs-000V) #{c\xto{\lambda} D}, where #{c} is the
+[constant functor](rs-001V) at #{c}. Explicitly, a cone consists of, for each
+object #{j\in J}, a morphism #{c\xto{\lambda_j} Dj}, so that for each morphism
+#{j\xto{f}k\in J}, the following diagram commutes:}
+
+\tx{
+  \begin{tikzcd}
+    & c\ar[dl, "\lambda_j"']\ar[dr, "\lambda_k"] \\
+    Dj\ar[rr, "Df"'] && Dk\punctuation{.}
+  \end{tikzcd}
+}
+
+\p{The components #{\lambda_j} of the cone are called its \em{legs}.}
+
+\p{Given a diagram #{D}, the \em{cone functor} #{C^\op\xto{\Cone_F}}
+[\scat{Set}](rs-000C) is the functor ##{C^\op\xto{\Delta}[J,
+C]^\op\xmapsto{\Hom(-, F)}\operatorname{Set},} where #{\Delta} embeds objects
+as the appropriate constant functors.}

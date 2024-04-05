@@ -1,0 +1,37 @@
+\title{pullback}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-001Y}
+\cite{riehl-2017}{Riehl}{Definition 3.1.15}
+\dual{rs-0028}{pushout}
+
+\p{A \em{pullback} is a [limit](rs-001Y) of a [diagram](rs-001U) of shape
+#{\bullet\to\bullet\from\bullet}.}
+
+\subtree[rs-0027-up]{
+  \taxon{Proposition}
+  \title{universal property of the pullback}
+  
+  \p{The [universal property](rs-001Y-up) of the [pullback](rs-0027)
+  #{B\xfrom{\pi_B}P\xto{\pi_C}C} of a [diagram](rs-001U) #{B\xto{f}A\xfrom{g}C} is that,
+  for any commutative square\tx{
+    \begin{tikzcd}
+      Z\ar[r, "c"]\ar[d, "b"'] & C\ar[d, "g"] \\
+      B\ar[r, "f"'] & A\punctuation{,}
+    \end{tikzcd}
+  }there exists a unique morphism #{Z\to P} making the following diagram
+  commute:
+  \tx{
+    \begin{tikzcd}
+      Z\ar[ddr, "b"', bend right]\ar[drr, "c", bend left]\ar[dr, "\exists !", dashed] \\
+      & P\ar[r, "\pi_C"]\ar[d, "\pi_B"']\pullback & C\ar[d, "g"] \\
+      & B\ar[r, "f"'] & A\punctuation{.}
+    \end{tikzcd}
+  }}
+
+  \p{The symbol #{\lrcorner} in the previous diagram denotes that the square is a pullback.}
+}
+

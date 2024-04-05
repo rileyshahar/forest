@@ -1,5 +1,11 @@
 \title{basic macros}
 
+\def\link[note][body]{
+  \xml{span}[class]{link local}{
+    \xml{a}[href]{\note}{\body}
+  }
+}
+
 \def\cite[note][name][at]{
 	\meta{ref-name}{\name}
 	\meta{ref-at}{\at}
@@ -38,12 +44,19 @@
 \def\Meet{\bigwedge}
 \def\psh[arg]{\text{PSh}_{\arg}}
 
-\def\dom{\text{dom}}
-\def\cod{\text{cod}}
-\def\span{\text{span}}
 \def\op{\text{op}}
-\def\Hom{\text{Hom}}
+\def\lim{\operatorname*{lim}}
+\def\colim{\operatorname*{colim}}
+\def\dom{\operatorname*{dom}}
+\def\cod{\operatorname*{cod}}
+\def\span{\operatorname*{span}}
+\def\Hom{\operatorname*{Hom}}
+\def\Cone{\operatorname*{Cone}}
+\def\Cocone{\operatorname*{Cocone}}
 \def\el[arg]{\text{el}(\arg)}
+
+\def\pullback{\ar[dr, phantom, "\lrcorner", very near start]}
+\def\pushout{\ar[ul, phantom, "\ulcorner", very near start]}
 
 % TODO: can we do this with \iftex
 \def\scat[name]{\xml{span}[class]{scat}{\name}}
@@ -58,6 +71,8 @@
 \def\xfrom[arg]{\xleftarrow{\arg}}
 \def\xinto[arg]{\xhookrightarrow{\arg}}
 \def\xonto[arg]{\xtwoheadrightarrow{\arg}}
+\def\xtos[arg]{\overset{\arg}{\rightrightarrows}}
+\def\xfroms[arg]{\overset{\arg}{\leftleftarrows}}
 
 \def\cA{\mathcal{A}}
 \def\cB{\mathcal{B}}

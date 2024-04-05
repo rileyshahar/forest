@@ -1,0 +1,58 @@
+\title{colimit}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 3.1.5}
+\tag{ex:rs-001P}
+\dual{rs-001Y}{limit}
+
+\p{A \em{colimit} of a [diagram](rs-001U) is a [universal](rs-001P)
+[cocone](rs-001X).}
+
+\p{By the [computation of universal elements](rs-001Q), a colimit of a diagram
+#{J\xto{D} C} consists of an object #{\colim D\in C} and a cocone #{D
+\xto{\lambda} \colim D} which is universal in the sense that it induces, by the
+[Yoneda lemma](rs-0014), a [natural isomorphism](rs-0010) ##{C(\colim D, -)\cong
+\Cocone_D.}} 
+
+\subtree[rs-001Z-up]{
+  \title{universal property of colimits}
+  \taxon{proposition}
+
+  \cite{riehl-2017}{Riehl}{Definition 3.1.6}
+
+  \p{Since [universal elements are initial](rs-0022), the [colimit](rs-001Z)
+  #{D\xto{\lambda} \colim D} of a [diagram](rs-001U) #{J\xto{D} C} is
+  [initial](rs-0021) in the [category of elements](rs-001S) #{\el{\Cocone_D}},
+  in the sense that for any other [cocone](rs-001X)
+  #{D\xto{\mu} c}, there exists a unique map #{\lim D\to c} so that each of
+  the following triangles commute:\tx{
+    \begin{tikzcd}
+      & Dj\ar[dr, "\lambda_j"]\ar[dl, "\mu_j"'] \\
+      \lim D\ar[rr, dashed, "\exists !"'] && c
+    \end{tikzcd}
+  }}
+}
+
+\xml{bm-inject}{
+  \put\transclude/numbered{false}
+  \put\transclude/metadata{true}
+  \put\transclude/title{Constructions}
+  \query{
+    \query/tag{construction:rs-001Z}
+  }
+  \put\transclude/title{Examples}
+  \query{
+    \query/tag{ex:rs-001Z}
+  }
+  \put\transclude/title{Structures}
+  \query{
+    \query/tag{structure:rs-001Z}
+  }
+  \put\transclude/title{Properties}
+  \query{
+    \query/tag{property:rs-001Z}
+  }
+}

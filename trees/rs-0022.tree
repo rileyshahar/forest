@@ -1,0 +1,17 @@
+\title{universal elements are initial or terminal}
+\date{2024-04-04}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 2.4.8}
+
+\p{A (covariant) [functor](rs-000L) #{C\xto{F}} [\scat{Set}](rs-000C) is [representable](rs-0013)
+if and only if its [category of elements](rs-001S) #{\el{F}} has a [terminal
+object](rs-0020). Dually, a [presheaf](rs-0015) #{C^\op\xto{F}} \scat{Set} is
+representable if and only if its category of elements has an
+[initial object](rs-0021).}
+
+\proof{
+  \p{[TODO](TODO)}
+}

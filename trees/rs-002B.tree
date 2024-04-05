@@ -1,0 +1,10 @@
+\title{small category}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 1.1.6}
+\tag{property:rs-0001}
+
+\p{A [category](rs-0001) is \em{small} if its collection of morphisms forms a set.}

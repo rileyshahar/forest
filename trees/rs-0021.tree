@@ -1,0 +1,21 @@
+\title{initial object}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 1.6.14}
+\dual{rs-0020}{terminal object}
+\tag{ex:rs-001Z}
+
+\p{An \em{initial object} is a [colimit](rs-001Z) of an [empty](rs-001F)
+[diagram](rs-001U).}
+
+\subtree[rs-0021-up]{
+  \taxon{Proposition}
+  \title{universal property of initial objects}
+  
+  \p{By the [universal property of colimits](rs-001Z-up), an object #{i} is
+  [initial](rs-0021) in the [category](rs-0001) #{C} if and only if for every
+  object #{c}, there is a unique morphism #{i\to c}.}
+}

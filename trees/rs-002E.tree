@@ -1,0 +1,42 @@
+\title{set is complete}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-002C}
+\cite{riehl-2017}{Riehl}{Theorem 3.2.6}
+
+\p{[\scat{Set}](rs-000C) is [complete](rs-002C).}
+
+\proof{
+  \p{Let #{J\xto{D}} \scat{Set} be a [small](rs-002B) [diagram](rs-001U). We define #{\lim D =
+  \Cone_D(*) = \Hom(*, D)}, where #{*} is the [constant functor](rs-001V) at the
+  [singleton](TODO) and #{\Cone} is the [cone functor](rs-001W). Note that this
+  is indeed a set, because #{J} is small. An element of this set is a natural
+  transformation #{*\xto{\mu} D}, which consists of a morphism #{*\xto{\mu_j}
+  Dj} for each #{j\in J}. The legs of should be maps #{\lim D\xto{\lambda} Dj};
+  we define these by ##{(1\xto{\mu} D)\xmapsto{\lambda_j} \mu_j(*).}}
+
+  \p{To show that this defines a cone, we need to show that the diagrams \tx{
+    \begin{tikzcd}
+      & \lim D \ar[dl, "\lambda_j"']\ar[dr, "\lambda_k"] & \\
+      Dj\ar[rr, "Df"'] && Dk
+    \end{tikzcd}
+    } commute for all #{j\xto{f} k\in J}, i.e. the equality \tx{
+      \begin{tikzcd}
+        \mu \ar[d, mapsto, "\lambda_j"']\ar[r, mapsto, "\lambda_k"] & \mu_k(*)\ar[d, equals, "?"] \\
+        \mu_j(*)\ar[r, mapsto, "Df"'] & Df(\mu_j(*))\punctuation{,}
+      \end{tikzcd}
+    }which holds because #{\mu} is a cone.
+  }
+
+  \p{To show that this cone is [limiting](rs-001Y), let #{Z\xto{\nu} D} be a
+  cone. We need to show that #{\nu} factors uniquely through #{\lambda}. An
+  element #{z\in Z} identifies a map #{*\to Z}, and hence a cone
+  #{*\to Z\xto{\nu} D}, which is thus an element #{t(z)\in\lim D}. Now
+  ##{\lambda_j(t(z)) = (\nu z)_j = \nu_j(z),} and so #{\nu = \lambda t}, as
+  desired. It remains to show uniqueness, but any function #{Z\xto{u} \lim D}
+  factoring #{\nu} must satisfy ##{u(z)_j = \lambda_j(u(z)) = \nu_j(z) =
+  (\nu z)_j = t(z)_j,} so we are done.}
+}

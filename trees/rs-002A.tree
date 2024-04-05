@@ -1,0 +1,26 @@
+\title{limits are unique up to unique isomorphism}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exercise 3.1.iv}
+
+\p{[Limits](rs-001Y) are unique up to unique [isomorphism](rs-0002) of
+[cones](rs-001W). Explicitly, let #{J\xto{d} C} be a [diagram](rs-001U) and
+suppose #{x\xto{\lambda} D} and #{y\xto{\mu} D} are both limiting cones. Then
+there is a unique isomorphism #{x\to y} commuting with the #{\lambda} and
+#{\mu}.}
+
+\p{Dually, [colimits](rs-001Z) are unique up to unique isomorphism of
+[cocones](rs-001X).}
+
+\proof{
+  \p{This follows from the [characterization of representable
+  isomorphism](rs-001O), but we give a direct proof. To show isomorphism, note
+  that the [universal property of limits](rs-001Y-up) induces a pair of unique
+  maps #{x\xtofrom[g]{f} y} commuting with the cones; it remains to show these are
+  isomorphisms. The composite #{gf} is a map #{x\to x} commuting with the cone
+  #{\lambda}, but #{1_x} is another such map, so by uniqueness of suchs maps
+  #{gf = 1_x}. The same works on the other side.}
+}

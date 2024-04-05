@@ -1,0 +1,21 @@
+\title{terminal object}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 1.6.14}
+\dual{rs-0021}{initial object}
+\tag{ex:rs-001Y}
+
+\p{An \em{terminal object} is a [limit](rs-001Y) of an [empty](rs-001F)
+[diagram](rs-001U).}
+
+\subtree[rs-0020-up]{
+  \taxon{Proposition}
+  \title{universal property of terminal objects}
+  
+  \p{By the [universal property of limits](rs-001Y-up), an object #{t} is
+  [terminal](rs-0020) in the [category](rs-0001) #{C} if and only if for every
+  object #{c}, there is a unique morphism #{c\to t}.}
+}

@@ -1,0 +1,57 @@
+\title{limit}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 3.1.5}
+\tag{ex:rs-001P}
+\dual{rs-001Z}{colimit}
+
+\p{A \em{limit} of a [diagram](rs-001U) is a [universal](rs-001P)
+[cone](rs-001W).}
+
+\p{By the [computation of universal elements](rs-001Q), a limit of a diagram
+#{J\xto{D} C} consists of an object #{\lim D\in C} and a cone #{\lim
+D\xto{\lambda} D} which is universal in the sense that it induces, by the
+[Yoneda lemma](rs-0014), a [natural isomorphism](rs-0010) ##{C(-, \lim D)\cong
+\Cone_D.}} 
+
+\subtree[rs-001Y-up]{
+  \title{universal property of limits}
+  \taxon{proposition}
+
+  \cite{riehl-2017}{Riehl}{Definition 3.1.6}
+
+  \p{Since [universal elements are terminal](rs-0022), the [limit](rs-001Y) #{\lim D\xto{\lambda} D} of a
+  [diagram](rs-001U) #{J\xto{D} C} is [terminal](rs-0020) in the [category of
+  elements](rs-001S) #{\el{\Cone_D}}, in the sense that for any other [cone](rs-001W)
+  #{c\xto{\mu} D}, there exists a unique map #{c\to\lim D} so that each of
+  the following triangles commute:\tx{
+    \begin{tikzcd}
+      c\ar[rr, dashed, "\exists !"]\ar[dr, "\mu_j"'] && \lim D\ar[dl, "\lambda_j"] \\
+      & Dj\punctuation{.}
+    \end{tikzcd}
+  }}
+}
+
+\xml{bm-inject}{
+  \put\transclude/numbered{false}
+  \put\transclude/metadata{true}
+  \put\transclude/title{Constructions}
+  \query{
+    \query/tag{construction:rs-001Y}
+  }
+  \put\transclude/title{Examples}
+  \query{
+    \query/tag{ex:rs-001Y}
+  }
+  \put\transclude/title{Structures}
+  \query{
+    \query/tag{structure:rs-001Y}
+  }
+  \put\transclude/title{Properties}
+  \query{
+    \query/tag{property:rs-001Y}
+  }
+}

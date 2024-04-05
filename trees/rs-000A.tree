@@ -10,7 +10,7 @@
 \tag{structure:morphism}
 
 \p{A [morphism](rs-0001) #{x\xinto{f} y} is a \em{monomorphism} if for any pair of
-parallel arrows #{z\xrightarrow{g,h} x}, #{fg = fh} implies #{g = h}.}
+parallel arrows #{z\xtos{g,h} x}, #{fg = fh} implies #{g = h}.}
 
 \xml{bm-inject}{
   \put\transclude/numbered{false}

@@ -1,0 +1,28 @@
+\title{coequalizer}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-001Z}
+\cite{riehl-2017}{Riehl}{Definition 3.1.23}
+\dual{rs-0026}{coequalizer}
+
+\p{A \em{coequalizer} is a [colimit](rs-001Z) of a [diagram](rs-001U) of shape
+#{\bullet\rightrightarrows\bullet}.}
+
+\subtree[rs-0026-up]{
+  \taxon{Proposition}
+  \title{universal property of the coequalizer}
+  
+  \p{The [universal property](rs-001Z-up) of the [coequalizer](rs-0026) #{Y\xto{e} E} of a
+  [diagram](rs-001U) #{X\xtos{f,g}Y} is that, for any object #{Z} equipped with
+  a morphism#{Y\xto{d} Z}, there exists a unique factorization #{E\to Z} of #{d}: \tx{
+    \begin{tikzcd}
+      X\ar[r, "f", shift left=.2em]\ar[r, "g"', shift right=.2em] & Y\ar[r,
+      "e"]\ar[dr, "d"'] & E\ar[d, dashed, "\exists !"]\\
+      & & Z\punctuation{.}
+    \end{tikzcd}
+  }}
+}
+

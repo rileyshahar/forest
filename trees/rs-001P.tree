@@ -13,4 +13,4 @@ expresses a \em{universal property} of #{c} if #{\alpha_x} is an
 [isomorphism](rs-0010), and hence a [representation](rs-0013). In this case,
 #{x} is called a \em{universal element}.}
 
-\p{The analogous dual definition applies to [contravariant functors](rs-000N).}
+\p{The analogous dual definition applies to [presheaves](rs-0015).}

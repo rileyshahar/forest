@@ -1,0 +1,39 @@
+\title{pushout}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-001Z}
+\cite{riehl-2017}{Riehl}{Definition 3.1.23}
+\dual{rs-0028}{pullback}
+
+\p{A \em{pushout} is a [colimit](rs-001Z) of a [diagram](rs-001U) of shape
+#{\bullet\from\bullet\to\bullet}.}
+
+\subtree[rs-0028-up]{
+  \taxon{Proposition}
+  \title{universal property of the pushout}
+  
+  \p{The [universal property](rs-001Z-up) of the [pushout](rs-0028)
+  #{B\xto{\iota_B}P\xfrom{\iota_C}C} of a [diagram](rs-001U) #{B\xfrom{f}A\xto{g}C} is that,
+  for any commutative square\tx{
+    \begin{tikzcd}
+      A\ar[r, "g"]\ar[d, "f"'] & C\ar[d, "c"] \\
+      B\ar[r, "b"'] & Z\punctuation{,}
+    \end{tikzcd}
+  }there exists a unique morphism #{P\to Z} making the following diagram
+  commute:
+  \tx{
+    \begin{tikzcd}
+      A\ar[r, "g"]\ar[d, "f"'] & C\ar[d, "\iota_C"]\ar[ddr, "c", bend left] \\
+      B\ar[r, "\iota_B"']\ar[drr, "b"', bend right] & P\ar[dr, dashed, "\exists
+      !"]\pushout \\
+      & & Z\punctuation{.}
+    \end{tikzcd}
+  }}
+
+  \p{The symbol #{\ulcorner} in the previous diagram denotes that the square is
+  a pushout.}
+}
+

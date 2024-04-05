@@ -1,0 +1,12 @@
+\title{complete category}
+\date{2024-04-04}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 3.2.1}
+\tag{property:rs-0001}
+\dual{rs-002D}{cocomplete category}
+
+\p{A [category](rs-0001) is \em{complete} if it has all [small](rs-002B)
+[limits](rs-001Y).}

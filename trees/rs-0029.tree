@@ -1,0 +1,30 @@
+\title{pullbacks preserve monos}
+\date{2024-04-04}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exercise 3.1.vii}
+
+\p{[Pullbacks](rs-0027) [preserve](rs-001K) [monomorphisms](rs-000A).
+Explicitly, if \tx{
+  \begin{tikzcd}
+    P\ar[r, "\pi_C"]\ar[d, "\pi_B"']\pullback & C\ar[d, "g"] \\
+    B\ar[r, "f"', hookrightarrow] & A
+  \end{tikzcd}
+} is a pullback square and #{f} is monic, then so is #{\pi_C}.}
+
+\p{Dually, [pushouts](rs-0028) [preserve](rs-001K) [epimorphisms](rs-000B).}
+
+\proof{
+  \p{Let #{Z\xtos{h,k} P} be parallel arrows such that #{\pi_Ch = \pi_Ck}. Then
+  ##{f\pi_b h = g\pi_c h = g\pi_c k = f\pi_b k,} so since #{f} is monic, #{\pi_b
+  h = \pi_b k}. Now the [universal property of the pullback](rs-0027-up) says
+  that there is a unique morphism #{Z\to P} completing the diagram\tx{
+    \begin{tikzcd}
+      Z\ar[ddr, "\pi_B k = \pi_B h"', bend right]\ar[drr, "\pi_C k = \pi_C h", bend left]\ar[dr, "\exists !", dashed] \\
+      & P\ar[r, "\pi_C"]\ar[d, "\pi_B"']\pullback & C\ar[d, "g"] \\
+      & B\ar[r, "f"'] & A\punctuation{,}
+    \end{tikzcd}
+  } but #{h} and #{k} both do so, so #{h = k}.}
+}

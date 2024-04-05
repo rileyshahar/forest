@@ -9,7 +9,7 @@
 \tag{construction:rs-0001}
 
 \p{Let #{C} be a [category](rs-0001). The \em{opposite category} #{C^{\op}}
-    has:}
+has:}
 
 \ul{
   \li{the same objects as in #{C};}
