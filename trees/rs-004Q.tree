@@ -1,0 +1,16 @@
+\date{2024-06-06}
+\title{U-split coequalizer}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.4.8}
+
+\p{Let #{D\xto{U} C} be a [functor](rs-000L). A \em{#{U}-split coequalizer} is
+[split coequalizer](rs-004N) diagram \tx{
+  \begin{tikzcd}
+    Ux\ar[r, "Uf", shift left=.2em]\ar[r, "Ug"', shift right=.2em] &
+    Uy\ar[r, "h"]\ar[l, "t", bend left=50] &
+    z\ar[l, "s", bend left]
+  \end{tikzcd}
+} in #{C}, i.e. in paricular #{x\xtos{f,g} y} is a parallel pair in #{D}.}

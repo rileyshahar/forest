@@ -1,0 +1,25 @@
+\title{categories for the working mathematician}
+\date{1978}
+\taxon{reference}
+\author{Saunders Mac Lane}
+
+\import{macros01}
+
+\p{Categories for the Working Mathematician provides an array of general ideas
+useful in a wide variety of fields. Starting from the foundations, this book
+illuminates the concepts of category, functor, natural transformation, and
+duality. The book then turns to adjoint functors, which provide a description of
+universal constructions, an analysis of the representations of functors by sets
+of morphisms, and a means of manipulating direct and inverse limits. These
+categorical concepts are extensively illustrated in the remaining chapters,
+which include many applications of the basic existence theorem for adjoint
+functors. The categories of algebraic systems are constructed from certain
+adjoint-like data and characterized by Beck's theorem. After considering a
+variety of applications, the book continues with the construction and
+exploitation of Kan extensions. This second edition includes a number of
+revisions and additions, including two new chapters on topics of active
+interest. One is onsymmetric monoidal categories and braided monoidal categories
+and the coherence theorems for them. The second describes 2-categories and the
+higher dimensional categories which have recently come into prominence. The
+bibliography has also been expanded to cover some of the many other recent
+advances concerning categories.}

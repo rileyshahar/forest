@@ -1,0 +1,6 @@
+[forest]
+trees = ["trees"]
+assets = ["assets"]
+theme = "theme"
+root = "meta/index"
+base_url = "https://rileyshahar.com"

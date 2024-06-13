@@ -1,0 +1,10 @@
+\date{2024-05-14}
+\title{map out of colimits, map into limits}
+\taxon{moral}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The [universal property of limits](rs-001Y-up) makes it easy to construct
+morphisms \em{into} them; the [universal property of colimits](rs-001Z-up) makes
+it easy to construct maps \em{out} of them.}

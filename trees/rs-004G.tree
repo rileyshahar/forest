@@ -1,0 +1,56 @@
+\date{2024-05-27}
+\title{Eilenberg-Moore category is a terminal resolution}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 5.2.12}
+
+\p{The [Eilenberg-Moore category](rs-004C) #{C^T} is [terminal](rs-0020) in the
+[category of resolutions](rs-004B) of a [monad](rs-0041). [Explicitly](rs-0020-up), for a
+[resolution](rs-004A) \adjd{C}{D}{F}{U}{\,} of that monad, there exists a unique
+functor #{D\xto{K} C^T} commuting with the adjunctions, in that both the left
+and right squares of \tx{
+  \begin{tikzcd}
+    D\ar[rr, "K", dashed, "\exists!"']\ar[dd, bend left, "U"] && C^T\ar[dd, bend left, "U^T"] \\
+    \dashv && \dashv \\
+    C\ar[rr, equals]\ar[uu, "F", bend left] && C\ar[uu, "F^T", bend left]
+  \end{tikzcd}
+} commute. We call this the \em{comparison functor}.}
+
+\proof{
+  \p{Given an object #{d\in D}, since #{Ud = U^TKd}, #{K} must define an
+  [algebra](rs-0047) structure on the object #{Ud}, i.e. a map #{TUd\xto{\gamma}
+  Ud}. The [counit](rs-0039) #{UFUd\xto{U\epsilon_d} Ud} of the adjunction
+  #{F\adj U} is such an algebra. Indeed, the diagrams \tx{
+    \begin{tikzcd}
+      Ud\ar[r, "\eta_{Ud}"]\ar[dr, "1_{Ud}"'] & UFUd\ar[d, "U\epsilon_d"]\\
+      & Ud
+    \end{tikzcd}
+    \quad\text{and}\quad
+    \begin{tikzcd}
+      (UF)^2Ud\ar[r, "\mu_{Ud}"]\ar[d, "UFU\epsilon_d"'] & UFUd\ar[d, "U\epsilon_d"]\\
+      UFUd\ar[r, "U\epsilon_d"'] & Ud
+    \end{tikzcd}
+  } commute; the left is one [triangle identity](rs-003A), while the right is
+  the fact that #{\mu_{Ud} = U\epsilon FUd}.}
+
+  \p{Now given a map #{d\xto{f}d'}, the diagram \tx{
+    \begin{tikzcd}
+      UFUd\ar[r, "UFUf"]\ar[d, "U\epsilon_d"'] & UFUd'\ar[d, "U\epsilon_{d'}"] \\
+      Ud\ar[r, "Uf"'] & Ud'
+    \end{tikzcd}
+  } commutes by [naturality](rs-000V) of #{\epsilon}; thus #{Uf} is an [algebra
+  homomorphism](rs-0048) and so defines the action #{Kf}.}
+
+  \p{It remains to show uniqueness. First, since #{U^TK = U}, #{Kd} must be an
+  algebra #{TUd\xto{\gamma} Ud} with [carrier](rs-0046) #{Ud}, and furthermore
+  must take maps #{d\xto{f} d'} to #{Uf}; the only issue is the identity
+  #{\gamma = U\epsilon_d}. By [definition of a morphism of
+  adjunctions](rs-003C), letting #{\epsilon^T} be the counit of #{F^T\adj
+  U^T}, it must hold that #{K\epsilon = \epsilon^TK}, but by the [construction
+  of the Eilenberg-Moore category as a resolution](rs-004C), ##{
+    \gamma = (\epsilon^TK)_d = K\epsilon_d = U\epsilon_d,
+  } as desired.}
+}
+

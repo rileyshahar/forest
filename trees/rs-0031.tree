@@ -1,0 +1,16 @@
+\date{2024-05-10}
+\title{isomorphic diagrams have isomorphic limits}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Corollary 3.6.3}
+
+\p{Let #{J\xto{F,G} C} be [naturally isomorphic](rs-0010) [diagrams](rs-001U).
+Then if their [limits](rs-001Y) exist, they are [isomorphic](rs-0002).}
+
+\proof{
+  \p{[Taking limits is functorial](rs-0030) and [functors preserve
+  isomorphism](rs-000P). }
+}
+

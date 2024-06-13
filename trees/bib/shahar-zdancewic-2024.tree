@@ -1,0 +1,11 @@
+\title{Categorical phase semantics for linear logic}
+\date{2024-05-02}
+\taxon{paper}
+\author{rileyshahar}
+\author{Steve Zdancewic}
+
+\p{We introduce the generalized phase semantics of linear logic, a categorical
+framework for constructing provability-sound models of linear logic from the
+subobject posets of monoids. We prove soundness and completeness results in
+categories with well-behaved factorization systems, and prove soundness for
+fragments of the logic in categories with less structure present.}

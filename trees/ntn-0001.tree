@@ -9,11 +9,11 @@
 \p{When we say \em{"the" X}, we sometimes mean the unique X up to
 [coherent](TODO) or canonical [isomorphism](rs-0002).}
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:ntn-0001}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:ntn-0001}
+%   }
+% }

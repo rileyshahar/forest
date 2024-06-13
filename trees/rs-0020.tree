@@ -11,6 +11,7 @@
 \p{An \em{terminal object} is a [limit](rs-001Y) of an [empty](rs-001F)
 [diagram](rs-001U).}
 
+\put\transclude/toc{false}
 \subtree[rs-0020-up]{
   \taxon{Proposition}
   \title{universal property of terminal objects}

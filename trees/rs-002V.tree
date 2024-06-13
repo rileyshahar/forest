@@ -1,0 +1,12 @@
+\date{2024-05-09}
+\title{\scat{Cat}}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+% \cite{}{}{}
+\tag{ex:rs-0001}
+
+\p{\scat{Cat} is the category of [locally small](rs-002Q)
+[categories](rs-0001).}
+

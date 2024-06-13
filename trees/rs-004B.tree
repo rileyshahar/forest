@@ -1,0 +1,16 @@
+\date{2024-05-25}
+\title{category of resolutions}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{p. 164}
+
+\p{Let #{(T, \eta, \mu)} be [monad](rs-0041) on a [category](rs-0001) #{C}. Then
+the \em{category of resolutions of #{T}} #{\Adj_T} has as objects
+[resolutions](rs-004A) of #{T}, and as morphisms [morphisms of
+adjunctions](rs-003C) whose action on #{C} is by the [identity](rs-0011); note
+that the additional compatibility condition #{1_C\eta = \eta 1_C} from the
+definition of morphism of adjunction is satisfied by construction, because both
+adjunctions have the same unit.}
+

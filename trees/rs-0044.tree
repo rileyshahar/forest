@@ -1,0 +1,81 @@
+\date{2024-05-24}
+\title{limits}
+\taxon{summary}
+\author{rileyshahar}
+
+\import{macros01}
+% \cite{}{}{}
+% \tag{ex:}
+
+\put\transclude/expanded{false}
+
+\subtree{
+  \title{the definition}
+  \taxon{section}
+
+  \transclude{rs-001U}
+
+  \transclude{rs-001W}
+
+  \transclude{rs-001Y}
+
+  \p{Dually:}
+
+  \transclude{rs-001Z}
+
+  \transclude{rs-0035}
+}
+
+
+\subtree{
+  \title{examples}
+  \taxon{section}
+
+  \transclude{rs-0023}
+  \transclude{rs-0024}
+
+  \transclude{rs-0027}
+  \transclude{rs-0028}
+
+  \transclude{rs-0020}
+  \transclude{rs-0021}
+
+  \transclude{rs-0025}
+  \transclude{rs-0026}
+}
+
+\subtree{
+  \title{basic properties}
+  \taxon{section}
+
+  \transclude{rs-002A}
+  \transclude{rs-0031}
+  \transclude{rs-0030}
+  \transclude{rs-0032}
+  \transclude{rs-0034}
+  \transclude{rs-002N}
+  \transclude{rs-003O}
+}
+
+\subtree{
+  \title{representability}
+  \taxon{section}
+
+  \transclude{rs-002O}
+  \transclude{rs-002P}
+  \transclude{rs-002R}
+}
+
+\subtree{
+  \title{completeness}
+  \taxon{section}
+
+  \transclude{rs-002C}
+  \transclude{rs-002D}
+  \transclude{rs-002F}
+  \scope{
+  \put\transclude/taxon{example}
+    \transclude{rs-002E}
+    \transclude{rs-002T}
+  }
+}

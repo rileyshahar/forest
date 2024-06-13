@@ -25,11 +25,11 @@ the [singleton set](TODO). Explicitly, the category of elements has:}
 covariant functors from the [opposite category](rs-0008).}
 
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-001S}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-001S}
+%   }
+% }

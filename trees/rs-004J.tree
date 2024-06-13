@@ -1,0 +1,14 @@
+\date{2024-05-29}
+\title{monadic adjunction}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.3.1}
+
+\p{An [adjunction](rs-0043) is \em{monadic} if the [comparison functor](rs-004G)
+to the [Eilenberg-Moore category](rs-004G) is an [equivalence of
+categories](rs-0012). A [functor](rs-000L) #{D\xto{G} C} is \em{monadic} if it
+is the left adjoint in a monadic adjunction; in this case #{D} is \em{monadic}
+over #{C}.}
+

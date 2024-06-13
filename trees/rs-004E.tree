@@ -1,0 +1,20 @@
+\date{2024-05-26}
+\title{Kleisli category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.2.9}
+
+\p{The \em{Kleisli category} #{C_T} of a [monad](rs-0041) #{(T, \eta, \mu)} over
+a [category](rs-0001) #{C} is the category with:}
+
+\ul{
+  \li{objects those of #{C};}
+  \li{morphisms #{x\to y}, written #{x\sto y} the morphisms #{x\to Ty} in #{C};}
+  \li{composition of #{x\xsto{f}y\xsto{g}z} the composite
+  ##{x\xto{f}Ty\xto{Tg}T^2z\xto{\mu_z} Tz} in #{C};}
+  \li{identities #{x\xsto{1_x} x} the units #{x\xto{\eta_x} Tx} of #{T}.}
+}
+
+\p{(Associativity and unitality follow from the monad laws.)}

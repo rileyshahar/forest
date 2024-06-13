@@ -1,0 +1,10 @@
+\date{2024-06-11}
+\title{monadic functors are conservative}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 5.6.1}
+
+\p{[Monadic functors](rs-004J) are [conservative](rs-004V).}
+

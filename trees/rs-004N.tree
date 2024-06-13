@@ -1,0 +1,17 @@
+\date{2024-06-06}
+\title{split coequalizer}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.4.5}
+
+\p{A diagram \tx{
+  \begin{tikzcd}
+    x\ar[r, "f", shift left=.2em]\ar[r, "g"', shift right=.2em] &
+    y\ar[r, "h"]\ar[l, "t", bend left=50] &
+    z\ar[l, "s", bend left]
+  \end{tikzcd}
+}is a \em{split coequalizer} if #{hf = hg}, #{hs = 1_z}, #{gt = 1_y}, and #{ft =
+sh}.}
+

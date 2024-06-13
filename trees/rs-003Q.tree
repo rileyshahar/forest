@@ -1,0 +1,18 @@
+\date{2024-05-21}
+\title{the constant diagram functor commutes with functors}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The [constant diagram functor](rs-001V) #{\Delta} commutes with other
+[functors](rs-000L). In particular, for any category #{J} and functor #{C\xto{F}
+D}, ##{C\xto{\Delta} \lbrack J, C \rbrack \xto{F_*} \lbrack J, D \rbrack = C\xto{F}
+D\xto{\Delta} \lbrack J, D \rbrack.}}
+
+\proof{
+  On the left, we have the action #{c\mapsto (j\mapsto c)\mapsto (j\mapsto
+  c\mapsto Fc);} on the right, we have the action #{c\mapsto Fc\mapsto (j\mapsto
+  Fc)}. These agree.
+}
+

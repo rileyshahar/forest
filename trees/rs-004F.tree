@@ -1,0 +1,22 @@
+\date{2024-05-26}
+\title{Kleisli category is a resolution}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 5.2.11}
+
+\p{The [Kleisli category](rs-004E) of a [monad](rs-0041) #{T} induces a
+[resolution](rs-004A) \adjd{C}{C_T}{F_T}{U_T}{\,} of that monad, where #{F_T} is
+defined by ##{(x\xto{f} y)\mapsto (x\xto{f} y\xto{\eta_y} Ty)} and 
+#{U_T} is
+defined by ##{(x\xsto{f} y)\mapsto (Tx\xto{Tf} T^2y\xto{\mu_y} Ty).}}
+
+\proof{
+  To show the [adjunction](rs-0036), note that we have [natural
+  isomorphisms](rs-0010) ##{C_T(F_Tx, y)\cong C(x, Ty)\cong C(x, U_Ty),} where
+  the first is the definition of a Kleisli morphism and the second is the
+  definition of #{U_T} on objects.
+}
+
+

@@ -1,0 +1,29 @@
+\date{2024-05-25}
+\title{Eilenberg-Moore category is a resolution}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 5.2.8}
+
+\p{The [Eilenberg-Moore category](rs-0049) of a [monad](rs-0041) #{T} induces a
+[resolution](rs-004A) \adjd{C}{C^T}{F^T}{U^T}{\,} of that monad, where #{U^T} is the
+forgetful functor and #{F^T} is the [free algebra functor](rs-004D).}
+
+\proof{
+  \p{We have that #{U^TF^T = T} by construction. To show the
+  [adjunction](rs-0043), [it suffices](rs-003E) to give a [unit and
+  counit](rs-0039) satisfying the [triangle
+  identities](rs-003A). The unit is the unit of the monad; the counit
+  #{F^TU^T\xto{\epsilon}1_{C^T}} at an algebra #{Tx\xto{f} x} should be an [algebra
+  homomorphism](rs-0048) #{Tx\to x}; #{f} suffices, as the following square
+  commutes by definition of a #{T}-[algebra](rs-0047):\tx{
+    \begin{tikzcd}
+      T^2x\ar[r, "Tf"]\ar[d, "\mu_x"'] & Tx\ar[d, "f"] \\
+      Tx\ar[r, "f"'] & x\punctuation{.}
+    \end{tikzcd}
+  }
+  A standard check demonstrates the triangle identities.
+  }
+}
+

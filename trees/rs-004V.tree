@@ -1,0 +1,12 @@
+\date{2024-06-11}
+\title{conservative functor}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{rihel-2017}{Riehl}{p. 180}
+
+\p{A [functor](rs-000L) #{C\xto{F} D} is \em{conservative} if it [reflects](rs-001J)
+[isomorphisms](rs-0002), i.e. if for any map #{x\xto{f} y} in #{C}, if #{F(f)}
+is an isomorphism, then so is #{f}.}
+

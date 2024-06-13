@@ -1,0 +1,25 @@
+\date{2024-05-16}
+\title{morphism of adjunctions}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exercise 4.2.v}
+
+\p{A \em{morphism of adjunctions} between [adjunctions](rs-0036) #{F\adj G} and
+#{F'\adj G'} consists of a pair of [functors](rs-000L) \tx{
+  \begin{tikzcd}
+    C\ar[rr, "H"]\ar[dd, bend right, "F"'] && C'\ar[dd, bend right, "F'"']\\
+    \adj && \adj \\
+    D\ar[rr, "K"']\ar[uu, bend right, "G"'] && D'\ar[uu, bend right, "G'"']
+  \end{tikzcd}
+} such that the two squares involving the left and right adjoints, respectively,
+commute, and satisfying any of the following equivalent conditions:}
+
+\ul{
+  \li{#{H\eta = \eta'H}, where #{\eta} and #{\eta'} are the [units](rs-0039) of
+  the adjunctions;}
+  \li{#{K\epsilon = \epsilon'K}, where #{\epsilon} and #{\epsilon'} are the [counits](rs-0039) of
+  the adjunctions;}
+  \li{transposition commutes with #{H} and #{K}.}
+}

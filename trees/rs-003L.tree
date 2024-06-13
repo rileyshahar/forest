@@ -1,0 +1,51 @@
+\date{2024-05-19}
+\title{equivalences of categories promote to adjoint equivalences}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 4.4.5}
+
+\p{Let #{F: C\leftrightarrows D G} be an [equivalence of categories](rs-0012)
+with structure maps #{\eta: 1_C\cong GF} and #{\mu: FG\cong 1_D} Then there
+exists a map #{\epsilon: FG\cong 1_D} so that #{\eta} and #{\epsilon} satisfy
+the [triangle identities](rs-003A), hence witness an [adjoint
+equivalence](rs-003K) #{F\adj G}.}
+
+\p{There is nothing special about the counit: we could instead choose a new
+unit to obtain the same result.}
+
+\proof{
+  \p{Define ##{\gamma = G\xto{\eta G} GFG\xto{G\mu} G,} 
+  which is an [isomorphism](rs-0010) because all the components are. Then
+  define ##{\epsilon = FG\xto{F\gamma^{-1}} FG\xto{\mu} 1_D = FG\xto{FG\mu^{-1}}
+  FGFG\xto{F\eta^{-1}G} FG\xto{\mu} 1_D,} which is again an isomorphism. We need
+  to check the triangle identities.}
+
+  \p{For the right triangle identity, observe that \tx{
+    \begin{tikzcd}
+      G\ar[rr, "\eta G"]\ar[dr, "\gamma^{-1}", pos=.6]\ar[ddrr, bend right,
+      "1_G"'] && GFG\ar[d, "GF\gamma^{-1}"']\ar[dd, "G\epsilon", bend left=50] \\
+      & G\ar[r, "\eta G"]\ar[dr, "\gamma"'] & GFG\ar[d, "G\mu"'] \\
+      & & G\punctuation{.}
+    \end{tikzcd}
+  } commutes: the top square is naturality of #{\eta G}, the left triangle is
+  the inverse law for #{\gamma}, the bottom triangle is the definition of
+  #{\gamma}, and the right triangle is the definition of #{\epsilon}.}
+
+  \p{For the left triangle identity, we show that #{(\epsilon F)\circ (F \eta)}
+  is [idempotent](rs-002G); since [idempotent isomorphisms are
+  identities](rs-003M), this completes the proof. The following diagram
+  commutes: \tx{
+    \begin{tikzcd}
+      F\ar[r, "F\eta"]\ar[d, "F\eta"] & FGF\ar[r, "\epsilon F"]\ar[d, "FGF\eta"]
+      & F\ar[d, "F \eta"] \\
+      FGF\ar[r, "F\eta GF"]\ar[dr, "F1_GF"'] & FGFGF\ar[r, "\epsilon FGF"]\ar[d,
+      "FG\epsilon F"] & FGF\ar[d, "\epsilon F"] \\
+      & FGF\ar[r, "\epsilon F"] & F\punctuation{.}
+    \end{tikzcd}
+  } Indeed, the top-three squares are naturality, while the bottom-right
+  triangle is the right triangle identity proved above.}
+}
+
+

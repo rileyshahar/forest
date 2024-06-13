@@ -1,0 +1,17 @@
+\date{2024-05-09}
+\title{yoneda embedding preserves and reflects limits}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 3.4.6(ii)}
+\tag{ex:rs-003U}
+
+\p{The [Yoneda embedding](rs-0016) [preserves](rs-002H) and [reflects](rs-002I)
+[limits](rs-001Y). Dually, the contravariant Yoneda embedding preserves and
+reflects [colimits](rs-001Z).}
+
+\proof{
+  \p{[TODO](TODO), using the [representability of limits](rs-002O).}
+}
+

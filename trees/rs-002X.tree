@@ -1,0 +1,14 @@
+\date{2024-05-09}
+\title{\scat{Cat} is cocomplete}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{RIehl}{Corollary 4.5.16}
+\tag{ex:rs-002D}
+
+\p{[\scat{Cat}](rs-002V) is [cocomplete](rs-002D).}
+
+\proof{
+  [TODO](TODO)
+}

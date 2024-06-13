@@ -10,18 +10,20 @@
 \p{A \em{category} #{C} consists of the following data:}
 \ul{
   \li{a collection of \em{objects}, overloadingly also called #{C};}
-  \li{for each pair of objects #{x,y\in C}, a collection of \em{morphisms} #{C(x, y)};}
+  \li{for each pair of objects #{x,y\in C}, a collection of \em{morphisms}
+  #{\link{ntn-0002.xml}{C(x, y)}};}
   \li{for each object #{x\in C}, a designated \em{identity morphism}
       #{x\xto{1_x} x};}
   \li{for each pair of morphisms #{x\xto{f} y\xto{g} z}, a
-      designated \em{composite morphism} #{x\xto{gf} z}.}
+      designated \em{composite morphism}
+      #{x\xto{gf} z}.}
 }
 
 \p{This data must satisfy the following axioms:}
 \ul{
   \li{\em{unitality}: for any #{x\xrightarrow{f} y}, #{1_yf = f = f1_x};}
 	\li{\em{associativity}: for any #{x\xrightarrow{f}
-		y\xrightarrow{g}z\xrightarrow{h}w}, #{(hg)f = h(gf)}.
+		y\xrightarrow{g}z\xrightarrow{h}w}, #{h(gf) = (hg)f.}
 	}
 }
 
@@ -41,23 +43,23 @@
   \end{tikzcd}
 }
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Constructions}
-  \query{
-    \query/tag{construction:rs-0001}
-  }
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-0001}
-  }
-  \put\transclude/title{Structures}
-  \query{
-    \query/tag{structure:rs-0001}
-  }
-  \put\transclude/title{Properties}
-  \query{
-    \query/tag{property:rs-0001}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-0001}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-0001}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-0001}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-0001}
+%   }
+% }

@@ -1,0 +1,12 @@
+\date{2024-05-22}
+\title{continuous functor}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{p. 99}
+\dual{rs-003V}{cocontinuous functor}
+
+\p{A [functor](rs-000L) is called \em{continuous} if it [preserves
+limits](rs-002H).}
+

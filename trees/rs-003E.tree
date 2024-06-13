@@ -1,0 +1,50 @@
+\date{2024-05-17}
+\title{equivalent definitions of an adjunction}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Remark 4.2.7}
+
+\p{Let #{F: C\leftrightarrows D: G} be a pair of opposing [functors](rs-000L).
+Then the following are equivalent specifications of an [adjunction](rs-0036):}
+
+\ul{
+  \li{there exists a [natural](rs-0010)
+  [bijection](rs-000E) #{D(Fc, d)\cong C(c, Gd)};}
+  \li{there exists a pair of [natural transformations](rs-000V) #{1_C\xto{\eta}
+  GF} and #{FG\xto{\epsilon} 1_D} satisfying the [triangle
+  identities](rs-003A);}
+  \li{there exists a natural transformation #{1_C\xto{\eta} GF} so that the
+  [formula for adjoint maps](rs-003S) induces an [isomorphism](rs-0002)
+  ##{(-)^\flat = D(Fc, d)\xto{G} C(GFc, Gd)\xto{\eta_c^*} C(c, Gd);}}
+  \li{there exists a natural transformation #{FG\xto{\epsilon} 1_D} so that the
+  formula for adjoint maps induces an isomorphism
+  ##{(-)^\sharp = C(c, Gd)\xto{F} D(Fc, FGd)\xto{(\epsilon_d)_*} D(Fc, d).}}
+}
+
+\proof{
+  \p{The first implies the second via the [triangle identities](rs-003A) of the
+  [unit and counit](rs-0039).}
+
+  \p{To show the second implies the third and the fourth, we need to show that
+  the given maps invert each other. Observe that \tx{
+    \begin{tikzcd}
+      Fc\ar[r, "F\eta_c"]\ar[dr, "1_{Fc}"'] & FGFc\ar[r, "FGf"]\ar[d, "\epsilon_{Fc}"] & FGd\ar[d, "\epsilon_d"] \\
+      & Fc\ar[r, "f"'] & d
+    \end{tikzcd}
+  } commutes by the left triangle identity and naturality of #{\epsilon}, but
+  the top edge is #{(f^\flat)^\sharp} while the bottom edge is #{f}. The other
+  direction of [bijectivity](rs-000E) is similar.}
+
+  \p{To show that the third and fourth each independently imply the first, we
+  show naturality of the #{(-)^\flat} and #{(-)^\sharp} maps. To show naturality
+  of #{(-)^\flat} in #{D}, given maps #{d\xto{k} d'} and #{Fc\xto{f} d}, [it
+  suffices to show that](rs-0037) \tx{
+    \begin{tikzcd}
+      c\ar[r, "f^\flat"]\ar[dr, "(kf)^\flat"'] & Gd\ar[d, "Gk"] \\
+      & Gd'
+    \end{tikzcd}
+  } commutes. This is immediate from construction of #{f^\flat} and
+  functoriality of #{G}. Naturality in #{C} and of #{(-)^\sharp} is similar.}
+}

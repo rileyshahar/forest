@@ -1,0 +1,26 @@
+\date{2024-05-29}
+\title{Kleisli category embeds as free algebras}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 5.2.13}
+
+\p{Because the [Kleisli category is initial](rs-004H) #{C_T} and the [Eilenberg-Moore
+category is terminal](rs-004G) #{C^T} in the [category of resolutions](rs-004B), there
+is a unique comparison functor #{C_T\xto{K} C^T} commuting with the adjunctions.
+That functor is [fully](rs-0017) [faithful](rs-0018) and its image is exactly the [free
+algebras](rs-004D).}
+
+\proof{
+  \p{By the proof of initiality of the Kleisli category, the comparison functor
+  sends objects #{c\in C_T} to the free algebras #{F^Tc}. To prove that this
+  functor is fully faithful, note that it must commute with the transposition
+  actions, as in \tx{
+    \begin{tikzcd}
+      C_T(c, c')\ar[dr, leftrightarrow]\ar[rr, "K"] & & C^T(F^Tc, F^Tc')\ar[dl, leftrightarrow] \\
+      & C(c, Tc')\punctuation{.}
+    \end{tikzcd}
+  } As such, this action of #{K} is a [bijection](rs-000E), as desired.}
+}
+

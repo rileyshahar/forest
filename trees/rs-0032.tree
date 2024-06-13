@@ -1,0 +1,36 @@
+\date{2024-05-10}
+\title{limits commute}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 3.8.1}
+% \tag{ex:}
+
+\p{Let #{I\times J\xto{F} C} be a [bifunctorial](rs-000U) [diagram](rs-001U)
+such that the [limits](rs-001Y) #{\lim_I \lim_J F} and #{\lim_J \lim_I F} exist.
+Then #{\lim_{I\times J} F} exists, and the three limits are
+[isomorphic](rs-0002).}
+
+\proof{
+  \p{Since [representable isomorphism implies isomorphism](rs-001O), it suffices to
+  prove that ##{
+    C(X, \lim_I \lim_J F) \cong C(X, \lim_{I\times J} F) \cong C(X, \lim_J \lim_I F)
+  } [naturally](rs-000V) in #{X}. Since [hom functors preserve limits](rs-002P),
+  the desired result becomes ##{
+    \lim_I \lim_J C(X, F) \cong \lim_{I\times J} C(X, F) \cong \lim_J \lim_I
+    C(X, F);
+  }i.e., the general case reduces to that of [\scat{Set}](rs-0003). By the
+  [isomorphism](rs-0033) #{I\times J\cong J\times I}, it suffices to prove the
+  first isomorphism.}
+
+  \p{The proof is essentially by [currying](TODO). Let #{I\times J\xto{G}}
+  \scat{Set} be a diagram. By the [construction of limits in
+  \scat{Set}](rs-002E-construction), the limit #{\lim_J G(i, -)} is the set of
+  [cones](rs-001W) over #{G(i, -)} with summit #{*}, hence equivalently the set
+  of #{J}-[tuples](TODO) #{(x_j\in G(i, j))} satisfying #{G(i, f)(x_j) = x_{j'}}
+  for each #{j\xto{f}j'\in J}. Taking the limit over #{I}, we now conclude that
+  #{\lim_I \lim_J G} consists of the tuples #{(x_{ij}\in G(i, j))} which commute
+  with #{G}-images of maps in #{I} and #{J}. This is exactly the data of
+  #{\lim_{I\times J} G}.}
+}

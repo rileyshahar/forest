@@ -1,0 +1,44 @@
+\date{2024-05-10}
+\title{functoriality of limits}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 3.6.1}
+
+\p{Let #{J} be an index [category](rs-0001) and let #{C} be
+#{J}-[complete](rs-002C). Then there is a [functor](rs-000L) #{\lim_J : [J, C]
+\to C} which acts on objects by taking the [limit](rs-001Y).}
+
+\p{Note that this theorem relies on a choice of witnesses to the completeness of
+#{C}, i.e. a canonical choice of limit of each #{J}-shaped diagram.}
+
+\proof{
+  \p{We must define the action of #{\lim_J} on [natural
+  transformations](rs-000V). A natural transformation #{F\xto{\alpha} G} defines
+  a [cone](rs-001W) #{\lim_J F\to F\xto{\alpha} G} over #{G}, where
+  the first map is the canonical limiting cone over #{F}. By the
+  [universal property of #{\lim_J G}](rs-001Y-up), this cone factors uniquely as
+  \tx{
+    \begin{tikzcd}
+    \lim_J F\ar[dr, "\lim_J \alpha"']\ar[r] & F\ar[r, "\alpha"] & G \\
+    & \lim_J G\ar[ur]
+    \end{tikzcd}
+  } The first map defines the action of #{\lim_J} on
+  #{\alpha}.}
+
+  \p{To see that this defines a functor, given two natural transformations
+  #{F\xto{\alpha}G\xto{\beta} H}, observe that the map #{\lim_J
+  F\xto{\lim_J\alpha}\lim_J G\xto{\lim_J\beta}\lim_J H} 
+  factors the cone #{\lim_J F\to F\to G\to H:}
+  \tx{
+    \begin{tikzcd}
+      \lim_J F\ar[r]\ar[dr, "\lim_J \alpha"'] & F\ar[r, "\alpha"] & G\ar[r,
+      "\beta"] & H \\
+      & \lim_J G\ar[ur]\ar[r, "\lim_J \beta"'] & \lim_J H\ar[ur]
+    \end{tikzcd}
+  }
+  By uniqueness of these factorizations, this must be exactly the map
+  #{\lim_J(\beta\alpha)}.}
+
+}

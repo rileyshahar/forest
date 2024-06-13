@@ -1,0 +1,12 @@
+\date{2024-05-25}
+\title{Eilenberg-Moore category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.2.4}
+
+\p{The \em{Eilenberg-Moore category} #{C^T} of a [monad](rs-0041) #{T} is the
+[category](rs-0001) whose objects are #{T}-[algebras](rs-0047) and whose
+morphisms are [algebra homomorphisms](rs-0048).}
+

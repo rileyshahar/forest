@@ -1,0 +1,26 @@
+\date{2024-06-06}
+\title{split coequalizers are absolute coequalizers}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 5.4.6}
+
+\p{The underlying [fork](rs-004M) of any [split coequalizer](rs-004N) \tx{
+  \begin{tikzcd}
+    x\ar[r, "f", shift left=.2em]\ar[r, "g"', shift right=.2em] &
+    y\ar[r, "h"]\ar[l, "t", bend left=50] &
+    z\ar[l, "s", bend left]
+  \end{tikzcd}
+} is an [absolute](rs-004O) [coequalizer](rs-0026).}
+
+\proof{
+  \p{Since [functors](rs-000L) preserve equations and the property of being a
+  split coequalizer is equationally witnessed, it is preserved by any functor.}
+
+  \p{To show the [universal property of the coequalizer](rs-0026-up), let
+  #{y\xto{k}w} be such that #{kf = kg}. By the
+  equality ##{ksh = kft = kgt = k,} is this a factorization, as desired.
+  Uniqueness follows because #{h} is a [retract](rs-000K), hence in particular
+  an [epi](rs-000B).}
+}

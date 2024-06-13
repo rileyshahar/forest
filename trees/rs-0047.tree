@@ -1,0 +1,22 @@
+\date{2024-05-25}
+\title{algebra over a monad}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.2.4}
+
+\p{An \em{algebra} over a [monad](rs-0041) #{(T, \eta, \mu)} on a category #{C} is
+an [endofunctor algebra](rs-0046) #{Tx\xto{f} x} which is additionally compatible with
+the monad structure, in that \tx{
+  \begin{tikzcd}
+    x\ar[r, "\eta_x"]\ar[dr, "1_x"'] & Tx\ar[d, "f"]\\
+    & x
+  \end{tikzcd}
+  \quad\text{and}\quad
+  \begin{tikzcd}
+    T^2x\ar[r, "\mu_x"]\ar[d, "Tf"'] & Tx\ar[d, "f"]\\
+    Tx\ar[r, "f"'] & x
+  \end{tikzcd}
+} commute.}
+

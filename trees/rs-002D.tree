@@ -11,3 +11,23 @@
 \p{A [category](rs-0001) is \em{cocomplete} if it has all [small](rs-002B)
 [colimits](rs-001Z).}
 
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-002D}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-002D}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-002D}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-002D}
+%   }
+% }

@@ -1,0 +1,30 @@
+\date{2024-05-16}
+\title{unit and counit of an adjunction}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 4.2.2}
+
+\p{Let \adjd{C}{D}{F}{G}{\,} be an [adjunction](rs-0036). Then the [natural
+transformation](rs-000V) #{1_C\xto{\eta} GF} whose component #{c\xto{\eta_c}
+GFc} is the transpose of the identity #{1_{Fc}} is called the \em{unit} of the
+adjunction.}
+
+\p{Dually, the natural transformation #{FG\xto{\epsilon} 1_D} whose component
+at #{d} is the transpose of #{1_{Gd}} is called the \em{counit} of the adjunction.}
+
+\namedproof{of naturality}{
+  Naturality asserts that \tx{
+    \begin{tikzcd}
+      c\ar[r, "\eta_c"]\ar[d, "f"'] & FGc\ar[d, "FGf"]\\
+      c'\ar[r, "\eta_{c'}"'] & FGc'
+    \end{tikzcd}
+  }commutes, but the [adjoint square](rs-0038) is \tx{
+    \begin{tikzcd}
+      Fc\ar[r, "1_{Fc}"]\ar[d, "Ff"'] & FGc\ar[d, "Ff"]\\
+      Fc'\ar[r, "1_{Fc'}"'] & FGc'\punctuation{,}
+    \end{tikzcd}
+  } which commutes by unitality of categories.
+}
+

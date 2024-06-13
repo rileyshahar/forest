@@ -11,6 +11,7 @@
 \p{A \em{pullback} is a [limit](rs-001Y) of a [diagram](rs-001U) of shape
 #{\bullet\to\bullet\from\bullet}.}
 
+\put\transclude/toc{false}
 \subtree[rs-0027-up]{
   \taxon{Proposition}
   \title{universal property of the pullback}

@@ -12,19 +12,19 @@ a [functor](rs-000L) #{F: C^\op\to D}.}
 
 [](rs-0008)
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Constructions}
-  \query{
-    \query/tag{construction:rs-000N}
-  }
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-000N}
-  }
-  \put\transclude/title{Structures}
-  \query{
-    \query/tag{structure:rs-000N}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-000N}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-000N}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-000N}
+%   }
+% }

@@ -1,0 +1,15 @@
+\date{2024-06-11}
+\title{subcategory}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{p. 8}
+
+\p{A \em{subcategory} of a [category](rs-0001) #{C} is a collection of objects
+and morphisms from #{C} closed under composition and containing all the
+identities. Following the pattern of [subobjects](rs-002Z), we identify a
+subcategory with the \em{inclusion [functor]} into #{C}; in this sense, a
+subcategory is a [faithful](rs-0018) and [injective on objects](rs-000H)
+[functor](rs-000L).}
+

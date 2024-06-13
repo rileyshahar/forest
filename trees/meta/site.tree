@@ -1,0 +1,9 @@
+\title{This Site}
+\author{rileyshahar}
+
+\p{This site hosts my public
+[Zettlekasten](https://en.wikipedia.org/wiki/Zettelkasten)-style notes. To
+search these, try \code{Ctrl-K}. It relies on the fantastic
+[Forester](https://git.sr.ht/~jonsterling/ocaml-forester), by [Jon
+Sterling](https://www.jonmsterling.com/index.xml).}
+

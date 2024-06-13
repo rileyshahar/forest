@@ -23,23 +23,23 @@ and composites, meaning:}
   \li{for each pair #{x\xto{f}y\xto{g}z} in #{C}, #{F(gf) = (Fg)(Fg)}.}
 }
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Constructions}
-  \query{
-    \query/tag{construction:rs-000L}
-  }
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-000L}
-  }
-  \put\transclude/title{Structures}
-  \query{
-    \query/tag{structure:rs-000L}
-  }
-  \put\transclude/title{Properties}
-  \query{
-    \query/tag{property:rs-000L}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-000L}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-000L}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-000L}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-000L}
+%   }
+% }

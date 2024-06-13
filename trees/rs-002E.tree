@@ -1,6 +1,6 @@
-\title{set is complete}
+\title{\scat{Set} is complete}
 \date{2024-04-04}
-\taxon{definition}
+\taxon{proposition}
 \author{rileyshahar}
 
 \import{macros01}
@@ -9,14 +9,28 @@
 
 \p{[\scat{Set}](rs-000C) is [complete](rs-002C).}
 
-\proof{
+\namedproof{by the completeness criterion}{
+  \p{By the [completeness criterion](rs-002F), it suffices to give
+  [products](rs-0023) and [equalizers](rs-0025). Products are given by the
+  [cartesian product](rs-002S). The equalizer of functions #{A\xtos{f,g}B} is
+  ##{\{a\in A: f(a) = b(a)\}.}}
+}
+
+\put\transclude/expanded{false}
+\put\transclude/title{by construction}
+\put\transclude/taxon{proof}
+\put\transclude/toc{false}
+\subtree[rs-002E-construction]{
+  \title{construction of limits in \scat{Set}}
+  \taxon{construction}
   \p{Let #{J\xto{D}} \scat{Set} be a [small](rs-002B) [diagram](rs-001U). We define #{\lim D =
   \Cone_D(*) = \Hom(*, D)}, where #{*} is the [constant functor](rs-001V) at the
   [singleton](TODO) and #{\Cone} is the [cone functor](rs-001W). Note that this
   is indeed a set, because #{J} is small. An element of this set is a natural
   transformation #{*\xto{\mu} D}, which consists of a morphism #{*\xto{\mu_j}
-  Dj} for each #{j\in J}. The legs of should be maps #{\lim D\xto{\lambda} Dj};
-  we define these by ##{(1\xto{\mu} D)\xmapsto{\lambda_j} \mu_j(*).}}
+  Dj} for each #{j\in J}, hence canonically identifies a #{J}-[tuple](TODO) of
+  elements #{(x_i\in Dj)}. The legs of should be maps #{\lim D\xto{\lambda} Dj};
+  we define these by ##{(*\xto{\mu} D)\xmapsto{\lambda_j} \mu_j(*).}}
 
   \p{To show that this defines a cone, we need to show that the diagrams \tx{
     \begin{tikzcd}

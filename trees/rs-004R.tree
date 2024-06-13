@@ -1,0 +1,27 @@
+\date{2024-06-11}
+\title{monadicity theorem}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 5.5.1}
+
+\p{A [right adjoint](rs-0043) [functor](rs-000L) #{D\xto{U} C} is
+[monadic](rs-004J) if and only if it [creates](rs-001L) [#{U}-split
+coequalizers](rs-004Q), i.e. if and only if any #{U}-split coequalizer
+\tx{
+  \begin{tikzcd}
+    Ux\ar[r, "Uf", shift left=.2em]\ar[r, "Ug"', shift right=.2em] &
+    Uy\ar[r, "h"]\ar[l, "t", bend left=50] &
+    z\ar[l, "s", bend left]
+  \end{tikzcd}
+}
+in #{C} admits a [fork](rs-004M) \tx{
+  \begin{tikzcd}
+    Ux\ar[r, "Uf", shift left=.2em]\ar[r, "Ug"', shift right=.2em] &
+    Uy\ar[r, "h"] &
+    z'
+  \end{tikzcd}
+}in #{D} such that #{Uz'\cong z}, and moreover any such fork is a
+[coequalizer](rs-0026).} 
+

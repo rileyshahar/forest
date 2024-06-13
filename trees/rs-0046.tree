@@ -1,0 +1,10 @@
+\date{2024-05-25}
+\title{algebra over an endofunctor}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{An \em{algebra} over an [endofunctor](rs-0042) #{C\xto{F} D} is an object #{x},
+the \em{carrier}, and a map #{Fx\to x}.}
+

@@ -1,0 +1,20 @@
+\date{2024-05-09}
+\title{\scat{Set} is cocomplete}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{RIehl}{Proposition 3.5.1}
+\tag{ex:rs-002D}
+
+\p{[\scat{Set}](rs-0003) is [cocomplete](rs-002D).}
+
+\proof{
+  \p{By the [cocompleteness criterion](rs-002F), it suffices to give
+  [coproducts](rs-0024) and [coequalizers](rs-0026). Coproducts are given by the
+  [disjoint union](rs-002U). The coequalizer of functions #{A\xtos{f,g} B} is
+  ##{B / \sim,} where #{\sim} is the [equivalence relation](TODO)
+  [generated](TODO) by #{f(a) \sim g(a)} for all #{a \in A}, and #{/} denotes the
+  [quotient](TODO) of sets.}
+}
+

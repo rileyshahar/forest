@@ -1,0 +1,28 @@
+\date{2024-05-21}
+\title{formula for adjoint maps}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let \adjd{C}{D}{F}{G}{\,} be an [adjunction](rs-0036) with [unit](rs-0039)
+#{1_C\xto{\eta} GF} and [counit](rs-0039) #{FG\xto{\epsilon} 1_D}. Then the
+transpose #{f^\flat} of a map #{Fc\xto{f} d} is given by the formula
+##{f^\flat = c\xto{\eta_c} GFc \xto{Gf} Gd.} The transpose #{g^\sharp} of a map
+#{c\xto{g} Gd} is given by the formula ##{g^\sharp = Fc\xto{Fg} FGd
+\xto{\epsilon_d} d.}}
+
+\proof{
+  \p{Fix a map #{Fc\xto{f} d}. By [naturality](rs-000V) of the
+  [isomorphism](rs-0010) #{D(Fc, d)\cong C(c, Gd)}, the following square
+  commutes:\tx{
+    \begin{tikzcd}
+      D(Fc, Fc)\ar[r, leftrightarrow]\ar[d, "f_*"'] & C(c, GFc)\ar[d, "Gf_*"] \\
+      D(Fc, d)\ar[r, leftrightarrow] & C(c, Gd)\punctuation{.}
+    \end{tikzcd}
+  } Tracking #{1_{Fc}} along the top-right path, and recalling that #{\eta_c} is
+  defined as the transpose of #{1_{Fc}}, we get #{Gf\eta_c}. Tracking it along
+  the bottom-right path, we get the transpose of #{f}. The formula for
+  #{g^\sharp} follows similarly.}
+}
+

@@ -11,12 +11,12 @@
 \p{A \em{colimit} of a [diagram](rs-001U) is a [universal](rs-001P)
 [cocone](rs-001X).}
 
-\p{By the [computation of universal elements](rs-001Q), a colimit of a diagram
-#{J\xto{D} C} consists of an object #{\colim D\in C} and a cocone #{D
-\xto{\lambda} \colim D} which is universal in the sense that it induces, by the
-[Yoneda lemma](rs-0014), a [natural isomorphism](rs-0010) ##{C(\colim D, -)\cong
-\Cocone_D.}} 
+\p{By the definition of universal elements, a colimit of a diagram #{J\xto{D} C}
+consists of an object #{\colim D\in C} and a cocone #{D \xto{\lambda} \colim D}
+which is universal in the sense that it induces, by the [Yoneda lemma](rs-0014),
+a [natural isomorphism](rs-0010) ##{C(\colim D, -)\cong \Cocone_D.}} 
 
+\put\transclude/toc{false}
 \subtree[rs-001Z-up]{
   \title{universal property of colimits}
   \taxon{proposition}
@@ -36,23 +36,23 @@
   }}
 }
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Constructions}
-  \query{
-    \query/tag{construction:rs-001Z}
-  }
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-001Z}
-  }
-  \put\transclude/title{Structures}
-  \query{
-    \query/tag{structure:rs-001Z}
-  }
-  \put\transclude/title{Properties}
-  \query{
-    \query/tag{property:rs-001Z}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-001Z}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-001Z}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-001Z}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-001Z}
+%   }
+% }

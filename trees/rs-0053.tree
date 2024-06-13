@@ -1,0 +1,20 @@
+\date{2024-06-11}
+\title{kan extensions assemble into adjunctions}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 6.1.5}
+
+\p{Let #{C\xto{K} D} be a [functor](rs-000L) and #{E} a [category](rs-0001).
+Suppose that, for each #{C\xto{F} E}, the [left Kan extension](rs-0051)
+#{D\xto{\Lan_K} F} exists. Then this data extends uniquely into a functor
+#{\lbrack C, E\rbrack \xto{\Lan_K} \lbrack D, E\rbrack} that is [left
+adjoint](rs-0043) to the [precomposition](rs-000R) functor #{\lbrack D, E\rbrack
+\xto{K^*} \lbrack C, E\rbrack}.}
+
+\p{Dually, if the right Kan extensions #{\Ran_K F} all exist, this extends into
+a right adjoint to #{K^*}.}
+
+\proof{By definition, Kan extensions are [(co)free](rs-0052), and [(co)free
+assignments extend uniquely to adjunctions](rs-003F).}

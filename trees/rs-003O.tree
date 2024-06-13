@@ -1,0 +1,31 @@
+\date{2024-05-21}
+\title{limits are adjoints}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 4.5.1}
+
+\p{The #{J}-[indexed](rs-001U) [limit and colimit functors](rs-0030) are
+characterized as [right and left adjoints](rs-0043), respectively, of the
+[constant diagram functor](rs-001V) #{C\xto{\Delta} [J, C]}:\tx{
+  \begin{tikzcd}
+    & \bot \\[-2.1em]
+    C\ar[rr, pos=.1, "\Delta"] && \left[J, C\right]\ar[ll, "\colim_J"', bend right=50]\ar[ll,
+    "\lim_J", bend left=50]\punctuation{.} \\[-2.1em]
+    & \bot
+  \end{tikzcd}
+}}
+
+\proof{
+  \p{We prove the result for [limits](rs-001Y) and conclude for
+  [colimits](rs-001Z) by [duality](rs-0009). For any diagram #{J\xto{D} C}, the
+  definition of #{\Hom(\Delta c, D)} is the set of [natural
+  transformations](rs-000V) #{c\to D}, which by definition is the set of
+  [cones](rs-001W) #{\Cone_D(c)}. A right adjoint #{\lim_J} to this functor is
+  thus characterized by the [natural isomorphism](rs-0010) ##{\Hom(\Delta c,
+  D)\cong \Cone_D(c)\cong C(c, \lim_J D),} which is the definition of the limit.
+  Thus pointwise the right adjoint and the limit agree, and so the right adjoint
+  [extends uniquely](rs-003F) to the limit functor.}
+}
+

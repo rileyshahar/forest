@@ -1,0 +1,35 @@
+\date{2024-05-17}
+\title{(co)free assignments extend uniquely to adjunctions}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 4.3.4}
+
+\p{Let #{C\xto{F} D} be a functor so that, for each object #{d\in D}, there
+exists a [cofree object](rs-0052) #{Gd\in C}, i.e. an object 
+#{Gd\in C} together with an [isomorphism](rs-0002) ##{{D(Fc, d)\cong C(c, Gd)}}
+[natural](rs-0010) in #{D}. Then there exists a unique extension of this
+assignment into a functor #{D\xto{G} C}, which is then necessarily [right
+adjoint](rs-0036) to #{F}.}
+
+\p{Dually, suppose that for each #{d\in D}, there exists a [free
+object](rs-0052) #{Fd\in C}. Then this data extends uniquely into a functor
+#{D\xto{G} C} which is necessarily left adjoint to #{F}.}
+
+\proof{
+  \p{We need to define a functorial action of #{G} on morphisms #{d\xto{k}d'\in
+  D}. By naturality of the specified isomorphisms, for the assignment #{Gk} to
+  be functorial, the diagram \tx{
+    \begin{tikzcd}
+      C(-, Gd)\ar[r, leftrightarrow]\ar[d, "Gk_*"'] & D(F-, d)\ar[d, "k_*"] \\
+      C(-, Gd')\ar[r, leftrightarrow] & D(F-, d')
+    \end{tikzcd}
+  }must commute. The composite map ##{C(-, Gd)\cong D(F-, d)\xto{k^*} D(F-,
+  d')\cong C(-, Gd')} is a natural transformation, hence by the [Yoneda
+  lemma](rs-0019) corresponds to a unique map #{Gd\xto{Gk} Gd'}. This
+  establishes uniqueness; it remains to show functorality, but since these
+  diagrams defining #{Gk} paste vertically, the composites #{(Gk)(Gk')} satisfy
+  the given construction, hence uniqueness guarantees that #{G} is functorial.}
+}
+

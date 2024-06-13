@@ -8,6 +8,7 @@
 \cite{riehl-2017}{Riehl}{Definition 3.1.23}
 \dual{rs-0028}{pullback}
 
+\put\transclude/toc{false}
 \p{A \em{pushout} is a [colimit](rs-001Z) of a [diagram](rs-001U) of shape
 #{\bullet\from\bullet\to\bullet}.}
 

@@ -1,0 +1,14 @@
+\date{2024-05-18}
+\title{two-variable adjunction}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 4.3.7}
+
+\p{A \em{two-variable adjunction} consists of three [bifunctors](rs-000T)
+##{{C\times D\xto{F} E}, C^\op\times E\xto{G} D,  D^\op\times E\xto{H} C}
+and a [natural isomorphism](rs-0010) ##{E(F(c, d), e)\cong D(d, G(c, e))\cong
+C(c, H(d, e)).} The functor #{F} is called \em{biclosed}, while the functors
+#{G} and #{H} are called \em{left} and \em{right closures}, respectively.}
+

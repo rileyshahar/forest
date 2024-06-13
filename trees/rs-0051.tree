@@ -1,0 +1,79 @@
+\date{2024-06-11}
+\title{Kan extension}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 6.1.1}
+
+\p{Let #{C\xto{F} E} and #{C\xto{K} D} be [functors](rs-000L). Then a \em{left
+Kan extension of #{F} along #{K}} is a [free](rs-0052) object #{\Lan_K F} on
+#{F} with respect to the [precomposition](rs-000R) functor #{K^*}. Dually, a
+\em{right Kan extension of #{F} along #{K}} is a [cofree](rs-0052) object
+#{\Ran_K F} on #{F} with respect to #{K^*}.}
+
+\put\transclude/toc{false}
+\subtree[rs-0051-up]{
+  \taxon{Explanation}
+  \title{universal property of Kan extensions}
+  \p{In other words, the [universal property](rs-001P) of a left Kan extension
+  asks for a [bijection](rs-000E) ##{\lbrack C, E \rbrack(F,
+  GK)\cong \lbrack D, E \rbrack(\Lan_K F, G)} [natural](rs-000V) in #{D\xto{G} E}:
+  #{\Lan_K F} [represents](rs-0013) the functor ##{\lbrack D, E\rbrack\xto{K^*}
+  \lbrack C, E \rbrack\xto{\Hom(F, -)} \scat{Set}.}}
+
+  \p{Explicitly, a left Kan extension consists of a functor #{D\xto{\Lan_K} F} together with a
+  [natural transformation](rs-000V) #{F\xto{\eta} (\Lan_K F)K}, as in \tx{
+    \begin{tikzcd}
+      C\ar[rr, ""{name=F, below}, "F"]\ar[dr, "K"'] && E \\
+      & D\ar[ur, "\Lan_K F"']\punctuation{,}
+      \ar[Rightarrow, from=F, to=2-2, "\eta"]
+    \end{tikzcd}
+  } that is [universal](rs-001P) in that for any other pair #{D\xto{G} E} and
+  #{F\xto{\gamma} GK}, #{\gamma} factors uniquely through #{\eta}: \tx{
+    \begin{tikzcd}
+      C\ar[rr, ""{name=F, below}, "F"]\ar[dr, "K"'] && E \\
+      & D\ar[ur, "G"']\punctuation{,}
+      \ar[Rightarrow, from=F, to=2-2, "\gamma"]
+    \end{tikzcd}
+    =
+    \begin{tikzcd}
+      C\ar[rrr, "F"]\ar[ddr, "K"'] & \vspace{0em} && E\punctuation{.} \\
+      \\
+      & D\ar[uurr, "" {name=Lan, below}, "\Lan_K F"' description, bend
+      left]\ar[uurr, "" {name=G, above}, "G"', bend right]
+      \ar[Rightarrow, from=1-2, to=3-2, "\eta"', shorten >= 1em, shorten <= 1em,
+      xshift=-.2em, yshift=.4em]
+      \ar[Rightarrow, dashed, from=Lan, to=G, "\exists!"', shorten <= .5em]
+    \end{tikzcd}
+  }}
+
+  \p{Dually, the universal property of a right Kan extension asks for a natural
+  bijection ##{\lbrack C, E\rbrack (GK, F)\cong \lbrack D, E\rbrack (G, \Ran_K
+  F).} Explicitly, this consists of a functor #{D\xto{\Ran_K} F}
+  together with a natural transformation #{(\Ran_K F) K\xto{\epsilon} F}, as
+  in\tx{
+    \begin{tikzcd}
+      C\ar[rr, ""{name=F, below}, "F"]\ar[dr, "K"'] && E \\
+      & D\ar[ur, "\Ran_K F"']\punctuation{,}
+      \ar[Rightarrow, from=2-2, to=F, "\epsilon"]
+    \end{tikzcd}
+  } that is [universal](rs-001P) in that for any other pair #{D\xto{G} E} and
+  #{GK\xto{\delta} F}, #{\delta} factors uniquely through #{\epsilon}: \tx{
+    \begin{tikzcd}
+      C\ar[rr, ""{name=F, below}, "F"]\ar[dr, "K"'] && E \\
+      & D\ar[ur, "G"']\punctuation{,}
+      \ar[Rightarrow, from=2-2, to=F, "\delta"]
+    \end{tikzcd}
+    =
+    \begin{tikzcd}
+      C\ar[rrr, "F"]\ar[ddr, "K"'] & \vspace{0em} && E\punctuation{.} \\
+      \\
+      & D\ar[uurr, "" {name=Ran, below}, "\Ran_K F"' description, bend
+      left]\ar[uurr, "" {name=G, above}, "G"', bend right]
+      \ar[Rightarrow, from=3-2, to=1-2, "\epsilon"', shorten >= 1em, shorten <= 1em,
+      xshift=-.2em, yshift=.4em]
+      \ar[Rightarrow, dashed, from=G, to=Ran, "\exists!", shorten >= .5em]
+    \end{tikzcd}
+  }}
+}

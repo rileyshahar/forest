@@ -1,0 +1,14 @@
+\date{2024-05-22}
+\title{general adjoint functor theorem}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 4.6.3}
+
+\p{Let #{D\xto{G} C} be a [continuous functor](rs-003U) with [locally
+small](rs-002Q) [complete](rs-002C) domain #{D}. Suppose that #{D} satisfies the
+\em{solution set condition}: for each object #{c} in #{C}, there exists a
+[small](rs-002B) family of maps #{c\xto{f_i} Gd_i} in #{C} such that any map
+#{c\xto{f} Gd} factors through one of the #{f_i} via the #{G}-image of a map
+#{d_i\to d} in #{D}. Then #{G} admits a [left adjoint](rs-0036).}

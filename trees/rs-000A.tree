@@ -12,19 +12,19 @@
 \p{A [morphism](rs-0001) #{x\xinto{f} y} is a \em{monomorphism} if for any pair of
 parallel arrows #{z\xtos{g,h} x}, #{fg = fh} implies #{g = h}.}
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Constructions}
-  \query{
-    \query/tag{construction:rs-000A}
-  }
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-000A}
-  }
-  \put\transclude/title{Structures}
-  \query{
-    \query/tag{structure:rs-000A}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-000A}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-000A}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-000A}
+%   }
+% }

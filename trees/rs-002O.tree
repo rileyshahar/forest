@@ -1,0 +1,23 @@
+\date{2024-05-08}
+\title{limits are representable}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 3.4.2}
+
+\p{Let #{J\xto{F} C} be a [small](rs-002B) [diagram](rs-001U) in a [locally
+small category](rs-002Q) #{C} whose [limit](rs-001Y) exists. Then there is a
+[natural isomorphism](rs-0010) ##{
+  C(X, \lim F)\cong \lim C(X, F-),
+} where the latter is a limit in [\scat{Set}](rs-000C).}
+
+\p{Dually, let the [colimit](rs-001Z) of #{F} exist. Then there is a
+natural isomorphism ##{
+  C(\colim F, X)\cong \lim_{J^\op} C(F-, X).
+}}
+
+
+\proof{
+  [TODO](TODO)
+}

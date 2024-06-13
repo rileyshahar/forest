@@ -1,0 +1,12 @@
+\date{2024-04-09}
+\title{zig-zag}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+% \cite{}{}{}
+% \tag{ex:}
+
+\p{A \em{zig-zag} in a [category](rs-0001) is a [finite](TODO) [diagram](rs-001U) of
+shape
+#{\bullet\from\bullet\to\bullet\from\bullet\to\bullet\dots\bullet\from\bullet\to\bullet}.}

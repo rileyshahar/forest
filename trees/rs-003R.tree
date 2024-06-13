@@ -1,0 +1,24 @@
+\date{2024-05-21}
+\title{properties of adjoint functors relate to those of their (co)units}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 4.5.13}
+
+\p{Let \adjd{C}{D}{F}{G}{\,} be an [adjunction](rs-0036) with [unit](rs-0039)
+#{1_C\xto{\eta} GF} and [counit](rs-0039) #{FG\xto{\epsilon} 1_D}. Then: \ul{
+  \li{#{F} is [faithful](rs-0018) if and only if each component of #{\eta} is [monic](rs-000A);}
+  \li{#{F} is [full](rs-0017) if and only if each component of #{\eta} is a [retraction](rs-000K);}
+  \li{#{F} is full and faithful if and only if #{\eta} is an [isomorphism](rs-0002).}
+}}
+
+\p{Dually: \ul{
+  \li{#{G} is faithful if and only if  each component of #{\epsilon} is [epic](rs-000B);}
+  \li{#{G} is full if and only if each component of #{\epsilon} is a [section](rs-000J);}
+  \li{#{G} is full and faithful if and only if #{\epsilon} is an isomorphism.}
+}}
+
+\proof{
+  [TODO](TODO)
+}

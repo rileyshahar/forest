@@ -1,0 +1,17 @@
+\title{My Work}
+\author{rileyshahar}
+
+\put\transclude/numbered{false}
+
+\scope{
+  \query{
+    \query/and{
+      \query/author{rileyshahar}
+      \query/or{
+        \query/taxon{talk}
+        \query/taxon{paper}
+        \query/taxon{exposition}
+      }
+    }
+  }
+}

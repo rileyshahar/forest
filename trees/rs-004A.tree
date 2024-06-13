@@ -1,0 +1,10 @@
+\date{2024-05-25}
+\title{resolution of a monad}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{T} be a [monad](rs-0041) on a [category](rs-0001) #{C}. A
+\em{resolution} of #{T} is an [adjunction](rs-0043) which [induces](rs-0045)
+#{T}.}

@@ -6,8 +6,10 @@
 \import{macros01}
 \cite{riehl-2017}{Riehl}{Definition 1.3.12}
 \tag{construction:rs-0001}
+\tag{ex:rs-0023}
 
-\p{Let #{C} and #{D} be [categories](rs-0001). The \em{product category}
+\p{The \em{product category} is the [product](rs-0023) in [\scat{Cat}](rs-002V).
+Explicitly, let #{C} and #{D} be [categories](rs-0001). The product category
 #{C\times D} has:}
 
 \ul{

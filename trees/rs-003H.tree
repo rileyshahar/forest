@@ -1,0 +1,51 @@
+\date{2024-05-18}
+\title{adjoints are unique up to unique isomorphism}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 4.4.1}
+
+\p{Let #{F} and #{F'} be [left adjoints](rs-0036) to #{G}. Then there is a unique
+[natural isomorphism](rs-0010) #{\theta: F\cong F'} commuting with the [units and
+counits](rs-0039) of the adjunctions.}
+
+\p{Dually, right adjoints are also unique up to unique isomorphism commuting
+with the units and counits.}
+
+\proof{
+  \p{By [whiskering](rs-003B), we define the [natural transformations](rs-000V)
+  ##{\theta = F\xto{F\eta'}FGF'\xto{\epsilon F'} F'\quad\text{and}\quad \theta'
+  = F'\xto{F'\eta}F'GF\xto{\epsilon F} F.} Now the following diagram commutes:
+  \tx{
+    \begin{tikzcd}
+      & & F'\ar[dr, "F'\eta"']\ar[drdr, "\theta'", bend left] \\
+      & FGF'\ar[ur, "\epsilon F'"']\ar[dr, "FGF'\eta"] & & F'GF\ar[dr, "\epsilon F"'] \\
+      F\ar[ruru, "\theta", bend left]\ar[rrrr, "1_F"', bend right=100]\ar[ur,
+      "F\eta'"']\ar[dr, "F\eta"'] & & FGF'GF\ar[ur, "\epsilon
+      F'GF"]\ar[dr, "FG\epsilon' F"] & & F\punctuation{.} \\
+      & FGF\ar[rr, "F1_GF"']\ar[ur, "F\eta' GF"] & & FGF\ar[ur, "\epsilon F"']
+    \end{tikzcd}
+  } Indeed, the top two triangles are definitions of #{\theta} and #{\theta'},
+  the squares are each instances of the [interchange law](rs-003I), while the
+  triangle and the bottom shape are both instances of the [left triangle
+  identity](rs-003A). The other direction of invertibility follows by symmetry.}
+
+  \p{To show that #{\theta} commutes with the units and counits, we observe
+  that the following diagram commutes: \tx{
+    \begin{tikzcd}
+      && GF\ar[d, "GF\eta'"']\ar[dd, "\theta", bend left=50] \\
+      1_C\ar[urr, "\eta", bend left]\ar[r, "\eta'"]\ar[drr, "\eta'"', bend right] & GF'\ar[r, "\eta
+      GF'"]\ar[dr, "G1_{F'}"', pos=.1, bend right] & GFGF'\ar[d, "G\epsilon F'"'] \\
+      & & GF'\punctuation{.}
+    \end{tikzcd}
+  } Indeed, the top triangle is the interchange law, the right triangle is the
+  definition of #{\theta}, the bottom-right triangle is the left triangle
+  identity, and the bottom-left triangle is unitality. Commutativity with
+  #{\epsilon} is similar.}
+
+  \p{To show uniqueness, note that #{\theta_c} is uniquely specified as the
+  transpose of #{\eta'_c} across the adjunction #{F\adj G}, but this
+  relationship is required for commutativity with the units to hold.}
+}
+

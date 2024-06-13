@@ -1,0 +1,43 @@
+\date{2024-05-29}
+\title{monadic categories are presented by free objects}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Corollary 5.4.10(ii)}
+
+\p{Let \fsadjd{C}{D}{F}{U}{\eta}{\epsilon}{\,} be a [monadic adjunction](rs-004J). Then the every
+#{d\in D}, there is a [coequalizer diagram](rs-0026) \tx{
+  \begin{tikzcd}
+    FUFUd\ar[r, shift left=.2em, "FU\epsilon_d"]\ar[r, shift right=.2em,
+    "\epsilon_{FUd}"'] & FUd\ar[r, "\epsilon_d"] & d\punctuation{.}
+  \end{tikzcd}
+}}
+
+\proof{
+
+  \p{By the [monadicity theorem](rs-004R), to show that a [fork](rs-004M) in
+  #{D} is a coequalizer, it suffices to show it is [#{U}-split](rs-004Q); this
+  is witnessed by the diagram \tx{
+    \begin{tikzcd}
+      UFUFUd\ar[r, shift left=.2em, "UFU\epsilon_d"]\ar[r, shift right=.2em, "U\epsilon_{FUd}"']
+      & UFUd\ar[r, "U\epsilon_d"]\ar[l, "\eta_{UFUd}", bend left=50]
+      & Ud\ar[l, bend left, "\eta_{Ud}"]\punctuation{;}
+    \end{tikzcd}
+  } the [triangle identities](rs-003A) provide the right equations.}
+
+  % \p{We first prove the result for the [Eilenberg-Moore category](rs-0049)
+  % #{C^T} of the [monad](rs-0045) #{T = FU}. In this case, by [construction of the
+  % adjunction #{F^T\adj U^T}](rs-004C), the result states that, given an
+  % [algebra](rs-0047) #{Tc\xto{f} c}, the diagram \tx{
+  %   \begin{tikzcd}
+  %     (T^3c\xto{\mu_{Tc}} T^2c)\ar[r, shift left=.2em, "Tf"]\ar[r, shift
+  %     right=.2em, "\mu_c"'] & (T^2c\xto{\mu_c} Tc)\ar[r, "f"] & (Tc\xto{f} c)
+  %   \end{tikzcd}
+  % } is a coequalizer in #{C^T}. Given any algebra #{Tz\xto{g} z} and
+  % [homomorphism](rs-0048) #{(T^2c\xto{\mu_c} Tc)\xto{h} (Tz\xto{g} z)}, we need
+  % to show that there exists a unique map #{(Tc\xto{f} c)\to (Tz\xto{g} z)}
+  % commuting with everything. Since #{h} is a map #{Tc\to z}, the map
+  % #{c\xto{\eta_c} Tc\xto{h} z} will suffice.}
+}
+

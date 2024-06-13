@@ -1,0 +1,43 @@
+\date{2024-05-21}
+\title{right adjoints preserve limits; left adjoints preserve colimits}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 4.5.2}
+\tag{ex:rs-003U}
+\tag{ex:rs-003V}
+
+\p{[Right adjoints](rs-0036) [preserve limits](rs-002H). Dually, left adjoints
+preserve colimits.}
+
+\proof{
+  \p{Let \adjd{C}{D}{F}{G}{\,} be an adjunction. Let #{J\xto{K} D} be a
+  [diagram](rs-001U) and #{\lim K\xto{\lambda_j} K_j} be a limiting
+  [cone](rs-001W) over #{K}. We show that the cone #{G\lim K\xto{G\lambda_j}
+  GK_j} is in fact a limiting cone over #{GK}. We need the following two
+  observations:
+  \ol{
+    \li{[adjunctions lift to functor categories](rs-003N);}
+    \li{[the constant diagram functor commutes with functors](rs-003Q).}
+  }}
+
+  \p{Letting #{\Delta} be the [constant diagram functor](rs-001V), we have the
+  following series of [natural isomorphisms](rs-0010):
+  ##{\begin{aligned}
+  \lbrack J, C\rbrack(\Delta c, GK) &\cong \lbrack J, D \rbrack(F\Delta c, K)
+  &&\text{by (1)}\\\\
+  &\cong \lbrack J, D \rbrack(\Delta Fc, K) &&\text{by (2)}\\\\
+  &\cong D(Fc, \lim_J K) &&\text{by the definition of limits}\\\\
+  &\cong C(c, G\lim_J K) &&\text{by the adjunction}.
+  \end{aligned}}
+  By definition of
+  [limits](rs-001Y), this exhibits #{G\lim_J K} as a limit of #{GK}.}
+  %
+  % \p{It remains to show that the cone #{G\lambda_j} is limiting. Since the
+  % isomorphism is natural, by the [Yoneda lemma](rs-0014) it corresponds to a
+  % unique element of ##{\lbrack J, C \rbrack (\Delta \lim_J K, GK) \cong
+  % \Cone_{GK} (G\lim_J K),} which in particular is determined by the preimage of
+  % the identity #{1_{G\lim_J K}} under the computed isomorphism.}
+}
+

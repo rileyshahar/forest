@@ -1,0 +1,15 @@
+\date{2024-05-25}
+\title{free algebra}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.2.14}
+
+\p{Let #{(T, \eta, \mu)} be a [monad](rs-0041) on a [category](rs-0001) #{C} and
+#{x\in C} an object. Then the \em{free algebra} on #{x} is the map
+#{T^2x\xto{\mu_x} Tx}. The \em{free algebra functor} #{C\xto{F^T} C^T} from
+#{C} to the [Eilenberg-Moore category](rs-0049) of #{T} takes a map #{x\xto{f}
+y} to the [homomorphism](rs-0048) #{Tx\xto{Tf} Tb}.}
+
+

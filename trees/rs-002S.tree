@@ -1,0 +1,11 @@
+\title{cartesian product of sets}
+\date{2024-04-04}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-0023}
+
+\p{The \em{cartesian product} is the [product](rs-0023) in [\scat{Set}](rs-000C).
+Explicitly, the product of [sets](TODO) #{A} and #{B} is ##{A\times B = \{(a,
+b) \mid a\in A, b\in B\}.}}

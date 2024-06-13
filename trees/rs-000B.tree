@@ -12,19 +12,19 @@
 \p{A [morphism](rs-0001) #{x\xonto{f} y} is an \em{epimorphism} if for any pair of
 parallel arrows #{y\xtos{g,h} z}, #{gf = hf} implies #{g = h}.}
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Constructions}
-  \query{
-    \query/tag{construction:rs-000B}
-  }
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-000B}
-  }
-  \put\transclude/title{Structures}
-  \query{
-    \query/tag{structure:rs-000B}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-000B}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-000B}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-000B}
+%   }
+% }

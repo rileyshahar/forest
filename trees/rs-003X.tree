@@ -1,0 +1,50 @@
+\date{2024-05-22}
+\title{monoidal category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{VII.1}
+\tag{structure:rs-0001}
+
+\p{
+  A \em{monoidal category} #{ C} consists of the following data:
+  \ul{
+    \li{an underlying [category](rs-0001) #{ C};}
+    \li{a [bifunctor](rs-000T) #{ C\times C\xto{\otimes} C}, called the
+      \em{monoidal product};}
+    \li{an object #{I\in C}, called the \em{monoidal unit};}
+    \li{a [natural isomorphism](rs-0010) #{(x\otimes y)\otimes z\xto{\alpha_{x,y,z}}
+      x\otimes(y\otimes z)}, called the \em{associator};}
+    \li{a natural isomorphism #{I\otimes x\xto{\lambda_x} x}, called the
+      \em{left unitor};}
+    \li{a natural isomorphism #{x\otimes I\xto{\rho_x} x}, called the
+      \em{right unitor}.}
+  }
+
+  This data must make the following [coherence conditions](TODO), called the
+  \em{triangle} and \em{pentagon} identities, commute:
+	\tx{
+		\begin{tikzcd}
+			(x\otimes I)\otimes y\ar[rr, "\alpha_{x,1_\otimes,y}"]\ar[dr, "\rho_x"']
+      & & x\otimes(I\otimes y)\ar[dl, "\lambda_x"] \\
+			& x\otimes y\punctuation{;}
+		\end{tikzcd}
+  }
+
+	 \tx{
+		\begin{tikzcd}
+			& (x\otimes y)\otimes(z\otimes w) 
+	       \ar[dr, "\alpha_{x, y, z\otimes w}"]
+	       \\
+			((x\otimes y)\otimes z)\otimes w
+	       \ar[ur, "\alpha_{x\otimes y, z, w}"]
+	       \ar[d, "\alpha_{x, y, z}\otimes 1_w"']
+	     & & x\otimes (y\otimes (z\otimes w)) \\
+			(x\otimes (y\otimes z))\otimes w
+	       \ar[rr, "\alpha_{x, y\otimes z, w}"']
+	     & & x\otimes ((y\otimes z)\otimes w)\punctuation{.}
+	       \ar[u, "1_x\otimes\alpha_{y, z, w}"']
+		\end{tikzcd}
+	}
+}

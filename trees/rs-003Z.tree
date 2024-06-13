@@ -1,0 +1,12 @@
+\date{2024-05-22}
+\title{cartesian monoidal category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 163}
+\tag{ex:rs-003X}
+
+\p{A [monoidal category](rs-003X) is \em{cartesian} if its monoidal product is
+the [cartesian product](rs-0023) (and so its monoidal unit is
+[terminal](rs-0020)).}

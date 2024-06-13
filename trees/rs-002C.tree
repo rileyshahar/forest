@@ -10,3 +10,24 @@
 
 \p{A [category](rs-0001) is \em{complete} if it has all [small](rs-002B)
 [limits](rs-001Y).}
+
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-002C}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-002C}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-002C}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-002C}
+%   }
+% }

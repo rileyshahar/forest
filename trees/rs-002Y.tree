@@ -1,0 +1,18 @@
+\date{2024-05-10}
+\title{kernel pair}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Eample 3.5.10}
+\tag{ex:rs-0027}
+
+\p{The \em{kernel pair} of a morphism #{x\xto{f} y} is the [pullback](rs-0027)
+of #{f} along itself:}
+\tx{
+  \begin{tikzcd}
+    \ker(f)\ar[r]\ar[d]\pullback & x \ar[d, "f"] \\
+    x \ar[r, "f"'] & y
+  \end{tikzcd}
+}
+

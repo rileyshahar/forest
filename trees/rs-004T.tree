@@ -1,0 +1,14 @@
+\date{2024-06-11}
+\title{separator}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 4.6.7}
+
+\p{A \em{separator} in a [category](rs-0001) #{C} is an object #{s} such that,
+for every [parallel pair](TODO) #{x\xtos{f,g} y} in #{C}, if #{fe = ge} for
+every #{s\xto{e} x}, then #{f = g}. A \em{separating family} is a collection of
+objects #{s_\alpha} such that, if #{fe = ge} for every #{\alpha} and
+#{s_\alpha\xto{e} x}, then #{f = g}.}
+

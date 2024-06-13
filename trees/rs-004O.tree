@@ -1,0 +1,10 @@
+\date{2024-06-06}
+\title{absolute limit}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [limit](rs-001Y) is \em{absolute} if it is [preserved](rs-002H) by all
+[functors](rs-000L).}
+

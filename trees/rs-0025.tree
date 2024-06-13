@@ -11,13 +11,14 @@
 \p{An \em{equalizer} is a [limit](rs-001Y) of a [diagram](rs-001U) of shape
 #{\bullet\rightrightarrows\bullet}.}
 
+\put\transclude/toc{false}
 \subtree[rs-0025-up]{
   \taxon{Proposition}
   \title{universal property of the equalizer}
   
   \p{The [universal property](rs-001Y-up) of the [equalizer](rs-0025) #{E\xto{e}X} of a
   [diagram](rs-001U) #{X\xtos{f,g}Y} is that, for any object #{Z} equipped with
-  a morphism#{Z\xto{d} X}, there exists a unique factorization #{Z\to E} of #{d}: \tx{
+  a morphism#{Z\xto{d} X} such that #{fd = gd}, there exists a unique factorization #{Z\to E} of #{d}: \tx{
     \begin{tikzcd}
       Z\ar[d, dashed, "\exists !"']\ar[dr, "d"] \\
       E\ar[r, "e"'] & X\ar[r, "f", shift left=.2em]\ar[r, "g"', shift right=.2em] & Y\punctuation{.}

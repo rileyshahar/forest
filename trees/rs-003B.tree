@@ -1,0 +1,31 @@
+\date{2024-05-16}
+\title{whiskered composition of natural transformations}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exercise 1.7.ii}
+
+\p{Let \tx{
+  \begin{tikzcd}
+    C\ar[r, "F"] & D\ar[rr, "H", bend left=50] \ar[rr, "K"', bend right=50] & \Downarrow\alpha & E\ar[r, "G"] & F
+  \end{tikzcd}
+} be a diagram of [categories](rs-0001), [functors](rs-000L), and [natural
+transformations](rs-000V). Then the \em{whiskering} ##{GHF\xto{G\alpha F} GKF} is the natural
+transformation with components #{(G\alpha F)_c = G(\alpha_{F_c})}.}
+
+\namedproof{of naturality}{
+  Let #{c\xto{f} c'} be a map in #{C}. We must show that \tx{
+    \begin{tikzcd}
+      GHFc\ar[d, "GHFf"']\ar[r, "G\alpha_{Fc}"] & GKFc\ar[d, "GKFf"]\\
+      GHFc'\ar[r, "G\alpha_{Fc'}"'] & GKFc'
+    \end{tikzcd}
+  }commutes. By functoriality of #{G}, it suffices to show that \tx{
+    \begin{tikzcd}
+      HFc\ar[d, "HFf"']\ar[r, "\alpha_{Fc}"] & KFc\ar[d, "KFf"]\\
+      HFc'\ar[r, "\alpha_{Fc'}"'] & KFc'
+    \end{tikzcd}
+  }commutes, but this diagram just expresses naturality of #{\alpha} applied to
+  #{Ff}. 
+}
+

@@ -1,0 +1,35 @@
+\date{2024-05-19}
+\title{adjunctions lift to functor categories}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 4.4.6}
+
+\p{Let \adjd{C}{D}{F}{G}{\,} be an [adjunction](rs-0036). Then for #{J}
+[small](rs-002B), post-composition defines an adjunction of [functor
+categories](rs-000Y) \adjd{\left[J, C\right]}{\left[J, D\right]}{F_*}{G_*}{,}
+while for #{E} [locally small](rs-002Q), pre-composition defines an adjunction
+\adjd{\left[C, E\right]}{\left[D, E\right]}{F^*}{G^*}{.}}
+
+\proof{
+  \p{Let #{\eta} and #{\epsilon} be the [unit and counits](rs-0039) of the
+  adjunction #{F\adj G}. We give a unit #{\eta'} and counit #{\epsilon'}
+  witnessing the adjunction #{F_*\adj G_*}. Given a functor #{J\xto{H} C}, the
+  component #{H\xto{\eta'_H} GFH} is the [whiskered natural
+  transformation](rs-003B) #{\eta H}. Given a functor #{J\xto{K} D}, the
+  component #{FGK\xto{\epsilon'_K} K} is similarly #{\epsilon K}.}
+
+  \p{We demonstrate the [triangle identities](rs-003A) in components. The left
+  triangle identity asserts that \tx{
+    \begin{tikzcd}
+      FH\ar[dr, "1_{FH}"']\ar[r, "F \eta H"] & FGFH\ar[d, "\epsilon F H"] \\
+      & FH
+    \end{tikzcd}
+  } commutes, which is immediate from the left triangle identity for #{F\adj G}.
+  In particular, the right arrow is ##{(\epsilon' F_*)_H = \epsilon'_{F_*H} =
+  \epsilon'_{FH} = \epsilon FH.} The right triangle identity and the case for
+  pre-composition are similar, but in the latter case it is important to
+  remember that pre-composition is [contravariant](rs-000N), so that for
+  instance in components the type of #{\eta'_H} is #{H\to FGH}, not #{GFH}.}
+}

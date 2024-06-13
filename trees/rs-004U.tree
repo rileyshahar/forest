@@ -1,0 +1,14 @@
+\date{2024-06-11}
+\title{special adjoint functor theorem}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 4.6.10}
+
+\p{Let #{D\xto{G} C} be a [continuous functor](rs-003U) with [complete](rs-002C)
+domain and [locally small](rs-002Q) domain and codomain. Suppose that #{D} has a
+[small](rs-002B) [coseparating family](rs-004T) and that every collection of
+[subobjects](rs-002Z) #{x_\alpha\into x} in #{D} admits an [intersection](TODO),
+i.e. a [limit](rs-001Y). Then #{G} has a [left adjoint](rs-0036).}
+

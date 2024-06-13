@@ -1,0 +1,16 @@
+\date{2024-05-08}
+\title{representable functors preserve limits}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 3.4.5}
+
+\p{Let #{C} be [locally small](rs-002Q). The [hom bifunctor](rs-000U) [preserves
+limits](rs-002H) in both arguments. In particular, [covariant hom-functors](rs-000Q)
+preserve limits and [contravariant hom-functors](rs-000N) preserve colimits, and
+so [representable functors](rs-0013) preserve limits.}
+
+\proof{
+  \p{[TODO](TODO), using the [representability of limits](rs-002O).}
+}

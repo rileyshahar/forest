@@ -1,0 +1,17 @@
+\date{2024-05-10}
+\title{subobject}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+% \cite{}{}{}
+
+\p{A \em{subobject} of an object #{x} in a [category](rs-0001) #{C} is a
+[monomorphism](rs-000A) with codomain #{x}, often [modulo](TODO) the relation}
+\tx{
+  $y\cong z$ if and only if
+  \begin{tikzcd}
+    y\ar[r, hook]\ar[dr, "\exists"', leftrightarrow] & x \\
+    & z\ar[u, hook]\punctuation{.}
+  \end{tikzcd}
+}

@@ -1,0 +1,13 @@
+\date{2024-05-22}
+\title{endofunctor category is monoidal}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 162}
+\tag{ex:rs-003X}
+
+\p{The [endofunctor category](rs-0042) #{\lbrack C, C \rbrack} is ([strict](TODO))
+[monoidal](rs-003X) with [horizontal composition](rs-000X) as the monoidal
+product and the [identity functor](rs-0011) as the monoidal unit.} 
+

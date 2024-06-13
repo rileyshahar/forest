@@ -1,0 +1,13 @@
+\date{2024-05-09}
+\title{disjoint union of sets}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{ex:rs-0024}
+
+\p{The \em{disjoint union} is the [coproduct](rs-0024) in [\scat{Set}](rs-0003).
+Explicitly, the disjoint union of sets #{A} and #{B} is ##{A \sqcup B = \{(a, 0) \mid
+a \in A\} \cup \{(b, 1) \mid b \in B\},} where #{\cup} denotes the
+[union](TODO).}
+

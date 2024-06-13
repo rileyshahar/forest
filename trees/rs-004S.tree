@@ -1,0 +1,10 @@
+\title{finitary functor}
+\date{2024-06-11}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.5.4}
+
+\p{A [functor](rs-000L) is \em{finitary} if it [preserves](rs-002H)
+[filtered](rs-004K) [colimits](rs-001Z).}

@@ -1,0 +1,10 @@
+\date{2024-04-09}
+\title{idempotent}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exaple 3.2.16}
+\tag{property:morphism}
+
+\p{An [endomorphism](rs-0003) #{x\xto{f} x} is an \em{idempotent} if #{ff = f}.}

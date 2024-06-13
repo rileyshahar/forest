@@ -1,0 +1,37 @@
+\date{2024-05-16}
+\title{triangle identities for an adjunction}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 4.2.6}
+
+\p{Let #{F\adj G} be an [adjunction](rs-0036). Then
+the [unit and counit](rs-0039) #{1\xto{\eta} GF} and #{FG\xto{\epsilon} 1} make
+the following diagrams, called the \em{triangle identities}, commute:\tx{
+  \begin{tikzcd}
+    F\ar[r, "F\eta"]\ar[dr, "1_F"'] & FGF\ar[d, "\epsilon F"] \\
+    & F
+  \end{tikzcd}
+  \quad and \quad
+  \begin{tikzcd}
+    G\ar[r, "\eta G"]\ar[dr, "1_G"'] & GFG\ar[d, "G\epsilon"] \\
+     & G\punctuation{.}
+  \end{tikzcd}
+}}
+
+\proof{
+  \p{By the definitions of [vertical](rs-000W) and [whiskered](rs-003B)
+  composition, it suffices to work in components. To show the left triangle
+  identity, it suffices to show that \tx{
+    \begin{tikzcd}
+      Fc\ar[d, "F\eta_c"']\ar[r, "1_{Fc}"] & Fc\ar[d, "1_{Fc}"] \\
+      FGFc\ar[r, "\epsilon_{Fc}"'] & Fc
+    \end{tikzcd}
+  }commutes. The [adjoint square](rs-0038) is \tx{
+    \begin{tikzcd}
+      c\ar[d, "\eta_c"']\ar[r, "\eta_c"] & GFc\ar[d, "1_{GFc}"] \\
+      GFc\ar[r, "1_{GFc}"'] & GFc\punctuation{,}
+    \end{tikzcd}
+  }which commutes [reflexively](TODO). The other identity is similar.}
+}

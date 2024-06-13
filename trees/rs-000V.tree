@@ -19,24 +19,24 @@ that, for every morphism #{x\xto{f}y} in #{C}, the following diagram commutes:}
   \end{tikzcd}
 }
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Constructions}
-  \query{
-    \query/tag{construction:rs-000V}
-  }
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-000V}
-  }
-  \put\transclude/title{Structures}
-  \query{
-    \query/tag{structure:rs-000V}
-  }
-  \put\transclude/title{Properties}
-  \query{
-    \query/tag{property:rs-000V}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-000V}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-000V}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-000V}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-000V}
+%   }
+% }
 

@@ -11,12 +11,12 @@
 \p{A \em{limit} of a [diagram](rs-001U) is a [universal](rs-001P)
 [cone](rs-001W).}
 
-\p{By the [computation of universal elements](rs-001Q), a limit of a diagram
-#{J\xto{D} C} consists of an object #{\lim D\in C} and a cone #{\lim
-D\xto{\lambda} D} which is universal in the sense that it induces, by the
-[Yoneda lemma](rs-0014), a [natural isomorphism](rs-0010) ##{C(-, \lim D)\cong
-\Cone_D.}} 
+\p{By the definition of universal elements, a limit of a diagram #{J\xto{D} C}
+consists of an object #{\lim D\in C} and a cone #{\lim D\xto{\lambda} D} which
+is universal in the sense that it induces, by the [Yoneda lemma](rs-0014), a
+[natural isomorphism](rs-0010) ##{C(-, \lim D)\cong \Cone_D.}} 
 
+\put\transclude/toc{false}
 \subtree[rs-001Y-up]{
   \title{universal property of limits}
   \taxon{proposition}
@@ -35,23 +35,23 @@ D\xto{\lambda} D} which is universal in the sense that it induces, by the
   }}
 }
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Constructions}
-  \query{
-    \query/tag{construction:rs-001Y}
-  }
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-001Y}
-  }
-  \put\transclude/title{Structures}
-  \query{
-    \query/tag{structure:rs-001Y}
-  }
-  \put\transclude/title{Properties}
-  \query{
-    \query/tag{property:rs-001Y}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-001Y}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-001Y}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-001Y}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-001Y}
+%   }
+% }

@@ -1,0 +1,37 @@
+\date{2024-05-14}
+\title{comparison of limits and colimits}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 3.8.3}
+
+\p{Let #{I\times J\xto{F} C} be a [bifunctorial](rs-000T) [diagram](rs-001U)
+such that the following [limits](rs-001Y) and [colimits](rs-001Z) exist. Then
+there is a canonical map ##{\colim_I \lim_J F\to \lim_J \colim_I F.}}
+
+\p{In particular, the map goes from a colimit to a limit because [colimits are
+easy to map out of, while limits are easy to map into](rs-0035).}
+
+\proof{
+ \p{By the [universal properties of colimits](rs-001Z-up) and [of
+ limits](rs-001Y-up), it suffices to define components ##{\lim_{J} F(i, -)\to
+ \colim_I F(-, j)} for each #{i\in I,j\in J} which commute with the images of
+ maps in #{I} and #{J}. The #{j}th leg of the limiting [cone](rs-001W) is a map
+ #{\lim_J F(i, -)\to F(i, j)}, while the #{i}th coleg of the colimiting
+ [cocone](rs-001X) is a map #{F(i, j)\to \colim_ F(-, j)}. The composite defines
+ the desired map. The commutativity properties are by construction: for
+ instance, compatibility with maps #{j\xto{f} j'} in #{J} asserts that \tx{
+   \begin{tikzcd}
+     & \lim_J F(i, -)\ar[dl, "\pi_j"']\ar[dr, "\pi_j'"] \\
+     F(i, j)\ar[d, "\iota_i"']  && F(i, j')\ar[d, "\iota_i"] \\
+     \colim_I F(-, j)\ar[rr, "\colim_I F(-{,} f)"'] && \colim_I F(-, j')
+   \end{tikzcd}
+ } commutes. Filling in the map #{F(i, j)\xto{F(i, f)} F(i, j')}, the top
+ triangle is the definition of #{\lim_J}, while the bottom square is
+ by construction of the [functorial action of colimits](rs-0030).}
+}
+
+
+
+     % & \lim_J F(i, -)\ar[dl, "\pi_j"']\ar[dr, "\pi_j'"] \\

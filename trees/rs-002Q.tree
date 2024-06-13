@@ -1,0 +1,12 @@
+\date{2024-05-09}
+\title{locally small category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 1.1.7}
+\tag{property:rs-0001}
+
+\p{A [category](rs-0001) #{C} is \em{locally small} if for each pair of objects
+#{x} and #{y}, the collection #{C(x, y)} forms a set.}
+

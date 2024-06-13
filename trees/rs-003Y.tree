@@ -1,0 +1,30 @@
+\date{2024-05-22}
+\title{monoid in a monoidal category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{VII.3}
+
+\p{A \em{monoid} in a [monoidal category](rs-003X) #{C} consists of:}
+\ul{
+  \li{an object #{m};}
+  \li{a \em{unit} morphism #{I\xto{\eta} m};}
+  \li{a \em{multiplication} morphism #{m\otimes m\xto{\mu} m}.}
+}
+\p{This data must make the following \em{unit} and \em{associativity} diagrams
+commute:}
+\tx{
+  \begin{tikzcd}
+    I\otimes m\ar[r, "\eta\otimes 1_m"]\ar[dr, "\lambda_m"'] & m\otimes m\ar[d,
+    "\mu"] & m\otimes I\ar[l, "1_m\otimes\eta"']\ar[dl, "\rho_m"]\\
+                                        & m\punctuation{.}
+  \end{tikzcd}
+}
+\tx{
+  \begin{tikzcd}
+    (m\otimes m)\otimes m\ar[rr, "\alpha_{m,m,m}"]\ar[d, "\mu\otimes 1_m"'] & & m\otimes (m\otimes m)\ar[d, "1_m\otimes\mu"] \\
+    m\otimes m\ar[dr, "\mu"'] & & m\otimes m\ar[dl, "\mu"] \\
+                             & m\punctuation{;}
+  \end{tikzcd}
+}

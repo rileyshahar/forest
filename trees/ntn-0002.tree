@@ -1,0 +1,10 @@
+\date{2024-06-12}
+\title{hom sets}
+\taxon{notation}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{In a [category](rs-0001), the homsets #{C(x, y)} are alternatively written
+#{\hom_C(x, y)} and #{\Hom_C(x, y)}, sometimes with the subscript omitted.}
+

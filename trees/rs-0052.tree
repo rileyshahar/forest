@@ -1,0 +1,38 @@
+\date{2024-06-11}
+\title{free object}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{D\xto{U} C} be a [functor](rs-000L) and #{c\in C} an object. Then a
+\em{#{U}-free object on #{c}} [represents](rs-0013) the functor #{C(c, U-)}.
+Explicitly, it is an object #{d\in D} equipped with a
+[bijection](rs-000E) ##{C(c, Uz)\cong D(d, z)} [natural](rs-000V) in #{z\in D}.
+In other words, it satisfies the [universal property](rs-001P) that #{Fc} would
+have, for a [left adjoint](rs-0043) #{F} to #{U}.}
+
+\p{Analogously to the [construction of the unit of an adjunction](rs-0039), this equivalently
+means there is a map #{c\xto{\eta_c} Ud} in #{C} (the transpose of #{1_d}) such
+that for any #{z\in D}, any map #{x\xto{f} Uz} admits a unique lift to a map
+#{d\xto{g} z} in #{D} factoring through #{\eta_x}:
+\tx{
+  \begin{tikzcd}
+    Ud\ar[r, "Ug", "\exists !"', dashed] & Uz \\\\
+    c\ar[uu, "\eta_c"]\ar[uur, "f"']\punctuation{.}
+  \end{tikzcd}
+}}
+
+\p{Dually, a \em{#{U}-cofree object on #{c}} represents the functor #{C(U-, c)}.
+Explicitly, it is an object #{d\in D} equipped with a bijection ##{C(Uz, c)\cong
+D(z, d)} natural in #{z\in D}: it satisfies the universal property that #{Fc}
+would have, for a \em{right} adjoint #{F} to #{U}.}
+
+\p{The universal property now asserts that there is a map #{Ud\xto{\epsilon_c}
+c} in #{C} such that for any #{z\in D}, any map #{Uz\xto{f} x} admits a unique
+lift to a map #{z\xto{g} d} in #{D} factoring through #{\epsilon_x}: \tx{
+  \begin{tikzcd}
+    Uz\ar[r, "Ug", "\exists !"', dashed]\ar[ddr, "f"'] & Ud\ar[dd, "\epsilon_c"] \\\\
+    & c\punctuation{.}
+  \end{tikzcd}
+}.}

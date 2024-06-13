@@ -1,0 +1,26 @@
+\date{2024-05-16}
+\title{unfolding naturality of transposition}
+\taxon{explanation}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{p. 117}
+
+\p{The [naturality](rs-000V) condition in the [transopsition definition of an
+adjunction](rs-0036) \adjd{C}{D}{F}{G}{\,} asserts that, for every adjoint pair
+#{Fc\xto{f^\sharp} d} and #{c\xto{f^\flat} Gd}:}
+
+\ul{
+  \li{\em{naturality in #{C}:} for all  #{c'\xto{h}c\in C}, \tx{
+    \begin{tikzcd}
+      c'\ar[d, "h"']\ar[dr, "(f^\sharp(Fh))^\flat"] \\
+      c\ar[r, "f^\flat"'] & Gd
+    \end{tikzcd}
+  } commutes;}
+  \li{\em{naturality in #{D}:} for all  #{d\xto{k}d'\in D}, \tx{
+    \begin{tikzcd}
+      c\ar[r, "f^\flat"]\ar[dr, "(kf^\sharp)^\flat"'] & Gd\ar[d, "Gk"] \\
+      & Gd'
+    \end{tikzcd}
+  } commutes.}
+}

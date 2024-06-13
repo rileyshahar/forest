@@ -1,0 +1,15 @@
+\date{2024-05-14}
+\title{products commute}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The [products](rs-0023) #{A\times B} and #{B\times A} are uniquely
+[isomorphic](rs-0002).}
+
+\proof{
+  \p{The [universal properties](rs-001P) are identical, so we conclude
+  since [universal properties are characterizing](rs-001R).}
+}
+

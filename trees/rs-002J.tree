@@ -1,0 +1,13 @@
+\date{2024-04-09}
+\title{creation of limits}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{definition 3.3.1}
+\tag{property:rs-000L}
+
+\p{A [functor](rs-000L) #{C\xto{F} D} \em{[creates](rs-001L) [limits](rs-001Y)} if it
+[reflects limits](rs-002I) and, for every diagram #{J\xto{K} C}, if #{FK} has a
+limit in #{D}, then there is a limit cone of #{K} in #{C} whose image under #{F}
+is a limit cone of #{FK} in #{D}.}

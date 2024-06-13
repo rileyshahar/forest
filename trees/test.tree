@@ -1,0 +1,8 @@
+\title{link test}
+\date{2024-06-12}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+#{\link{rs-0001.xml}{C(-, x)}}

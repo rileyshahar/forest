@@ -1,0 +1,46 @@
+\date{2024-05-19}
+\title{adjunctions compose}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 4.4.4}
+
+\p{Suppose we are given [adjunctions](rs-0036) \tx{
+  \begin{tikzcd}
+    C\ar[rr, bend left, "F"] & \bot & D\ar[ll, bend left, "G"]\ar[rr, bend left,
+    "F'"] & \bot & E\ar[ll, bend left, "G'"]\punctuation{.}
+  \end{tikzcd}
+} Then #{F'F\adj GG'}.}
+
+\namedproof{by hom-set bijections}{
+  \p{There are composite [bijections](rs-000E) of hom-sets ##{E(F'Fc, e)\cong
+  D(Fc, G'E)\cong C(c, GG'e).}}
+}
+
+\namedproof{by constructing units and counits}{
+  \p{Using [whiskered composition](rs-003B), the [unit](rs-0039) of the
+  composite adjunction is ##{\bar{\eta} = 1_C\xto{\eta} GF\xto{G\eta' F} GG'F'F,} while the
+  counit is ##{\bar{\epsilon} = F'FGG'\xto{F'\epsilon G'} F'G' \xto{\epsilon'}
+  1_E.} It now [suffices](rs-003E) to establish the [triangle
+  identities](rs-003A). The left triangle identity is witnessed by commutativity
+  of\tx{
+    \begin{tikzcd}
+      F'F\ar[rr, "F'F\eta"]\ar[rrrr, bend left, "F'F\bar{\eta}"]\ar[drdr, "F'
+      1_F"]\ar[drdrdrdr, "1_{F'F}"', bend right] && F'FGF\ar[rr,
+      "F'FG\eta' F"]\ar[dd, "F'\epsilon F"]
+      && F'FGG'F'F\ar[dd, "F'\epsilon G'F' F"']\ar[dddd, "\bar{\epsilon}F'F",
+      bend left=50] \\
+      \\
+      & & F'F\ar[drdr, "1_{F'} F"']\ar[rr, "F'\eta' F"] & & F'G'F'F\ar[dd,
+      "\epsilon' F'F"'] \\
+      \\
+      & & & & F'F\punctuation{.}
+    \end{tikzcd}
+  } Indeed, the top and right triangles are the definition of #{\bar{\eta}} and
+  #{\bar{\epsilon}}, the top-right square is the [interchange law](rs-003I), the
+  top-left and bottom-right triangles are the left triangle identities for the
+  given adjunctions, and the bottom-left square is unitality. The right triangle
+  identity is similar.}
+}
+

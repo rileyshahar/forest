@@ -10,7 +10,9 @@
 \p{Let #{C^\op\xto{F}} [\scat{Set}](rs-000C) be a [presheaf](rs-0015) and #{A\in C} an
 object. Let #{y} be the [Yoneda embedding](rs-0016) and #{\psh{C}} be the
 [presheaf category](rs-0015). Then ##{\psh{C}(yA, F)\cong FA,} and this
-[bijection](rs-000E) is [natural](rs-0010) in #{F} and #{A}.}
+[bijection](rs-000E) is [natural](rs-0010) in #{F} and #{A}. Furthermore, the
+image of a natural transformation #{yA\xto{\alpha} F} under this bijection is
+#{\alpha_A(1_A)}.}
 
 \p{Dually, let #{C\xto{F}} \scat{Set} be a [functor](rs-000L) and #{A\in C} an
 object. Then ##{\Hom(C(A, -), F)\cong FA.}}

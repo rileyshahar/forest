@@ -1,0 +1,17 @@
+\date{2024-05-14}
+\title{adjunctions via transposition}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 4.1.1}
+\tag{property:rs-000L}
+
+\p{An \em{adjunction} #{F\adj G} consists of a pair of opposing
+[functors](rs-000L) #{F: C\leftrightarrows D: G} and a [natural
+isomorphism](rs-0010) ##{D(Fc, d)\cong C(c, Gd),} called \em{transposition}. We
+say #{F} is \em{left adjoint} to #{G} and #{G} is \em{right adjoint} to #{F},
+and write}\adjd{C}{D}{F}{G}{.} \p{When an adjunction is fixed, two maps #{f\in
+C} and #{g\in D} are \em{adjoint} or \em{transposes} if they are connected by
+the adjunction. We sometimes write #{Fc\xto{f^\sharp} d} and #{c\xto{f^\flat}
+Gd} for a pair of adjoint maps.}

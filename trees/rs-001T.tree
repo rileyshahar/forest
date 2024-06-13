@@ -24,11 +24,11 @@
   \li{identities as in #{D} and #{E}.}
 }
 
-\xml{bm-inject}{
-  \put\transclude/numbered{false}
-  \put\transclude/metadata{true}
-  \put\transclude/title{Examples}
-  \query{
-    \query/tag{ex:rs-001T}
-  }
-}
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-001T}
+%   }
+% }

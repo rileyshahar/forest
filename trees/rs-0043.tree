@@ -1,0 +1,76 @@
+\date{2024-05-23}
+\title{adjunctions}
+\taxon{summary}
+\author{rileyshahar}
+
+\import{macros01}
+
+\put\transclude/expanded{false}
+
+\subtree{
+  \title{the data}
+  \taxon{section}
+  \p{An \em{adjunction} #{F \adj G} between
+  [categories](rs-0001) #{C} and #{D} entails the following data:}
+
+  \ul{
+    \li{a pair of [functors](rs-000L) #{F:C\leftrightarrows D:G}, called the
+    \em{left} and \em{right} adjoints;}
+    \li{a family of [natural](rs-0010) [bijections](rs-000E) #{D(Fc, d)\cong C(c,
+    Gd)}, called [\em{transposition}](rs-0036);}
+    \li{a [natural transformation](rs-000V) #{1_C\xto{\eta} GF}, called the
+    [\em{unit}](rs-0039);}
+    \li{a natural transformation #{FG\xto{\epsilon} 1_D}, called the
+    [\em{counit}](counit).}
+  }
+
+  \p{This data relates as follows:}
+
+  \ul{
+    \li{the component #{c\xto{\eta_c}GFc} of the unit [is](rs-0039) the transpose of the
+    identity #{1_{Fc}};}
+    \li{the component #{FGd\xto{\epsilon_d}d} of the counit [is](rs-0039) the
+    transpose of the identity #{1_{Gd}};}
+    \li{the transposition of a map #{Fc\xto{f} d} [is](rs-003S) the composite
+    ##{c\xto{\eta_c} GFc\xto{Gf} Gd;}}
+    \li{the transposition of a map #{c\xto{g} Gd} [is](rs-003S) the composite
+    ##{Fc\xto{Fg} FGd\xto{\epsilon_d} d;}}
+    \li{the unit and counit satisfy the [\em{triangle identities}](rs-003A),
+    expressed by commutativity of the following diagrams of [vertical](rs-000W)
+    and [whiskered](rs-003B) composition: \tx{
+      \begin{tikzcd}
+        F\ar[r, "F\eta"]\ar[dr, "1_F"'] & FGF\ar[d, "\epsilon F"] \\
+        & F
+      \end{tikzcd}
+      \quad and \quad
+      \begin{tikzcd}
+        G\ar[r, "\eta G"]\ar[dr, "1_G"'] & GFG\ar[d, "G\epsilon"] \\
+         & G.
+      \end{tikzcd}
+    }}
+  }
+
+  \p{Diagramatically, we write \fsadjd{C}{D}{F}{G}{\eta}{\epsilon}{.}}
+
+  \transclude{rs-003E}
+  \transclude{rs-0037}
+  \transclude{rs-003C}
+}
+
+\subtree{
+  \title{basic properties}
+  \taxon{section}
+  
+  \transclude{rs-0038}
+  \transclude{rs-003H}
+  \transclude{rs-003J}
+  \transclude{rs-003N}
+  \transclude{rs-003F}
+
+  \transclude{rs-003R}
+  \transclude{rs-003P}
+  % \transclude{rs-003T}
+
+  \transclude{rs-003W}
+  \transclude{rs-004U}
+}

@@ -1,0 +1,54 @@
+\date{2024-05-16}
+\title{a square commutes iff its adjoint does}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 4.1.3}
+
+\p{Let #{F: C\rightleftarrows D: G} be a pair of opposing [functors](rs-000L)
+equipped with [isomorphisms](rs-0002) #{D(Fc, d)\cong C(c, Gd)} for every #{c\in C} and
+#{d\in D}. Then this data forms an [adjunction](rs-0036), and in particular these
+isomorphisms are [natural](rs-0010), if and only if, for
+every quadruple of morphisms as in the following display, the left-hand square
+commutes if and only if the right-hand square commutes:\tx{
+    \begin{tikzcd}
+      Fc\ar[r, "f^\sharp"]\ar[d, "Fh"'] & d\ar[d, "k"] \\
+      Fc'\ar[r, "g^\sharp"'] & d'
+    \end{tikzcd}
+    \quad$\leftrightsquigarrow$\quad
+    \begin{tikzcd}
+      c\ar[r, "f^\flat"]\ar[d, "h"'] & Gd\ar[d, "k"] \\
+      c'\ar[r, "g^\flat"'] & Gd'\punctuation{.}
+    \end{tikzcd}
+}}
+
+\proof{
+  \p{In the forwards direction, suppose that the isomorphisms are natural, and
+  further that the left-hand square commutes; the case in which the right-hand
+  square commutes is similar. [By the naturality of the isomorphism in
+  #{C}](rs-0037), the transpose of #{kf^\sharp} is #{(Gk) f^\flat}, while by
+  naturality in #{D}, the transpose of #{(Fh)g^\sharp} is #{hg^\flat}. Since the
+  maps are equal, their transposes must also be equal; this is commutativity of
+  the square on the right.}
+
+  \p{In the backwards direction, suppose that the displayed relation holds. We
+  show naturality in #{D}; naturality in #{C} is similar. Suppose #{d\xto{k}d'}
+  and #{Fc\xto{f^\sharp} d} are given. Then by construction, the following
+  square commutes:\tx{
+    \begin{tikzcd}
+      c\ar[r, "f^\flat"]\ar[d, "1_c"'] & Gd\ar[d, "Gk"] \\
+      c\ar[r, "(Gk)f^\flat"'] & Gd'\punctuation{.}
+    \end{tikzcd}
+  }
+  Now by assumption, \tx{
+    \begin{tikzcd}
+      Fc\ar[r, "f^\sharp"]\ar[d, "1_{Fc}"'] & Gd\ar[d, "k"] \\
+      Fc\ar[r, "((Gk)f^\flat)^\sharp"'] & Gd'
+    \end{tikzcd}
+  }commutes. This asserts that ##{kf^\sharp = ((Gk)f^\flat)^\sharp,} so taking
+  the transpose of both side, we find that
+  ##{(kf^\sharp)^\flat = (Gk)f^\flat,} as desired for naturality.
+  }
+}
+

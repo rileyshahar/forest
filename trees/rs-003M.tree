@@ -1,0 +1,14 @@
+\date{2024-05-19}
+\title{idempotent isomorphisms are identities}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{x\xto{f} x} be an [idempotent](rs-002G) [isomorphism](rs-0002). Then
+#{f = 1_x}.}
+
+\proof{
+  We have ##{f = f1_x = fff^{-1} = ff^{-1} = 1_x.}
+}
+

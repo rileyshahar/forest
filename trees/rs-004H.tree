@@ -1,0 +1,31 @@
+\date{2024-05-29}
+\title{kleisli category is an initial resolution}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 5.2.12}
+
+\p{The [Kleisli category](rs-004F) #{C_T} is [initial](rs-0021) in the
+[category of resolutions](rs-004B) of a [monad](rs-0041). Explicitly, for a
+[resolution](rs-004A) \adjd{C}{D}{F}{U}{\,} of that monad, there exists a unique
+functor #{C_T\xto{J} D} commuting with the adjunctions, in that both the left
+and right squares of \tx{
+  \begin{tikzcd}
+    C_T\ar[rr, "J", dashed, "\exists!"']\ar[dd, bend left, "U_T"] && D\ar[dd, bend left, "U"] \\
+    \dashv && \dashv \\
+    C\ar[rr, equals]\ar[uu, "F_T", bend left] && C\ar[uu, "F", bend left]
+  \end{tikzcd}
+} commute.}
+
+\proof{
+  \p{Given an object #{c\in C_T}, which is just an object in #{c}, the
+  compatibility condition #{JF_T = F} requires that #{Jc = Fc}. A map
+  #{c\xsto{f} c'} in #{C_T} is the [transpose](rs-0036) under the adjunction
+  #{F_T\adj U_T} of the underlying map #{c\xto{f} Tc'} in #{C}, so since the map
+  #{J} [must commute with transposition](rs-003C), #{Jf} must be the transpose
+  of #{f} under #{F\adj U}. We can compute this explicitly [formula for adjoint
+  maps](rs-003S): it is the map ##{Fc\xto{Ff} FUFc'\xto{\epsilon F_{c'}} Fc'.}
+  All these choices are forced, establishing uniqueness.}
+}
+

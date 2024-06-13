@@ -3,16 +3,16 @@
 \meta{author}{false}
 
 \scope{
-	\put\transclude/heading{false}
 	\put\transclude/toc{false}
 	\put\transclude/numbered{false}
-	\transclude{rileyshahar}
+
+  \scope{
+    \put\transclude/heading{false}
+    \transclude{rileyshahar}
+  }
+
+  \transclude{site}
 }
 
-\subtree{
-  \title{About This Site}
-  \p{
-		This site hosts my public [Zettlekasten](https://en.wikipedia.org/wiki/Zettelkasten)-style notes. To search these, try \code{Ctrl-K}. It relies on the fantastic [Forester](https://git.sr.ht/~jonsterling/ocaml-forester), by [Jon Sterling](https://www.jonmsterling.com/index.xml).
-	}
-}
-% \transclude{work}
+
+\transclude{work}

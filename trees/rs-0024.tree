@@ -11,6 +11,7 @@
 \p{A \em{coproduct} is a [colimit](rs-001Z) of a [discrete](rs-001H)
 [diagram](rs-001U). Its [colegs](rs-001X) are called \em{coprojections}.}
 
+\put\transclude/toc{false}
 \subtree[rs-0024-up]{
   \taxon{Proposition}
   \title{universal property of the coproduct}
@@ -36,3 +37,23 @@
   }}
 }
 
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-0024}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-0024}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-0024}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-0024}
+%   }
+% }

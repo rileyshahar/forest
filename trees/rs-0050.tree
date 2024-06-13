@@ -1,0 +1,11 @@
+\date{2024-06-11}
+\title{reflective inclusions are monadic}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 5.3.3}
+
+\p{The inclusion #{D\into C} of a [reflective subcategory](rs-004Y) is
+[monadic](rs-004J).}
+

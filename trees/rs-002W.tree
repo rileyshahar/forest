@@ -1,0 +1,18 @@
+\date{2024-05-09}
+\title{\scat{Cat} is complete}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{RIehl}{Proposition 3.5.6}
+\tag{ex:rs-002C}
+
+\p{[\scat{Cat}](rs-002V) is [complete](rs-002C).}
+
+\proof{
+  \p{By the [completeness criterion](rs-002F), it suffices to give
+  [products](rs-0023) and [equalizers](rs-0025). Products are given by the
+  [product category](rs-000S). The equalizer of [functors](rs-000L) #{C\xtos{F,G} D} is
+  the [subcategory](rs-004X) of #{C} consisting of objects #{x} such that #{Fx = Gx} and
+  morphisms #{f} such that #{Ff = Gf}.}
+}

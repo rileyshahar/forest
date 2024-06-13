@@ -1,0 +1,13 @@
+\date{2024-05-16}
+\title{mutual adjunction}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 4.3.1}
+
+\p{A pair of [contravariant functors](rs-000N) #{C^\op\xto{F} D} and
+#{D^\op\xto{G} C} are \em{mutually left adjoint} if there exists a [natural
+isomorphism](rs-0010) ##{D(Fc, d)\cong C(Gd, c),} and \em{mutually right
+adjoint} if there exists a natural isomorphism ##{D(d, Fc)\cong C(c, Gd).}}
+

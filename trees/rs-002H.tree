@@ -1,0 +1,12 @@
+\date{2024-04-09}
+\title{preservation of limits}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{definition 3.3.1}
+\tag{property:rs-000L}
+
+\p{A [functor](rs-000L) #{C\xto{F} D} \em{[preserves](rs-001K) [limits](rs-001Y)} if for
+every diagram #{J\xto{K} C} and every limit cone over #{K}, the image of this
+cone under #{F} is a limit cone over #{FK}.}

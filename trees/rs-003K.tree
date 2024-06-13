@@ -1,0 +1,13 @@
+\date{2024-05-19}
+\title{adjoint equivalence}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{RIehl}{Proposition 4.4.5}
+
+\p{An \em{adjoint equivalence} is an [adjunction](rs-0036) whose [unit and
+counit](rs-0039) are [isomorphisms](rs-0010); equivalently, it is an
+[equivalence of categories](rs-0012) whose structure isomorphisms satisfy the [triangle
+identities](rs-003A).}
+

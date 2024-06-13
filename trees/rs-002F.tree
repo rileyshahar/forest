@@ -1,0 +1,49 @@
+\date{2024-04-09}
+\date{2024-05-09}
+\title{completeness criterion}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 3.4.12}
+
+\p{A [category](rs-0001) is [complete](rs-002C) if and only if it has all
+[small](rs-002B) [products](rs-0023) and [equalizers](rs-0025).}
+
+\p{Dually, a category is [cocomplete](rs-002D) if and only if it has all
+small [coproducts](rs-0024) and [coequalizers](rs-0026).}
+
+\proof{
+  \p{The forwards direction is immediate, because products and equalizers are
+  [limits](rs-001Y).}
+
+  \p{In the backwards direction, let #{J\xto{F} C} be a small
+  [diagram](rs-001U). Now we define maps #{c} and #{d} using the [universal
+  property of the product](rs-0023-up) as follows:}
+  \tx{
+    \begin{tikzcd}
+      & F (\cod f)\\
+      \Prod_{j\in J} Fj\ar[r, "c", dashed, shift left=.2em]\ar[r, "d"', dashed, shift
+      right=.2em]\ar[ur, "\pi_{\cod f}"]\ar[d, "\pi_{\dom f}"'] & \Prod_{f\in \arr J} F(\cod f)\ar[u,
+      "\pi_f"']\ar[d, "\pi_f"] \\
+      F (\dom f)\ar[r, "Ff"'] & F (\cod f)\punctuation{.}
+    \end{tikzcd}
+  }
+
+  \p{We claim the equalizer #{\lim F} of this diagram is the limit of #{F}. The
+  equalizer gives a [cone](rs-001W)
+  \tx{
+    \begin{tikzcd}
+      \lim F\ar[r]\ar[dr, dashed, "\lambda_j"'] & \Prod_{j\in J} Fj\ar[d, "\pi_j"] \\
+      & Fj\punctuation{.}
+    \end{tikzcd}
+  }}
+
+  \p{To demonstrate the [universal property of the limit](rs-001Y-up), let
+  #{z\xto{\mu} F} be another cone over #{F}. Then the legs of the cone yield a
+  map #{z\to \prod_{j\in J} Fj} by the universal property of the product. Since
+  it is a cone, hence commutes with #{Ff}, this map equalizes the previous
+  diagram. We obtain the desired result by the [universal property of the
+  equalizer](rs-0025-up).}
+}
+

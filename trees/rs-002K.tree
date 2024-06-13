@@ -1,0 +1,20 @@
+\date{2024-04-09}
+\title{functors which create existing limits preserve them}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 3.3.3}
+
+\p{Let #{C\xto{F} D} [create](rs-002J) a class of [limits](rs-001Y) and let #{D} have those
+limits. Then #{C} has those limits and #{F} [preserves](rs-002H) them.}
+
+\proof{
+  \p{Let #{J\xto{K} C} be a [diagram](rs-001U) so that #{d\xto{\mu} FK} is a
+  limiting [cone](rs-001W) in #{D}. Then since #{F} creates limits, there is a
+  limiting cone #{c\xto{\lambda} K} in #{C} so that #{F\lambda} is a limiting
+  cone of #{KF}, and so since [rs-002A] #{\mu\cong F\lambda} as cones. Now to
+  show preservation, given any limiting cone #{c'\xto{\lambda'} K}, it is
+  isomorphic to #{\lambda} and [so](rs-000P) #{F\lambda'} is isomorphic to
+  #{F\lambda}, hence is a limit cone of #{FK}.}
+}

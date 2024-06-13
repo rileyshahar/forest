@@ -1,0 +1,16 @@
+\date{2024-06-11}
+\title{monadic functors create limits}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 4.5.15}
+
+\p{A [monadic functor](rs-004J) #{D\xto{U} C} [creates](rs-002J)}
+
+\ol{
+  \li{any [limits](rs-001Y) that #{C} has;}
+  \li{any [colimits](rs-001Z) that #{C} has and that #{T} and #{T^2}, where
+  #{T} is the [induced monad](rs-0045) of the adjunction, [preserve](rs-002H).}
+}
+

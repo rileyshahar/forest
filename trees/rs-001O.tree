@@ -17,8 +17,48 @@
 \p{Furthermore, by the [Yoneda embedding](rs-0016), a choice of any such isomorphism canonically determines a choice
 of each of the others.}
 
-\proof{
+\namedproof{by the Yoneda lemma}{
   \p{This is immediate from the [Yoneda lemma](rs-0019), since
   [fully faithful functors create isomorphism](rs-001N).}
 }
 
+\namedproof{direct proof}{
+  \p{We prove the covariant case. The forwards result comes from functoriality
+  of the [Yoneda embedding](rs-0016) and the fact that [functors preserve
+  isomorphism](rs-000P).}
+
+  \p{In the backward direction, let #{\eta: C(x, -)\to C(y, -)} be a [natural
+  isomorphism](rs-0010). Define
+  ##{
+    t = \eta_x(1_x),
+    } which is a morphism #{y\to x}, and ##{ 
+    u = \eta_y^{-1}(1_y),
+  }
+  which is a morphism #{x\to y}. We claim these are inverses.}
+
+  \p{[Naturality](rs-000V) of #{\eta} applied to #{u} asserts that \tx{
+    \begin{tikzcd}
+      C(x, x)\ar[r, "\eta_x"]\ar[d, "u_*"'] & C(y, x)\ar[d, "u_*"] \\
+      C(x, y)\ar[r, "\eta_y"'] & C(y, y)
+    \end{tikzcd}
+  }
+  commutes. Following #{1_x} around the top and right, we get ##{ 
+    u_*(\eta_x(1_x)) = u_*(t) = ut,
+  } while on the left and bottom we get ##{ 
+    \eta_y(u_*(1_x)) = \eta_y(u) = 1_y,
+  }
+  so commutativity implies #{ut = 1_y}.}
+
+  \p{Similarly, naturality of #{\eta^{-1}} applied to #{t} asserts that \tx{
+    \begin{tikzcd}
+      C(y, y)\ar[r, "\eta_y^{-1}"]\ar[d, "t_*"'] & C(x, y)\ar[d, "t_*"] \\
+      C(y, x)\ar[r, "\eta_x^{-1}"'] & C(x, x)
+    \end{tikzcd}
+  }
+  commutes. Following #{1_y} around the top and right, we get ##{ 
+    t_*(\eta_y^{-1}(1_y)) = t_*(u) = tu,
+  } while on the left and bottom we get ##{
+    \eta_x^{-1}(t_*(1_y)) = \eta_x^{-1}(t) = 1_x,
+  }
+  so again #{tu = 1_x}. This completes the proof.}
+}

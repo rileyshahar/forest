@@ -1,0 +1,38 @@
+\date{2024-05-21}
+\title{right adjoints are initial in a comma category}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 4.6.1}
+
+\p{A [functor](rs-000L) #{D\xto{G} C} is a [right adjoint](rs-0036) if and only
+if, for each #{c\in C}, the [comma category](rs-001T) #{c\downarrow G} has an
+[initial object](rs-0021). Dually, #{C\xto{F} D} is a left adjoint if and only
+if, for each #{d\in D}, the comma category #{F\downarrow d} has a [terminal
+object](rs-0020). (Here, #{c} is the [constant functor](rs-001V) at
+#{c}.)}
+
+\proof{
+  \p{The comma category #{c\downarrow G} has as objects pairs #{(d\in D,
+  c\xto{f} Gd\in C)} and as maps maps #{d\xto{g} d'\in D} making the triangle \tx{
+    \begin{tikzcd}
+      & Gd\ar[dd, "Gg"] \\
+      c\ar[ur, "f"]\ar[dr, "f'"'] \\
+      & Gd'
+    \end{tikzcd}
+  } commute in #{C};
+  this is equivalently the [category of elements](rs-001S) of #{C(c, G-)}.}
+
+  \p{In the forwards direction, we obtain the result since [adjoint assignments
+  are universal](rs-003F) and [universal elements are initial](rs-0022) in
+  exactly the specified category of elements.}
+
+  \p{In the backwards direction, let #{c\xto{\eta_c} Gd_0} be initial in #{c\downarrow G};
+  let #{Fc = d_0}. Initiality of #{\eta_c} means that, for any map #{c\to Gd},
+  there is a unique map #{Fc\to d} in #{D} making the triangle commute. In other
+  words, #{\eta_c} determines a [bijection](rs-000E) #{C(c, Gd)\cong D(Fc, d)}.
+  Moreover, this bijection is [natural](rs-0010) in #{D}, since it comes from
+  the natural isomorphism which defines the [colimit](rs-001Z) #{\eta_c}. Thus,
+  this data [extends to an adjunction](rs-003F).}
+}

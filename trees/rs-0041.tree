@@ -1,0 +1,34 @@
+\date{2024-05-23}
+\title{monad}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 5.1.1}
+\tag{ex:rs-003Y}
+
+\p{A \em{monad} on a [category](rs-0001) #{C} is a [monoid](rs-003Y) in the
+[endofunctor category](rs-0042) #{\lbrack C, C \rbrack}. Explicitly, this
+consists of:}
+\ul{
+  \li{an [endofunctor](rs-0042) #{C \xto{T} C};}
+  \li{a \em{unit} [natural transformation](rs-000V) #{1_C\xto{\eta} T} from the [identity
+  functor](rs-0011);}
+  \li{a \em{multiplication} natural transformation #{T^2\xto{\mu} T}.}
+}
+\p{Because the monoidal structure of the endofunctor category is [strict](TODO), the
+monoid laws take the form of commutativity of the following diagrams of
+[whiskered composites](rs-003B):}
+\tx{
+  \begin{tikzcd}
+  T\ar[r, "\eta T"]\ar[dr, "1_T"'] & T^2\ar[d, "\mu"] & T\ar[l, "T\eta"']\ar[dl, "1_T"] \\
+  & T\punctuation{;}
+  \end{tikzcd}
+}
+\tx{
+  \begin{tikzcd}
+    T^3\ar[r, "T\mu"]\ar[d, "\mu T"'] & T^2\ar[d, "\mu"] \\
+    T^2\ar[r, "\mu"'] & T\punctuation{.}
+  \end{tikzcd}
+}
+

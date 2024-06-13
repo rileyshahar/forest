@@ -11,6 +11,7 @@
 \p{A \em{product} is a [limit](rs-001Y) of a [discrete](rs-001H)
 [diagram](rs-001U). Its [legs](rs-001W) are called \em{projections}.}
 
+\put\transclude/toc{false}
 \subtree[rs-0023-up]{
   \taxon{Proposition}
   \title{universal property of the product}
@@ -35,3 +36,24 @@
     \end{tikzcd}
   }}
 }
+
+% \xml{bm-inject}{
+%   \put\transclude/numbered{false}
+%   \put\transclude/metadata{true}
+%   \put\transclude/title{Constructions}
+%   \query{
+%     \query/tag{construction:rs-0023}
+%   }
+%   \put\transclude/title{Examples}
+%   \query{
+%     \query/tag{ex:rs-0023}
+%   }
+%   \put\transclude/title{Structures}
+%   \query{
+%     \query/tag{structure:rs-0023}
+%   }
+%   \put\transclude/title{Properties}
+%   \query{
+%     \query/tag{property:rs-0023}
+%   }
+% }
