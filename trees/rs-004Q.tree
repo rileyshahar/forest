@@ -13,4 +13,4 @@
     Uy\ar[r, "h"]\ar[l, "t", bend left=50] &
     z\ar[l, "s", bend left]
   \end{tikzcd}
-} in #{C}, i.e. in paricular #{x\xtos{f,g} y} is a parallel pair in #{D}.}
+} in #{C}, i.e. in paricular #{x\xtos{f,g} y} is a [parallel pair](rs-0054) in #{D}.}

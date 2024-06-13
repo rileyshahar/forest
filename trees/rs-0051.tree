@@ -7,10 +7,9 @@
 \cite{riehl-2017}{Riehl}{Definition 6.1.1}
 
 \p{Let #{C\xto{F} E} and #{C\xto{K} D} be [functors](rs-000L). Then a \em{left
-Kan extension of #{F} along #{K}} is a [free](rs-0052) object #{\Lan_K F} on
-#{F} with respect to the [precomposition](rs-000R) functor #{K^*}. Dually, a
-\em{right Kan extension of #{F} along #{K}} is a [cofree](rs-0052) object
-#{\Ran_K F} on #{F} with respect to #{K^*}.}
+Kan extension of #{F} along #{K}} is a #{\link{rs-000R.xml}{K^*}}-[free](rs-0052)
+object #{\Lan_K F} on #{F}. Dually, a \em{right Kan extension of #{F} along
+#{K}} is a #{K^*}-[cofree](rs-0052) object #{\Ran_K F} on #{F}.}
 
 \put\transclude/toc{false}
 \subtree[rs-0051-up]{

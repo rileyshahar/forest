@@ -7,7 +7,7 @@
 \cite{riehl-2017}{Riehl}{p. 170}
 
 \p{A \em{fork} in a [category](rs-0001) #{C} is a [cocone](rs-001X) over a
-parallel pair #{\bullet\tos\bullet}, i.e. a diagram \tx{
+[parallel pair](rs-0054) #{\bullet\tos\bullet}, i.e. a diagram \tx{
   \begin{tikzcd}
     x\ar[r, shift left=.2em, "f"]\ar[r, shift right=.2em, "g"'] & y\ar[r, "h"] &
     z

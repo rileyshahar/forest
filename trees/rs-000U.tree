@@ -11,8 +11,9 @@
 
 \p{Let #{C} be a [category](rs-0001). The \em{hom [bifunctor](rs-000T)} #{C^\op\times
 C\xto{C(-, -)}} \scat{Set} takes objects #{x} and #{y} to the hom-set #{C(x,
-y)}, and morphisms #{x\xfrom{f} y} and #{z\xto{g} w} to their action by pre- and
-post-composition #{f^*g_*}, i.e.}
+y)}, and morphisms #{x\xfrom{f} y} and #{z\xto{g} w} to their action by
+[pre-](rs-000R) and
+[post-composition](rs-000Q) #{f^*g_*}, i.e.}
 
 \tx{
   \begin{tikzcd}
