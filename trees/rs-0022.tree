@@ -7,11 +7,24 @@
 \cite{riehl-2017}{Riehl}{Proposition 2.4.8}
 
 \p{A (covariant) [functor](rs-000L) #{C\xto{F}} [\scat{Set}](rs-000C) is [representable](rs-0013)
-if and only if its [category of elements](rs-001S) #{\el{F}} has a [terminal
-object](rs-0020). Dually, a [presheaf](rs-0015) #{C^\op\xto{F}} \scat{Set} is
-representable if and only if its category of elements has an
-[initial object](rs-0021).}
+if and only if its [category of elements](rs-001S) #{\el{F}} has a [initial
+object](rs-0021). Dually, a [presheaf](rs-0015) #{C^\op\xto{F}} \scat{Set} is
+representable if and only if its category of elements has a
+[terminal object](rs-0020).}
 
 \proof{
-  \p{[TODO](TODO)}
+  \p{First let #{c\in C} represent #{F}, so that there is a [natural
+  isomorphism](rs-0010) #{\link{rs-000Q}{C(c, -)}\xcong{\alpha} F}. Then the pair #{(c,
+  \alpha_c(1_c))} is initial in #{\el{F}}. Indeed, for any #{(d, y)\in\el{F}},
+  the [bijection](rs-000E) #{\alpha_d} determines a unique element #{f\in C(c, d)}
+  so that #{Ff(\alpha_c(1_c)) = y}; this exactly expresses initiality.}
+
+  \p{Conversely, let #{(c, x)} be initial in #{\el{F}}. By the [Yoneda
+  lemma](rs-0014), the element #{x\in Fc} determines a [natural
+  transformation](rs-000V) #{C(c, -)\xto{\Phi(x)} F}; we need to show this is an
+  isomorphism. Initiality of #{(c, x)} asserts that, for any #{(d, y)\in\el{F}},
+  there is a unique map #{c\xto{f_y} d} such that #{Ff_y(x) = y}. Now in the
+  proof of the Yoneda lemma, #{\Phi(x)} was constructed so that
+  #{F(\Phi(x)_d)(f) = Ff(x)}, so the assignment #{(d, y)\mapsto f_y} inverts
+  #{\Phi(x)_d}.}
 }

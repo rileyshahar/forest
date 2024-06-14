@@ -21,9 +21,8 @@ the [singleton set](TODO). Explicitly, the category of elements has:}
   \li{composition and identities inherited from #{C}.}
 }
 
-\p{This notion dualizes to [presheaves](rs-0015) considered as
-covariant functors from the [opposite category](rs-0008).}
-
+\p{The category of elements is further endowed with a forgetful functor
+#{\el{F}\xto{\Pi} C} sending #{(c, x)} to #{c}.}
 
 % \xml{bm-inject}{
 %   \put\transclude/numbered{false}

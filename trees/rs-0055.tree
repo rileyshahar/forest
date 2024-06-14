@@ -1,0 +1,15 @@
+\date{2024-06-13}
+\title{projection from comma categories}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exercise 1.4.v}
+
+\p{Let #{D\xto{F} C} and #{E\xto{G} C} be [functors](rs-000L). There are two
+canonical projection functors #{F\downarrow G\xto{\Pi_D} D} and
+#{F\downarrow G\xto{\Pi_E} E} from the [comma category](rs-001T) which forget
+the rest of the structure. Moreover, there is a canonical [natural
+transformation](rs-000V) #{F\Pi_D\to G\Pi_E} which, at an object #{d\in D, e\in
+E, Fd\xto{f} Gd\in C}, has component #{f}.}
+

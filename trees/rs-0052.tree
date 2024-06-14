@@ -1,5 +1,5 @@
 \date{2024-06-11}
-\title{free object}
+\title{free objects and universal arrows}
 \taxon{definition}
 \author{rileyshahar}
 
@@ -13,9 +13,10 @@ In other words, it satisfies the [universal property](rs-001P) that #{Fc} would
 have, for a [left adjoint](rs-0043) #{F} to #{U}.}
 
 \p{Analogously to the [construction of the unit of an adjunction](rs-0039), this equivalently
-means there is a map #{c\xto{\eta_c} Ud} in #{C} (the transpose of #{1_d}) such
-that for any #{z\in D}, any map #{x\xto{f} Uz} admits a unique lift to a map
-#{d\xto{g} z} in #{D} factoring through #{\eta_x}:
+means there is a map #{c\xto{\eta_c} Ud} in #{C} (the transpose of #{1_d}),
+called a \em{universal arrow to #{U}}, such that for any #{z\in D}, any map
+#{x\xto{f} Uz} admits a unique lift to a map #{d\xto{g} z} in #{D} factoring
+through #{\eta_x}:
 \tx{
   \begin{tikzcd}
     Ud\ar[r, "Ug", "\exists !"', dashed] & Uz \\\\
@@ -29,8 +30,9 @@ D(z, d)} natural in #{z\in D}: it satisfies the universal property that #{Fc}
 would have, for a \em{right} adjoint #{F} to #{U}.}
 
 \p{The universal property now asserts that there is a map #{Ud\xto{\epsilon_c}
-c} in #{C} such that for any #{z\in D}, any map #{Uz\xto{f} x} admits a unique
-lift to a map #{z\xto{g} d} in #{D} factoring through #{\epsilon_x}: \tx{
+c} in #{C}, called a \em{universal arrow from #{U}}, such that for any #{z\in
+D}, any map #{Uz\xto{f} x} admits a unique lift to a map #{z\xto{g} d} in #{D}
+factoring through #{\epsilon_x}: \tx{
   \begin{tikzcd}
     Uz\ar[r, "Ug", "\exists !"', dashed]\ar[ddr, "f"'] & Ud\ar[dd, "\epsilon_c"] \\\\
     & c\punctuation{.}

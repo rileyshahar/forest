@@ -1,5 +1,5 @@
 \date{2024-05-09}
-\title{yoneda embedding preserves and reflects limits}
+\title{Yoneda embedding preserves and reflects limits}
 \taxon{proposition}
 \author{rileyshahar}
 
@@ -8,10 +8,14 @@
 \tag{ex:rs-003U}
 
 \p{The [Yoneda embedding](rs-0016) [preserves](rs-002H) and [reflects](rs-002I)
-[limits](rs-001Y). Dually, the contravariant Yoneda embedding preserves and
-reflects [colimits](rs-001Z).}
+[limits](rs-001Y).}
 
 \proof{
-  \p{[TODO](TODO), using the [representability of limits](rs-002O).}
+  \p{Preservation of limits follows because [hom-functors preserve
+  limits](rs-002P) and [limits in functor categories are computed
+  pointwise](rs-002N).}
+
+  \p{Reflection of limits follows because [the Yoneda embedding is fully
+  faithful](rs-0019) and [fully faithful functors reflect limits](rs-005A).}
 }
 

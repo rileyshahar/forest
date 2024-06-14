@@ -12,5 +12,9 @@ preserve limits and [contravariant hom-functors](rs-000N) preserve colimits, and
 so [representable functors](rs-0013) preserve limits.}
 
 \proof{
-  \p{[TODO](TODO), using the [representability of limits](rs-002O).}
+  \p{We show the result for covariant hom-functors. Let #{J\xto{F} C} be a
+  [diagram](rs-001U) in #{C} with [limit](rs-001Y) #{\lim F\xto{\lambda_j} Fj}.
+  The image of this diagram under #{C(x, -)} is the diagram ##{J\xto{F}
+  C\xto{C(x, -)} \scat{Set},} which is a limit in \scat{Set} by the
+  [representability of limits](rs-002O).}
 }

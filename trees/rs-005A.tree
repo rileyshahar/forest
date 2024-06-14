@@ -1,0 +1,22 @@
+\date{2024-06-13}
+\title{fully faithful functors reflect limits}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Lemma 3.3.5}
+
+\p{[Fully](rs-0017) [faithful functors](rs-0018) [reflect extant
+limits and colimits](rs-002I).}
+
+\proof{
+  \p{We show the result for limits. Let #{C\xto{F} D} be fully faithful and let
+  #{J\xto{K} C} be a [diagram](rs-001U) in #{C}. Further let #{z\xto{\lambda_j}
+  Kj} be a [cone](rs-001W) over #{K} in #{C} whose image #{Fz\xto{F\lambda_j}
+  FK} is [limiting](rs-001Y) in #{D}. Let #{z'\xto{\mu_j} Kj} be another cone.
+  Then by the [universal property of limits](rs-001Y-up) in #{D}, there exists a
+  unique map #{Fz'\xto{f} Fz} commuting with the respective cones. Now by fully
+  faithfulness of #{F}, this map lifts to a unique map #{z'\to z} commuting with
+  the cones, witnessing the universal property of #{z} as a limit of #{K}.}
+}
+

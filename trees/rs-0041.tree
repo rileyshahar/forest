@@ -16,7 +16,7 @@ consists of:}
   functor](rs-0011);}
   \li{a \em{multiplication} natural transformation #{T^2\xto{\mu} T}.}
 }
-\p{Because the monoidal structure of the endofunctor category is [strict](TODO), the
+\p{Because the monoidal structure of the endofunctor category is [strict](rs-0059), the
 monoid laws take the form of commutativity of the following diagrams of
 [whiskered composites](rs-003B):}
 \tx{

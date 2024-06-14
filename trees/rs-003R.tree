@@ -18,7 +18,3 @@
   \li{#{G} is full if and only if each component of #{\epsilon} is a [section](rs-000J);}
   \li{#{G} is full and faithful if and only if #{\epsilon} is an isomorphism.}
 }}
-
-\proof{
-  [TODO](TODO)
-}

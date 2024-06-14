@@ -21,6 +21,6 @@
   \p{To show the [universal property of the coequalizer](rs-0026-up), let
   #{y\xto{k}w} be such that #{kf = kg}. By the
   equality ##{ksh = kft = kgt = k,} is this a factorization, as desired.
-  Uniqueness follows because #{h} is a [retract](rs-000K), hence in particular
-  an [epi](rs-000B).}
+  Uniqueness follows because #{h} is a [retract](rs-000K), [hence in
+  particular](rs-005B) an [epi](rs-000B).}
 }

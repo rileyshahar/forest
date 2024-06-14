@@ -28,7 +28,7 @@
   [singleton](TODO) and #{\Cone} is the [cone functor](rs-001W). Note that this
   is indeed a set, because #{J} is small. An element of this set is a natural
   transformation #{*\xto{\mu} D}, which consists of a morphism #{*\xto{\mu_j}
-  Dj} for each #{j\in J}, hence canonically identifies a #{J}-[tuple](TODO) of
+  Dj} for each #{j\in J}, hence canonically identifies a #{J}-tuple of
   elements #{(x_i\in Dj)}. The legs of should be maps #{\lim D\xto{\lambda} Dj};
   we define these by ##{(*\xto{\mu} D)\xmapsto{\lambda_j} \mu_j(*).}}
 

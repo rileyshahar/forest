@@ -8,5 +8,5 @@
 \tag{property:rs-000L}
 
 \p{A [functor](rs-000L) #{C\xto{F} D} \em{[reflects](rs-001J) [limits](rs-001Y)} if for
-every diagram #{J\xto{K} C} and every cone over #{K} under image under #{F} is a
+every diagram #{J\xto{K} C} and every cone over #{K} whose image under #{F} is a
 limit cone for #{FK}, the original cone is a limit cone over #{K}.}

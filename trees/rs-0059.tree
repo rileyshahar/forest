@@ -1,0 +1,10 @@
+\date{2024-06-13}
+\title{strict monoidal category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [monoidal category](rs-003X) is \em{strict} if its associators and unitors
+are each identities.}
+

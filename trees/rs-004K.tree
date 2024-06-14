@@ -7,6 +7,6 @@
 \cite{riehl-2017}{Riehl}{Definition 3.8.7}
 
 \p{A [category](rs-0001) #{J} is \em{filtered} (\em{#{\kappa}-filtered}) if
-every [finite](TODO) [diagram](rs-001U) (diagram with fewer than #{\kappa}
+every [finite](rs-0058) [diagram](rs-001U) (diagram with fewer than #{\kappa}
 morphisms) has a [cocone](rs-001X).}
 

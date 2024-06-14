@@ -19,7 +19,3 @@ transformations](rs-000V) as follows: \tx{
 using [vertical composition](rs-000W) and [horizontal composition](rs-000X)
 equate. Explicitly, ##{\delta\gamma * \beta\alpha =
 (\gamma*\alpha)(\delta*\beta).}} 
-
-\proof{
-  [TODO](TODO)
-}

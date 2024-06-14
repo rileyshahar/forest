@@ -1,0 +1,22 @@
+\date{2024-06-13}
+\title{faithful functors reflect monos and epis}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exercise 1.6.iii}
+
+\p{[Faithful functors](rs-0018) [reflect](rs-001J) [monomorphisms](rs-000A) and
+[epimorphisms](rs-000B).}
+
+\proof{
+  \p{We show the result for monos: let #{C\xto{F} D} be faithful and #{Fx\xto{Ff}
+  Fy} a mono in #{D}. Then given #{z\xtos{g,h} x} in #{C} such that #{fg = fh},
+  we have by functoriality that #{FfFg = FfFh}, so since #{Ff} is a mono, we
+  have #{Fg = Fh}. Now by faithfulness of #{F}, #{g = h}, as desired.}
+
+  \p{To conclude for epis, note that the opposite functor
+  #{C^\op\xto{F^\op}D^\op} remains faithful, so the result for monos
+  [dualizes](rs-0009).}
+}
+

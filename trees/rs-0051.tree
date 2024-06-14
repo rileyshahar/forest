@@ -70,7 +70,7 @@ object #{\Lan_K F} on #{F}. Dually, a \em{right Kan extension of #{F} along
       \\
       & D\ar[uurr, "" {name=Ran, below}, "\Ran_K F"' description, bend
       left]\ar[uurr, "" {name=G, above}, "G"', bend right]
-      \ar[Rightarrow, from=3-2, to=1-2, "\epsilon"', shorten >= 1em, shorten <= 1em,
+      \ar[Rightarrow, from=3-2, to=1-2, "\epsilon", shorten >= 1em, shorten <= 1em,
       xshift=-.2em, yshift=.4em]
       \ar[Rightarrow, dashed, from=G, to=Ran, "\exists!", shorten >= .5em]
     \end{tikzcd}

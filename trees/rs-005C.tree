@@ -1,0 +1,16 @@
+\date{2024-06-13}
+\title{initial functor}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{I.2.11.1}
+
+\p{A functor #{C\xto{F} D} is \em{initial} if for every [category](rs-0001) #{E}
+and #{D}-shaped [diagram](rs-001U) #{D\xto{K} E}, there is a
+[bijection](rs-000E) which takes [limit cones](rs-0044) #{L\xto{\lambda_d} Kd}
+to limit cones #{L\xto{\lambda_{Fc}} KFc}.}
+
+\p{Dually, a functor #{C\xto{F} D} is \em{final} under the same condition about
+[colimits](rs-0044).}
+

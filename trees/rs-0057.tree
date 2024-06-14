@@ -1,0 +1,53 @@
+\date{2024-06-13}
+\title{finite compleness criterion}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 3.4.18}
+
+\p{Let #{C} be a [category](rs-0001). Then the following are equivalent:}
+
+\ul{
+  \li{#{C} is [finitely](rs-0058) [complete](rs-002C);}
+  \li{#{C} has a [terminal object](rs-0020), binary [products](rs-0023), and
+  [equalizers](rs-003L);}
+  \li{#{C} has a [terminal object](rs-0020) and [pullbacks](rs-0027).}
+}
+
+\proof{
+  \p{The first immediately implies the next two, because they refer only to the
+  existence of certain finite [limits](rs-001Y).}
+
+  \p{The second implies the first by the same construction as the proof of the
+  [completeness criterion](rs-002F), noticing there that if the indexing
+  category #{J} is finite, then so are each of the products.}
+
+  \p{It remains to show that the third implies the second. Let #{*} be the
+  terminal object. Given objects #{x} and #{y}, their product is constructed as
+  the pullback
+  \tx{
+    \begin{tikzcd}
+        x\times y\ar[r, "\pi_x"]\ar[d, "\pi_y"']\pullback & x\ar[d] \\
+        y\ar[r] & *\punctuation{;}
+    \end{tikzcd}
+  } indeed, the respective universal properties agree. Given a [parallel
+  pair](rs-0054) #{x\xtos{f,g} y}, we claim that their [equalizer](rs-0025) is
+  constructed as the top-right of the pullback \tx{
+    \begin{tikzcd}
+        E\ar[r, "e"]\ar[d]\pullback & x\ar[d, "{(f, g)}"] \\
+        y\ar[r, "{(1_y, 1_y)}"'] & y\times y\punctuation{.}
+    \end{tikzcd}
+  } First, #{fe = ge} because the diagram commutes, and the bottom-right is
+  symmetric about the two copies of #{y}. Second, for any map #{z\xto{d} x}
+  equalizing #{f} and #{g}, the [universal property of the
+  pullback](rs-0027-up) gives a unique map making \tx{
+    \begin{tikzcd}
+        z\ar[dr, "\exists !", dashed]\ar[d, "d"']\ar[drr, "d", bend left] \\
+        x\ar[dr, "f"'] & E\ar[r, "e"]\ar[d]\pullback & x\ar[d, "{(f, g)}"] \\
+        & y\ar[r, "{(1_y, 1_y)}"'] & y\times y\punctuation{.}
+    \end{tikzcd}
+  } commute. This unique existence of such a map witnesses exactly [the universal
+  property of the equalizer](rs-0025-up).}
+}
+

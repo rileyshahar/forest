@@ -6,18 +6,27 @@
 \import{macros01}
 \cite{riehl-2017}{Riehl}{Theorem 3.4.2}
 
-\p{Let #{J\xto{F} C} be a [small](rs-002B) [diagram](rs-001U) in a [locally
-small category](rs-002Q) #{C} whose [limit](rs-001Y) exists. Then there is a
-[natural isomorphism](rs-0010) ##{
-  C(X, \lim F)\cong \lim C(X, F-),
+\p{Let #{J\xto{F} C} be a [diagram](rs-001U) in a [locally small
+category](rs-002Q) #{C} whose [limit](rs-001Y) exists. Then there is a [natural
+isomorphism](rs-0010) ##{
+  C(x, \lim F)\cong \lim C(x, F-),
 } where the latter is a limit in [\scat{Set}](rs-000C).}
 
 \p{Dually, let the [colimit](rs-001Z) of #{F} exist. Then there is a
 natural isomorphism ##{
-  C(\colim F, X)\cong \lim_{J^\op} C(F-, X).
+  C(\colim F, x)\cong \lim_{J^\op} C(F-, x).
 }}
 
 
 \proof{
-  [TODO](TODO)
+  \p{By the [formula for limits in \scat{Set}](rs-002E-construction), the
+  right-hand side consists of certain #{J}-tuples of maps #{x\to Fj}, subject to
+  the compatibility condition that \tx{
+    \begin{tikzcd}
+      & x\ar[dl, "\lambda_j"']\ar[dr, "\lambda_k"] \\
+      Fj\ar[rr, "Ff"'] && Fk
+    \end{tikzcd}
+  } commutes for each #{j\xto{f} k} in #{J}. This is exactly a [cone](rs-001W)
+  over #{F} with summit #{x}, hence by the [universal property of the
+  limit](rs-001Y-up), an element of the left-hand side.}
 }

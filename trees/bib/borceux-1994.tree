@@ -1,0 +1,47 @@
+\title{handbook of categorical algebra}
+\date{1994}
+\taxon{reference}
+\author{Francis Borceux}
+\meta{isbn}{9780511525858}
+\meta{bibtext}{\startverb
+@book{borceux-1994,
+  place = {Cambridge},
+  series = {Encyclopedia of Mathematics and its Applications},
+  title = {Handbook of Categorical Algebra},
+  publisher = {Cambridge University Press},
+  author = {Borceux, Francis},
+  year = {1994},
+}\stopverb}
+
+\p{A Handbook of Categorical Algebra is designed to give, in three volumes, a
+detailed account of what should be known by everybody working in, or using,
+category theory. As such it will be a unique reference. The volumes are written
+in sequence, with the first being essentially self-contained, and are accessible
+to graduate students with a good background in mathematics.}
+
+\p{Volume 1, which is devoted to general concepts, can be used for advanced
+undergraduate courses on category theory. After introducing the terminology and
+proving the fundamental results concerning limits, adjoint functors and Kan
+extensions, the categories of fractions are studied in detail; special
+consideration is paid to the case of localizations. The remainder of the first
+volume studies various 'refinements' of the fundamental concepts of category and
+functor.}
+
+\p{The second, which assumes familiarity with the material in the first,
+introduces important classes of categories that have played a fundamental role
+in the subject's development and applications. In addition, after several
+chapters discussing specific categories, the book develops all the major
+concepts concerning Benabou's ideas of fibred categories. There is ample
+material here for a graduate course in category theory, and the book should also
+serve as a reference for users.}
+
+\p{Volume 3 begins with the essential aspects of the theory of locales,
+proceeding to a study in chapter 2 of the sheaves on a locale and on a
+topological space, in their various equivalent presentations: functors, etale
+maps or W-sets. Next, this situation is generalized to the case of sheaves on a
+site and the corresponding notion of Grothendieck topos is introduced. Chapter 4
+relates the theory of Grothendieck toposes with that of accessible categories
+and sketches, by proving the existence of a classifying topos for all coherent
+theories.}
+
+

@@ -1,0 +1,16 @@
+\date{2024-06-13}
+\title{sections are monos}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{[Sections](rs-000J) are [monomorphisms](rs-000A). Dually, [retracts](rs-000K)
+are [epimorphisms](rs-000B).}
+
+\proof{
+  Let #{x\xto{s} y} be a section with [retract](rs-000K) #{y\xto{r} s}. Let
+  #{z\xtos{f, g} x} be a parallel pair such that #{sf = sg}. Then ##{f = 1_xf =
+  rsf = rsg = 1_xg = g,} as desired.
+}
+
