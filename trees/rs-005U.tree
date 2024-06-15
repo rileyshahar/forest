@@ -1,0 +1,10 @@
+\title{poset}
+\taxon{definition}
+\author{rileyshahar}
+
+\cite{riehl-2017}{Riehl}{Example 1.1.4(iii)}
+\import{macros01}
+
+\p{A \em{poset} is a [preorder](rs-001D) which is [skeletal](TODO) as a
+[category](rs-0001); equivalently, this means its [relation](rs-005O) is
+additionally [antisymmetric](rs-005S).}

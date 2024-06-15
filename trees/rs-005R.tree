@@ -1,0 +1,10 @@
+\date{2024-06-14}
+\title{transitive relation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{An [endo](rs-0003)[relation](rs-005O) #{A\leq A} is \em{transitive} if, for
+all #{a,b,c\in A}, if #{a\leq b} and #{b\leq c}, then #{a\leq c}.}
+

@@ -1,0 +1,8 @@
+\date{2024-06-14}
+\title{subset}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{subset} is a [subobject](rs-002Z) in [\scat{Set}](rs-000C).}

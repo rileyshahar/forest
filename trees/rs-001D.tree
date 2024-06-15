@@ -1,13 +1,10 @@
-\title{preorder}
-\date{2024-04-03}
+\title{skeletal category}
+\date{2024-06-14}
 \taxon{definition}
 \author{rileyshahar}
 
+\cite{riehl-2017}{Riehl}{Definition 1.5.15}
 \import{macros01}
-\tag{property:rs-0001}
-\cite{riehl-2017}{Riehl}{Example 1.1.4(iii)}
 
-\p{A \em{preorder} is a [category](rs-0001) #{P} in which, for each pair of objects
-#{x} and #{y}, #{P(x, y)} is either empty or a singleton. Explicitly, this means
-that it has a collection of elements (its objects) and a [transitive](TODO),
-[reflexive](TODO) [relation](TODO).} 
+\p{A [category](rs-0001) is \em{skeletal} if, whenever two objects are
+[isomorphic](rs-0002), they are equal.}

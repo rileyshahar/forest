@@ -1,0 +1,12 @@
+\date{2024-06-14}
+\title{category of relations}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 26}
+\tag{ex:rs-0001}
+
+\p{The \em{category of relations} \scat{Rel} has [sets](rs-005L) as objects and
+[relations](rs-005O) as morphisms. Composition is given by existence, i.e. #{a
+(SR) c} if and only if there is some #{b} such that #{aRb} and #{bRc}.}

@@ -1,0 +1,10 @@
+\date{2024-06-14}
+\title{reflexive relation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{An [endo](rs-0003)[relation](rs-005O) #{A\sim A} is \em{reflexive} if #{a\sim
+a} for all #{a\in A}.}
+

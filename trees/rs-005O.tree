@@ -1,0 +1,12 @@
+\date{2024-06-14}
+\title{relation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{relation} #{A R B} between [sets](rs-005L) #{A} and #{B} is a
+[subset](rs-005N) #{R\subseteq A\link{rs-002S.xml}{\times}B}. Given #{a\in
+A} and #{b\in B}, we say that #{a} \em{#{R}-relates} to #{b} if #{(a,b)\in R}.
+}
+

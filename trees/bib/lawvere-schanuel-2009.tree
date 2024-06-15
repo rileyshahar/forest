@@ -1,0 +1,32 @@
+\title{conceptual mathematics}
+\date{2009}
+\taxon{reference}
+\author{William Lawvere}
+\author{Stephen Schanuel}
+
+\import{macros01}
+\meta{isbn}{9780521719162}
+\meta{doi}{10.1017/CBO9780511804199 }
+\meta{bibtext}{\startverb
+@book{lawvere-Schanuel-2009,
+  place = {Cambridge},
+  edition = {2},
+  title = {Conceptual Mathematics: A First Introduction to Categories},
+  publisher = {Cambridge University Press},
+  author = {Lawvere, F. William and Schanuel, Stephen H.},
+  year = {2009}
+}\stopverb}
+
+\p{In the last 60 years, the use of the notion of category has led to a
+remarkable unification and simplification of mathematics. Conceptual Mathematics
+introduces this tool for the learning, development, and use of mathematics, to
+beginning students and also to practising mathematical scientists. This book
+provides a skeleton key that makes explicit some concepts and procedures that
+are common to all branches of pure and applied mathematics. The treatment does
+not presuppose knowledge of specific fields, but rather develops, from basic
+definitions, such elementary categories as discrete dynamical systems and
+directed graphs; the fundamental ideas are then illuminated by examples in these
+categories. This second edition provides links with more advanced topics of
+possible study. In the new appendices and annotated bibliography the reader will
+find concise introductions to adjoint functors and geometrical structures, as
+well as sketches of relevant historical developments.}

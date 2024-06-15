@@ -1,0 +1,9 @@
+\date{2024-06-14}
+\title{antisymmetric relation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{An [endo](rs-0003)[relation](rs-005O) is \em{antisymmetric} if, whenever
+#{x\leq y} and #{y\leq x}, we have #{x=y}.}

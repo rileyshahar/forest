@@ -1,4 +1,4 @@
-\title{\scat{Set}}
+\title{category of sets}
 \date{2024-04-02}
 \taxon{definition}
 \author{rileyshahar}
@@ -8,5 +8,5 @@
 \cite{riehl-2017}{Riehl}{Example 1.1.3(i)}
 \tag{ex:rs-0001}
 
-\p{The \em{category of sets} \scat{Set} is the [category](rs-0001) whose objects are sets
-and whose morphisms are set-functions.}
+\p{The \em{category of sets} \scat{Set} is the [category](rs-0001) whose objects
+are [sets](rs-005L) and whose morphisms are [set-functions](rs-005M).}

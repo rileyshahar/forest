@@ -1,0 +1,14 @@
+\title{preorder}
+\date{2024-04-03}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\tag{property:rs-0001}
+\cite{riehl-2017}{Riehl}{Example 1.1.4(iii)}
+
+\p{A \em{preorder} is a [category](rs-0001) #{P} in which, for each pair of objects
+#{x} and #{y}, #{P(x, y)} is either empty or a singleton. Explicitly, this means
+that it has a collection of elements (its objects) and a [reflexive](rs-005Q),
+[transitive](rs-005R) [relation](rs-005O).}
+\date{2024-06-14}

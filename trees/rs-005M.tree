@@ -1,0 +1,11 @@
+\date{2024-06-14}
+\title{set-function}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{lawvere-schanuel-2009}{Lawvere & Schanuel}{p. 14}
+
+\p{A \em{(set-)function} consists of two [sets](rs-005L), the \em{domain} and
+the \em{codomain}, and a \em{rule} (say, a \em{derivation}) that assigns to each
+element of the domain a unique element of the codomain.}

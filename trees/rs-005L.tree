@@ -1,0 +1,11 @@
+\date{2024-06-14}
+\title{(pre)set}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{lawvere-schanuel-2009}{Lawvere & Schanuel}{p. 13}
+
+\p{A \em{(pre)set} is a collection of some pre-mathematical \em{elements}. We
+write #{x\in X} to denote that #{x} is an element of the set #{X}.}
+
