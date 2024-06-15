@@ -25,6 +25,6 @@ object #{j\in J}, a morphism #{Dj\xto{\lambda_j} c}, so that for each morphism
 \p{The components #{\lambda_j} of the cocone are called its \em{colegs} or just \em{legs}.}
 
 \p{Given a diagram #{D}, the \em{cocone functor} #{C\xto{\Cocone_F}}
-[\scat{Set}](rs-000C) is the functor ##{C\xto{\Delta}[J, C]\xto{\Hom(F,
+[\scat{Set}](rs-000C) is the functor ##{C\xto{\Delta}C^J\xto{\Hom(F,
 -)}\operatorname{Set},} where #{\Delta} embeds objects
 as the appropriate constant functors.}

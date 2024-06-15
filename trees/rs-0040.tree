@@ -7,7 +7,7 @@
 \cite{maclane-1978}{Mac Lane}{p. 162}
 \tag{ex:rs-003X}
 
-\p{The [endofunctor category](rs-0042) #{\lbrack C, C \rbrack} is
+\p{The [endofunctor category](rs-0042) #{C^C} is
 ([strict](rs-0059)) [monoidal](rs-003X) with [horizontal composition](rs-000X)
 as the monoidal product and the [identity functor](rs-0011) as the monoidal
 unit.} 

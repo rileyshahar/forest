@@ -9,6 +9,5 @@
 
 \p{An \em{endofunctor} is an [endomorphic](rs-0003) [functor](rs-000L), i.e. a
 functor whose domain and codomain agree. The \em{endofunctor category} over a
-[category](rs-0001) #{C} is the [functor category](rs-000Y) #{\lbrack C, C
-\rbrack}.}
+[category](rs-0001) #{C} is the [functor category](rs-000Y) #{C^C}.}
 

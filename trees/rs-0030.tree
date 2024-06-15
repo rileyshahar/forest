@@ -7,8 +7,8 @@
 \cite{riehl-2017}{Riehl}{Proposition 3.6.1}
 
 \p{Let #{J} be an index [category](rs-0001) and let #{C} be
-#{J}-[complete](rs-002C). Then there is a [functor](rs-000L) #{\lim_J : [J, C]
-\to C} which acts on objects by taking the [limit](rs-001Y).}
+#{J}-[complete](rs-002C). Then there is a [functor](rs-000L)
+#{\link{rs-000Y.xml}{C^J} \xto{\lim_J} C} which acts on functors by taking the [limit](rs-001Y).}
 
 \p{Note that this theorem relies on a choice of witnesses to the completeness of
 #{C}, i.e. a canonical choice of limit of each #{J}-shaped diagram.}

@@ -8,7 +8,7 @@
 \tag{construction:rs-0001}
 \cite{riehl-2017}{Riehl}{Lemma 1.7.1}
 
-\p{Let #{C} and #{D} be [categories](rs-0001). The \em{functor category} #{[C, D]} has:}
+\p{Let #{C} and #{D} be [categories](rs-0001). The \em{functor category} #{D^C} has:}
 \ul{
   \li{as objects, [functors](rs-000L) #{C\to D};}
   \li{as morphisms, [natural transformations](rs-000V);}

@@ -12,7 +12,7 @@ category. The \em{constant functor} at #{c} is the [functor](rs-000L) #{J\xto{c}
 C} that sends every object of #{J} to #{c} and every morphism of #{J} to the
 identity #{1_c}.}
 
-\p{The constant functors induce a functor #{C\xto{\Delta} [J, C]} to the
+\p{The constant functors induce a functor #{C\xto{\Delta} J^C} to the
 [functor category](rs-000Y) which sends each object of #{C} to the corresponding
 constant functor and each morphism #{x\xto{f}y} to the [natural
 transformation](rs-000V) with components #{\alpha_j = f} for each #{j\in J}.}

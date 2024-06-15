@@ -7,8 +7,8 @@
 
 \p{The [constant diagram functor](rs-001V) #{\Delta} commutes with other
 [functors](rs-000L). In particular, for any category #{J} and functor #{C\xto{F}
-D}, ##{C\xto{\Delta} \lbrack J, C \rbrack \xto{F_*} \lbrack J, D \rbrack = C\xto{F}
-D\xto{\Delta} \lbrack J, D \rbrack.}}
+D}, ##{C\xto{\Delta} C^J\xto{F_*} D^J= C\xto{F}
+D\xto{\Delta} D^J.}}
 
 \proof{
   On the left, we have the action #{c\mapsto (j\mapsto c)\mapsto (j\mapsto

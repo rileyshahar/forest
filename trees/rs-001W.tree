@@ -24,6 +24,5 @@ object #{j\in J}, a morphism #{c\xto{\lambda_j} Dj}, so that for each morphism
 \p{The components #{\lambda_j} of the cone are called its \em{legs}.}
 
 \p{Given a diagram #{D}, the \em{cone functor} #{C^\op\xto{\Cone_F}}
-[\scat{Set}](rs-000C) is the functor ##{C^\op\xto{\Delta}[J,
-C]^\op\xto{\Hom(-, F)}\operatorname{Set},} where #{\Delta} embeds objects
+[\scat{Set}](rs-000C) is the functor ##{C^\op\xto{\Delta}C^J^\op\xto{\Hom(-, F)}\operatorname{Set},} where #{\Delta} embeds objects
 as the appropriate constant functors.}

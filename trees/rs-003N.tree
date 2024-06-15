@@ -8,9 +8,9 @@
 
 \p{Let \adjd{C}{D}{F}{G}{\,} be an [adjunction](rs-0036). Then for #{J}
 [small](rs-002B), post-composition defines an adjunction of [functor
-categories](rs-000Y) \adjd{\left[J, C\right]}{\left[J, D\right]}{F_*}{G_*}{,}
+categories](rs-000Y) \adjd{C^J}{D^J}{F_*}{G_*}{,}
 while for #{E} [locally small](rs-002Q), pre-composition defines an adjunction
-\adjd{\left[C, E\right]}{\left[D, E\right]}{F^*}{G^*}{.}}
+\adjd{E^C}{E^D}{F^*}{G^*}{.}}
 
 \proof{
   \p{Let #{\eta} and #{\epsilon} be the [unit and counits](rs-0039) of the

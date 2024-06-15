@@ -8,7 +8,7 @@
 \tag{ex:rs-003Y}
 
 \p{A \em{monad} on a [category](rs-0001) #{C} is a [monoid](rs-003Y) in the
-[endofunctor category](rs-0042) #{\lbrack C, C \rbrack}. Explicitly, this
+[endofunctor category](rs-0042) #{C^C}. Explicitly, this
 consists of:}
 \ul{
   \li{an [endofunctor](rs-0042) #{C \xto{T} C};}

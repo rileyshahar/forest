@@ -8,7 +8,7 @@
 
 \p{A \em{closed monoidal category} is a [symmetric monoidal category](rs-005I) #{C} such
 that the [bifunctor](rs-000T) #{\otimes} is [closed](rs-003G). Explicitly, this
-means there is a bifunctor #{C^\op\times C\xto{\lbrack -, - \rbrack} C}, called
+means there is a bifunctor #{C^\op\times C\xto{[-, -]} C}, called
 the \em{internal hom}, together with a [natural isormorphism](rs-0010)
 ##{C(x\otimes y, z)\cong C(x, [y, z]),} called \em{currying}.}
 

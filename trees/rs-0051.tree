@@ -16,10 +16,10 @@ object #{\Lan_K F} on #{F}. Dually, a \em{right Kan extension of #{F} along
   \taxon{Explanation}
   \title{universal property of Kan extensions}
   \p{In other words, the [universal property](rs-001P) of a left Kan extension
-  asks for a [bijection](rs-000E) ##{\lbrack C, E \rbrack(F,
-  GK)\cong \lbrack D, E \rbrack(\Lan_K F, G)} [natural](rs-000V) in #{D\xto{G} E}:
-  #{\Lan_K F} [represents](rs-0013) the functor ##{\lbrack D, E\rbrack\xto{K^*}
-  \lbrack C, E \rbrack\xto{\Hom(F, -)} \scat{Set}.}}
+  asks for a [bijection](rs-000E) ##{E^C(F,
+  GK)\cong E^D(\Lan_K F, G)} [natural](rs-000V) in #{D\xto{G} E}:
+  #{\Lan_K F} [represents](rs-0013) the functor ##{E^D\xto{K^*}
+  E^C\xto{\Hom(F, -)} \scat{Set}.}}
 
   \p{Explicitly, a left Kan extension consists of a functor #{D\xto{\Lan_K} F} together with a
   [natural transformation](rs-000V) #{F\xto{\eta} (\Lan_K F)K}, as in \tx{
@@ -48,7 +48,7 @@ object #{\Lan_K F} on #{F}. Dually, a \em{right Kan extension of #{F} along
   }}
 
   \p{Dually, the universal property of a right Kan extension asks for a natural
-  bijection ##{\lbrack C, E\rbrack (GK, F)\cong \lbrack D, E\rbrack (G, \Ran_K
+  bijection ##{E^C(GK, F)\cong \lbrack E^D(G, \Ran_K
   F).} Explicitly, this consists of a functor #{D\xto{\Ran_K} F}
   together with a natural transformation #{(\Ran_K F) K\xto{\epsilon} F}, as
   in\tx{

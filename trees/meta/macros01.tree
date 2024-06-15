@@ -136,6 +136,8 @@
 \def\xfroms[arg]{\overset{\arg}{\froms}}
 \def\sto{\rightsquigarrow}
 \def\xsto[arg]{\overset{\arg}{\rightsquigarrow}}
+\def\lto{\multimap}
+\def\xlto[arg]{\overset{\arg}{\multimap}}
 
 \def\cA{\mathcal{A}}
 \def\cB{\mathcal{B}}

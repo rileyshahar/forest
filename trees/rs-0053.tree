@@ -9,9 +9,8 @@
 \p{Let #{C\xto{K} D} be a [functor](rs-000L) and #{E} a [category](rs-0001).
 Suppose that, for each #{C\xto{F} E}, the [left Kan extension](rs-0051)
 #{D\xto{\Lan_K} F} exists. Then this data extends uniquely into a functor
-#{\lbrack C, E\rbrack \xto{\Lan_K} \lbrack D, E\rbrack} that is [left
-adjoint](rs-0043) to the [precomposition](rs-000R) functor #{\lbrack D, E\rbrack
-\xto{K^*} \lbrack C, E\rbrack}.}
+#{E^C \xto{\Lan_K} E^D} that is [left
+adjoint](rs-0043) to the [precomposition](rs-000R) functor #{E^D \xto{K^*} E^C}.}
 
 \p{Dually, if the right Kan extensions #{\Ran_K F} all exist, this extends into
 a right adjoint to #{K^*}.}

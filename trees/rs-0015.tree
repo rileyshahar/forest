@@ -9,4 +9,4 @@
 
 \p{A \em{presheaf} on a [category](rs-0001) #{C} is a [contravariant
 functor](rs-000N) #{C^\op\to} [\scat{Set}](rs-000C). The \em{presheaf category}
-#{\psh{C}} is the [functor category](rs-000Y) #{\lbrack C^\op,} \scat{Set}#{\rbrack} of presheaves on #{C}.}
+#{\psh{C}} is the [functor category](rs-000Y) #{\scat{Set}^{C^\op}} of presheaves on #{C}.}
