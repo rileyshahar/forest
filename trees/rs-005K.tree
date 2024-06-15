@@ -1,0 +1,12 @@
+\date{2024-06-14}
+\title{cartesian closed category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{IV.6}
+
+\p{A \em{cartesian closed category} is a [cartesian monoidal category](rs-003Z)
+whose monoidal structure is [closed](rs-005J). In this case, we call the
+internal hom #{[x, y]} an \em{exponential object}, and write it #{y^x}.}
+

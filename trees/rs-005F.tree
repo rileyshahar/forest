@@ -1,0 +1,28 @@
+\date{2024-06-14}
+\title{monics are characterized by pullbacks}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Proposition I.2.5.6}
+
+\p{A map #{x\xto{f} y} is [monic](rs-000A) if and only if its [kernel
+pair](rs-002Y) is #{1_x}, i.e. if and only if \tx{
+  \begin{tikzcd}
+    x\ar[r, "1_x"]\ar[d, "1_x"']\pullback & x\ar[d, "f"]\\
+    x\ar[r, "f"'] & y
+  \end{tikzcd}
+} is a [pullback](rs-0027).}
+
+\p{Conversely, #{f} is [epic](rs-000B) if and only if its cokernel pair is #{1_y}.}
+
+\proof{
+  \p{Suppose #{f} is monic; then for any pair of maps #{z\xtos{g, h} x} such that
+  #{fg = fh}, #{g = h}, so that #{g} satisfies the [universal property of the
+  pullback](rs-0027-up); it is the only map which does so, again since #{f} is
+  monic.}
+
+  \p{Conversely, suppose the square is a pullback; then given maps #{z\xto{g, h}
+  x} such that #{fg = fh}, both #{g} and #{h} witness the universal property, so
+  uniqueness implies #{g = h}.}
+}

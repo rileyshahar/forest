@@ -1,0 +1,21 @@
+\date{2024-06-14}
+\title{closed symmetric monoidal category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 184}
+
+\p{A \em{closed monoidal category} is a [symmetric monoidal category](rs-005I) #{C} such
+that the [bifunctor](rs-000T) #{\otimes} is [closed](rs-003G). Explicitly, this
+means there is a bifunctor #{C^\op\times C\xto{\lbrack -, - \rbrack} C}, called
+the \em{internal hom}, together with a [natural isormorphism](rs-0010)
+##{C(x\otimes y, z)\cong C(x, [y, z]),} called \em{currying}.}
+
+\p{The [counit](rs-0039) of the [adjunction](rs-0043) #{(-\otimes y)\adj [y, -]}
+is called \em{evaluation}: it is a [natural transformation](rs-000V) ##{[y,
+x]\otimes y\xto{\ev} x.} Applying the adjunction at the monoidal unit #{I}
+implies that maps #{x\to y} are in natural bijection with maps #{I\to
+[x, y]}. By the [philosophy of generalized elements](TODO), this explains the
+name internal hom: it represents maps.}
+

@@ -1,0 +1,54 @@
+\date{2024-06-14}
+\title{braided monoidal category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 252}
+
+\p{A \em{braided monoidal category} is a [monoidal category](rs-003X) #{C}
+equipped with a \em{braiding} [natural isomorphism](rs-0010) ##{x\otimes
+y\xto{\gamma_{xy}} y\otimes x} satisfying the [coherence
+conditions](TODO) entailed by commutativity of: \tx{
+  \begin{tikzcd}
+    (x\otimes y)\otimes z\ar[r, "\alpha_{xyz}"]\ar[d, "\gamma_{xy}\otimes 1"'] &
+    x\otimes(y\otimes z)\ar[r, "\gamma_{x,y\otimes z}"] & (y\otimes z)\otimes
+    x\ar[d, "\alpha_{yzx}"]\\
+    (y\otimes x)\otimes z\ar[r, "\alpha_{yxz}"'] & y\otimes (x\otimes z)\ar[r,
+    "1\otimes \gamma_{xz}"'] & y\otimes(z\otimes x)
+  \end{tikzcd}
+} and \tx{
+  \begin{tikzcd}
+    x\otimes (y\otimes z)\ar[r, "\alpha^{-1}_{xyz}"]\ar[d, "1\otimes
+    \gamma_{yz}"'] & (x\otimes y)\otimes z\ar[r, "\gamma_{x\otimes y, z}"] &
+    z\otimes(x\otimes y)\ar[d, "\alpha^{-1}_{zxy}"] \\
+    x\otimes(z\otimes y)\ar[r, "\alpha^{-1}_{xzy}"] & (x\otimes z)\otimes
+    y\ar[r, "\gamma_{xz}\otimes 1"'] & (z\otimes x)\otimes y\punctuation{.}
+  \end{tikzcd}
+}}
+
+% \p{[String diagramatically](TODO), we write #{\gamma_{x,y}} as \pic{
+% \begin{tikzpicture}
+%   \draw (0,0) node[left] {$x$} to[out=80,in=-100] (.6,1) node[right] {$x$};
+%   \draw[style=over] (.6,0) node[right] {$y$} to[out=100,in=-80] (0,1) node[left] {$y$};
+% \end{tikzpicture}.
+% } In this language, the axioms assert \pic{
+%   \begin{tikzpicture}
+%     \draw (0,0) node[left] {$x$} to[out=80,in=-90] (.6,1) to[out=90,in=-90] (1.2,2) node[right]{$x$};
+%     \draw[style=over] (.6,0) node[right] {$y$} to[out=100,in=-90] (0,1) to (0,2) node[left]{$y$};
+%     \draw[style=over] (1.2,0) node[right] {$z$} to (1.2,1) to[out=90,in=-90] (.6,2) node[left]{$z$};
+%   \end{tikzpicture} = \begin{tikzpicture}
+%     \draw (0,0) node[left] {$x$} to[out=80,in=-100] (.6,1) node[right] {$x$};
+%     \draw[style=doubleover,text=black] (.6,0) node[right] {$y\otimes z$} to[out=100,in=-80] (0,1) node[left] {$y\otimes z$};
+%   \end{tikzpicture}}
+% and \pic{
+%   \begin{tikzpicture}
+%     \draw (0,0) node[left] {$x$} to (0,1) to[out=90,in=-90] (.6,2) node[right]{$x$};
+%     \draw (.6,0) node[left] {$y$} to[out=80,in=-90] (1.2,1) to (1.2,2) node[right]{$y$};
+%     \draw[style=over] (1.2,0) node[right] {$z$} to[out=100,in=-90] (.6,1) to[out=90,in=-90] (0,2) node[left]{$z$};
+%   \end{tikzpicture} = \begin{tikzpicture}
+%     \draw[double=white] (0,0) node[left] {$x\otimes y$} to[out=80,in=-100] (.6,1) node[right] {$x\otimes y$};
+%     \draw[style=over] (.6,0) node[right] {$z$} node[right,xshift=3mm,
+%     yshift=3mm] {\normalsize.} to[out=100,in=-80] (0,1) node[left] {$z$};
+%   \end{tikzpicture}}}
+

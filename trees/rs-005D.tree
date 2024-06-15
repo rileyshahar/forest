@@ -1,0 +1,10 @@
+\date{2024-06-14}
+\title{zero object}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 20}
+
+\p{A \em{zero object} is both [initial](rs-0021) and [terminal](rs-0020).}
+

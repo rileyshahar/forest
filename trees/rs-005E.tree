@@ -1,0 +1,13 @@
+\date{2024-06-14}
+\title{zero morphism}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 20}
+
+\p{In a [category](rs-0001) with a [zero object](rs-005D) #{0}, the canonical
+morphism #{x\to 0\to y} induced by the [universal properties of
+initial](rs-0021-up) and [terminal](rs-0020-up) objects is called the \em{zero
+morphism} #{0_{x,y}}.}
+

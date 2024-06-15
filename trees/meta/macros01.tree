@@ -1,4 +1,5 @@
 \title{basic macros}
+\import{latex-preamble01}
 
 \xmlns:html{http://www.w3.org/1999/xhtml}
 
@@ -47,6 +48,11 @@
 \def\tx[body]{\tex{
 	\usepackage{tikz-cd}
 	\usepackage{extpfeil}
+}{\body}}
+
+\def\pic[body]{\tex{
+  \usepackage{tikz}
+  \latex-preamble/diagrams
 }{\body}}
 
 \def\punctuation{\makebox[0pt][l]} % hack: for some reason taking an argument makes it empty
@@ -102,6 +108,8 @@
 \def\arr{\operatorname*{arr}}
 \def\Lan{\operatorname*{Lan}}
 \def\Ran{\operatorname*{Ran}}
+
+\def\ev{\operatorname{ev}}
 
 \def\Prod{\displaystyle\prod}
 \def\Coprod{\displaystyle\coprod}

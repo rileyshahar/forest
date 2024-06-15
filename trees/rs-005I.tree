@@ -1,0 +1,11 @@
+\date{2024-06-14}
+\title{symmetric monoidal category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 253}
+
+\p{A \em{symmetric monoidal category} is a [braided monoidal category](rs-005H)
+whose braiding #{\gamma} satisfies ##{\gamma_{x,y} =
+\gamma_{y,x}^{-1}.}}

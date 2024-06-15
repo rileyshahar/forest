@@ -1,0 +1,21 @@
+\date{2024-06-14}
+\title{pasting law for pullbacks}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exercise 3.1.viii}
+
+\p{Consider a diagram \tx{
+  \begin{tikzcd}
+    \bullet\ar[r]\ar[d] & \bullet\ar[r]\ar[d]\pullback & \bullet\ar[d] \\
+    \bullet\ar[r] & \bullet\ar[r] & \bullet
+  \end{tikzcd}
+} so that the right square is a [pullback](rs-0027). Then the left square is a
+pullback if and only if the outer rectangle is.}
+
+\proof{
+  \p{The [universal properties](rs-0027-up) mutually imply each other by a diagam
+  chase.}
+}
+
