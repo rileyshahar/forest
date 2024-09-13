@@ -1,0 +1,12 @@
+\date{2024-08-28}
+\title{operation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{#{k}-ary operaton} on a [set](rs-005L) #{X} is a [function](rs-005M)
+#{\link{rs-002S.xml}{X^k}\to X}. We call #{k} the \em{arity} of the operation.}
+
+\p{A \em{constant} is a \em{#{0}-ary operation}, while a \em{binary operation}
+is a #{2}-ary operation.}

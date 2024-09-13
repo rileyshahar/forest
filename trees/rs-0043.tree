@@ -1,6 +1,6 @@
 \date{2024-05-23}
 \title{adjunctions}
-\taxon{summary}
+\taxon{notes}
 \author{rileyshahar}
 
 \import{macros01}
@@ -37,7 +37,7 @@
     ##{Fc\xto{Fg} FGd\xto{\epsilon_d} d;}}
     \li{the unit and counit satisfy the [\em{triangle identities}](rs-003A),
     expressed by commutativity of the following diagrams of [vertical](rs-000W)
-    and [whiskered](rs-003B) composition: \tx{
+    and [whiskered](rs-003B) composition: \texfig{
       \begin{tikzcd}
         F\ar[r, "F\eta"]\ar[dr, "1_F"'] & FGF\ar[d, "\epsilon F"] \\
         & F

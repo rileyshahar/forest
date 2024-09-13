@@ -1,0 +1,22 @@
+\date{2024-06-18}
+\title{pointwise Kan extension}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 6.3.5}
+
+\p{A [right Kan extension](rs-0051) \texfig{
+  \begin{tikzcd}
+    C\ar[rr, "F", ""'{name=F}]\ar[dr, "K"'] && E\\
+    & D\ar[ur, "\Ran_K F"']\ar[to=F, Rightarrow, "\epsilon"']
+  \end{tikzcd}
+} with #{E} [locally small](rs-002Q) is \em{pointwise} if it is is
+[preserved](rs-0066) by all [covariant hom-functors](rs-000Q). Dually, a left
+Kan extension is pointwise if the dual data \texfig{
+  \begin{tikzcd}
+    C^\op\ar[rr, "F^\op", ""'{name=F}]\ar[dr, "K^\op"'] && E^\op\\
+    & D^\op\ar[ur, "(\Lan_K F)^\op"']\ar[to=F, Rightarrow, "\eta^\op"']
+  \end{tikzcd}
+} is preserved by all [contravariant hom-functors](rs-000R).}
+

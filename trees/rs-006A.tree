@@ -1,0 +1,43 @@
+\date{2024-06-18}
+\title{(co)limit formula for functors}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Proposition 6.5.4}
+
+\p{Let #{C\xto{F} D} be a [functor](rs-000L) with #{C} [small](rs-002B) and #{D}
+[complete](rs-002C). Then there is an [equalizer diagram](rs-0025)
+\texfig{
+    \begin{tikzcd}
+    & & Fy
+    \\
+    Fc\ar[r, hook] &
+    \Prod_{c\xto{j} x} (F\Pi j = Fx)\ar[r, shift left=.2em, dashed]\ar[r, shift
+    right=.2em, dashed]\ar[ur, "\pi_{kj}"]\ar[d, "\pi_j"'] &
+    \Prod_{c\xto{j} x\xto{k} y} (F\Pi (kj) = Fy)\ar[u, "\pi_{kj}"']\ar[d, "\pi_{kj}"]\punctuation{.} \\
+    & Fx\ar[r, "Fk"'] & Fy
+    \end{tikzcd}
+  }
+}
+
+\p{Dually, for #{D} [cocomplete](rs-002D), there is a [coequalizer diagram](rs-0026) \texfig{
+    \begin{tikzcd}
+    \Coprod_{y\to x\to c} Fy\ar[r, shift left=.2em]\ar[r, shift right=.2em] &
+    \Coprod_{x\to c} Fx\ar[r, two heads] & Fc\punctuation{.}
+    \end{tikzcd}
+  }
+}
+
+\proof{
+  \p{By the [universal property of right Kan extensions](rs-0051), the right Kan
+  extension of #{F} along #{\link{rs-0011.xml}{1_C}} is #{F} itself. Since this
+  diagram is [preserved](rs-0066) by all functors, we conclude that this
+  extension is [pointwise](rs-0067), in which case (noting that
+  #{\link{rs-001T.xml}{c\downarrow 1_C}
+  = \link{rs-0006.xml}{c/C}}) it is [computed by the limit
+  formula](rs-0068) ##{Fc\cong \lim(c/C\xto{\Pi} C\xto{F}
+  D).} Now the result follows by the [construction of limits from equalizers and
+  products](rs-002F).}
+}
+

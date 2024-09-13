@@ -1,0 +1,26 @@
+\title{#{\infty}-categories: a first course}
+\date{2023}
+\taxon{reference}
+\author{Martin Gallauer}
+\meta{external}{https://homepages.warwick.ac.uk/staff/Martin.Gallauer/teaching/23icats/icats.pdf}
+\meta{bibtex}{\startverb
+@book{gallauer-2024,
+  title = {$\infty$-categories: a first course},
+  author = {Gallauer, Martin},
+  year = {2023},
+  url = {https://homepages.warwick.ac.uk/staff/Martin.Gallauer/teaching/23icats/icats.pdf}
+}\stopverb}
+
+\import{macros01}
+
+\p{
+  These are lecture notes for a course delivered through the Taught Courses
+  Center (Bath, Bristol, Imperial, Oxford, Warwick) in Fall 2023. The goal is to
+  introduce the language of ∞-categories (as quasi-categories), hopefully enabling
+  the audience to tackle more ad- vanced texts and read some of the literature
+  employing this language. Many proofs are omitted, some of which are difficult
+  and would require developing substantial extra ma- terial. On the other hand,
+  this omission allows us to talk about a number of subjects, including
+  constructing ∞-categories, (co)limits and presentability. We end with spectra
+  and the 𝐾-theory of stable ∞-categories.
+}

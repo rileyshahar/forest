@@ -1,0 +1,18 @@
+\date{2024-09-08}
+\title{filler of a horn}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{Definition 5.5}
+
+\p{Let #{\Lambda_k^n\to X} be a [horn](rs-008C) in a [simplicial set](rs-0080)
+#{X}. Then a \em{filler} of this horn is a lift to a [standard
+#{n}-simplex](rs-0085), i.e. a commuting diagram
+\texfig{
+  \begin{tikzcd}
+    \Delta^n\ar[r, dashed] & X\punctuation{.} \\
+    \Lambda_k^n\ar[u, hookrightarrow] \ar[ur]
+  \end{tikzcd}
+}}
+

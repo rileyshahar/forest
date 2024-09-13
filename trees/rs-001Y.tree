@@ -27,7 +27,7 @@ is universal in the sense that it induces, by the [Yoneda lemma](rs-0014), a
   [diagram](rs-001U) #{J\xto{D} C} is [terminal](rs-0020) in the [category of
   elements](rs-001S) #{\el{\Cone_D}}, in the sense that for any other [cone](rs-001W)
   #{c\xto{\mu} D}, there exists a unique map #{c\to\lim D} so that each of
-  the following triangles commute:\tx{
+  the following triangles commute:\texfig{
     \begin{tikzcd}
       c\ar[rr, dashed, "\exists !"]\ar[dr, "\mu_j"'] && \lim D\ar[dl, "\lambda_j"] \\
       & Dj\punctuation{.}

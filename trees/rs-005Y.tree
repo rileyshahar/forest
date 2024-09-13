@@ -1,0 +1,88 @@
+\date{2024-06-15}
+\title{subobject classifiers are equivalently representations of the subobject functor}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Proposition I.3.1}
+
+\p{Let #{C} be [finitely](rs-0058) [complete](rs-002C) and [locally
+small](rs-002Q). Then #{C} has a [subobject classifier](rs-005V) if and only if
+the [subobject functor](rs-005W) is [representable](rs-0013).}
+
+\proof{
+  \p{First, suppose #{\link{rs-0020.xml}{*}\xto{\top}\Omega} is a subobject
+  classifier. We claim that #{\Omega} represents #{\Sub_C}. Indeed, the assignment
+  ##{(s\into x)\xmapsto{\chi} x\xto{\chi_s} \Omega} of a subobject to its
+  characteristic map is a [natural bijection](rs-0010) #{\Sub(x)\to C(x,
+  \Omega)}. To demonstrate bijectivity, note that pulling back #{\top} along a
+  map #{x\xto{\chi_0} \Omega} yields a subobject of #{x} with characteristic map
+  #{\chi_0}; this assignment is unique by [uniqueness of pullbacks](rs-002A).}
+
+  \p{To demonstrate naturality, we need to show that for any map #{y\xto{f} x}
+  in #{C}, the diagram \texfig{
+    \begin{tikzcd}
+      \Sub(x)\ar[d, "f^*"']\ar[r, "\chi"] & C(x, \Omega)\ar[d, "{C(f, \Omega)}"]\\
+      \Sub(y)\ar[r, "\chi"'] & C(y, \Omega)
+    \end{tikzcd}
+  } commutes. (There is some notational overload here: the map #{C(f, \Omega)}
+  acts on maps #{x\to\Omega} by pre-composition with #{f}; we [generally also
+  write this #{f^*}](rs-000R). This theorem justifies the overloaded notation.)
+  In particular, we need to show, for any subobject #{s\into x}, the equality
+  ##{y\xto{f}x\xto{\chi_s} \Omega = \chi_{f^*s}.} By definition of #{\chi_s} and
+  #{f^*s}, we have the diagram \texfig{
+    \begin{tikzcd}
+      f^*s\ar[r]\ar[d, hook]\pullback & s\ar[d, hook]\ar[r, "!"]\pullback & *\ar[d,
+      "\top"] \\
+      y\ar[r, "f"'] & x\ar[r, "\chi_s"'] & \Omega\punctuation{;}
+    \end{tikzcd}
+  } since [pullbacks compose](rs-005G), this is a pullback, and thus witnesses
+  the defining property of #{\chi_{f^*s}}. By uniqueness of characteristic maps,
+  this completes the proof.}
+
+  \p{Conversely, suppose that #{\Omega} represents #{\Sub_C}. The representation
+  associates the map #{1_\Omega} to some subobject #{\omega\xinto{\top}\Omega}.
+  Now suppose we are given a subobject #{s\into x}, associated by the
+  representation to a map #{x\xto{\chi_s}\Omega}. Naturality of the
+  representation asserts that the diagram \texfig{
+    \begin{tikzcd}
+      \Sub(\Omega)\ar[r, leftrightarrow]\ar[d, "\chi_s^*"'] & C(\Omega,
+      \Omega)\ar[d, "{C(\chi_s, \Omega)}"] \\
+      \Sub(x)\ar[r, leftrightarrow] & C(x, \Omega)
+    \end{tikzcd}
+  }
+  commutes. Starting from #{\omega}, we find the equality \texfig{
+    \begin{tikzcd}
+      \omega\ar[r, mapsto]\ar[d, mapsto] & 1_\Omega\ar[dd, mapsto] \\
+      \chi_s^*\omega\ar[d, equals]  \\
+      s & \chi_s\ar[l, mapsto]\punctuation{,}
+    \end{tikzcd}
+   } so that #{s} is the pullback of #{\top} along #{\chi_s}: \texfig{
+     \begin{tikzcd}
+       s\ar[r]\ar[d, hook]\pullback & \omega\ar[d, hook, "\top"] \\
+       x\ar[r, "\chi_s"'] & \Omega\punctuation{.}
+     \end{tikzcd}
+   } Further, by bijectivity #{\chi_s} is the unique such map with this
+   property.}
+
+   \p{It remains to show that #{\omega} is [terminal](rs-0020). Let #{x} be any
+   object and consider the characteristic map #{\chi_x} of the identitiy #{1_x},
+   which fits into the previous diagram to yield a map #{x\to \omega}: \texfig{
+     \begin{tikzcd}
+       x\ar[r]\ar[d, equals]\pullback & \omega\ar[d, hook, "\top"] \\
+       x\ar[r, "\chi_x"'] & \Omega\punctuation{.}
+     \end{tikzcd}
+   } Suppose now that #{x\xto{f} \omega} is any map. Then, [since
+   #{\top} is a monic](rs-005F), we have a [composite pullback diagram](rs-005G) \texfig{
+     \begin{tikzcd}
+       x\ar[r, "f"]\ar[d, equals]\pullback & \omega\ar[r, equals]\ar[d,
+       equals]\pullback & \omega\ar[d, hook, "\top"] \\
+       x\ar[r, "f"'] & \omega\ar[r, hook, "\top"'] & \Omega
+     \end{tikzcd} \quad$=$\quad \begin{tikzcd}
+       x\ar[r, "f"]\ar[d, equals]\pullback & \omega\ar[d, hook, "\top"] \\
+       x\ar[r, "\top f"'] & \Omega\punctuation{.}
+     \end{tikzcd}
+   } Thus #{\top f} classifies #{1_x}, so that #{f} is unique since #{\top} is
+   monic and (by the previous paragraph) characteristic maps are unique.}
+}
+

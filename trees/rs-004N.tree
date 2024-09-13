@@ -6,7 +6,7 @@
 \import{macros01}
 \cite{riehl-2017}{Riehl}{Definition 5.4.5}
 
-\p{A diagram \tx{
+\p{A diagram \texfig{
   \begin{tikzcd}
     x\ar[r, "f", shift left=.2em]\ar[r, "g"', shift right=.2em] &
     y\ar[r, "h"]\ar[l, "t", bend left=50] &

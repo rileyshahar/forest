@@ -11,7 +11,7 @@ transformations](rs-000V) with components #{\alpha_x} and
 #{\beta_x}, respectively. Then their \em{vertical composite}
 #{F\xto{\beta\alpha} H} is the natural transformation with components
 #{(\beta\alpha)_x = \beta_x\alpha_x}. Diagramatically:}
-\tx{
+\texfig{
   \begin{tikzcd}[baseline=(current bounding box.center)]
     & \Downarrow\alpha \\[-2.1em]
     C\ar[rr, "F", bend left=50]\ar[rr, "G", near start]\ar[rr, "H"', bend right=50] && D & \rightsquigarrow & C \ar[rr, "F", bend left=50]\ar[rr, "H"', bend right=50] & \Downarrow\beta\alpha & D\punctuation{.} \\[-2.1em]

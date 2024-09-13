@@ -1,0 +1,12 @@
+\date{2024-09-09}
+\title{singular simplicial complex}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Remark I.34}
+
+\p{The \em{singular simplicial complex functor} from [spaces](rs-000D) to
+[simplicial sets](rs-0080) is the [right adjoint](rs-0043) to the [geometric
+realization functor](rs-008A). By [abstract nonsense](rs-0089), this is given by
+##{\operatorname{Sing}(X)_n = \operatorname{Top}(|\Delta^n|, X).}}

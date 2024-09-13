@@ -15,7 +15,7 @@ object](rs-0020). (Here, #{c} is the [constant functor](rs-001V) at
 
 \proof{
   \p{The comma category #{c\downarrow G} has as objects pairs #{(d\in D,
-  c\xto{f} Gd\in C)} and as maps maps #{d\xto{g} d'\in D} making the triangle \tx{
+  c\xto{f} Gd\in C)} and as maps maps #{d\xto{g} d'\in D} making the triangle \texfig{
     \begin{tikzcd}
       & Gd\ar[dd, "Gg"] \\
       c\ar[ur, "f"]\ar[dr, "f'"'] \\

@@ -22,7 +22,7 @@ unit to obtain the same result.}
   FGFG\xto{F\eta^{-1}G} FG\xto{\mu} 1_D,} which is again an isomorphism. We need
   to check the triangle identities.}
 
-  \p{For the right triangle identity, observe that \tx{
+  \p{For the right triangle identity, observe that \texfig{
     \begin{tikzcd}
       G\ar[rr, "\eta G"]\ar[dr, "\gamma^{-1}", pos=.6]\ar[ddrr, bend right,
       "1_G"'] && GFG\ar[d, "GF\gamma^{-1}"']\ar[dd, "G\epsilon", bend left=50] \\
@@ -36,7 +36,7 @@ unit to obtain the same result.}
   \p{For the left triangle identity, we show that #{(\epsilon F)\circ (F \eta)}
   is [idempotent](rs-002G); since [idempotent isomorphisms are
   identities](rs-003M), this completes the proof. The following diagram
-  commutes: \tx{
+  commutes: \texfig{
     \begin{tikzcd}
       F\ar[r, "F\eta"]\ar[d, "F\eta"] & FGF\ar[r, "\epsilon F"]\ar[d, "FGF\eta"]
       & F\ar[d, "F \eta"] \\

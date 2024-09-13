@@ -4,6 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
+\cite{riehl-2017}{Riehl}{p. 134}
 
 \p{Let #{x\xto{f} x} be an [idempotent](rs-002G) [isomorphism](rs-0002). Then
 #{f = 1_x}.}

@@ -9,6 +9,6 @@
 \p{Let #{D\xto{G} C} be a [continuous functor](rs-003U) with [complete](rs-002C)
 domain and [locally small](rs-002Q) domain and codomain. Suppose that #{D} has a
 [small](rs-002B) [coseparating family](rs-004T) and that every collection of
-[subobjects](rs-002Z) #{x_\alpha\into x} in #{D} admits an [intersection](TODO),
+[subobjects](rs-002Z) #{x_\alpha\into x} in #{D} admits a [meet](rs-006J),
 i.e. a [limit](rs-001Y). Then #{G} has a [left adjoint](rs-0036).}
 

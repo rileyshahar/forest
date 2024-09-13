@@ -1,0 +1,11 @@
+\date{2024-09-06}
+\title{colimit presentation of simplicial sets}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{p. 5}
+
+\p{By the [density formula](rs-006B), a [simplicial set](rs-0080) #{X} is the
+[colimit](rs-001Z) of each of its [standard simplices](rs-0084). As such, each
+simplicial set is "glued together" from standard simplicies in a canonical way.}

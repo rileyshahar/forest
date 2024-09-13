@@ -1,0 +1,22 @@
+\date{2024-06-18}
+\title{preservantion of a kan extension}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 6.3.1}
+
+\p{A [functor](rs-000L) #{E\xto{L} F} \em{preserves} a [left Kan
+extension](rs-0051) #{(\Lan_K F, \eta)} if \texfig{
+  \begin{tikzcd}
+    C\ar[rr, "F", ""' {name=F}]\ar[dr, "K"'] && E\ar[r, "L"] & F\\
+    & D\ar[ur, "\Lan_K F"']
+    \ar[from=F, to=2-2, Rightarrow, "\eta"]
+  \end{tikzcd}$\cong$
+  \begin{tikzcd}
+    C\ar[r, "F"]\ar[dr, "K"'] & E\ar[r, "L"] & F\\
+    & D\ar[ur, "\Lan_K LF"']
+    \ar[from=1-2, to=2-2, Rightarrow]
+  \end{tikzcd},
+} i.e. if the Kan extension of #{LF} along #{K} is [naturally
+isomorphic](rs-0010) to the [whiskered composite](rs-003B) of #{\eta} by #{L}.}

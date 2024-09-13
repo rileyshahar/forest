@@ -5,12 +5,17 @@
 
 \scope{
   \query{
-    \query/and{
+    \query/isect{
       \query/author{rileyshahar}
-      \query/or{
+    }{
+      \query/union{
         \query/taxon{talk}
+      }{
         \query/taxon{paper}
+      }{
         \query/taxon{exposition}
+      }{
+        \query/taxon{thesis}
       }
     }
   }

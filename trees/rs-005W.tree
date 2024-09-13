@@ -1,0 +1,22 @@
+\date{2024-06-15}
+\title{subobject functor}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 32}
+
+\p{Let #{C} be a [well-powered](rs-005X) [category](rs-0001) with
+[pullbacks](rs-0027). Then the ([contravariant](rs-000N)) \em{subobject functor}
+#{C^\op\xto{\Sub_C} \scat{Set}} acts on [subobjects](rs-002Z) by
+[pullback](rs-0027): \texfig{
+  \begin{tikzcd}
+    C^\op\ar[r, "\Sub_C"] & \textsc{Set} \\
+    x\ar[r, mapsto] & \Sub_C(x)\ar[d, "f^*", ""' {name=f*}] & x & s\ar[l, hook] \\
+    y\ar[u, "f", ""' {name=f}]\ar[r, mapsto] & \Sub_C(y) & y\ar[u, "f"] &
+    f^*s\punctuation{.}\ar[l, hook]\ar[u]\pushout
+    \ar[from=f, to=f*, mapsto]
+  \end{tikzcd}
+}}
+
+

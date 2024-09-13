@@ -1,0 +1,12 @@
+\date{2024-09-05}
+\title{simplicial set}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{Definition 2.1}
+
+\p{A \em{simplicial set} is a [presheaf](rs-0015) on the [abstract
+simplex](rs-007Z). The \em{category of simplicial sets} \scat{sSet} is the
+category of presheaves on the abstract simplex.}
+

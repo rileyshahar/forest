@@ -1,0 +1,11 @@
+\date{2024-06-21}
+\title{base change}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 59}
+
+\p{Let #{C} have [pullbacks](rs-0027), and let #{y\xto{f} x} be any map. Then
+there is a \em{base change functor} #{C/x\xto{f^*} C/y} between [over
+categories](rs-0007) acting by pullback.}

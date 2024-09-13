@@ -6,7 +6,7 @@
 \import{macros01}
 \cite{riehl-2017}{Riehl}{Exercise 3.1.viii}
 
-\p{Consider a diagram \tx{
+\p{Consider a diagram \texfig{
   \begin{tikzcd}
     \bullet\ar[r]\ar[d] & \bullet\ar[r]\ar[d]\pullback & \bullet\ar[d] \\
     \bullet\ar[r] & \bullet\ar[r] & \bullet

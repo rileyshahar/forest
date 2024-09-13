@@ -1,0 +1,14 @@
+\date{2024-09-08}
+\title{simplicial sphere}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{Definition 5.2}
+
+\p{The \em{simplicial #{n}-sphere} #{\partial\Delta^n} is the [simplicial
+set](rs-0080) consisting of the boundary of the [standard
+#{n}-simplex](rs-0084), i.e. ##{\partial\Delta^n = \bigcup_i d_i(\Delta^n).}}
+
+
+\p{An \em{#{n}-sphere in a simplicial set} #{X} is a map #{\Lambda_k^n\to X}.}

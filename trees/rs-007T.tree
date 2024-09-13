@@ -1,0 +1,37 @@
+\date{2024-08-28}
+\title{algebraic structures}
+\taxon{collection}
+\author{rileyshahar}
+
+\import{macros01}
+
+\put\transclude/expanded{false}
+
+\subtree{
+  \title{Binary operations}
+  \taxon{Section}
+
+  \transclude{rs-007N}
+  \transclude{rs-007P}
+  \transclude{rs-007O}
+  \transclude{rs-007R}
+  \transclude{rs-007Q}
+  \transclude{rs-007S}
+}
+
+\subtree{
+  \title{Group-like structures}
+  \taxon{Section}
+
+  \p{We say a \em{group-like structure} is a structure with a single binary
+  operation that satisfies some subset of [associativity](rs-007P),
+  [commutativity](rs-007O), [cancellability](rs-007R), and the existence
+  of an [identity](rs-007Q).}
+
+  \transclude{rs-007U}
+  \transclude{rs-007V}
+  \transclude{rs-007W}
+  \transclude{rs-007X}
+  \transclude{rs-007Y}
+}
+

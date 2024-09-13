@@ -6,7 +6,7 @@
 \import{macros01}
 \cite{riehl-2017}{Riehl}{Proposition 4.4.4}
 
-\p{Suppose we are given [adjunctions](rs-0036) \tx{
+\p{Suppose we are given [adjunctions](rs-0036) \texfig{
   \begin{tikzcd}
     C\ar[rr, bend left, "F"] & \bot & D\ar[ll, bend left, "G"]\ar[rr, bend left,
     "F'"] & \bot & E\ar[ll, bend left, "G'"]\punctuation{.}
@@ -24,7 +24,7 @@
   counit is ##{\bar{\epsilon} = F'FGG'\xto{F'\epsilon G'} F'G' \xto{\epsilon'}
   1_E.} It now [suffices](rs-003E) to establish the [triangle
   identities](rs-003A). The left triangle identity is witnessed by commutativity
-  of\tx{
+  of\texfig{
     \begin{tikzcd}
       F'F\ar[rr, "F'F\eta"]\ar[rrrr, bend left, "F'F\bar{\eta}"]\ar[drdr, "F'
       1_F"]\ar[drdrdrdr, "1_{F'F}"', bend right] && F'FGF\ar[rr,

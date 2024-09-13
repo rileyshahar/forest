@@ -1,0 +1,18 @@
+\date{2024-08-18}
+\title{sheaf}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 122}
+
+\p{A [presheaf](rs-0015) #{C^\op\xto{P}} \scat{Set} on a [site](rs-0079) is a \em{sheaf} if, for all
+objects #{x} and covering families #{S}, each [natural transformation](rs-000V)
+#{S\xto{\alpha} P} lifts uniquely to #{\link{rs-000R.xml}{C(-, x)}}:}
+
+\texfig{
+  \begin{tikzcd}
+    S\ar[r, "\alpha"]\ar[d, hookrightarrow] & P \\
+    C(-, x)\ar[ur, dashed, "\exists!"']
+  \end{tikzcd}
+}

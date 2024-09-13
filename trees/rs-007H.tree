@@ -1,0 +1,11 @@
+\date{2024-08-18}
+\title{span}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{span} in a [category](rs-0001) #{C} is a [diagram](rs-001U) of shape
+#{\bullet\from\bullet\to\bullet}. [Dually](rs-0009), a \em{cospan} is a diagram
+of shape #{\bullet\to\bullet\from\bullet}.}
+

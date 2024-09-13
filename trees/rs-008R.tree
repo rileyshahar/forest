@@ -1,0 +1,14 @@
+\date{2024-09-11}
+\title{Kan complex}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Definition 1.37}
+% \tag{ex:}
+
+\p{A \em{Kan complex} is a [simplicial set](rs-0080) in which every
+[horn](rs-008C) has a [filler](rs-008D); equivalently, an
+\em{#{\infty}-groupoid} is a [quasicategory](rs-008H) in which every
+[morphism](rs-008I) is an [isomorphism](rs-008J).}
+

@@ -19,7 +19,7 @@
   a [cone](rs-001W) #{\lim_J F\to F\xto{\alpha} G} over #{G}, where
   the first map is the canonical limiting cone over #{F}. By the
   [universal property of #{\lim_J G}](rs-001Y-up), this cone factors uniquely as
-  \tx{
+  \texfig{
     \begin{tikzcd}
     \lim_J F\ar[dr, "\lim_J \alpha"']\ar[r] & F\ar[r, "\alpha"] & G \\
     & \lim_J G\ar[ur]
@@ -31,7 +31,7 @@
   #{F\xto{\alpha}G\xto{\beta} H}, observe that the map #{\lim_J
   F\xto{\lim_J\alpha}\lim_J G\xto{\lim_J\beta}\lim_J H} 
   factors the cone #{\lim_J F\to F\to G\to H:}
-  \tx{
+  \texfig{
     \begin{tikzcd}
       \lim_J F\ar[r]\ar[dr, "\lim_J \alpha"'] & F\ar[r, "\alpha"] & G\ar[r,
       "\beta"] & H \\

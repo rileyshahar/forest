@@ -15,7 +15,7 @@ transpose #{f^\flat} of a map #{Fc\xto{f} d} is given by the formula
 \proof{
   \p{Fix a map #{Fc\xto{f} d}. By [naturality](rs-000V) of the
   [isomorphism](rs-0010) #{D(Fc, d)\cong C(c, Gd)}, the following square
-  commutes:\tx{
+  commutes:\texfig{
     \begin{tikzcd}
       D(Fc, Fc)\ar[r, leftrightarrow]\ar[d, "f_*"'] & C(c, GFc)\ar[d, "Gf_*"] \\
       D(Fc, d)\ar[r, leftrightarrow] & C(c, Gd)\punctuation{.}

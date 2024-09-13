@@ -1,0 +1,11 @@
+\date{2024-08-28}
+\title{identity for a binary operation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{(two-sided) identity} for a [binary operation](rs-007N) on #{X} is an element
+#{e\in X} such that for all #{x\in X}, ##{ex = xe = x.} If only one identity
+holds, this is a left- or right-identity, as appropriate.}
+

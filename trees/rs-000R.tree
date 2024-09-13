@@ -13,7 +13,7 @@
 \em{[contravariant](rs-000N) hom-[functor](rs-000L)} #{C^\op\xto{C(-, c)}} \scat{Set} takes an object #{x} to the hom-set #{C(x,
 c)} and a morphism #{x\xto{f} y} to its action #{f^*} by pre-composition:}
 
-\tx{
+\texfig{
   \begin{tikzcd}
 			C\ar[rr, "{C(-, c)}"] && \textsc{Set} \\
 			x\ar[rr, mapsto] && C(x, c)\ar[dd, "f^*"] && x\ar[rr, "g"] &\ar[dd, mapsto] & c\\
@@ -22,3 +22,6 @@ c)} and a morphism #{x\xto{f} y} to its action #{f^*} by pre-composition:}
   \end{tikzcd}
 }
 
+\p{This functor is also called the \em{[presheaf](rs-0015) represented by #{c}}, and is
+written #{yc}, #{y^c} or #{h^c}, the former two in reference to the [Yoneda
+embedding](rs-0016).}

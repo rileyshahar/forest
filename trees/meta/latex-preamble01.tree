@@ -1,12 +1,11 @@
+% vim:ft=tex
 \def\latex-preamble/diagrams{
   \startverb
+  \usepackage{tikz, tikz-cd, mathtools, amssymb}
   \usetikzlibrary{shapes.geometric}
   \usetikzlibrary{calc}
-
-
-  \tikzset{
-    font=\tiny,
-  }
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
 
   \tikzset{
     % basics
@@ -27,6 +26,39 @@
       double distance=.4pt,
       text=black
     },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
   }
   \stopverb
 }

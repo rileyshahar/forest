@@ -1,0 +1,11 @@
+\date{2024-06-19}
+\title{complete lattice}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{abramsky-jung-1994}{Abramsky & Jung}{Definition 2.1.3(6)}
+
+\p{A \em{complete lattice} is a [poset](rs-005U) with all [meets](rs-006J) and
+joins; equivalently, it is [complete](rs-002C) and [cocomplete](rs-002D) as a
+category.}

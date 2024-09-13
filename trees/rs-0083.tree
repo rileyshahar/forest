@@ -1,0 +1,33 @@
+\date{2024-09-05}
+\title{simplicial sets}
+\taxon{notes}
+\author{rileyshahar}
+
+\import{macros01}
+
+\put\transclude/expanded{false}
+\transclude{rs-007Z}
+\transclude{rs-0082}
+\transclude{rs-0080}
+\put\transclude/numbered{false}
+\transclude{rs-0081}
+\put\transclude/numbered{true}
+\transclude{rs-0086}
+\transclude{rs-0084}
+\transclude{rs-0085}
+\transclude{rs-0087}
+\transclude{rs-0089}
+\subtree{
+  \title{geometric realization of a simplicial set}
+  \taxon{Example}
+  \put\transclude/heading{false}
+  \transclude{rs-008A}
+  \transclude{rs-008P}
+}
+\put\transclude/taxon{example}
+\transclude{rs-0088}
+\put\transclude/taxon{}
+\transclude{rs-008B}
+\transclude{rs-008C}
+\transclude{rs-008G}
+\transclude{rs-008D}

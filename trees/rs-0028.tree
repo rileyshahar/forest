@@ -18,14 +18,14 @@
   
   \p{The [universal property](rs-001Z-up) of the [pushout](rs-0028)
   #{B\xto{\iota_B}P\xfrom{\iota_C}C} of a [diagram](rs-001U) #{B\xfrom{f}A\xto{g}C} is that,
-  for any commutative square\tx{
+  for any commutative square\texfig{
     \begin{tikzcd}
       A\ar[r, "g"]\ar[d, "f"'] & C\ar[d, "c"] \\
       B\ar[r, "b"'] & Z\punctuation{,}
     \end{tikzcd}
   }there exists a unique morphism #{P\to Z} making the following diagram
   commute:
-  \tx{
+  \texfig{
     \begin{tikzcd}
       A\ar[r, "g"]\ar[d, "f"'] & C\ar[d, "\iota_C"]\ar[ddr, "c", bend left] \\
       B\ar[r, "\iota_B"']\ar[drr, "b"', bend right] & P\ar[dr, dashed, "\exists

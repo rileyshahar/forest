@@ -1,0 +1,44 @@
+\date{2024-06-19}
+\title{equational theory of bicartesian closed categories}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{In addition to [those of a cartesian closed category](rs-006D) and the
+[duals](rs-0009) to those of a [cartesian category](rs-0033), a [bicartesian
+closed category](rs-006R) #{C} saitsfies the following equations up to [natural
+isomorphism](rs-0010):}
+
+\ul{
+  \li{#{x\times (y+z)\cong x\times y + x\times z} (and in particular, #{C} is a
+  [distributive category](rs-006U));}
+  \li{#{x^{y+z}\cong x^y\times x^z};}
+  \li{#{x\times 0 \cong 0};}
+  \li{#{x^0 \cong 1}.}
+}
+
+\proof{
+  \p{To show the first, note that #{\times} is a left adjoint and [left adjoints
+  preserve colimits](rs-003P).}
+
+  \p{To show the second, note that ##{\begin{aligned}
+  C(-, x^{y+z}) &\cong C(-\times(y+z), x) \\
+  &\cong C(y+z, x^-) \\
+  &\cong C(y, x^-)\times C(z, x^-) \\
+  &\cong C(-\times y, x)\times C(-\times z, x) \\
+  &\cong C(-, x^{y})\times C(-, x^{z}) \\
+  &\cong C(-, x^y\times x^z).
+  \end{aligned}} In particular, the third line uses the [representability of
+  colimits](rs-002O), while the last uses that of limits. Now the result follows
+  by the [Yoneda lemma](rs-001O).}
+
+  \p{To see the third, we can again argue by left adjoint preserve colimits.
+  More directly, we argue from initiality of #{0} that ##{
+    C(x\times 0, -) \cong C(0, -^x) \cong *.
+  } Now we obtain the result by applying the fact that the [the Yoneda reflects
+  limits](rs-0016) in #{C^\op}.}
+
+  \p{To see the fourth, note that ##{C(-,
+  x^0) \cong C(-\times 0, x) \cong C(0, x)\cong *.}}
+}

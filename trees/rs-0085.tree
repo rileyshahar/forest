@@ -1,0 +1,14 @@
+\date{2024-09-05}
+\title{the universal property of the standard simplex}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{p. 4}
+
+\p{By the [Yoneda lemma](rs-0014), there is a [natural isomorphism](rs-0010)
+##{\Hom(\Delta^n, X)\cong X_n,} where #{\Delta^n} is the [standard
+#{n}-simplex](rs-0084) and #{X} is any [simplicial set](rs-0080). In other
+words, the [#{n}-simplices of #{X}](rs-0081) are exactly the simplex maps from
+#{\Delta^n} to #{X}.}
+

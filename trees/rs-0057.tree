@@ -26,14 +26,14 @@
   \p{It remains to show that the third implies the second. Let #{*} be the
   terminal object. Given objects #{x} and #{y}, their product is constructed as
   the pullback
-  \tx{
+  \texfig{
     \begin{tikzcd}
         x\times y\ar[r, "\pi_x"]\ar[d, "\pi_y"']\pullback & x\ar[d] \\
         y\ar[r] & *\punctuation{;}
     \end{tikzcd}
   } indeed, the respective universal properties agree. Given a [parallel
   pair](rs-0054) #{x\xtos{f,g} y}, we claim that their [equalizer](rs-0025) is
-  constructed as the top-right of the pullback \tx{
+  constructed as the top-right of the pullback \texfig{
     \begin{tikzcd}
         E\ar[r, "e"]\ar[d]\pullback & x\ar[d, "{(f, g)}"] \\
         y\ar[r, "{(1_y, 1_y)}"'] & y\times y\punctuation{.}
@@ -41,7 +41,7 @@
   } First, #{fe = ge} because the diagram commutes, and the bottom-right is
   symmetric about the two copies of #{y}. Second, for any map #{z\xto{d} x}
   equalizing #{f} and #{g}, the [universal property of the
-  pullback](rs-0027-up) gives a unique map making \tx{
+  pullback](rs-0027-up) gives a unique map making \texfig{
     \begin{tikzcd}
         z\ar[dr, "\exists !", dashed]\ar[d, "d"']\ar[drr, "d", bend left] \\
         x\ar[dr, "f"'] & E\ar[r, "e"]\ar[d]\pullback & x\ar[d, "{(f, g)}"] \\

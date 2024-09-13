@@ -1,0 +1,13 @@
+\date{2024-06-19}
+\title{boolean algebra}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 50}
+
+\p{A \em{Boolean algebra} is a [distributive lattice](rs-006T) in which every
+element #{x} has a \em{complement} #{\lnot x} satisfying
+  ##{x\meet \lnot x = \bot\quad\text{ and }\quad x\join \lnot x = \top.}
+}
+

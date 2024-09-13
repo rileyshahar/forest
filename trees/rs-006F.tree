@@ -1,0 +1,13 @@
+\date{2024-06-18}
+\title{global element}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 47}
+
+\p{A \em{global element} of an object #{X} in a [cartesian closed
+category](rs-005K) (or sometimes more generally a [closed monoidal
+category](rs-005J), in which case the same concept is sometimes called a
+\em{generalized element} or \em{state}) is a morphism #{1\to X}.}
+

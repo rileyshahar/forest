@@ -21,7 +21,7 @@ while for #{E} [locally small](rs-002Q), pre-composition defines an adjunction
   component #{FGK\xto{\epsilon'_K} K} is similarly #{\epsilon K}.}
 
   \p{We demonstrate the [triangle identities](rs-003A) in components. The left
-  triangle identity asserts that \tx{
+  triangle identity asserts that \texfig{
     \begin{tikzcd}
       FH\ar[dr, "1_{FH}"']\ar[r, "F \eta H"] & FGFH\ar[d, "\epsilon F H"] \\
       & FH

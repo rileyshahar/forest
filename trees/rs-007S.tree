@@ -1,0 +1,12 @@
+\date{2024-08-28}
+\title{distributive binary operation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{X} be equipped with two [binary operations](rs-007N) #{+} and #{\cdot}.
+Then \em{#{\cdot} (two-sidedly) distributes over #{+}} if, for all #{a,b,c \in X}, ##{a\cdot(b
++ c) = a\cdot b + a\cdot c\quad\text{ and }\quad (b + c)\cdot a = b\cdot a + c\cdot a.} If this identity holds only on one side, it is
+called left- or right-distributivity, as appropriate.}
+

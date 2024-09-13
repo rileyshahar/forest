@@ -1,0 +1,10 @@
+\date{2024-09-05}
+\title{degenerate simplex}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{X} be a [simplicial set](rs-0080). A [simplex](rs-0081) #{x\in X_n} is
+\em{degenerate} if it is in the image of one of the degeneracy maps #{s^i}.}
+

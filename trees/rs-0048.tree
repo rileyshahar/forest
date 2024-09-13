@@ -8,7 +8,7 @@
 \p{An \em{algebra homomorphism} between [algebras](rs-0046) #{Fx\xto{f} x} and
 #{Fy\xto{g} y} over an [endofunctor](rs-0042) #{F} is a map #{x\xto{h} y} so
 that
-\tx{
+\texfig{
   \begin{tikzcd}
     Fx\ar[r, "Fh"]\ar[d, "f"'] & Fy\ar[d, "g"]\\
     x\ar[r, "h"'] & y

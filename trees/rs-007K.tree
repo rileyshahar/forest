@@ -1,0 +1,61 @@
+\title{category theory}
+\date{2024-04-03}
+\taxon{notes}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{These are my notes on category theory.}
+
+\put\transclude/expanded{false}
+
+\subtree{
+  \title{Basics}
+  \taxon{Section}
+  \subtree[cat-definition]{
+    \title{Categories}
+    \transclude{rs-0001}
+    \p{Categories are ubiquitous in mathematics, as the following examples show.}
+    \scope{
+      \put\transclude/taxon{Example}
+      \transclude{rs-000C}
+      \transclude{rs-005P}
+      \transclude{rs-000D}
+    }
+    \p{We call these examples \em{concrete}. However, as the following examples
+    show, not all categories look like this.}
+    \scope{
+      \put\transclude/taxon{Example}
+      \transclude{rs-007L}
+      \transclude{rs-007M}
+      \transclude{rs-005T}
+      \transclude{rs-001E}
+      \transclude{rs-001B}
+
+      % \transclude{rs-0026}
+      % \transclude{rs-0021}
+      % \transclude{rs-0023}
+    }
+  }
+
+  % \subtree[morphisms]{
+  %   \title{(Iso)morphisms}
+  %
+  %   \scope{
+  %     \put\transclude/toc{false}
+  %     \put\transclude/heading{false}
+  %     \transclude{rs-001A}
+  %   }
+  %
+  %   \subtree{
+  %     \title{Recovering objects from maps}
+  %     \taxon{Example}
+  %
+  %     \p{In the following categories, we can reconstruct an object by
+  %     probing it with maps from suitable choices of other objects.}
+  %   }
+  % }
+}
+
+\transclude{rs-0044}
+\transclude{rs-0043}

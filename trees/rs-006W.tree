@@ -1,0 +1,15 @@
+\date{2024-06-19}
+\title{equational theory of Heyting algebras}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Proposition I.8.3}
+
+\p{In addition to [those of a bicartesian closed category](rs-006S), a [Heyting
+algebra](rs-006V) satisfies the following equations: \ul{
+  \li{#{x\To x = \top};}
+  \li{#{x\meet (x\To y) = x\meet y};}
+  \li{#{y\meet (x\To y) = y};}
+  \li{#{x\To (y\meet z) = (x\To y)\meet (x\To z)}.}
+}}

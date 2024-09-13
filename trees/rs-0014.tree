@@ -37,12 +37,12 @@ object. Then ##{\Hom(C(A, -), F)\cong FA.}}
     }sends any #{x\in FA} to the natural transformation with components ##{
       \Psi x_B: C(B,A)\to FB,\quad f\mapsto Ff(x).
     }
-    Naturality of #{\Psi x} entails, for any #{B\xfrom{f} B'\in C^\op}, commutativity of \tx{
+    Naturality of #{\Psi x} entails, for any #{B\xfrom{f} B'\in C^\op}, commutativity of \texfig{
       \begin{tikzcd}
         C(B,A)\ar[d, "f^*"']\ar[r, "\Psi x_B"] & FB\ar[d, "Ff"] \\
         C(B',A)\ar[r, "\Psi x_{B'}"'] & FB'\punctuation{,}
       \end{tikzcd}
-    }which is desmonstrated by \tx{
+    }which is desmonstrated by \texfig{
       \begin{tikzcd}
         g\ar[dd, mapsto, "f^*"']\ar[r, mapsto, "\Psi x_B"] & Fg(x)\ar[d, mapsto, "Ff"] \\
                                                           &  Ff (Fg (x)) \\
@@ -55,7 +55,7 @@ object. Then ##{\Hom(C(A, -), F)\cong FA.}}
     Next, let #{yA \xto{\alpha} F}; we want to show that ##{
       \alpha = \Phi(\Psi(\alpha)).
     } We will do this by showing the components agree. Again letting
-    #{A\xfrom{f} B}, naturality of #{\alpha} asserts that \tx{
+    #{A\xfrom{f} B}, naturality of #{\alpha} asserts that \texfig{
       \begin{tikzcd}
         C(A, A)\ar[d, "f^*"']\ar[r, "\alpha_A"] & FA\ar[d, "Ff"] \\
         C(B, A)\ar[r, "\alpha_B"] & FB
@@ -69,12 +69,12 @@ object. Then ##{\Hom(C(A, -), F)\cong FA.}}
   \subtree{
     \number{Naturality in F}
 
-    \p{We next show naturality in #{F}. Given #{F\xto{\beta}G}, we wish to show that \tx{
+    \p{We next show naturality in #{F}. Given #{F\xto{\beta}G}, we wish to show that \texfig{
       \begin{tikzcd}
         \psh{C}(yA, F)\ar[d, "\beta_*"']\ar[r, "\Phi_F"] & FA\ar[d, "\beta_A"] \\
         \psh{C}(yA, G)\ar[r, "\Phi_G"'] & GA
       \end{tikzcd}
-    }commutes, as demonstrated by \tx{
+    }commutes, as demonstrated by \texfig{
       \begin{tikzcd}
         \alpha\ar[dd, mapsto, "\beta_*"']\ar[r, mapsto, "\Phi_F"] & \alpha_A(1_A) \ar[d, mapsto, "\beta_A"] \\
                                                                    & \beta_A(\alpha_A(1_A)) \\
@@ -86,12 +86,12 @@ object. Then ##{\Hom(C(A, -), F)\cong FA.}}
   \subtree{
     \number{Naturality in A}
 
-    \p{Finally, naturality in #{A} asserts that, given #{A\xfrom{f} B}, \tx{
+    \p{Finally, naturality in #{A} asserts that, given #{A\xfrom{f} B}, \texfig{
       \begin{tikzcd}
         \psh{C}(yA, F)\ar[d, "(f_*)^*"']\ar[r, "\Phi_A"] & FA\ar[d, "Ff"] \\
         \psh{C}(yB, F)\ar[r, "\Phi_B"'] & FB
       \end{tikzcd}
-    }commutes, as entailed by \tx{
+    }commutes, as entailed by \texfig{
       \begin{tikzcd}
         \alpha\ar[dd, mapsto, "(f_*)^*"']\ar[r, mapsto, "\Phi_A"] & \alpha_A(1_A)\ar[d, "Ff"] \\
                                                                 & Ff(\alpha_c(1_c))\\

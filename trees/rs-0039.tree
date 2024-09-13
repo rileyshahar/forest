@@ -15,12 +15,12 @@ adjunction.}
 at #{d} is the transpose of #{1_{Gd}} is called the \em{counit} of the adjunction.}
 
 \namedproof{of naturality}{
-  Naturality asserts that \tx{
+  Naturality asserts that \texfig{
     \begin{tikzcd}
       c\ar[r, "\eta_c"]\ar[d, "f"'] & FGc\ar[d, "FGf"]\\
       c'\ar[r, "\eta_{c'}"'] & FGc'
     \end{tikzcd}
-  }commutes, but the [adjoint square](rs-0038) is \tx{
+  }commutes, but the [adjoint square](rs-0038) is \texfig{
     \begin{tikzcd}
       Fc\ar[r, "1_{Fc}"]\ar[d, "Ff"'] & FGc\ar[d, "Ff"]\\
       Fc'\ar[r, "1_{Fc'}"'] & FGc'\punctuation{,}

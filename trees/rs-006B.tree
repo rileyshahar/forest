@@ -1,0 +1,40 @@
+\date{2024-06-18}
+\title{density formula}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 6.5.7}
+
+\p{Let #{C^\op\xto{F}} \scat{Set} be a [presheaf](rs-000L) for #{C} [locally
+small](rs-002Q). Then #{F} is the [colimit](rs-0044) of the [diagram](rs-001U)
+##{\link{rs-001S.xml}{\el{F}}\xto{\Pi} C\xinto{y} \psh{C},} where #{y} is the
+[Yoneda embedding](rs-0016).}
+
+\proof{
+  \p{The [colimit formula for #{F}](rs-006A) gives the [coequalizer
+  diagram](rs-0026) \texfig{
+    \begin{tikzcd}
+      \Coprod_{C(x, y)\times C(c, x)} Fy\ar[r, shift
+      left=.2em]\ar[r, shift right=.2em] & \Coprod_{C(c, x)} Fx\ar[r, two heads] &
+      Fc\punctuation{.}
+    \end{tikzcd}
+  } In \scat{Set}, we have the [distributive law](TODO)  #{\Coprod_A B \cong A\times
+  B \cong \Coprod_B A} natural in #{A} and #{B}, so that this diagram
+  becomes \texfig{
+    \begin{tikzcd}
+      \Coprod_{C(x, y)\times Fy} C(c, x)\ar[r, shift
+      left=.2em]\ar[r, shift right=.2em] & \Coprod_{Fx} C(c, x)\ar[r, two heads] &
+      Fc\punctuation{.}
+    \end{tikzcd}
+  } Since [colimits in #{\psh{C}} are computed pointwise](rs-002N), we conclude
+  that #{F} is the colimit of [contravariant hom-functors](rs-000R) as pictured.
+  By the [construction of colimits](rs-002F), this diagram equivalently
+  determines the colimit of a diagram #{J\xto{D}} \scat{Set} whose objects are
+  #{\coprod_{Fx}} and whose morphisms are #{\coprod_{C(x, y)\times Fy}}, with
+  domain the chosen element of #{Fy} and codomain the corresponding element of
+  #{Fx} (noticing the contravariance of #{F}). This is exactly the [category of
+  elements](rs-001S) of #{F}. Noticing that the sets #{C(c, x)} are exactly the
+  images of #{x} under #{y}, #{F} is now equivalently the colimit of the
+  diagram ##{\el{F}\xto{\Pi} C\xinto{y} \psh{C}.}}
+}

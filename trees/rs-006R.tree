@@ -1,0 +1,11 @@
+\date{2024-06-19}
+\title{bicartesian closed category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [cartesian closed category](rs-005K) is \em{bicartesian closed} if it
+additionally has [finite](rs-0058) [coproducts](rs-0024); equivalently, it is a
+[bicartesian category](rs-003Z) whose cartesian monoidal structure is closed.}
+

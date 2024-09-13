@@ -1,0 +1,57 @@
+\date{2024-06-18}
+\title{presheaf categories are cartesian closed}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Proposition I.6.1}
+
+\p{For any category #{C}, the category of [presheaves](rs-0015) #{\psh{C}}
+is [cartesian closed](rs-005K).}
+
+\proof{
+  \p{[Products](rs-0023) are [computed pointwise](rs-0074), hence inherited from
+  [\scat{Set}](rs-002S). By the [Yoneda lemma](rs-0014), for #{c\in C} an
+  exponential #{Q^P}, if it exists, should satisfy ##{Q^P c \cong \psh{C}(yc,
+  Q^P)\cong \psh{C}(yc\times P, Q).} Taking this to define #{Q^P}, we now show
+  the desired [adjunction](rs-0043).}
+
+  \p{Fixing some #{P} and #{Q} [suffices](rs-003E) to construct the evaluation natural transformation
+  #{Q^P\times P\xto{\ev} Q} (itself the #{Q}-component of a natural transformation
+  #{(-)^P\times P\to P}) which [induces](rs-003S) an isomorphism on adjoint
+  hom-sets. At #{c\in C}, the component #{\ev_c} is given a natural
+  transformation #{yc\times P\xto{\phi} Q} and an element #{p\in Pc}; we
+  define ##{\ev_c(\phi, p) = \phi_c(1_c, p).}}
+
+  \p{Now, it remains to show that there is a [bijection](rs-000E)
+  ##{\psh{C}(R, Q^P)\xto{-\times P} \psh{C}(R\times P, Q^P\times
+  P)\xto{\ev_*} \psh{C}(R\times P, Q).} That is, given a natural transformation
+  #{R\times P\xto{\alpha} Q}, we must show that there is a unique natural transformation
+  #{R\xto{\beta} Q^P} mapping to #{\alpha}. At #{c\in C}, this is a
+  set-function #{Rc\xto{\beta_c} Q^Pc}, where the latter is the set 
+  #{\psh{C}(yc\times P, Q)}. As such, for each element #{r\in Rc}, we must
+  define a natural transformation #{yc\times P\xto{\beta_c(r)} Q}.}
+
+  \p{The construction of the bijection now demands that, for #{c\in C}, #{r\in
+  Rc}, and #{p\in Pc}, we have ##{\alpha_c(r, p) = \ev_c(\beta_c(r), p) =
+  \beta_c(r)_c(1_c, p).} This defines #{\beta_c(r)_c}, and naturality in #{C}
+  now forces, for any #{c\xto{f} d}, \texfig{
+    \begin{tikzcd}
+      C(c, c)\times Pc\ar[d, "f^*\times Pf"']\ar[r, "\beta_c(r)_c"] & Qc\ar[d, "Qf"]\\
+      C(d, c)\times Pd\ar[r, "\beta_c(r)_{d}"'] & Qd
+    \end{tikzcd}
+  } to commute. Tracking #{(1_c, p)}, on the top-left we have that
+  #{Qf(\alpha_c(r, p))}, while on the bottom-right we have #{\beta_c(r)_d(f,
+  Pf(p))}. Meanwhile, naturality of #{\alpha} implies that \texfig{
+    \begin{tikzcd}
+      Rc\times Pc\ar[d, "Rf\times Pf"']\ar[r, "\alpha_c"] & Qc\ar[d, "Qf"]\\
+      Rd\times Pd\ar[r, "\alpha_d"'] & Qd
+    \end{tikzcd}
+  } commutes, so that ##{\alpha_d(Rf(r), Pf(p)) = Qf(\alpha_c(r, p)) =
+  \beta_c(r)_d(f, Pf(p)).} Finally, since #{\beta} must also be natural in #{c},
+  we can take #{c = d} to force ##{\beta_c(r)_d(f, p) = \alpha_d(Rf(r), p).}
+  Thus, this is a unique definition of #{\beta}, and we have furthermore checked
+  the required naturality conditions, so that we have demonstrated the desired
+  bijection.}
+}
+

@@ -21,7 +21,7 @@ natural isomorphism ##{
 \proof{
   \p{By the [formula for limits in \scat{Set}](rs-002E-construction), the
   right-hand side consists of certain #{J}-tuples of maps #{x\to Fj}, subject to
-  the compatibility condition that \tx{
+  the compatibility condition that \texfig{
     \begin{tikzcd}
       & x\ar[dl, "\lambda_j"']\ar[dr, "\lambda_k"] \\
       Fj\ar[rr, "Ff"'] && Fk

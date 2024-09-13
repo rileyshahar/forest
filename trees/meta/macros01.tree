@@ -1,7 +1,25 @@
 \title{basic macros}
+
 \import{latex-preamble01}
 
 \xmlns:html{http://www.w3.org/1999/xhtml}
+
+\def\table[body]{
+  \<html:table>{\body}
+}
+\def\tr[body]{
+  \<html:tr>{\body}
+}
+\def\td[body]{
+  \<html:td>{\body}
+}
+\def\th[body]{
+  \<html:th>{\body}
+}
+\def\hr{
+  \<html:hr>{}
+}
+
 
 % \def\link[note][body]{
 %   \xml{span}[class]{link local}{
@@ -9,7 +27,8 @@
 %   }
 % }
 
-\def\link[note][body]{\href{\note}{\body}}
+% \def\link[note][body]{\href{\note}{\body}}
+\def\link[note][body]{\body}
 
 \def\cite[note][name][at]{
 	\meta{ref-name}{\name}
@@ -45,10 +64,23 @@
   }
 }
 
-\def\tx[body]{\tex{
-	\usepackage{tikz-cd}
-	\usepackage{extpfeil}
-}{\body}}
+\alloc\base/tex-preamble
+
+\def\texfig[~body]{
+ \scope{
+  \put?\base/tex-preamble{
+   \latex-preamble/diagrams
+  }
+  \figure{
+   \tex{\get\base/tex-preamble}{\body{}}
+  }
+ }
+}
+
+% \def\tx[body]{\tex{
+% 	\usepackage{tikz-cd}
+% 	\usepackage{extpfeil}
+% }{\body}}
 
 \def\pic[body]{\tex{
   \usepackage{tikz}
@@ -60,6 +92,7 @@
 \def\emptyset{\varnothing}
 \def\acts{\curvearrowright}
 \def\xcong[arg]{\overset{\arg}{\cong}}
+\def\xsimeq[arg]{\overset{\arg}{\simeq}}
 
 \def\join{\vee}
 \def\Join{\bigvee}
@@ -68,7 +101,7 @@
 \def\adj{\dashv}
 
 \def\tcd[body]{
-  \tx{
+  \texfig{
     \begin{tikzcd}
       \body
     \end{tikzcd}
@@ -76,7 +109,7 @@
 }
 
 \def\adjd[dom][cod][left][right][punct]{
-\tx{
+\texfig{
   \begin{tikzcd}
     \dom\ar[rr, bend left, "\left"] & \bot & \cod\ar[ll, bend left, "\right"]\punctuation\punct
   \end{tikzcd}
@@ -84,7 +117,7 @@
 }
 
 \def\fsadjd[dom][cod][left][right][unit][counit][punct]{
-\tx{
+\texfig{
   \begin{tikzcd}
     \dom\ar[rr, bend left, "\left"] & \bot & \cod\ar[ll, bend left, "\right"]
     & 1_\dom\ar[r, "\unit"] & \right\left & \left\right\ar[r, "\counit"] & 1_\cod\punctuation\punct
@@ -92,22 +125,25 @@
 }
 }
 
-\def\psh[arg]{\text{PSh}_{\arg}}
+\def\psh[arg]{\hat{\arg}}
 
 \def\op{\text{op}}
 \def\obj{\operatorname*{obj}}
+\def\arr{\operatorname*{arr}}
 \def\lim{\operatorname*{lim}}
 \def\colim{\operatorname*{colim}}
 \def\dom{\operatorname*{dom}}
 \def\cod{\operatorname*{cod}}
-\def\Hom{\operatorname*{Hom}}
+\def\Hom{\operatorname{Hom}}
 \def\Cone{\operatorname*{Cone}}
 \def\Cocone{\operatorname*{Cocone}}
+\def\Sub{\operatorname{Sub}}
 \def\Adj{\operatorname*{Adj}}
 \def\el[arg]{\text{el}(\arg)}
-\def\arr{\operatorname*{arr}}
 \def\Lan{\operatorname*{Lan}}
 \def\Ran{\operatorname*{Ran}}
+
+\def\true{\text{true}}
 
 \def\ev{\operatorname{ev}}
 

@@ -1,15 +1,21 @@
 \date{2024-05-14}
-\title{products commute}
+\title{equational theory of cartesian categories}
 \taxon{proposition}
 \author{rileyshahar}
 
 \import{macros01}
 
-\p{The [products](rs-0023) #{A\times B} and #{B\times A} are uniquely
-[isomorphic](rs-0002).}
+\p{A [cartesian category](rs-003Z) #{C} satisfies the following equations up to
+[natural isomorphism](rs-0010):}
+
+\ul{
+  \li{#{x\times y\cong y\times x};}
+  \li{#{x\times(y\times z)\cong(x\times y)\times z};}
+  \li{#{x\times 1\cong x}.}
+}
 
 \proof{
-  \p{The [universal properties](rs-001P) are identical, so we conclude
-  since [universal properties are characterizing](rs-001R).}
+  \p{By the [representability of limits](rs-002O), each of these follows from
+  the corresponding result in [\scat{Set}](rs-000C).}
 }
 

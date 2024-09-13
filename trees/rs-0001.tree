@@ -21,14 +21,14 @@
 
 \p{This data must satisfy the following axioms:}
 \ul{
-  \li{\em{unitality}: for any #{x\xrightarrow{f} y}, #{1_yf = f = f1_x};}
-	\li{\em{associativity}: for any #{x\xrightarrow{f}
+  \li{\em{[unitality](rs-007Q)}: for any #{x\xrightarrow{f} y}, #{1_yf = f = f1_x};}
+	\li{\em{[associativity](rs-007P)}: for any #{x\xrightarrow{f}
 		y\xrightarrow{g}z\xrightarrow{h}w}, #{h(gf) = (hg)f.}
 	}
 }
 
 \p{In other words, the following diagrams must commute:}
-\tx{
+\texfig{
   \begin{tikzcd}
     x\ar[r, "f"]\ar[rr, "gf", bend left=45] & y\ar[r, "g"]\ar[rr, "hg"', bend right=45] & z\ar[r, "h"] & w
   \end{tikzcd}
@@ -42,24 +42,3 @@
     & y\punctuation{.}
   \end{tikzcd}
 }
-
-% \xml{bm-inject}{
-%   \put\transclude/numbered{false}
-%   \put\transclude/metadata{true}
-%   \put\transclude/title{Constructions}
-%   \query{
-%     \query/tag{construction:rs-0001}
-%   }
-%   \put\transclude/title{Examples}
-%   \query{
-%     \query/tag{ex:rs-0001}
-%   }
-%   \put\transclude/title{Structures}
-%   \query{
-%     \query/tag{structure:rs-0001}
-%   }
-%   \put\transclude/title{Properties}
-%   \query{
-%     \query/tag{property:rs-0001}
-%   }
-% }

@@ -18,14 +18,14 @@
   
   \p{The [universal property](rs-001Y-up) of the [pullback](rs-0027)
   #{B\xfrom{\pi_B}P\xto{\pi_C}C} of a [diagram](rs-001U) #{B\xto{f}A\xfrom{g}C} is that,
-  for any commutative square\tx{
+  for any commutative square\texfig{
     \begin{tikzcd}
       Z\ar[r, "c"]\ar[d, "b"'] & C\ar[d, "g"] \\
       B\ar[r, "f"'] & A\punctuation{,}
     \end{tikzcd}
   }there exists a unique morphism #{Z\to P} making the following diagram
   commute:
-  \tx{
+  \texfig{
     \begin{tikzcd}
       Z\ar[ddr, "b"', bend right]\ar[drr, "c", bend left]\ar[dr, "\exists !", dashed] \\
       & P\ar[r, "\pi_C"]\ar[d, "\pi_B"']\pullback & C\ar[d, "g"] \\

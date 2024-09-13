@@ -17,7 +17,7 @@ with the units and counits.}
   \p{By [whiskering](rs-003B), we define the [natural transformations](rs-000V)
   ##{\theta = F\xto{F\eta'}FGF'\xto{\epsilon F'} F'\quad\text{and}\quad \theta'
   = F'\xto{F'\eta}F'GF\xto{\epsilon F} F.} Now the following diagram commutes:
-  \tx{
+  \texfig{
     \begin{tikzcd}
       & & F'\ar[dr, "F'\eta"']\ar[drdr, "\theta'", bend left] \\
       & FGF'\ar[ur, "\epsilon F'"']\ar[dr, "FGF'\eta"] & & F'GF\ar[dr, "\epsilon F"'] \\
@@ -32,7 +32,7 @@ with the units and counits.}
   identity](rs-003A). The other direction of invertibility follows by symmetry.}
 
   \p{To show that #{\theta} commutes with the units and counits, we observe
-  that the following diagram commutes: \tx{
+  that the following diagram commutes: \texfig{
     \begin{tikzcd}
       && GF\ar[d, "GF\eta'"']\ar[dd, "\theta", bend left=50] \\
       1_C\ar[urr, "\eta", bend left]\ar[r, "\eta'"]\ar[drr, "\eta'"', bend right] & GF'\ar[r, "\eta

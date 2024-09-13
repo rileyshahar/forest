@@ -1,0 +1,52 @@
+\date{2024-06-17}
+\title{the category of presheaves is the free cocompletion}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Corollary I.5.4}
+
+\p{The [category of presheaves](rs-0015) #{\psh{C}} is the [free](rs-0052)
+[cocompletion](rs-002D) of #{C}, in an appropriately weak 2-categorical sense. In
+particular, for every functor #{C\xto{F} E} with #{E} cocomplete, there exists,
+uniquely up to unique [isomorphism](rs-0010), a [cocontinuous functor](rs-003V)
+#{\psh{C}\to E} that extends the [Yoneda embedding](rs-0016) of #{C}: \texfig{
+  \begin{tikzcd}
+    C\ar[r, dashed, "\exists!"', "\hat{F}"] & E \\
+    C\ar[u, "y"]\ar[ur, "F"']
+  \end{tikzcd}
+} commutes. This functor is called the \em{Yoneda extension} of #{F}.}
+
+\proof{
+  \p{Since [every presheaf is a colimit of representables](rs-006B), hence a
+  colimit of objects in the image of the Yoneda embedding, and the functor
+  #{\hat{F}} must preserve colimits, there is (up to isomorphism) only one
+  candidate fomula: given a presheaf #{P}, we must have
+  ##{\begin{aligned}
+  \hat{F}P &= \hat{F}(\colim(\el{P}\xto{\Pi} C\xinto{y} \psh{C})) \\\\
+  &= \colim (\el{P}\xto{\Pi} C\xinto{y} \psh{C}\xto{\hat{F}} E) \\\\
+  &= \colim (\el{P} \xto{\Pi} C\xto{F} E).
+  \end{aligned}
+  } By [functoriality of colimits](rs-0030), this is well-defined.}
+
+  \p{By the [proof of the density formula](rs-006B), we recognize this as the
+  [colimit formula for the Kan extension of #{F} along #{y}](rs-0065). (Indeed,
+  since [the Yoneda embedding is fully faithful](rs-0019), [this Kan extension
+  is necessarily an isomorphism](rs-0069), so that this extension necessarily
+  makes the triangle commute.)}
+  
+  \p{It remains to show that #{\hat{F}} is cocontinuous. To do so, [it suffices
+  to show it is a left adjoint](rs-003P). We define the functor #{E\xto{R}
+  \psh{C}} by #{Re = E(F-, e).} To exhibit the adjunction, compute for
+  #{P\in\psh{C}} and #{e\in E}, ##{
+    \begin{aligned}
+      \psh{C}(P, Re) &\cong \psh{C}(\colim_{(c,x)\in\el{P}}C(-, c), Re) &&\text{by the \link{rs-006B.xml}{density formula}} \\
+      &\cong \lim_{(c, x)\in\el{P}^\op} \psh{C}(C(-, c), Re) &&\text{by the
+      \link{rs-002O.xml}{representability of colimits}} \\
+      &\cong \lim_{(c, x)\in\el{P}^\op} (Re)c &&\text{by the \link{rs-0014.xml}{Yoneda lemma}} \\
+      &\cong \lim_{(c, x)\in\el{P}^\op} E(Fc, e) &&\text{by definition of } R \\
+      &\cong E(\colim_{(c, x)\in\el{P}} Fc, e) &&\text{by the \link{rs-002O.xml}{representability of colimits}} \\
+      &\cong E(\hat{F}P, e) &&\text{by definition of } \hat{F}.
+    \end{aligned}
+  }}
+}

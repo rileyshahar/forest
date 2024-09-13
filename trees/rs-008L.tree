@@ -1,0 +1,17 @@
+\date{2024-09-08}
+\title{equivalence of morphisms is an equivalence relation}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{}
+
+\p{[Equivalence of morphisms](rs-008K) in a [quasicategory](rs-008H) is an [equivalence relation](TODO).}
+
+% \proof{
+%   \p{To show [reflexivity](rs-005Q), note that #{s_1(f)} is a homotopy #{f\simeq
+%   f}.}
+%
+%   \p{To show [symmetry](rs-005I), note that }
+% }
+%

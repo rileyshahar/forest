@@ -1,0 +1,46 @@
+\title{homotopical combinatorics}
+\date{2024}
+\taxon{reference}
+\author{Andrew J Blumberg}
+\author{Michael A Hill}
+\author{Kyle Ormsby}
+\author{Angélica M Osorno}
+\author{Constanze Roitzheim}
+\meta{doi}{10.1090/noti2882}
+\meta{venue}{Notices of the American Mathematical Society}
+\meta{bibtex}{\startverb
+@article{Blumberg_2024,
+  title = {Homotopical Combinatorics},
+  volume = {71},
+  ISSN = {1088-9477},
+  url = {http://dx.doi.org/10.1090/not i2882},
+  DOI = {10.1090/noti2882},
+  number = {02},
+  journal = {Notices of the American Mathematical Society},
+  publisher = {American Math ematical Society (AMS)},
+  author = {Blumberg, Andrew J and Hill, Michael A. and Ormsby, Kyle and Osorno,
+            Angélica M. and Roitzheim, Constanze},
+  year = {2024},
+  month = feb,
+  pages = {1},
+}\stopverb}
+
+\p{Homotopical combinatorics is an emerging field that studies combinatorial
+structures encoding aspects of equivariant homotopy theory, equivariant algebra,
+and abstract homotopy theory. Its methods—a pleasant mix of enumerative
+combinatorics, algebraic combinatorics, and order theory—are relatively
+elementary, but its theorems have deep implications in homotopy theory. The
+youth and accessibility of homotopical combinatorics should make the field
+especially attractive to early career researchers, and we hope that this article
+and the 2024 Mathematics Research Community by the same name welcome
+mathematicians from many backgrounds into the field.}
+
+\p{The central object in homotopical combinatorics is the transfer system. These
+combinatorial gadgets were originally defined in order to encode the homotopy
+theory of #{N_\infty} operads, which control multiplicative structures in
+equivariant stable homotopy theory. Special pairs of transfer systems control
+the structure of bi-incomplete Tambara functors, basic objects of equivariant
+algebra. In a seemingly unrelated direction, pairs of transfer systems also
+encode model structures (presentations of #{(\infty ,1)}-categories) on posets.
+Below, we introduce transfer systems in purely combinatorial terms, and then
+explore their applications.}

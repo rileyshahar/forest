@@ -1,0 +1,18 @@
+\date{2024-06-19}
+\title{pseudosemilattice}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{abramsky-jung-1994}{Abramsky & Jung}{Definition 2.1.3(6)}
+
+\p{A \em{meet-pseudosemilattice} is a [poset](rs-005U) with all binary
+[meets](rs-006J). [Dually](rs-0009), a \em{join-pseudosemilattice} is a poset with all
+binary joins.}
+
+\p{Some authors use \em{semilattice} to refer to this notion, using (e.g.)
+\em{bounded semilattice} or \em{semilattice with #{\top}} for what we call
+merely [semilattice](rs-006M).}
+
+\p{As a [category](rs-0001), a meet-pseudosemilattice is a [cartesian](rs-003Z)
+poset.}

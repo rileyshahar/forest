@@ -10,5 +10,5 @@
 \p{A \em{preorder} is a [category](rs-0001) #{P} in which, for each pair of objects
 #{x} and #{y}, #{P(x, y)} is either empty or a singleton. Explicitly, this means
 that it has a collection of elements (its objects) and a [reflexive](rs-005Q),
-[transitive](rs-005R) [relation](rs-005O).}
+[transitive](rs-005R) [relation](rs-005O) (inhabitance of hom-sets).}
 \date{2024-06-14}

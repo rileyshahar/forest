@@ -1,0 +1,26 @@
+\date{2024-09-08}
+\title{composites in a quasicategory are unique up to equivalence}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Remark 1.26}
+
+\p{Let #{x\xto{f} y}, #{y\xto{g} z}, and #{x\xto{h,h'} z} be [morphisms](rs-008I) in a [quasicategory](rs-008H) so
+that #{h\xsimeq{\sigma}g\circ f} and #{h'\xsimeq{\sigma'} g\circ f}. Then there is an
+[equivalence](rs-008K) #{h\simeq h'}.}
+
+\proof{
+  \p{Fill the horn \texfig{
+    \begin{tikzcd}
+      && z\ar[dddrr, "1_z", ""{name=1}, bend left] \\ \\
+      && y\ar[uu, "g"]\ar[drr, "g"'] \\
+      x\ar[uuurr, "h", ""{name=h}, bend left]\ar[urr, "f"']\ar[rrrr, "h'"',
+      ""{name=hh}, bend right] &&&& z\punctuation{.}
+      \ar[phantom, from=3-3, to=h, "\sigma"]
+      \ar[phantom, from=3-3, to=hh, "\sigma'"]
+      \ar[phantom, from=3-3, to=1, "s_1(g)"]
+    \end{tikzcd}
+  }}
+}
+

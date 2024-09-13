@@ -1,10 +1,10 @@
 \date{2024-05-09}
-\title{\scat{Cat}}
+\title{category of categories}
 \taxon{definition}
 \author{rileyshahar}
 
 \import{macros01}
-% \cite{}{}{}
+\cite{riehl-2017}{Riehl}{p. 20}
 \tag{ex:rs-0001}
 
 \p{\scat{Cat} is the category of [locally small](rs-002Q)

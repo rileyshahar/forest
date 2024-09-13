@@ -19,13 +19,13 @@ consists of:}
 \p{Because the monoidal structure of the endofunctor category is [strict](rs-0059), the
 monoid laws take the form of commutativity of the following diagrams of
 [whiskered composites](rs-003B):}
-\tx{
+\texfig{
   \begin{tikzcd}
   T\ar[r, "\eta T"]\ar[dr, "1_T"'] & T^2\ar[d, "\mu"] & T\ar[l, "T\eta"']\ar[dl, "1_T"] \\
   & T\punctuation{;}
   \end{tikzcd}
 }
-\tx{
+\texfig{
   \begin{tikzcd}
     T^3\ar[r, "T\mu"]\ar[d, "\mu T"'] & T^2\ar[d, "\mu"] \\
     T^2\ar[r, "\mu"'] & T\punctuation{.}

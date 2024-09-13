@@ -7,7 +7,7 @@
 \import{macros01}
 \meta{isbn}{9780521719162}
 \meta{doi}{10.1017/CBO9780511804199 }
-\meta{bibtext}{\startverb
+\meta{bibtex}{\startverb
 @book{lawvere-Schanuel-2009,
   place = {Cambridge},
   edition = {2},

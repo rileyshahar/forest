@@ -1,0 +1,11 @@
+\date{2024-06-18}
+\title{pointwise Kan extensions along fully faithful functors are isomorphisms}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{6.3.9}
+
+\p{The unit of the [pointwise Kan extension](rs-0067) of a [functor](rs-000L) #{F} along a
+[fully](rs-0017) [faithful functor](rs-0018) #{K} is an [isomorphism](rs-0010).}
+

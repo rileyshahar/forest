@@ -10,4 +10,5 @@
 \p{A [monoidal category](rs-003X) is \em{cartesian} if its monoidal product is
 the [cartesian product](rs-0023) (and so its monoidal unit is
 [terminal](rs-0020)); any category with finite [products](rs-0023) is monoidal
-in this way.}
+in this way. Dually, it is \em{cocartesian} if it has finite
+[coproducts](rs-0024), and \em{bicartesian} if it has both.}

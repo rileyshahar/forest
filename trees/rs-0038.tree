@@ -11,7 +11,7 @@ equipped with [isomorphisms](rs-0002) #{D(Fc, d)\cong C(c, Gd)} for every #{c\in
 #{d\in D}. Then this data forms an [adjunction](rs-0036), and in particular these
 isomorphisms are [natural](rs-0010), if and only if, for
 every quadruple of morphisms as in the following display, the left-hand square
-commutes if and only if the right-hand square commutes:\tx{
+commutes if and only if the right-hand square commutes:\texfig{
     \begin{tikzcd}
       Fc\ar[r, "f^\sharp"]\ar[d, "Fh"'] & d\ar[d, "k"] \\
       Fc'\ar[r, "g^\sharp"'] & d'
@@ -35,13 +35,13 @@ commutes if and only if the right-hand square commutes:\tx{
   \p{In the backwards direction, suppose that the displayed relation holds. We
   show naturality in #{D}; naturality in #{C} is similar. Suppose #{d\xto{k}d'}
   and #{Fc\xto{f^\sharp} d} are given. Then by construction, the following
-  square commutes:\tx{
+  square commutes:\texfig{
     \begin{tikzcd}
       c\ar[r, "f^\flat"]\ar[d, "1_c"'] & Gd\ar[d, "Gk"] \\
       c\ar[r, "(Gk)f^\flat"'] & Gd'\punctuation{.}
     \end{tikzcd}
   }
-  Now by assumption, \tx{
+  Now by assumption, \texfig{
     \begin{tikzcd}
       Fc\ar[r, "f^\sharp"]\ar[d, "1_{Fc}"'] & Gd\ar[d, "k"] \\
       Fc\ar[r, "((Gk)f^\flat)^\sharp"'] & Gd'

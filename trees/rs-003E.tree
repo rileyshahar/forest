@@ -28,7 +28,7 @@ Then the following are equivalent specifications of an [adjunction](rs-0036):}
   [unit and counit](rs-0039).}
 
   \p{To show the second implies the third and the fourth, we need to show that
-  the given maps invert each other. Observe that \tx{
+  the given maps invert each other. Observe that \texfig{
     \begin{tikzcd}
       Fc\ar[r, "F\eta_c"]\ar[dr, "1_{Fc}"'] & FGFc\ar[r, "FGf"]\ar[d, "\epsilon_{Fc}"] & FGd\ar[d, "\epsilon_d"] \\
       & Fc\ar[r, "f"'] & d
@@ -40,7 +40,7 @@ Then the following are equivalent specifications of an [adjunction](rs-0036):}
   \p{To show that the third and fourth each independently imply the first, we
   show naturality of the #{(-)^\flat} and #{(-)^\sharp} maps. To show naturality
   of #{(-)^\flat} in #{D}, given maps #{d\xto{k} d'} and #{Fc\xto{f} d}, [it
-  suffices to show that](rs-0037) \tx{
+  suffices to show that](rs-0037) \texfig{
     \begin{tikzcd}
       c\ar[r, "f^\flat"]\ar[dr, "(kf)^\flat"'] & Gd\ar[d, "Gk"] \\
       & Gd'

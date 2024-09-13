@@ -3,7 +3,7 @@
 \taxon{reference}
 \author{Francis Borceux}
 \meta{isbn}{9780511525858}
-\meta{bibtext}{\startverb
+\meta{bibtex}{\startverb
 @book{borceux-1994,
   place = {Cambridge},
   series = {Encyclopedia of Mathematics and its Applications},

@@ -7,7 +7,7 @@
 \cite{borceux-1994}{Borceux}{Proposition I.2.5.6}
 
 \p{A map #{x\xto{f} y} is [monic](rs-000A) if and only if its [kernel
-pair](rs-002Y) is #{1_x}, i.e. if and only if \tx{
+pair](rs-002Y) is #{1_x}, i.e. if and only if \texfig{
   \begin{tikzcd}
     x\ar[r, "1_x"]\ar[d, "1_x"']\pullback & x\ar[d, "f"]\\
     x\ar[r, "f"'] & y

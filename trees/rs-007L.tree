@@ -1,0 +1,11 @@
+\date{2024-08-28}
+\title{empty category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Example 1.1.4(iv)}
+% \tag{ex:}
+
+\p{The \em{empty category} is the category with no objects and no
+morphisms.}

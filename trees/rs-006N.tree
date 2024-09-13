@@ -1,0 +1,14 @@
+\date{2024-06-19}
+\title{lattice}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{abramsky-jung-1994}{Abramsky & Jung}{Definition 2.1.3(6)}
+
+\p{A \em{lattice} is a [poset](rs-005U) with all [finite](rs-0058)
+[meets](rs-006J) and joins; in particular, it is both a meet- and
+join-[semilattice](rs-006M).}
+
+\p{Equivalently, it is a posetal [bicartesian category](rs-003Z).}
+

@@ -1,0 +1,28 @@
+\date{2024-09-05}
+\title{standard simplex}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{p. 4}
+\tag{ex:rs-0080}
+
+\p{The \em{standard #{n}-simplex} #{\Delta^n} is the [simplicial set](rs-0080)
+[represented by](rs-000R) #{n}. We [draw](rs-0081) it, e.g. for #{\Delta^2}, as
+\texfig{
+  \begin{tikzpicture}[
+      dot/.style={circle, fill=black, inner sep=0pt, minimum size=3pt},
+      decoration={
+        markings,
+        mark=at position 0.5 with {\arrow{>}}
+      }
+    ]
+    \draw[thick, fill=blue!20] (0,0) -- (1,1) -- (2,0) -- cycle;
+    \draw[postaction={decorate}] (0,0) -- (1,1);
+    \draw[postaction={decorate}] (1,1) -- (2,0);
+    \draw[postaction={decorate}] (0,0) -- (2,0);
+    \node[dot] (0) at (0,0) {};
+    \node[dot] (1) at (1,1) {};
+    \node[dot] (2) at (2,0) {};
+  \end{tikzpicture}.
+}}

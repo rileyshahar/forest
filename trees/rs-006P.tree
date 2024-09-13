@@ -1,0 +1,11 @@
+\date{2024-06-19}
+\title{pseudolattice}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{pseudolattice} is a [poset](rs-005U) with all binary [meets](rs-006J)
+and joins; in particular, it is both a meet- and
+join-[pseudosemilattice](rs-006L).}
+

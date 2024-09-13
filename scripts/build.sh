@@ -1,3 +1,3 @@
 #!/bin/bash
 
-forester build forest.toml
+forester build forest.toml "$1"

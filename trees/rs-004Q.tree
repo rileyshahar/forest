@@ -7,7 +7,7 @@
 \cite{riehl-2017}{Riehl}{Definition 5.4.8}
 
 \p{Let #{D\xto{U} C} be a [functor](rs-000L). A \em{#{U}-split coequalizer} is
-[split coequalizer](rs-004N) diagram \tx{
+[split coequalizer](rs-004N) diagram \texfig{
   \begin{tikzcd}
     Ux\ar[r, "Uf", shift left=.2em]\ar[r, "Ug"', shift right=.2em] &
     Uy\ar[r, "h"]\ar[l, "t", bend left=50] &

@@ -12,7 +12,7 @@
 \em{inverse morphism} #{y\xto{f^{-1}}x} such that #{f^{-1}f = 1_x} and #{ff^{-1}
 = 1_y}, i.e.}
 
-\tx{
+\texfig{
   \begin{tikzcd}
 	x\ar[r, "f"]\ar[rr, bend right, "1_x"'] & y\ar[r, "f^{-1}"] & x
   \end{tikzcd}
@@ -20,7 +20,7 @@
 
 \p{and}
 
-\tx{
+\texfig{
   \begin{tikzcd}
 	y\ar[r, "f^{-1}"]\ar[rr, bend right, "1_y"'] & x\ar[r, "f"] & y
   \end{tikzcd}

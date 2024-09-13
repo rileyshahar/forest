@@ -1,0 +1,12 @@
+\date{2024-06-21}
+\title{pullback of a sieve}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 109(1)}
+
+\p{Let #{S} be a [sieve](rs-0061) on #{x\in C} and #{y\xto{f} x} any map. Then
+the \em{pullback sieve} #{f^*S} consists of those #{z\xto{g} y} in #{C} such
+that #{z\xto{g}y\xto{f} x\in S}.}
+

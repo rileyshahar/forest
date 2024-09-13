@@ -4,14 +4,15 @@
 \author{rileyshahar}
 
 \import{macros01}
-% \cite{}{}{}
+\cite{maclane-1978}{Mac Lane}{Section V.7}
 
 \p{A \em{subobject} of an object #{x} in a [category](rs-0001) #{C} is a
-[monomorphism](rs-000A) with codomain #{x}, often [modulo](TODO) the relation}
-\tx{
-  $y\cong z$ if and only if
+[monomorphism](rs-000A) with codomain #{x}, [ordered](rs-005T) by \em{subobject
+inclusion} \texfig{
+  $y\leq z$ if and only if
   \begin{tikzcd}
-    y\ar[r, hook]\ar[dr, "\exists"', leftrightarrow] & x \\
+    y\ar[r, hook]\ar[dr, "\exists"', hook] & x \\
     & z\ar[u, hook]\punctuation{.}
   \end{tikzcd}
-}
+} We often prefer to think of subobjects as equivalence classes of such
+monomorphisms, hence as a [poset](rs-005U).}

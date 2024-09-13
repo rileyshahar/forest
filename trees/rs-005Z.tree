@@ -1,0 +1,13 @@
+\date{2024-06-16}
+\title{subobject classifiers are unique up to isomorphism}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 34}
+
+\p{[Subobject classifiers](rs-005V) are unique up to [isomorphism](rs-0002).}
+
+\proof{[Subobject classifiers represent the subobject functor](rs-005Y) and
+[representations are unique](rs-001O).}
+

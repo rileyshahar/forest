@@ -11,7 +11,7 @@
 G'} [natural transformations](rs-000V). Then their \em{horizontal
 composite} #{GF\xto{\beta*\alpha} G'F'} is a natural transformation  with
 components given by the following commutative square:}
-\tx{
+\texfig{
 	\begin{tikzcd}
 		GFx\ar[dd, "\beta_{Fx}"']\ar[rr, "G\alpha_x"] & & GF'x\ar[dd, "\beta_{F'x}"] \\
 		\\
@@ -19,7 +19,7 @@ components given by the following commutative square:}
 	\end{tikzcd}
 }
 \p{Diagramatically:}
-\tx{
+\texfig{
   \begin{tikzcd}[baseline=(current bounding box.center)]
     C\ar[rr, "F", bend left=50]\ar[rr, "F'"', bend right=50] & \Downarrow\alpha
 		& D\ar[rr, "G", bend left=50]\ar[rr, "G'"', bend right=50] & \Downarrow\beta

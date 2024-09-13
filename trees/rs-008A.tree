@@ -1,0 +1,14 @@
+\date{2024-09-08}
+\title{geometric realization of a simplicial set}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+% \cite{}{}{}
+
+\p{Let [#{\Delta}](rs-007Z) #{\to} [\scat{Top}](rs-000D) send #{n} to the
+topological #{n}-simplex ##{\{x_0,x_1,\dots,x_n\in\RR: x_0+\dots+x_1 = 0,
+x_i\geq 0\}.} Then the \em{geometric realization} of a [simplicial
+set](rs-0080) is the [Kan extension](rs-0089) of this functor to
+#{\scat{sSet}}.}
+

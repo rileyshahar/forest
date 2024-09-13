@@ -1,0 +1,10 @@
+\date{2024-06-20}
+\title{Heyting algebras are Boolean iff they satisfy double negation elimination}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Proposition I.8.4}
+
+\p{A [Heyting algebra](rs-006V) is [boolean](rs-006X) if and only if it
+satisfies \em{double [negation](rs-006Y) elimination}: #{\lnot \lnot x = x}.}

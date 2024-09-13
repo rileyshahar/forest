@@ -1,0 +1,13 @@
+\date{2024-08-18}
+\title{atomic site}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 115}
+
+\p{Let #{C} be a category so that any [cospan](rs-007H) has a [cocone](rs-001X)
+(i.e., #{C} satisfies the \em{right Ore condition}). Then the \em{atomic
+topology} on #{C} is the [Grothendieck topology](rs-0079) such that all nonempty
+[sieves](rs-0061) are covering.}
+

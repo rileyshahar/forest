@@ -1,0 +1,27 @@
+\date{2024-09-11}
+\title{singular simplicial complex is Kan}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Lemma 1.35}
+
+\p{The [singular simplicial complex](rs-008P) of a [space](TODO) #{X} is a [Kan
+complex](rs-008R).}
+
+\proof{
+  \p{We need to exhibit a [filler](rs-008D) of \texfig{
+    \begin{tikzcd}
+      \Delta^n\ar[r, dashed] & \operatorname{Sing}(X)\punctuation{.} \\
+      \Lambda_k^n\ar[u, hookrightarrow]\ar[ur]
+    \end{tikzcd}
+  } [Translating across the adjunction](rs-0038) with the [geometric
+  realization](rs-008A), we instead want \texfig{
+    \begin{tikzcd}
+      {|\Delta^n|}\ar[r, dashed] & X\punctuation{.} \\
+      {|\Lambda_k^n|}\ar[u, hookrightarrow]\ar[ur]
+    \end{tikzcd}
+  } The inclusion is a [section](rs-000J), so composing its [retract](rs-000K)
+  with the horn does the trick.}
+}
+

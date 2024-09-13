@@ -1,0 +1,18 @@
+\date{2024-06-20}
+\title{Heyting algebras}
+\taxon{collection}
+\author{rileyshahar}
+
+\import{macros01}
+
+\transclude{rs-006V}
+
+\scope{
+  \put\transclude/taxon{example}
+  \transclude{rs-0071}
+  \transclude{rs-0073}
+}
+\transclude{rs-006Y}
+\transclude{rs-006W}
+\transclude{rs-006Z}
+

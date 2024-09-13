@@ -1,0 +1,20 @@
+\date{2024-06-19}
+\title{distributive lattice}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{abramsky-jung-1994}{Abramsky & Jung}{p. 107}
+
+\p{A [lattice](rs-006N) (or, more generally, a [pseudolattice](rs-006P)) is
+\em{distributive} if [joins](rs-006J) distribute over meets or, equivalently,
+meets distribute over joins, i.e. if it satisfies either of the
+equivalent conditions
+##{
+  x\meet (y\join z) = (x\meet y)\join (x\meet z)\quad\text{ and }\quad
+  x\join (y\meet z) = (x\join y)\meet (x\join z).
+}}
+
+\p{Equivalently, a distributive lattice is a [posetal](rs-005U) [distributive
+category](rs-006U).}
+

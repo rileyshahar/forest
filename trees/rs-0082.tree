@@ -1,0 +1,13 @@
+\date{2024-09-05}
+\title{presentation of the simplex category}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{p. 2}
+
+\p{The [simplex category](rs-007Z) is [generated](TODO) by the \em{coface} maps
+##{d^i: n\into n+1} which miss #{i}, and the \em{codegeneracy maps} ##{s^i:
+n+1\onto n} which repeat #{i}. (By convention, we drop the dependence of #{d^i}
+and #{s^i} on #{n}.) In particular, it is [presented](TODO) by maps of these
+types satisfying five \em{simplicial identities}.}

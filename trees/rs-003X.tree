@@ -24,7 +24,7 @@
 
   This data must make the following [coherence conditions](TODO), called the
   \em{triangle} and \em{pentagon} identities, commute:
-	\tx{
+	\texfig{
 		\begin{tikzcd}
 			(x\otimes I)\otimes y\ar[rr, "\alpha_{x,1_\otimes,y}"]\ar[dr, "\rho_x"']
       & & x\otimes(I\otimes y)\ar[dl, "\lambda_x"] \\
@@ -32,7 +32,7 @@
 		\end{tikzcd}
   }
 
-	 \tx{
+	 \texfig{
 		\begin{tikzcd}
 			& (x\otimes y)\otimes(z\otimes w) 
 	       \ar[dr, "\alpha_{x, y, z\otimes w}"]

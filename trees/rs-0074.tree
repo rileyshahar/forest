@@ -1,0 +1,17 @@
+\date{2024-06-20}
+\title{presheaf categories are complete and cocomplete}
+\taxon{definition}
+\author{rileyshahar}
+
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 39}
+\import{macros01}
+
+\p{Every [presheaf category](rs-0015l) is [complete](rs-002C) and
+[cocomplete](rs-002D), with [limits](rs-002E) and [colimits](rs-002T) computed as in
+[\scat{Set}](rs-000C).}
+
+\proof{
+  \p{[Limits and colimits are computed pointwise](rs-002N) and \scat{Set} is
+  [complete](rs-002E) and [cocomplete](rs-002T).}
+}
+

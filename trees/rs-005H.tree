@@ -9,7 +9,7 @@
 \p{A \em{braided monoidal category} is a [monoidal category](rs-003X) #{C}
 equipped with a \em{braiding} [natural isomorphism](rs-0010) ##{x\otimes
 y\xto{\gamma_{xy}} y\otimes x} satisfying the [coherence
-conditions](TODO) entailed by commutativity of: \tx{
+conditions](TODO) entailed by commutativity of: \texfig{
   \begin{tikzcd}
     (x\otimes y)\otimes z\ar[r, "\alpha_{xyz}"]\ar[d, "\gamma_{xy}\otimes 1"'] &
     x\otimes(y\otimes z)\ar[r, "\gamma_{x,y\otimes z}"] & (y\otimes z)\otimes
@@ -17,7 +17,7 @@ conditions](TODO) entailed by commutativity of: \tx{
     (y\otimes x)\otimes z\ar[r, "\alpha_{yxz}"'] & y\otimes (x\otimes z)\ar[r,
     "1\otimes \gamma_{xz}"'] & y\otimes(z\otimes x)
   \end{tikzcd}
-} and \tx{
+} and \texfig{
   \begin{tikzcd}
     x\otimes (y\otimes z)\ar[r, "\alpha^{-1}_{xyz}"]\ar[d, "1\otimes
     \gamma_{yz}"'] & (x\otimes y)\otimes z\ar[r, "\gamma_{x\otimes y, z}"] &

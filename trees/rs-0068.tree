@@ -1,0 +1,12 @@
+\date{2024-06-18}
+\title{pointwise Kan extensions are computed by (co)limit formulae}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 6.3.7}
+
+\p{A [Kan extension](rs-0051) with [locally small](rs-002Q) codomains is
+[pointwise](rs-0067) if and only if it is computed by the [(co)limit
+formula](rs-0065) of the appropriate variance.}
+

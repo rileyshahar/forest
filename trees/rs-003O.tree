@@ -8,7 +8,7 @@
 
 \p{The #{J}-[indexed](rs-001U) [limit and colimit functors](rs-0030) are
 characterized as [right and left adjoints](rs-0043), respectively, of the
-[constant diagram functor](rs-001V) #{C\xto{\Delta} C^J}:\tx{
+[constant diagram functor](rs-001V) #{C\xto{\Delta} C^J}:\texfig{
   \begin{tikzcd}
     & \bot \\[-2.1em]
     C\ar[rr, pos=.1, "\Delta"] && C^J\ar[ll, "\colim_J"', bend right=50]\ar[ll,

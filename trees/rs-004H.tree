@@ -10,7 +10,7 @@
 [category of resolutions](rs-004B) of a [monad](rs-0041). Explicitly, for a
 [resolution](rs-004A) \adjd{C}{D}{F}{U}{\,} of that monad, there exists a unique
 functor #{C_T\xto{J} D} commuting with the adjunctions, in that both the left
-and right squares of \tx{
+and right squares of \texfig{
   \begin{tikzcd}
     C_T\ar[rr, "J", dashed, "\exists!"']\ar[dd, bend left, "U_T"] && D\ar[dd, bend left, "U"] \\
     \dashv && \dashv \\

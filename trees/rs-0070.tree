@@ -1,0 +1,21 @@
+\date{2024-06-20}
+\title{the subobjects of a presheaf form a Heyting algebra}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Proposition I.8.5}
+
+\p{Let #{C^\op\xto{P}} \scat{Set} be a [presheaf](rs-0015). Then the [subobject
+poset](rs-002Z) of #{P} is a [Heyting algebra](rs-006V).}
+
+\proof{
+  \p{First, we show that the subobject poset of #{P} is a [lattice](rs-006N).
+  Let #{S} and #{T} be [subfunctors](rs-0060) of #{P}. Then:
+  \ul{
+    \li{the [meet](rs-006J) is given by ##{(P\meet Q)X = PX\cap QX;}}
+    \li{the [join](rs-006J) is given by ##{(P\join Q)X = PX\cup QX;}}
+    \li{the implication is given by ##{(P\To Q)X = \{x\in PX: \text{ for all }
+    Y\xto{f} X\in C, \text{ if } Pf(x)\in SY \text{ then } Pf(x)\in TY\}.}}
+  }}
+}

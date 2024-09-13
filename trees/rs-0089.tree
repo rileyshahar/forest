@@ -1,0 +1,27 @@
+\date{2024-09-06}
+\title{constructing adjunctions to simplicial sets}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{Section 4}
+% \tag{ex:}
+
+\p{Let #{\Delta\xto{F} E} be any [functor](rs-000L), where #{E} is
+[cocomplete](rs-002D) and [locally small](rs-002Q). Because the [simplex
+category](rs-007Z) is [small](rs-002B), the [left Kan extension](rs-0051) #{L}
+of #{F} along the [Yoneda embedding](rs-0016) into [simplicial sets](rs-0080)
+exists and is computed by the [colimit formula](rs-0065). Moreover, this functor
+is [left adjoint](rs-0036) to the functor #{E\xto{R}} \scat{sSet} acting by
+#{x\mapsto n\mapsto E(Fn, x):}}
+
+\texfig{
+  \begin{tikzcd}
+    \Delta\ar[rr, hookrightarrow, "y"]\ar[ddrr, "F"', bend right] &&
+    \textsc{sSet}\ar[dd, "\Lan_y F"',
+    bend right] \\
+    && \dashv \\
+    && E\ar[uu, "{E(F-, -)}"', bend right]\punctuation{.}
+  \end{tikzcd}
+}
+

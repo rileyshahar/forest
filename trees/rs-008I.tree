@@ -1,0 +1,34 @@
+\date{2024-09-08}
+\title{categorical language for simplicial sets}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Definition 1.22}
+
+\p{Let #{C} be a [simplicial set](rs-0080). Then:}
+
+\ul{
+  \li{an \em{object} is a [#{0}-simplex](rs-0081);}
+  \li{a \em{morphism} is a #{1}-simplex;}
+  \li{an \em{#{n}-cell} is an #{n}-simplex;}
+  \li{the \em{domain} of a morphism #{f} is #{x = d_1(f)}, while the
+  \em{codomain} of #{f} is #{y = d_0(f)};}
+  \li{the \em{identity} at an object #{x} is the morphism #{s_0(x)};}
+  \li{a \em{composable pair} is an [inner
+  #{2}-horn](rs-008G), i.e. a map #{\Gamma_1^2\to C}, drawn \texfig{
+    \begin{tikzcd}
+      x\ar[r, "f"] & y\ar[r, "g"] & z\punctuation{;}
+    \end{tikzcd}
+  }}
+  \li{given a #{2}-simplex \texfig{
+    \begin{tikzcd}
+      & y\ar[dr, "g"] \\
+      x\ar[ur, "f"]\ar[rr, "h"', ""{name=h}] && z\punctuation{,}
+      \ar[phantom, from=1-2, to=h, "\sigma"]
+    \end{tikzcd}
+  } we say that #{h} is a \em{composite} of #{f} and #{g} and write #{h\simeq
+  g\circ f}; in other words, a composite is a [filler](rs-008D) of a composable
+  pair.}
+}
+

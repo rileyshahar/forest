@@ -1,0 +1,930 @@
+\documentclass[oneside,a4paper]{book}%
+\usepackage[final]{microtype}%
+\usepackage{amsthm,mathtools}%
+\usepackage{xcolor}%
+\usepackage[colorlinks=true,linkcolor={blue!30!black}]{hyperref}%
+\newtheorem{theorem}{Theorem}[chapter]%
+\newtheorem{lemma}[theorem]{Lemma}%
+\newtheorem{observation}[theorem]{Observation}%
+\newtheorem{axiom}[theorem]{Axiom}%
+\newtheorem{corollary}[theorem]{Corollary}%
+\theoremstyle{definition}%
+\newtheorem{definition}[theorem]{Definition}%
+\newtheorem{construction}[theorem]{Construction}%
+\newtheorem{example}[theorem]{Example}%
+\newtheorem{convention}[theorem]{Convention}%
+\newtheorem{exercise}{Exercise}%
+\usepackage{newtxmath,newtxtext}%
+\usepackage[mode=buildmissing]{standalone}%
+\setcounter{tocdepth}{5}%
+\setcounter{secnumdepth}{5}%
+\title{Quasicategories}\author{Riley Shahar}\begin{document}
+\begin{filecontents*}[overwrite]{\jobname.bib}
+@book{gallauer-2024,
+  title = {$\infty$-categories: a first course},
+  author = {Gallauer, Martin},
+  year = {2023},
+  url = {https://homepages.warwick.ac.uk/staff/Martin.Gallauer/teaching/23icats/icats.pdf}
+}@inproceedings{riehl-2011,
+  title={A Leisurely Introduction to Simplicial Sets},
+  author={Emily Riehl},
+  year={2011},
+  url={https://math.jhu.edu/~eriehl/ssets.pdf}
+}
+\end{filecontents*}
+\frontmatter\maketitle\tableofcontents\mainmatter\begin{Section}[{Simplicial sets}]\label{rs-0083}\begin{definition}[{Simplex category}]\label{rs-007Z}\par{}The \emph{abstract simplex} \(\Delta \) (also called the \emph{simplex category}),
+is the  whose objects are the non-negative integers, thought
+of as  , and whose morphisms are the
+non-decreasing functions between them.\end{definition}\begin{Proposition}[{Presentation of the simplex category}]\label{rs-0082}\par{}The \hyperref[rs-007Z]{simplex category} is  by the \emph{coface} maps
+\[d^i: n\hookrightarrow  n+1\] which miss \(i\), and the \emph{codegeneracy maps} \[s^i: n+1\twoheadrightarrow  n\] which repeat \(i\). (By convention, we drop the dependence of \(d^i\)
+and \(s^i\) on \(n\).) In particular, it is  by maps of these
+types satisfying five \emph{simplicial identities}.\end{Proposition}\begin{definition}[{Simplicial set}]\label{rs-0080}\par{}A \emph{simplicial set} is a  on the \hyperref[rs-007Z]{abstract
+simplex}. The \emph{category of simplicial sets} sSet is the
+category of presheaves on the abstract simplex.\end{definition}\begin{Explanation}[{Interpretation of simplicial sets}]\label{rs-0081}\par{}By the \hyperref[rs-0082]{presentation of the abstract simplex}, a \hyperref[rs-0080]{simplicial
+set} consists of a sequence of  \(X_n\) for each
+nonnegative integer \(n\), together with \emph{face maps} \[X_n\xrightarrow {d_i} X_{n-1}\]
+and \emph{degeneracy maps} \[X_n\xrightarrow {s_i} X_{n+1}.\]\par{}We interpret the elements of \(X_n\) as \(n\)-simplices. The face map
+\(d_i\) identifies the \(i\)-th face of the simplex, which by convention is the
+face not containing the \(i\)-th vertex. The degeneracy map \(s_i\) interprets
+each \(n\)-simplex as a degenerate \(n+1\)-simplex, with the \(i\)th vertex
+repeated.\par{}In pictures, a \(2\)-simplex \(\sigma \) may be drawn as:
+
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+  \begin {tikzcd}
+    & y\ar [dr, "g"] \\
+    x\ar [ur, "f"]\ar [rr, "h"', ""{name=h}] && z\makebox [0pt][l]{.}
+    \ar [phantom, from=1-2, to=h, "\sigma "]
+  \end {tikzcd}
+
+ 
+ 
+In particular, the directions of the arrows come from the total order on the set
+\([2]\), so that pictures like this determine the ordering of the vertices. In
+particular, this picture implies that \(d_0(\sigma ) = g\), \(d_1(\sigma ) = h\),
+and \(d_2(\sigma ) = f\).\par{}In this way, we use the special symbol \(1\) to denote degenerate faces. For
+instance, if \(f\) is as above, we could draw the \hyperref[rs-0086]{degenerate}
+\(2\)-simplex \(s_1(f)\) as:
+
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+  \begin {tikzcd}
+    & y\ar [dr, "1_y"] \\
+    x\ar [ur, "f"]\ar [rr, "f"'] && y\makebox [0pt][l]{.}
+  \end {tikzcd}
+\end{Explanation}\begin{definition}[{Degenerate simplex}]\label{rs-0086}\par{}Let \(X\) be a \hyperref[rs-0080]{simplicial set}. A \hyperref[rs-0081]{simplex} \(x\in  X_n\) is
+\emph{degenerate} if it is in the image of one of the degeneracy maps \(s^i\).\end{definition}\begin{definition}[{Standard simplex}]\label{rs-0084}\par{}The \emph{standard \(n\)-simplex} \(\Delta ^n\) is the \hyperref[rs-0080]{simplicial set}
+ \(n\). We \hyperref[rs-0081]{draw} it, e.g. for \(\Delta ^2\), as
+
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+  \begin {tikzpicture}[
+      dot/.style={circle, fill=black, inner sep=0pt, minimum size=3pt},
+      decoration={
+        markings,
+        mark=at position 0.5 with {\arrow {>}}
+      }
+    ]
+    \draw [thick, fill=blue!20] (0,0) -- (1,1) -- (2,0) -- cycle;
+    \draw [postaction={decorate}] (0,0) -- (1,1);
+    \draw [postaction={decorate}] (1,1) -- (2,0);
+    \draw [postaction={decorate}] (0,0) -- (2,0);
+    \node [dot] (0) at (0,0) {};
+    \node [dot] (1) at (1,1) {};
+    \node [dot] (2) at (2,0) {};
+  \end {tikzpicture}.
+\end{definition}\begin{Proposition}[{The universal property of the standard simplex}]\label{rs-0085}\par{}By the , there is a 
+\[\operatorname {Hom}(\Delta ^n, X)\cong  X_n,\] where \(\Delta ^n\) is the \hyperref[rs-0084]{standard
+\(n\)-simplex} and \(X\) is any \hyperref[rs-0080]{simplicial set}. In other
+words, the \hyperref[rs-0081]{\(n\)-simplices of \(X\)} are exactly the simplex maps from
+\(\Delta ^n\) to \(X\).\end{Proposition}\begin{Proposition}[{Colimit presentation of simplicial sets}]\label{rs-0087}\par{}By the , a \hyperref[rs-0080]{simplicial set} \(X\) is the
+ of each of its \hyperref[rs-0084]{standard simplices}. As such, each
+simplicial set is "glued together" from standard simplicies in a canonical way.\end{Proposition}\begin{Proposition}[{Constructing adjunctions to simplicial sets}]\label{rs-0089}\par{}Let \(\Delta \xrightarrow {F} E\) be any , where \(E\) is
+ and . Because the \hyperref[rs-007Z]{simplex
+category} is , the  \(L\)
+of \(F\) along the  into \hyperref[rs-0080]{simplicial sets}
+exists and is computed by the . Moreover, this functor
+is  to the functor \(E\xrightarrow {R}\) sSet acting by
+\(x\mapsto  n\mapsto  E(Fn, x):\)\end{Proposition}\begin{example}[{Geometric realization of a simplicial set}]\begin{definition}[{Geometric realization of a simplicial set}]\label{rs-008A}\par{}Let \hyperref[rs-007Z]{\(\Delta \)} \(\to \)  send \(n\) to the
+topological \(n\)-simplex \[\{x_0,x_1,\dots ,x_n\in \mathbb {R}: x_0+\dots +x_1 = 0, x_i\geq  0\}.\] Then the \emph{geometric realization} of a \hyperref[rs-0080]{simplicial
+set} is the \hyperref[rs-0089]{Kan extension} of this functor to
+\(sSet\).\end{definition}\begin{definition}[{Singular simplicial complex}]\label{rs-008P}\par{}The \emph{singular simplicial complex functor} from  to
+\hyperref[rs-0080]{simplicial sets} is the  to the \hyperref[rs-008A]{geometric
+realization functor}. By \hyperref[rs-0089]{abstract nonsense}, this is given by
+\[\operatorname {Sing}(X)_n = \operatorname {Top}(|\Delta ^n|, X).\]\end{definition}\end{example}\begin{example}[{Nerve of a category}]\label{rs-0088}\par{}Let \(\Delta \xrightarrow {F}\)  send \(n\) in the \hyperref[rs-007Z]{abstract
+simplex} to the  \(n\). Then the \emph{nerve
+functor} \(N\) is the  to the \hyperref[rs-0089]{Kan extension}
+of \(F\) to the \hyperref[rs-0080]{category of simplicial sets}. In particular, as
+\hyperref[rs-0081]{\(n\)-simplices}, \(FC\) has  \(Fn\to  C\).\par{}More concretely, let \(C\) be a  . The
+\emph{nerve} of \(C\) is the simplicial set whose \hyperref[rs-0081]{\(n\)-simplicies} are
+\(n\)-long strings of composable maps in \(C\). The degeneracy map \(s_i\) takes a
+string of length \(n\) and inserts an identity at position \(i\), while the face
+map \(d_i\) composes the \(i\)th and \(i+1\)st arrows (or else leaves out the first
+or last arrow, if \(i=0\) or \(i=n\).)\end{example}\begin{definition}[{Simplicial sphere}]\label{rs-008B}\par{}The \emph{simplicial \(n\)-sphere} \(\partial \Delta ^n\) is the \hyperref[rs-0080]{simplicial
+set} consisting of the boundary of the \hyperref[rs-0084]{standard
+\(n\)-simplex}, i.e. \[\partial \Delta ^n = \bigcup _i d_i(\Delta ^n).\]\par{}An \emph{\(n\)-sphere in a simplicial set} \(X\) is a map \(\Lambda _k^n\to  X\).\end{definition}\begin{definition}[{Simplicial horn}]\label{rs-008C}\par{}The \emph{simplicial horn} \(\Lambda _k^n\) is the \hyperref[rs-0080]{simplicial set}
+consisting of all faces of the [standard \(n\)-simplex] except for the \(i\)th,
+i.e. \[\Lambda _k^n = \bigcup _{i\neq  k} d_i(\Delta ^n).\]\par{}A \emph{horn in a simplicial set} \(X\) is a map \(\Lambda _k^n\to  X\).\end{definition}\begin{definition}[{Inner horn}]\label{rs-008G}\par{}A \hyperref[rs-008C]{simplicial horn} \(\Lambda _k^n\) is an \emph{inner horn} if \(0 < k < n\) and
+an \emph{outer horn} otherwise.\end{definition}\begin{definition}[{Filler of a horn}]\label{rs-008D}\par{}Let \(\Lambda _k^n\to  X\) be a \hyperref[rs-008C]{horn} in a \hyperref[rs-0080]{simplicial set}
+\(X\). Then a \emph{filler} of this horn is a lift to a \hyperref[rs-0085]{standard
+\(n\)-simplex}, i.e. a commuting diagram
+
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+  \begin {tikzcd}
+    \Delta ^n\ar [r, dashed] & X\makebox [0pt][l]{.} \\
+    \Lambda _k^n\ar [u, hookrightarrow] \ar [ur]
+  \end {tikzcd}
+\end{definition}\end{Section}\begin{Section}[{The Definition}]\par{}Inspired by the example of a \hyperref[rs-0088]{nerve of a category}, we define:\begin{definition}[{Categorical language for simplicial sets}]\label{rs-008I}\par{}Let \(C\) be a \hyperref[rs-0080]{simplicial set}. Then:\begin{itemize}\item{}an \emph{object} is a \hyperref[rs-0081]{\(0\)-simplex};
+  \item{}a \emph{morphism} is a \(1\)-simplex;
+  \item{}an \emph{\(n\)-cell} is an \(n\)-simplex;
+  \item{}the \emph{domain} of a morphism \(f\) is \(x = d_1(f)\), while the
+  \emph{codomain} of \(f\) is \(y = d_0(f)\);
+  \item{}the \emph{identity} at an object \(x\) is the morphism \(s_0(x)\);
+  \item{}a \emph{composable pair} is an \hyperref[rs-008G]{inner
+  \(2\)-horn}, i.e. a map \(\Gamma _1^2\to  C\), drawn 
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+    \begin {tikzcd}
+      x\ar [r, "f"] & y\ar [r, "g"] & z\makebox [0pt][l]{;}
+    \end {tikzcd}
+  
+  \item{}given a \(2\)-simplex 
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+    \begin {tikzcd}
+      & y\ar [dr, "g"] \\
+      x\ar [ur, "f"]\ar [rr, "h"', ""{name=h}] && z\makebox [0pt][l]{,}
+      \ar [phantom, from=1-2, to=h, "\sigma "]
+    \end {tikzcd}
+  
+ 
+ we say that \(h\) is a \emph{composite} of \(f\) and \(g\) and write \(h\simeq    g\circ  f\); in other words, a composite is a \hyperref[rs-008D]{filler} of a composable
+  pair.\end{itemize}\end{definition}\begin{definition}[{Quasicategory}]\label{rs-008H}\par{}A \emph{quasicategory}, \emph{\(\infty \)-category}, or \emph{weak Kan complex} is a
+\hyperref[rs-0080]{simplicial set} in which every \hyperref[rs-008G]{inner horn} has a (not
+necessarily unique) \hyperref[rs-008D]{filler}; in particular, every \hyperref[rs-008I]{composable
+pair} has a composite.\par{}The \emph{category of quasicategories} is the 
+ of sSet spanned by quasicategories.\end{definition}\begin{definition}[{Equivalent morphisms}]\label{rs-008K}\par{}Two \hyperref[rs-008I]{morphisms} \(x\xrightarrow {f,g} y\) in a \hyperref[rs-008H]{quasicategory} are
+\emph{homotopic} or \emph{equivalent} if there is a \(2\)-cell 
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+  \begin {tikzcd}
+    & y\ar [dr, "1_y"] \\
+    x\ar [ur, "f"]\ar [rr, "g"', ""{name=g}] && z\makebox [0pt][l]{,}
+    \ar [phantom, from=1-2, to=g, "\sigma "]
+  \end {tikzcd}
+
+ 
+ or equivalently, 
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+  \begin {tikzcd}
+    & x\ar [dr, "f"] \\
+    x\ar [ur, "1_x"]\ar [rr, "g"', ""{name=g}] && z\makebox [0pt][l]{.}
+    \ar [phantom, from=1-2, to=g, "\sigma "]
+  \end {tikzcd}
+
+ 
+ We write \(f\simeq  g\).\end{definition}\begin{Proposition}[{Equivalence of morphisms is an equivalence relation}]\label{rs-008L}\par{}\hyperref[rs-008K]{Equivalence of morphisms} in a \hyperref[rs-008H]{quasicategory} is an .\end{Proposition}\begin{Proposition}[{Composites in a quasicategory are unique up to equivalence}]\label{rs-008M}\par{}Let \(x\xrightarrow {f} y\), \(y\xrightarrow {g} z\), and \(x\xrightarrow {h,h'} z\) be \hyperref[rs-008I]{morphisms} in a \hyperref[rs-008H]{quasicategory} so
+that \(h\overset {\sigma }{\simeq }g\circ  f\) and \(h'\overset {\sigma '}{\simeq } g\circ  f\). Then there is an
+\hyperref[rs-008K]{equivalence} \(h\simeq  h'\).\begin{proof}\par{}Fill the horn 
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+    \begin {tikzcd}
+      && z\ar [dddrr, "1_z", ""{name=1}, bend left] \\ \\
+      && y\ar [uu, "g"]\ar [drr, "g"'] \\
+      x\ar [uuurr, "h", ""{name=h}, bend left]\ar [urr, "f"']\ar [rrrr, "h'"',
+      ""{name=hh}, bend right] &&&& z\makebox [0pt][l]{.}
+      \ar [phantom, from=3-3, to=h, "\sigma "]
+      \ar [phantom, from=3-3, to=hh, "\sigma '"]
+      \ar [phantom, from=3-3, to=1, "s_1(g)"]
+    \end {tikzcd}
+  \end{proof}\end{Proposition}\par{}Note that the proof of the previous proposition looks very much like a
+  traditional, \(1\)-categorical diagram chase.\begin{construction}[{Homotopy categories}]\begin{Proposition}[{The nerve functor is fully faithful}]\label{rs-008N}\par{}The \hyperref[rs-0088]{nerve functor} is  , and its
+essential image consists of \hyperref[rs-008H]{quasicategories} such that each \hyperref[rs-008G]{inner
+horn} admits a \emph{unique} \hyperref[rs-008D]{filler}.\end{Proposition}\begin{definition}[{Homotopy category of an infinity category}]\label{rs-008O}\par{}By \hyperref[rs-0089]{abstract nonsense}, the \hyperref[rs-0088]{nerve functor} has a , called \emph{one-truncation} or the \emph{homotopy category}, and
+written \(\tau _1\) or \(h\). In particular, it sends a \hyperref[rs-008H]{quasicategory}
+\(C\) to the category whose \hyperref[rs-008I]{objects come from the quasicategory} and
+whose morphisms are \hyperref[rs-008L]{equivalence classes of morphisms in the
+quasicategory}.\end{definition}\begin{definition}[{The counit of the nerve adjunction is an isomorphism}]\label{rs-008Q}\par{}Because the \hyperref[rs-008N]{nerve functor is fully faithful}, the \hyperref[rs-008O]{counit of the
+adjunction between the nerve and homotopy category}  an
+ \(h(N(C))\cong  C\).\end{definition}\end{construction}\begin{definition}[{Isomorphism in a quasicategory}]\label{rs-008J}\par{}A \hyperref[rs-008I]{morphism} \(x\xrightarrow {f} y\) in a \hyperref[rs-008H]{quasicategory} is an
+\emph{isomorphism} if there exists an \emph{inverse morphism} \(y\xrightarrow {g} x\) together
+with \hyperref[rs-008K]{equivalences} \(g\circ  f\cong  1_x\), \(f\circ  g\cong  1_y\).\end{definition}\begin{definition}[{Kan complex}]\label{rs-008R}\par{}A \emph{Kan complex} is a \hyperref[rs-0080]{simplicial set} in which every
+\hyperref[rs-008C]{horn} has a \hyperref[rs-008D]{filler}; equivalently, an
+\emph{\(\infty \)-groupoid} is a \hyperref[rs-008H]{quasicategory} in which every
+\hyperref[rs-008I]{morphism} is an \hyperref[rs-008J]{isomorphism}.\end{definition}\begin{example}[{Singular simplicial complex is Kan}]\label{rs-008S}\par{}The \hyperref[rs-008P]{singular simplicial complex} of a  \(X\) is a \hyperref[rs-008R]{Kan
+complex}.\begin{proof}\par{}We need to exhibit a \hyperref[rs-008D]{filler} of 
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+    \begin {tikzcd}
+      \Delta ^n\ar [r, dashed] & \operatorname {Sing}(X)\makebox [0pt][l]{.} \\
+      \Lambda _k^n\ar [u, hookrightarrow]\ar [ur]
+    \end {tikzcd}
+  
+ 
+  with the \hyperref[rs-008A]{geometric
+  realization}, we instead want 
+ 
+  
+  
+   
+    \usepackage{tikz, tikz-cd, mathtools, amssymb}
+  \usetikzlibrary{shapes.geometric}
+  \usetikzlibrary{calc}
+  \usetikzlibrary{matrix}
+  \usetikzlibrary{decorations.markings}
+
+  \tikzset{
+    % basics
+    square/.style={draw, regular polygon, regular polygon sides=4},
+    triangle/.style={draw, regular polygon, regular polygon sides=3},
+  }
+
+  \tikzset{
+    % string diagrams
+    state/.style={triangle, shape border rotate=180, anchor=north},
+    costate/.style={triangle, anchor=south},
+    morphism/.style={draw, rectangle},
+    over/.style={
+      draw=white,
+      double=black,
+      % default is .4pt
+      line width=1.2pt,
+      double distance=.4pt,
+      text=black
+    },
+  }
+
+  \tikzset{ 
+    % tables
+    % https://tikz.net/tikz-table/
+    table/.style={
+        matrix of nodes,
+        row sep=-\pgflinewidth,
+        column sep=-\pgflinewidth,
+        nodes={
+            rectangle,
+            draw=black,
+            align=center
+        },
+        minimum height=1.5em,
+        text depth=0.5ex,
+        text height=2ex,
+        nodes in empty cells,
+%%
+        every even row/.style={
+            nodes={fill=gray!20}
+        },
+        column 1/.style={
+            nodes={font=\bfseries}
+        },
+        row 1/.style={
+            nodes={
+                fill=black,
+                text=white,
+                font=\bfseries
+            }
+        }
+    }
+  }
+
+  
+    \begin {tikzcd}
+      {|\Delta ^n|}\ar [r, dashed] & X\makebox [0pt][l]{.} \\
+      {|\Lambda _k^n|}\ar [u, hookrightarrow]\ar [ur]
+    \end {tikzcd}
+  
+ 
+ The inclusion is a , so composing its 
+  with the horn does the trick.\end{proof}\end{example}\end{Section}\backmatter\nocite{*}\bibliographystyle{plain}\bibliography{\jobname.bib}\end{document}

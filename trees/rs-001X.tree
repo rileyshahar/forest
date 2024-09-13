@@ -15,7 +15,7 @@ is a [natural transformation](rs-000V) #{D\xto{\lambda} c}, where #{c} is the
 object #{j\in J}, a morphism #{Dj\xto{\lambda_j} c}, so that for each morphism
 #{j\xto{f}k\in J}, the following diagram commutes:}
 
-\tx{
+\texfig{
   \begin{tikzcd}
     Dj\ar[dr, "\lambda_j"']\ar[rr, "Df"] && Dk\ar[dl, "\lambda_k"] \\
     & c\punctuation{.}

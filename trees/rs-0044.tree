@@ -1,10 +1,10 @@
 \date{2024-05-24}
 \title{limits}
-\taxon{summary}
+\taxon{notes}
 \author{rileyshahar}
 
 \import{macros01}
-% \cite{}{}{}
+\cite{riehl-2017}{Riehl}{Chapter 3}
 % \tag{ex:}
 
 \put\transclude/expanded{false}
@@ -30,6 +30,7 @@
 \subtree{
   \title{examples}
   \taxon{section}
+  \put\transclude/taxon{Example}
 
   \transclude{rs-0023}
   \transclude{rs-0024}

@@ -1,0 +1,11 @@
+\date{2024-09-08}
+\title{isomorphism in a quasicategory}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Definition 1.31}
+
+\p{A [morphism](rs-008I) #{x\xto{f} y} in a [quasicategory](rs-008H) is an
+\em{isomorphism} if there exists an \em{inverse morphism} #{y\xto{g} x} together
+with [equivalences](rs-008K) #{g\circ f\cong 1_x}, #{f\circ g\cong 1_y}.}

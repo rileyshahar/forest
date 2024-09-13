@@ -10,7 +10,7 @@
 \p{The \em{Yoneda embedding} #{C\xto{y}\psh{C}} of #{C} into its [presheaf
 category](rs-0015) is the functor with action}
 
-\tx{
+\texfig{
   \begin{tikzcd}
     C \ar[r, "y"] & \psh{C} \\
     a\ar[dd, "f"'] \ar[r, mapsto] & C(-, a)\ar[dd, "f_*"] \\
@@ -19,5 +19,5 @@ category](rs-0015) is the functor with action}
   \end{tikzcd}
 }
 
-\p{In other words, it is a [curried](TODO) version of the [hom
+\p{In other words, it is a [curried](rs-005J) version of the [hom
 functor](rs-000U).}

@@ -4,6 +4,9 @@
 \author{rileyshahar}
 
 \import{macros01}
+\cite{riehl-2017}{Riehl}{p. xvi}
 
-\p{A \em{parallel pair} is a pair of not-necessarily-equal [morphisms](rs-0001) #{x\xtos{f,g} y}.}
+\p{A \em{parallel pair} is a pair of not-necessarily-equal [morphisms](rs-0001)
+#{x\xtos{f,g} y}. An \em{opposing pair} is a pair of morphisms #{f:
+x\rightleftarrows y: g}.}
 

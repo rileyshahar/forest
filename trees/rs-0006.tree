@@ -24,7 +24,7 @@ category} or \em{under category} #{c/C} is:}
 \ul{
   \li{as objects, morphisms #{c\xto{f} x} in #{C};}
 	\li{as morphisms #{(c\xto{f} x)\to (c\xto{g}y)} , commutative triangles
-	  \tx{
+	  \texfig{
 	    \begin{tikzcd}
 	  	  & c\ar[dl, "f"']\ar[dr, "g"] \\
 	  		x\ar[rr, "h"'] && y\punctuation{;}

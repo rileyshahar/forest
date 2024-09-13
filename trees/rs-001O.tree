@@ -36,7 +36,7 @@ of each of the others.}
   }
   which is a morphism #{x\to y}. We claim these are inverses.}
 
-  \p{[Naturality](rs-000V) of #{\eta} applied to #{u} asserts that \tx{
+  \p{[Naturality](rs-000V) of #{\eta} applied to #{u} asserts that \texfig{
     \begin{tikzcd}
       C(x, x)\ar[r, "\eta_x"]\ar[d, "u_*"'] & C(y, x)\ar[d, "u_*"] \\
       C(x, y)\ar[r, "\eta_y"'] & C(y, y)
@@ -49,7 +49,7 @@ of each of the others.}
   }
   so commutativity implies #{ut = 1_y}.}
 
-  \p{Similarly, naturality of #{\eta^{-1}} applied to #{t} asserts that \tx{
+  \p{Similarly, naturality of #{\eta^{-1}} applied to #{t} asserts that \texfig{
     \begin{tikzcd}
       C(y, y)\ar[r, "\eta_y^{-1}"]\ar[d, "t_*"'] & C(x, y)\ar[d, "t_*"] \\
       C(y, x)\ar[r, "\eta_x^{-1}"'] & C(x, x)

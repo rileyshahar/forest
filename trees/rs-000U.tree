@@ -15,7 +15,7 @@ y)}, and morphisms #{x\xfrom{f} y} and #{z\xto{g} w} to their action by
 [pre-](rs-000R) and
 [post-composition](rs-000Q) #{f^*g_*}, i.e.}
 
-\tx{
+\texfig{
   \begin{tikzcd}
 			C^\op\times C\ar[rr, "{C(-, -)}"] && \textsc{Set} \\
 			x,z\ar[rr, mapsto]\ar[shift left=2, dd, "g"] && C(x,z)\ar[dd, "f^*g_*"] &&

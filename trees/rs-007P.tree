@@ -1,0 +1,9 @@
+\date{2024-08-28}
+\title{associative binary operation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [binary operation](rs-007N) on #{X} is \em{associative} if, for all #{a,
+b, c\in X}, ##{(ab)c = a(bc).}}

@@ -28,7 +28,7 @@ a [natural isomorphism](rs-0010) ##{C(\colim D, -)\cong \Cocone_D.}}
   [initial](rs-0021) in the [category of elements](rs-001S) #{\el{\Cocone_D}},
   in the sense that for any other [cocone](rs-001X)
   #{D\xto{\mu} c}, there exists a unique map #{\lim D\to c} so that each of
-  the following triangles commute:\tx{
+  the following triangles commute:\texfig{
     \begin{tikzcd}
       & Dj\ar[dr, "\lambda_j"]\ar[dl, "\mu_j"'] \\
       \lim D\ar[rr, dashed, "\exists !"'] && c

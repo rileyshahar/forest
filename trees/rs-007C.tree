@@ -1,0 +1,12 @@
+\date{2024-08-18}
+\title{trivial site}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 113}
+
+\p{The \em{trivial topology} on a [category](rs-0001) #{C} is the [Grothendieck
+topology](rs-0079) where the only covering [sieve](rs-0061) is the [maximal
+sieve](rs-007D).}
+

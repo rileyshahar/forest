@@ -1,0 +1,10 @@
+\date{2024-08-28}
+\title{trivial category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Example 1.1.4(iv)}
+
+\p{The \em{trivial category} is the category with one object and only its
+identity morphism.}

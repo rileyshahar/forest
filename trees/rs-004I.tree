@@ -16,7 +16,7 @@ algebras](rs-004D).}
   \p{By the proof of initiality of the Kleisli category, the comparison functor
   sends objects #{c\in C_T} to the free algebras #{F^Tc}. To prove that this
   functor is fully faithful, note that it must commute with the transposition
-  actions, as in \tx{
+  actions, as in \texfig{
     \begin{tikzcd}
       C_T(c, c')\ar[dr, leftrightarrow]\ar[rr, "K"] & & C^T(F^Tc, F^Tc')\ar[dl, leftrightarrow] \\
       & C(c, Tc')\punctuation{.}

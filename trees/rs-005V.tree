@@ -1,0 +1,20 @@
+\date{2024-06-15}
+\title{subobject classifier}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Definition I.3.1}
+
+\p{A \em{subobject classifier} in a [finitely](rs-0058) [complete](rs-002C)
+[category](rs-0001) is a [monomorphism](rs-000A)
+#{\link{rs-0020.xml}{*}\xinto{\top} \Omega} such that, for every
+[subobject](rs-002Z) #{s\into x}, there exists a unique map #{x\xto{\chi_s} \Omega},
+called the \em{characteristic} or \em{classifying} map  of the subobject such
+that \texfig{
+  \begin{tikzcd}
+    s\ar[r, "!"]\ar[d, hook]\pullback & *\ar[d, "\top", hook] \\
+    x\ar[r, dashed, "\chi_s"'] & \Omega
+  \end{tikzcd}
+} is a [pullback](rs-0027).}
+

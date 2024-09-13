@@ -11,13 +11,13 @@ adjunction](rs-0036) \adjd{C}{D}{F}{G}{\,} asserts that, for every adjoint pair
 #{Fc\xto{f^\sharp} d} and #{c\xto{f^\flat} Gd}:}
 
 \ul{
-  \li{\em{naturality in #{C}:} for all  #{c'\xto{h}c\in C}, \tx{
+  \li{\em{naturality in #{C}:} for all  #{c'\xto{h}c\in C}, \texfig{
     \begin{tikzcd}
       c'\ar[d, "h"']\ar[dr, "(f^\sharp(Fh))^\flat"] \\
       c\ar[r, "f^\flat"'] & Gd
     \end{tikzcd}
   } commutes;}
-  \li{\em{naturality in #{D}:} for all  #{d\xto{k}d'\in D}, \tx{
+  \li{\em{naturality in #{D}:} for all  #{d\xto{k}d'\in D}, \texfig{
     \begin{tikzcd}
       c\ar[r, "f^\flat"]\ar[dr, "(kf^\sharp)^\flat"'] & Gd\ar[d, "Gk"] \\
       & Gd'

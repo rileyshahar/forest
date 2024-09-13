@@ -6,6 +6,6 @@
 \import{macros01}
 \cite{riehl-2017}{Riehl}{Definition 4.5.12}
 
-\p{A [subcategory](rs-004X) #{D\into C} is \em{reflective} if the inclusion
+\p{A [full](rs-0017) [subcategory](rs-004X) #{D\into C} is \em{reflective} if the inclusion
 admits a [left adjoint](rs-0043), called the \em{reflector}.}
 

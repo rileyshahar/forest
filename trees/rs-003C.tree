@@ -7,7 +7,7 @@
 \cite{riehl-2017}{Riehl}{Exercise 4.2.v}
 
 \p{A \em{morphism of adjunctions} between [adjunctions](rs-0036) #{F\adj G} and
-#{F'\adj G'} consists of a pair of [functors](rs-000L) \tx{
+#{F'\adj G'} consists of a pair of [functors](rs-000L) \texfig{
   \begin{tikzcd}
     C\ar[rr, "H"]\ar[dd, bend right, "F"'] && C'\ar[dd, bend right, "F'"']\\
     \adj && \adj \\

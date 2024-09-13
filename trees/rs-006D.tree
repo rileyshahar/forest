@@ -1,0 +1,45 @@
+\date{2024-06-18}
+\title{equational theory of cartesian closed categories}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 46}
+
+\p{In addition to [those of a cartesian category](rs-0033), a [cartesian closed
+category](rs-005K) #{C} saitsfies the following equations up to [natural
+isomorphism](rs-0010):}
+
+\ul{
+  \li{#{1^x \cong 1};}
+  \li{#{x^1 \cong x};}
+  \li{#{(y\times z)^x\cong y^x\times z^x};}
+  \li{#{x^{y\times z}\cong (x^y)^z}.}
+}
+
+\proof{
+  \p{To see the first, note that ##{C(-, 1^x)\cong C(-\times x, 1)\cong *,} and
+  the [Yoneda embedding reflects limits](rs-002R), so that #{1^x} is
+  [terminal](rs-0020) in #{C}. for a more abstract proof, observe that #{(-)^x}
+  has a right adjoint, so [preserves limits](rs-002H).}
+
+  \p{To see the second, note that ##{C(-, x^1)\cong C(-\times 1, x)\cong C(-,
+  x),} and [representable isomorphism is isomorphism](rs-001O).}
+
+  \p{To see the third, note that ##{\begin{aligned}
+    C(-, (y\times z)^x) &\cong C(-\times x, y\times z) \\
+    &\cong C(-\times x, y)\times C(-\times x, z) \\
+    &\cong C(-, y^x)\times C(-, z^x) \\
+    &\cong C(-, y^x\times z^x).
+  \end{aligned}} In particular, the second step uses the [representability
+  of limits](rs-002O).}
+
+  \p{To see the fourth, note that ##{\begin{aligned}
+  C(-, x^{y\times z}) &\cong C(-, x^{z\times y}) \\
+  &\cong C(-\times (z\times y), x) \\
+  &\cong C((-\times z)\times y, x) \\
+  &\cong C(-\times z, x^y) \\
+  &\cong C(-, (x^y)^z).
+  \end{aligned}}}
+}
+

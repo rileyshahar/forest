@@ -7,7 +7,7 @@
 \cite{riehl-2017}{Riehl}{Corollary 5.4.10(ii)}
 
 \p{Let \fsadjd{C}{D}{F}{U}{\eta}{\epsilon}{\,} be a [monadic adjunction](rs-004J). Then the every
-#{d\in D}, there is a [coequalizer diagram](rs-0026) \tx{
+#{d\in D}, there is a [coequalizer diagram](rs-0026) \texfig{
   \begin{tikzcd}
     FUFUd\ar[r, shift left=.2em, "FU\epsilon_d"]\ar[r, shift right=.2em,
     "\epsilon_{FUd}"'] & FUd\ar[r, "\epsilon_d"] & d\punctuation{.}
@@ -18,7 +18,7 @@
 
   \p{By the [monadicity theorem](rs-004R), to show that a [fork](rs-004M) in
   #{D} is a coequalizer, it suffices to show it is [#{U}-split](rs-004Q); this
-  is witnessed by the diagram \tx{
+  is witnessed by the diagram \texfig{
     \begin{tikzcd}
       UFUFUd\ar[r, shift left=.2em, "UFU\epsilon_d"]\ar[r, shift right=.2em, "U\epsilon_{FUd}"']
       & UFUd\ar[r, "U\epsilon_d"]\ar[l, "\eta_{UFUd}", bend left=50]
@@ -29,7 +29,7 @@
   % \p{We first prove the result for the [Eilenberg-Moore category](rs-0049)
   % #{C^T} of the [monad](rs-0045) #{T = FU}. In this case, by [construction of the
   % adjunction #{F^T\adj U^T}](rs-004C), the result states that, given an
-  % [algebra](rs-0047) #{Tc\xto{f} c}, the diagram \tx{
+  % [algebra](rs-0047) #{Tc\xto{f} c}, the diagram \texfig{
   %   \begin{tikzcd}
   %     (T^3c\xto{\mu_{Tc}} T^2c)\ar[r, shift left=.2em, "Tf"]\ar[r, shift
   %     right=.2em, "\mu_c"'] & (T^2c\xto{\mu_c} Tc)\ar[r, "f"] & (Tc\xto{f} c)

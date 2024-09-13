@@ -1,0 +1,32 @@
+\date{2024-06-19}
+\title{order theory}
+\taxon{collection}
+\author{rileyshahar}
+
+\import{macros01}
+
+\subtree{
+  \title{Basic Notions}
+  \taxon{Section}
+  \transclude{rs-005T}
+  \transclude{rs-006G}
+  \transclude{rs-006H}
+  \transclude{rs-006I}
+  \transclude{rs-006K}
+  \transclude{rs-006J}
+}
+
+\subtree{
+  \title{Special Preorders}
+  \taxon{Section}
+  \transclude{rs-005U}
+  \transclude{rs-006L}
+  \transclude{rs-006P}
+  \transclude{rs-006M}
+  \transclude{rs-006N}
+  \transclude{rs-006T}
+  \transclude{rs-006O}
+  \transclude{rs-006V}
+  \transclude{rs-006X}
+  % \transclude{rs-006O}
+}

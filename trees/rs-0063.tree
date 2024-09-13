@@ -1,0 +1,55 @@
+\date{2024-06-16}
+\title{subobject classifier of presheaves}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 38}
+
+\p{Let #{\psh{C}} be a [presheaf category](rs-0015). Let #{C^\op\xto{\Omega}}
+\scat{Set} be the \em{sieve functor}, which sends an object #{x} to the set of
+[sieves on #{x}](rs-0061), and a map #{y\xto{f}x} to its action on sieves by restriction: ##{(\Omega f)(S) = \{g: fg\in S\}.} Let #{*\xinto{\top} \Omega}
+(where #{*} is the [constant functor](rs-001V) at the [singleton](TODO))
+identify for each #{x\in C} the [maximal sieve](rs-007D). Then #{\top} is a
+[subobject classifier](rs-005V) in #{\psh{C}}.}
+
+\proof{
+  \p{Let #{Q\into P} be a [subobject](rs-002Z) in #{\psh{C}}. We need to define
+  the classifying [natural transformation](rs-000V) #{P\xto{\chi_Q}\Omega}; we
+  work in components. At an object #{x\in C}, this map must send an element
+  #{p\in Px} to a sieve on #{x}; we choose the sieve ##{(\chi_Q)_x(p) =
+  \{z\xto{f} x\in C: p|_f \in Qz\}.} In other words, this sieve consists of
+  those maps which [restrict](rs-0064) #{p} to an element of #{Q}.}
+
+  \p{Naturality is immediate from construction: both actions on maps #{y\xto{f}x}
+  simply pull back along #{f}. To show that #{\chi_Q} is classifying, we must
+  show that the diagram \texfig{
+    \begin{tikzcd}
+      Q\ar[d, hook]\ar[r, "!"]\pullback & *\ar[d, hook, "\top"]\\
+      P\ar[r, "\chi_Q"'] & \Omega
+    \end{tikzcd}
+  } is a [pullback](rs-0027) and that #{\chi_Q} is unique with this property.
+  First, this diagram commutes, since for any #{q\in Qx} and #{z\xto{f} x}, the
+  condition #{q|_f\in Qz} is satisfied by naturality of the inclusion #{Q\into
+  P}, so that #{(\chi_Q)_x(q)} is the maximal sieve on #{x}.}
+
+  \p{Next, to show that it is a pullback, it [suffices](rs-002N) to
+  show that it is a pullback at each #{x\in C}, and by the [construction of
+  limits in \scat{Set}](rs-002E-construction), it suffices to show that
+  #{(\chi_Q)_x(p)} is the maximal sieve if and only if #{p\in Qx}. The backwards
+  direction is already done; conversely, if it is the maximal sieve, then we
+  obtain the result by observing that #{1_x\in(\chi_Q)_x(p)} and applying the
+  definition of #{\chi_Q}.}
+
+  \p{Finally, to show uniqueness, suppose that we have another natural
+  transformation #{P\xto{\theta} \Omega}. By the above argument, for the square
+  to be a pullback, we must have that #{\theta_x(p)} is the maximal sieve if and
+  only if #{p\in Qx}. Now further, given #{z\xto{f} x} and applying the same
+  fact at #{z}, we must have that #{p|_f\in Qz} if and only if #{\theta_z(p|_f)}
+  is the maximal sieve. By naturality of #{\theta} at a map #{f}, we have that
+  #{\theta_z(p|_f) = \Omega f(\theta_x(p))}, which by definition of #{\Omega}
+  is the maximal sieve if and only if #{f\in \theta_x(p)}. As a consequence, if
+  the square is a pullback, we must have that #{f\in\theta_x(p)} if and only if
+  #{p|_f\in Qz}, yielding exactly the definition of #{\chi_Q} above.}
+}
+

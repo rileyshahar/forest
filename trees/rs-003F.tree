@@ -20,7 +20,7 @@ object](rs-0052) #{Fd\in C}. Then this data extends uniquely into a functor
 \proof{
   \p{We need to define a functorial action of #{G} on morphisms #{d\xto{k}d'\in
   D}. By naturality of the specified isomorphisms, for the assignment #{Gk} to
-  be functorial, the diagram \tx{
+  be functorial, the diagram \texfig{
     \begin{tikzcd}
       C(-, Gd)\ar[r, leftrightarrow]\ar[d, "Gk_*"'] & D(F-, d)\ar[d, "k_*"] \\
       C(-, Gd')\ar[r, leftrightarrow] & D(F-, d')

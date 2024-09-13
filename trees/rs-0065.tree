@@ -1,0 +1,18 @@
+\date{2024-06-18}
+\title{(co)limit formula for Kan extensions}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 6.2.1}
+
+\p{Let #{C\xto{F} E} and #{C\xto{K} D} be [functors](rs-000L) and suppose that
+the [colimit](rs-0044) ##{\colim(\link{rs-001T.xml}{K\downarrow
+d}\xto{\link{rs-0055.xml}{\Pi_C}} C\xto{F} E)} exists for each #{d\in D}. Then
+these colimits define the action on objects of the [left Kan extension](rs-0051)
+#{D\xto{\Lan_K F} E}, and furthermore the unit of the Kan extension is
+determined by the colimit cone.}
+
+\p{Dually, the limits ##{\lim(d\downarrow K\xto{\Pi_C} C\xto{F} E)} define the
+right Kan extension #{\Ran_K F}.}
+

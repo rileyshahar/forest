@@ -1,0 +1,23 @@
+\date{2024-09-08}
+\title{equivalent morphisms}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Definition 1.25}
+
+\p{Two [morphisms](rs-008I) #{x\xto{f,g} y} in a [quasicategory](rs-008H) are
+\em{homotopic} or \em{equivalent} if there is a #{2}-cell \texfig{
+  \begin{tikzcd}
+    & y\ar[dr, "1_y"] \\
+    x\ar[ur, "f"]\ar[rr, "g"', ""{name=g}] && z\punctuation{,}
+    \ar[phantom, from=1-2, to=g, "\sigma"]
+  \end{tikzcd}
+} or equivalently, \texfig{
+  \begin{tikzcd}
+    & x\ar[dr, "f"] \\
+    x\ar[ur, "1_x"]\ar[rr, "g"', ""{name=g}] && z\punctuation{.}
+    \ar[phantom, from=1-2, to=g, "\sigma"]
+  \end{tikzcd}
+} We write #{f\simeq g}.}
+

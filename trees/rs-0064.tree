@@ -1,0 +1,14 @@
+\date{2024-06-17}
+\title{restriction maps of a presheaf}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 25}
+
+\p{Let #{C^\op\xto{P}} \scat{Set} be a [presheaf](rs-0015), #{y\xto{f} x\in C} a
+map, and #{p\in Px} an element. Then the \em{restriction of #{p} along #{f}}, or
+the \em{pullback of #{p} along #{f}}, is ##{p|_f = Pf(p).} The \em{restriction
+maps} of #{P} are just the induced [set-functions](rs-005M) #{Pf} for each
+morphism #{f}.}
+

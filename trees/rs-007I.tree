@@ -1,0 +1,15 @@
+\date{2024-08-18}
+\title{matching family}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 121}
+
+\p{Let #{P} be a [presheaf](rs-0015) and #{S} a [sieve](rs-0061) on #{x}.
+Regarding #{S} as a [subfunctor](rs-0060) of #{\link{rs-000R.xml}{C(-, x)}},
+a \em{matching family of #{P} for #{S}} is just a [natural transformation](rs-000V) #{S\to P}.
+Explicitly, a matching family assigns, to each #{y\xto{f} x}
+in #{S}, an element #{p_f\in P}. This data must be compatible with
+[restriction](rs-0064) via #{P}, in that #{p_f|_g = p_{fg}} for all #{z\xto{g}
+y}.}

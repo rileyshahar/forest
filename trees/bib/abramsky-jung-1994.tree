@@ -1,0 +1,14 @@
+\title{domain theory}
+\date{1994}
+\taxon{reference}
+\author{Samson Abramsky}
+\author{Achim Jung}
+\meta{bibtex}{\startverb
+@book{abramsky-jung-1994,
+  title = {Domain Theory},
+  author = {Samson Abramsky and Achim Jung},
+  url = {https://www.cs.bham.ac.uk/~axj/pub/papers/handy1.pdf},
+  year = {1994},
+}
+\stopverb}
+

@@ -1,0 +1,15 @@
+\date{2024-06-19}
+\title{least element}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{abramsky-jung-1994}{Abramsky & Jung}{Definition 2.1.3(4)}
+
+\p{A \em{least element} or \em{bottom} #{\bot} of a [preorder](rs-005T) #{P} is
+an element such that #{\bot\leq x} for all #{x\in P.} The [dual](rs-0009) notion
+is \em{greatest element} or \em{top} #{\top}.}
+
+\p{Equivalently, considering #{P} as a [category](rs-0001), #{\bot} is a
+[terminal object](rs-0020) and #{\top} is a [initial object](rs-0021).}
+

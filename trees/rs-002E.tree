@@ -32,12 +32,12 @@
   elements #{(x_i\in Dj)}. The legs of should be maps #{\lim D\xto{\lambda} Dj};
   we define these by ##{(*\xto{\mu} D)\xmapsto{\lambda_j} \mu_j(*).}}
 
-  \p{To show that this defines a cone, we need to show that the diagrams \tx{
+  \p{To show that this defines a cone, we need to show that the diagrams \texfig{
     \begin{tikzcd}
       & \lim D \ar[dl, "\lambda_j"']\ar[dr, "\lambda_k"] & \\
       Dj\ar[rr, "Df"'] && Dk
     \end{tikzcd}
-    } commute for all #{j\xto{f} k\in J}, i.e. the equality \tx{
+    } commute for all #{j\xto{f} k\in J}, i.e. the equality \texfig{
       \begin{tikzcd}
         \mu \ar[d, mapsto, "\lambda_j"']\ar[r, mapsto, "\lambda_k"] & \mu_k(*)\ar[d, equals, "?"] \\
         \mu_j(*)\ar[r, mapsto, "Df"'] & Df(\mu_j(*))\punctuation{,}

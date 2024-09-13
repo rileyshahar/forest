@@ -1,0 +1,12 @@
+\date{2024-08-18}
+\title{dense site}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 115}
+
+\p{The \em{dense topology} on a [category](rs-0001) #{C} is the [Grothendieck
+topology](rs-0079) where a sieve #{S} on #{x} is covering if and only if, for
+every #{y\xto{f} x}, there exists a #{z\xto{g} y} such that the composite is in
+#{S}.}

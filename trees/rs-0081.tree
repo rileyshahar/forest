@@ -1,0 +1,41 @@
+\date{2024-09-05}
+\title{interpretation of simplicial sets}
+\taxon{explanation}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{Definition 2.4}
+
+\p{By the [presentation of the abstract simplex](rs-0082), a [simplicial
+set](rs-0080) consists of a sequence of [sets](rs-005L) #{X_n} for each
+nonnegative integer #{n}, together with \em{face maps} ##{X_n\xto{d_i} X_{n-1}}
+and \em{degeneracy maps} ##{X_n\xto{s_i} X_{n+1}.}}
+
+\p{We interpret the elements of #{X_n} as #{n}-simplices. The face map
+#{d_i} identifies the #{i}-th face of the simplex, which by convention is the
+face not containing the #{i}-th vertex. The degeneracy map #{s_i} interprets
+each #{n}-simplex as a degenerate #{n+1}-simplex, with the #{i}th vertex
+repeated.}
+
+\p{In pictures, a #{2}-simplex #{\sigma} may be drawn as:
+\texfig{
+  \begin{tikzcd}
+    & y\ar[dr, "g"] \\
+    x\ar[ur, "f"]\ar[rr, "h"', ""{name=h}] && z\punctuation{.}
+    \ar[phantom, from=1-2, to=h, "\sigma"]
+  \end{tikzcd}
+} 
+In particular, the directions of the arrows come from the total order on the set
+#{[2]}, so that pictures like this determine the ordering of the vertices. In
+particular, this picture implies that #{d_0(\sigma) = g}, #{d_1(\sigma) = h},
+and #{d_2(\sigma) = f}.}
+
+\p{In this way, we use the special symbol #{1} to denote degenerate faces. For
+instance, if #{f} is as above, we could draw the [degenerate](rs-0086)
+#{2}-simplex #{s_1(f)} as:
+\texfig{
+  \begin{tikzcd}
+    & y\ar[dr, "1_y"] \\
+    x\ar[ur, "f"]\ar[rr, "f"'] && y\punctuation{.}
+  \end{tikzcd}
+}}

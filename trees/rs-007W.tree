@@ -1,0 +1,11 @@
+\date{2024-08-28}
+\title{monoid}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{monoid} is a [semigroup](rs-007V) with [unit](rs-007Q), that is, a
+[set](rs-005L) equipped with an [associative](rs-007P), [unital](rs-007Q)
+[binary operation](rs-007N).}
+

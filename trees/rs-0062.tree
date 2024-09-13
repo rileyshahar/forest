@@ -1,0 +1,12 @@
+\date{2024-06-16}
+\title{subobject classifier of sets}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 31}
+\tag{ex:rs-005V}
+
+\p{The map ##{*\xto{\top} \{0, 1\}; *\mapsto 1} is a
+[subobject classifier](rs-005V) in [\scat{Set}](rs-000C).}
+

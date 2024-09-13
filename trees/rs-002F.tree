@@ -20,7 +20,7 @@ small [coproducts](rs-0024) and [coequalizers](rs-0026).}
   \p{In the backwards direction, let #{J\xto{F} C} be a small
   [diagram](rs-001U). Now we define maps #{c} and #{d} using the [universal
   property of the product](rs-0023-up) as follows:}
-  \tx{
+  \texfig{
     \begin{tikzcd}
       & F (\cod f)\\
       \Prod_{j\in J} Fj\ar[r, "c", dashed, shift left=.2em]\ar[r, "d"', dashed, shift
@@ -32,7 +32,7 @@ small [coproducts](rs-0024) and [coequalizers](rs-0026).}
 
   \p{We claim the equalizer #{\lim F} of this diagram is the limit of #{F}. The
   equalizer gives a [cone](rs-001W)
-  \tx{
+  \texfig{
     \begin{tikzcd}
       \lim F\ar[r]\ar[dr, dashed, "\lambda_j"'] & \Prod_{j\in J} Fj\ar[d, "\pi_j"] \\
       & Fj\punctuation{.}

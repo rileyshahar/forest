@@ -14,14 +14,14 @@
 }
 \p{This data must make the following \em{unit} and \em{associativity} diagrams
 commute:}
-\tx{
+\texfig{
   \begin{tikzcd}
     I\otimes m\ar[r, "\eta\otimes 1_m"]\ar[dr, "\lambda_m"'] & m\otimes m\ar[d,
     "\mu"] & m\otimes I\ar[l, "1_m\otimes\eta"']\ar[dl, "\rho_m"]\\
                                         & m\punctuation{.}
   \end{tikzcd}
 }
-\tx{
+\texfig{
   \begin{tikzcd}
     (m\otimes m)\otimes m\ar[rr, "\alpha_{m,m,m}"]\ar[d, "\mu\otimes 1_m"'] & & m\otimes (m\otimes m)\ar[d, "1_m\otimes\mu"] \\
     m\otimes m\ar[dr, "\mu"'] & & m\otimes m\ar[dl, "\mu"] \\

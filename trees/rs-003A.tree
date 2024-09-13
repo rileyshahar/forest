@@ -8,7 +8,7 @@
 
 \p{Let #{F\adj G} be an [adjunction](rs-0036). Then
 the [unit and counit](rs-0039) #{1\xto{\eta} GF} and #{FG\xto{\epsilon} 1} make
-the following diagrams, called the \em{triangle identities}, commute:\tx{
+the following diagrams, called the \em{triangle identities}, commute:\texfig{
   \begin{tikzcd}
     F\ar[r, "F\eta"]\ar[dr, "1_F"'] & FGF\ar[d, "\epsilon F"] \\
     & F
@@ -23,12 +23,12 @@ the following diagrams, called the \em{triangle identities}, commute:\tx{
 \proof{
   \p{By the definitions of [vertical](rs-000W) and [whiskered](rs-003B)
   composition, it suffices to work in components. To show the left triangle
-  identity, it suffices to show that \tx{
+  identity, it suffices to show that \texfig{
     \begin{tikzcd}
       Fc\ar[d, "F\eta_c"']\ar[r, "1_{Fc}"] & Fc\ar[d, "1_{Fc}"] \\
       FGFc\ar[r, "\epsilon_{Fc}"'] & Fc
     \end{tikzcd}
-  }commutes. The [adjoint square](rs-0038) is \tx{
+  }commutes. The [adjoint square](rs-0038) is \texfig{
     \begin{tikzcd}
       c\ar[d, "\eta_c"']\ar[r, "\eta_c"] & GFc\ar[d, "1_{GFc}"] \\
       GFc\ar[r, "1_{GFc}"'] & GFc\punctuation{,}

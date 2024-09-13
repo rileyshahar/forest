@@ -1,0 +1,19 @@
+\date{2024-08-18}
+\title{grothendieck topologies are like spaces}
+\taxon{moral}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The collection #{J(x)} of covering sieves of an object #{x} in a [Grothendieck
+topology](rs-0079) is like the collection of [covers](TODO) of an open set #{U} in the
+[poset of opens](TODO) in a [space](TODO) #{X}. In particular,:}
+
+\ul{
+  \li{the identity axiom corresponds to the fact that #{\{U\}} covers #{U};}
+  \li{the stability axiom corresponds to the fact that, if #{\{U_i\}} covers
+  #{U} and #{V\subseteq U}, then #{\{U_i\cap V\}} covers #{V};}
+  \li{the transitivity  axiom corresponds to the fact, if #{\{U_i\}_i} covers #{U} and
+  #{\{U_{ij}\}_j} covers #{U_i}, then #{\{U_{ij}\}_{ij}} covers #{U}.}
+}
+

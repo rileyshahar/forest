@@ -1,0 +1,20 @@
+\date{2024-09-06}
+\title{nerve of a category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{Example 3.2, Example 4.6}
+
+\p{Let #{\Delta\xto{F}} [\scat{Cat}](rs-002V) send #{n} in the [abstract
+simplex](rs-007Z) to the [ordinal category](rs-001E) #{n}. Then the \em{nerve
+functor} #{N} is the [right adjoint](rs-0036) to the [Kan extension](rs-0089)
+of #{F} to the [category of simplicial sets](rs-0080). In particular, as
+[#{n}-simplices](rs-0081), #{FC} has [functors](rs-000L) #{Fn\to C}.}
+
+\p{More concretely, let #{C} be a [small](rs-002B) [category](rs-0001). The
+\em{nerve} of #{C} is the simplicial set whose [#{n}-simplicies](rs-0081) are
+#{n}-long strings of composable maps in #{C}. The degeneracy map #{s_i} takes a
+string of length #{n} and inserts an identity at position #{i}, while the face
+map #{d_i} composes the #{i}th and #{i+1}st arrows (or else leaves out the first
+or last arrow, if #{i=0} or #{i=n}.)}

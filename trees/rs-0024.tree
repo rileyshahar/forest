@@ -19,7 +19,7 @@
   \p{The [universal property](rs-001Z-up) of the [coproduct](rs-0024) #{P =
   \coprod_{j\in J} X_j} with coprojections #{X_k\xto{\iota_k} P} is that, for any
   object #{Z} equipped with morphisms #{X_k\xto{\kappa_k} Z}, there exists a unique
-  morphism #{P\to Z} making the following diagrams commute:\tx{
+  morphism #{P\to Z} making the following diagrams commute:\texfig{
     \begin{tikzcd}
       X_k\ar[r, "\iota_k"]\ar[dr, "\kappa_k"'] & P\ar[d, dashed, "\exists !"] \\
       & Z\punctuation{.}
@@ -28,7 +28,7 @@
 
   \p{When #{J} is the [ordinal category](rs-001E) #{2}, hence the [diagram](rs-001U) is
   of shape #{\bullet\,\bullet}, and so the coproduct is of two objects #{X} and
-  #{Y}, this property has the following nice form:\tx{
+  #{Y}, this property has the following nice form:\texfig{
     \begin{tikzcd}
     X\ar[ddr, bend right, "f"']\ar[dr, "\iota_X"] & & Y\ar[dl, "\iota_Y"']\ar[ddl, bend left, "g"] \\
     & X+Y\ar[d, dashed, "\exists !"] \\

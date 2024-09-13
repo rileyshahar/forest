@@ -1,0 +1,28 @@
+\title{a leisurely introduction to simplicial sets}
+\date{2008}
+\taxon{reference}
+\author{rileyshahar}
+\meta{external}{https://math.jhu.edu/~eriehl/ssets.pdf}
+\meta{bibtex}{\startverb
+@inproceedings{riehl-2011,
+  title={A Leisurely Introduction to Simplicial Sets},
+  author={Emily Riehl},
+  year={2011},
+  url={https://math.jhu.edu/~eriehl/ssets.pdf}
+}\stopverb}
+
+\p{Simplicial sets are introduced in a way that should be pleasing to the
+formally-inclined. Care is taken to provide both the geometric intuition and the
+categorical details, laying a solid foundation for the reader to move on to more
+advanced topological or higher categorical applications. The highlight, and the
+only possibly non-standard content, is a unified presentation of every
+adjunction whose left adjoint has the category of simplicial sets as its domain:
+geometric realization and the total singular complex functor, the ordinary nerve
+and its left adjoint, the homotopy coherent nerve and its left adjoint, and
+subdivision and extension are some of the many examples that fit within this
+framework.}
+
+
+\import{macros01}
+
+

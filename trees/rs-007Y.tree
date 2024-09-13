@@ -1,0 +1,9 @@
+\date{2024-08-28}
+\title{abelian group}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{An \em{abelian group} is a [commutative](rs-007O) [group](rs-007X).}
+

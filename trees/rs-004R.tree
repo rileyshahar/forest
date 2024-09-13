@@ -9,14 +9,14 @@
 \p{A [right adjoint](rs-0043) [functor](rs-000L) #{D\xto{U} C} is
 [monadic](rs-004J) if and only if it [creates](rs-001L) [#{U}-split
 coequalizers](rs-004Q), i.e. if and only if any #{U}-split coequalizer
-\tx{
+\texfig{
   \begin{tikzcd}
     Ux\ar[r, "Uf", shift left=.2em]\ar[r, "Ug"', shift right=.2em] &
     Uy\ar[r, "h"]\ar[l, "t", bend left=50] &
     z\ar[l, "s", bend left]
   \end{tikzcd}
 }
-in #{C} admits a [fork](rs-004M) \tx{
+in #{C} admits a [fork](rs-004M) \texfig{
   \begin{tikzcd}
     Ux\ar[r, "Uf", shift left=.2em]\ar[r, "Ug"', shift right=.2em] &
     Uy\ar[r, "h"] &

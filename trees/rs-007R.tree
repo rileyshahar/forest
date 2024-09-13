@@ -1,0 +1,17 @@
+\date{2024-08-28}
+\title{cancellable binary operation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [binary operation](rs-007N) on #{X} is \em{(two-sidedly) cancellative} if, for all #{a,
+b, c\in X}, ##{ab = ac \text{ implies } b = c \quad\text{ and }\quad
+ba = ca \text{ implies } b = c.} If
+only one implication holds, this is called left- or right-cancellative, as
+appropriate.}
+
+\p{If the operation additionally has an [identity](rs-007Q) #{e}, then
+cancellability is equivalent to the statement that, for any #{x\in X}, #{x} has
+a \em{(two-sided) inverse}, i.e. an element #{y\in X} such that ##{xy=yx=e.}}
+

@@ -1,0 +1,27 @@
+\date{2024-06-16}
+\title{sieve}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 37}
+
+\p{A \em{sieve} is a [subfunctor](rs-0060) of a [contravariant
+hom-functor](rs-000R). Explicitly, a \em{sieve #{S} on #{x\in C}} consists of a
+collection of maps with codomain #{x} that is closed under precomposition, i.e.
+if #{z\xto{f}x\in S} and #{z'\xto{g} z} is any map, then #{fh\in S}.}
+
+\proof{
+  \p{To see the translation: given a subfunctor #{G\into C(-, x)}, we identify
+  each element #{m\in Gz} with its image under the inclusion into #{C(z, x)}.
+  Naturality of these inclusions asserts that, given #{z'\xto{f} z}, \texfig{
+    \begin{tikzcd}
+      Gz\ar[r, hook]\ar[d, "Gf"'] & C(z, x)\ar[d, "f^*"] \\
+      Gz'\ar[r, hook] & C(z', x)
+    \end{tikzcd}
+  } commutes, so that for #{m\in Gz}, #{f^*m = fm \in Gz'}. Thus the [disjoint
+  union](rs-002U) of the #{Gz} is a sieve. Conversely, given a sieve #{S}, we
+  define ##{Gz = \{z\xto{m} x\in C(z, x)\},} with action on morphisms by
+  pre-composition.}
+}
+

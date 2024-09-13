@@ -14,7 +14,7 @@
 \ul{
   \li{as objects, triples #{(d\in D, e\in E, Fd\xto{f} Ge\in C)};}
   \li{as morphisms #{(d,e,f)\to(d',e',f')}, pairs #{(d\xto{h}d')} and
-  #{(e\xto{k}e')} making \tx{
+  #{(e\xto{k}e')} making \texfig{
     \begin{tikzcd}
       Fd\ar[r, "f"]\ar[d, "Fh"'] & Ge\ar[d, "Gk"]\\
       Fd'\ar[r, "f'"'] & Ge'

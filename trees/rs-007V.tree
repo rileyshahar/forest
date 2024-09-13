@@ -1,0 +1,9 @@
+\date{2024-08-28}
+\title{semigroup}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{semigroup} is an [associative](rs-007P) [magma](rs-007U).}
+

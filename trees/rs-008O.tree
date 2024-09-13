@@ -1,0 +1,15 @@
+\date{2024-09-09}
+\title{homotopy category of an infinity category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Construction 1.24}
+
+\p{By [abstract nonsense](rs-0089), the [nerve functor](rs-0088) has a [left
+adjoint](rs-0043), called \em{one-truncation} or the \em{homotopy category}, and
+written #{\tau_1} or #{h}. In particular, it sends a [quasicategory](rs-008H)
+#{C} to the category whose [objects come from the quasicategory](rs-008I) and
+whose morphisms are [equivalence classes of morphisms in the
+quasicategory](rs-008L).}
+

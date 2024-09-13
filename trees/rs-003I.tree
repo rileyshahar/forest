@@ -7,7 +7,7 @@
 \cite{riehl-2017}{Riehl}{Lemma 1.7.7}
 
 \p{Suppose we are given [categories](rs-0001), [functors](rs-000L), and [natural
-transformations](rs-000V) as follows: \tx{
+transformations](rs-000V) as follows: \texfig{
   \begin{tikzcd}[baseline=(current bounding box.center)]
     & \Downarrow\alpha && \Downarrow\gamma \\[-2.1em]
     C\ar[rr, "F", bend left=50]\ar[rr, "G", near start]\ar[rr, "H"', bend

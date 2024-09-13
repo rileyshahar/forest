@@ -13,7 +13,7 @@
 hom-[functor](rs-000L)} #{C\xto{C(c, -)}} \scat{Set} takes an object #{x} to the hom-set #{C(c,
 x)} and a morphism #{x\xto{f} y} to its action #{f_*} by post-composition:}
 
-\tx{
+\texfig{
   \begin{tikzcd}
 			C\ar[rr, "{C(c, -)}"] && \textsc{Set} \\
 			x\ar[rr, mapsto]\ar[dd, "f"'] && C(c, x)\ar[dd, "f_*"] && c\ar[rr, "g"] &\ar[dd, mapsto] & x\\
@@ -21,3 +21,7 @@ x)} and a morphism #{x\xto{f} y} to its action #{f_*} by post-composition:}
 			y\ar[rr, mapsto] && C(c, y) && c\ar[r, "g"] & x\ar[r, "f"] & y\punctuation{.}
   \end{tikzcd}
 }
+
+\p{This functor is also called the \em{functor represented by #{c}}, and is
+written #{y_c} or #{h_c}, the first in reference to the [Yoneda
+embedding](rs-0016).}

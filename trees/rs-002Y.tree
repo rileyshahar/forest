@@ -9,7 +9,7 @@
 
 \p{The \em{kernel pair} of a morphism #{x\xto{f} y} is the [pullback](rs-0027)
 of #{f} along itself:}
-\tx{
+\texfig{
   \begin{tikzcd}
     \ker(f)\ar[r]\ar[d]\pullback & x \ar[d, "f"] \\
     x \ar[r, "f"'] & y

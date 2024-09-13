@@ -1,0 +1,11 @@
+\date{2024-06-15}
+\title{well-powered category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 32}
+
+\p{A [category](rs-0001) #{C} is \em{well-powered} if all its [subobject
+posets](rs-002Z) are [small](rs-002B).}
+

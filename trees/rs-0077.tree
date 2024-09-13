@@ -1,0 +1,20 @@
+\date{2024-06-21}
+\title{projection from categories of elements creates (co)limits}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Exercise 3.4.iii}
+
+\p{Let #{C\xto{F}}\scat{Set} be any [functor](rs-000L). Then the projection
+functor #{\el{F}\xto{\Pi} C} from the [category of elements](rs-001S) strictly
+[creates](rs-002J):
+\ul{
+  \li{all [limits](rs-001Y) that #{C} admits and #{F} [preserves](rs-002H);}
+  \li{all [connected](rs-002M) [colimits](rs-001Z) that #{C} admits.}
+}}
+
+\p{In particular, the forgetful functor from an [over category](rs-0007) #{C/c}
+strictly creates all connected limits that #{C} admits and all colimits that
+#{C} admits.}
+

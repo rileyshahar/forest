@@ -19,7 +19,7 @@
   \p{The [universal property](rs-001Y-up) of the [product](rs-0023) #{P =
   \prod_{j\in J} X_j} with projections #{P \xto{\pi_k} X_k} is that, for any
   object #{Z} equipped with morphisms #{Z\xto{\tau_k} X_k}, there exists a unique
-  morphism #{Z\to P} making the following diagrams commute:\tx{
+  morphism #{Z\to P} making the following diagrams commute:\texfig{
     \begin{tikzcd}
     Z\ar[dr, "\tau_j"]\ar[d, dashed, "\exists !"'] \\
     P\ar[r, "\pi_j"'] & X_j\punctuation{.}
@@ -28,7 +28,7 @@
   
   \p{When #{J} is the [ordinal category](rs-001E) #{2}, hence the [diagram](rs-001U) is of
   shape #{\bullet\,\bullet}, and so the product is of two objects #{X} and #{Y},
-  this property has the following nice form:\tx{
+  this property has the following nice form:\texfig{
     \begin{tikzcd}
     & Z\ar[ddl, bend right, "f"']\ar[ddr, bend left, "g"]\ar[d, dashed, "\exists !"] \\
     & X\times Y\ar[dl, "\pi_X"]\ar[dr, "\pi_Y"'] \\

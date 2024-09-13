@@ -1,0 +1,13 @@
+\date{2024-06-16}
+\title{subfunctor}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 36}
+
+\p{A \em{subfunctor} of a [functor] #{C\xto{F} D} is merely a
+[subobject](rs-002Z) in the [functor category](rs-000Y) #{D^C}; this is [computed
+pointwise](rs-002N), so that a subfunctor consists of a functor #{C\xto{G} D}
+such that #{Gc\into Fc} for each #{c\in C}, [naturally](rs-000V) in #{C}.}
+

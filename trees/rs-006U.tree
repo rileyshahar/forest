@@ -1,0 +1,11 @@
+\date{2024-06-19}
+\title{distributive category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [bicartesian](rs-003Z) category #{C} is \em{distributive} if the [canonical
+comparison morphism](rs-0034) ##{(A\times B) + (A\times C)\to A\times (B+C)}
+is an [isomorphism](rs-0002).}
+

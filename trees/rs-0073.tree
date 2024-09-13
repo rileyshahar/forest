@@ -1,0 +1,11 @@
+\date{2024-06-20}
+\title{every Boolean algebra is a Heyting algebra}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 51}
+
+\p{Every [Boolean algebra](rs-006X) is a [Heyting algebra](rs-006V) with the
+implication ##{x\To y := \lnot x\join y.}}
+

@@ -1,0 +1,80 @@
+\date{2024-06-21}
+\title{base change adjoint triple}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Theorem I.9.4}
+
+\p{Let #{C} be a [category](rs-0001) with [pullbacks](rs-0027) and
+#{x\xto{f} y} a map. Then the [base change functor](rs-0075) #{C/y\xto{f^*} C/x}
+has a [left adjoint](rs-0043) #{\Sigma_f}. Furthermore, if #{C/y} is [cartesian
+closed](rs-005K), then #{f^*} has a right adjoint #{\Pi_f}: \texfig{
+  \begin{tikzcd}
+  C/x\ar[rr, bend left=50, "\Sigma_f", ""{name=L}]\ar[rr, bend right=50,
+  "\Pi_f"', ""{name=R}] && C/y\ar[ll,
+  "f^*", near start]\ar[ll, phantom, ""{name=f}]\punctuation{.}
+  \ar[phantom, from=L, to=f]{}{\bot}
+  \ar[phantom, from=f, to=R]{}{\bot}
+  \end{tikzcd}
+}}
+
+\proof{
+  \p{We define #{\Sigma_f} by direct composition with #{f}: \texfig{
+    \begin{tikzcd}
+      c\ar[dr]\ar[rr] && d\ar[dl] \\
+      & x
+    \end{tikzcd}$\mapsto$
+    \begin{tikzcd}
+      c\ar[dr]\ar[rr]\ar[ddr, dashed, bend right] && d\ar[dl]\ar[ddl, dashed,
+      bend left] \\
+      & x\ar[d, "f"] \\
+      & y\punctuation{.}
+    \end{tikzcd}
+  } To show the adjunction, let #{c\xto{m} x} and #{d\xto{n} y} be maps. Then
+  #{f^*n} is the pullback of #{n} along #{f}, so that a map #{m\xto{g} f^*n} in
+  #{C/x} is a commutative diagram \texfig{
+    \begin{tikzcd}
+      c\ar[r, "g"]\ar[dr, "m"'] & f^*d\ar[d, "f^*n"]\ar[r]\pullback & d\ar[d, "n"] \\
+      & x\ar[r, "f"'] & y\punctuation{.}
+    \end{tikzcd}
+  } By the [universal property of the pullback](rs-0027-up), there is a unique
+  map #{c\to d} commuting with the diagram which induces #{g}, but such maps
+  #{c\to d} are exactly maps #{\Sigma_f m\to n} in #{C/y}. This shows the
+  desired adjunction.}
+
+  \p{We define #{\Pi_f} by pullback in #{C/y}, which is [inherited from
+  #{C}](rs-0077). In particular, on an object #{c\xto{m} x} in #{C/x}, we note
+  first that there is a map of exponential objects
+  ##{\left[c\xto{m}x\xto{f}y^{(x\xto{f} y)}\right]\to \left[x\xto{f}
+  y^{(x\xto{f} y)}\right]} induced
+  by post-composition with #{m}:
+  \texfig{
+    \begin{tikzcd}
+      x\ar[rr, "g"]\ar[ddr, "f"'] && c\ar[d, "m"] \\
+      && x\ar[dl, "f"] \\
+      & y
+    \end{tikzcd}$\mapsto$
+    \begin{tikzcd}
+      x\ar[r, "g"]\ar[dr, "f"'] & c\ar[r, "m"] & x\ar[dl, "f"] \\
+      & y\punctuation{.}
+    \end{tikzcd}
+  } Now letting #{1_f^\dag} be the [transpose](rs-0036) of #{1_{x\xto{f} y}}, we
+  define \texfig{
+    \begin{tikzcd}
+      \Pi_f m\ar[r]\ar[d]\pullback & c\xto{m}x\xto{f}y^{(x\xto{f}y)}\ar[d] \\
+      1_y\ar[r, "1_f^\dag"'] & x\xto{f} y^{(x\xto{f} y)}\punctuation{,}
+    \end{tikzcd}
+  } with action on morphisms induced by [functoriality of the
+  pullback](rs-0030).}
+
+  \p{It remains to show the desired adjunction. Since #{1_y} is
+  [terminal](rs-0020) in #{C/y}, a map #{n\to\Pi_f m}  in #{C/y} induces,
+  again by the universal property of the pullback, a unique map #{n\to
+  \left[c\xto{m} x\xto{f} y^{(x\xto{f} y)}\right]} whose post-composition with
+  #{m} is the identity #{1_f}. Taking the transpose yields a map
+  #{\left[f\times n\right]\xto{g^\dag} \left[c\xto{m}x\xto{f} y\right]}.
+  However, the product in #{C/y} [is exactly](rs-0077) the pullback in #{C}, so
+  that (since #{mg = 1_x}), this is equivalently a map #{f^*n\to m}
+  in #{C/x}.}
+}

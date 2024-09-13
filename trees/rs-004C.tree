@@ -17,7 +17,7 @@ forgetful functor and #{F^T} is the [free algebra functor](rs-004D).}
   identities](rs-003A). The unit is the unit of the monad; the counit
   #{F^TU^T\xto{\epsilon}1_{C^T}} at an algebra #{Tx\xto{f} x} should be an [algebra
   homomorphism](rs-0048) #{Tx\to x}; #{f} suffices, as the following square
-  commutes by definition of a #{T}-[algebra](rs-0047):\tx{
+  commutes by definition of a #{T}-[algebra](rs-0047):\texfig{
     \begin{tikzcd}
       T^2x\ar[r, "Tf"]\ar[d, "\mu_x"'] & Tx\ar[d, "f"] \\
       Tx\ar[r, "f"'] & x\punctuation{.}

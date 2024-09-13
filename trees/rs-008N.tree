@@ -1,0 +1,12 @@
+\date{2024-09-08}
+\title{the nerve functor is fully faithful}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Proposition 1.20}
+
+\p{The [nerve functor](rs-0088) is [fully](rs-0017) [faithful](rs-0018), and its
+essential image consists of [quasicategories](rs-008H) such that each [inner
+horn](rs-008G) admits a \em{unique} [filler](rs-008D).}
+

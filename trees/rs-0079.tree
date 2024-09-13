@@ -1,0 +1,45 @@
+\date{2024-06-21}
+\title{Grothendieck topology}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Definition III.2.1}
+
+\p{A \em{Grothendieck topology} #{J} on a [category](rs-0001) #{C} consists of,
+for each object #{x\in C}, a collection of [sieves on
+#{x}](rs-0061) #{J(x)}, called \em{covering sieves}, so that:
+\ul{
+  \li{\em{identity}: the [maximal sieve](rs-007D) at #{x} covers #{x};}
+  \li{\em{stability}: if #{S} covers #{x} and #{y\xto{f} x} is any map, then the [pullback
+  sieve](rs-0078) #{f^*S} covers #{y};}
+  \li{\em{transitivity}: if #{S} covers #{x} and #{T} is a sieve on #{x} so that, for each map
+  #{y\xto{f} x \in S}, #{f^* T} covers #{y}, then #{T} covers #{x}.}
+}}
+
+\p{Equivalently, say that a sieve #{S} covers a map #{y\xto{f} x} if the
+pullback #{f^*S} covers #{y}. Then the axioms state: \ul{
+  \li{if #{f\in S}, then #{S} covers #{f};}
+  \li{if #{S} covers #{f}, then it covers #{fg} for any #{g} where the
+  composition makes sense;}
+  \li{if #{S} covers #{f} and #{T} covers each #{g\in S}, then #{T} covers
+  #{f}.}
+}}
+
+\p{A category equipped with a Grothendieck topology is called a \em{site}.}
+
+\namedproof{of the equivalence}{
+  \p{In the backwards direction, if #{J} satisfies the map axioms, then letting
+  #{f = 1_x} shows that it satisfies the object axioms.}
+
+  \p{In the forwards direction, let #{J} satisfy the object axioms. Then:} \ul{
+    \li{For any sieve #{S} on #{x} and any #{f\in S}, #{f^*S} covers the domain of
+    #{f} by the stability axiom, so #{S} covers #{f}.}
+    \li{If #{S} covers #{f}, then #{f^*S} covers the domain of #{f}, so that by
+    stability #{g^*f^*S} covers the domain of #{g}.}
+    \li{If #{S} covers #{y\xto{f} x} and #{T} covers each #{g\in S}, then #{f^*S} covers
+    the #{y}, while for each #{g\in S}, #{g^*T} covers the domain of
+    #{g}. Now by transitivity, #{T} covers #{x}, so that by stability, #{T}
+    covers #{f}.}
+  }
+}

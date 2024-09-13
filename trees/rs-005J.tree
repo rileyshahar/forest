@@ -14,8 +14,10 @@ the \em{internal hom}, together with a [natural isormorphism](rs-0010)
 
 \p{The [counit](rs-0039) of the [adjunction](rs-0043) #{(-\otimes y)\adj [y, -]}
 is called \em{evaluation}: it is a [natural transformation](rs-000V) ##{[y,
-x]\otimes y\xto{\ev} x.} Applying the adjunction at the monoidal unit #{I}
-implies that maps #{x\to y} are in natural bijection with maps #{I\to
-[x, y]}. By the [philosophy of generalized elements](TODO), this explains the
-name internal hom: it represents maps.}
+x]\otimes y\xto{\ev} x.}}
+
+\p{Applying the adjunction with #{x} the monoidal unit #{I}
+implies that maps #{y\to z} are in natural bijection with maps #{I\to
+[y, z]}. By the [philosophy of generalized elements](rs-006F), this explains the
+name internal hom: its elements are maps.}
 

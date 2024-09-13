@@ -1,0 +1,12 @@
+\date{2024-08-18}
+\title{maximal sieve}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 38}
+
+\p{The \em{maximal sieve} on an object #{x} is the [sieve](rs-0061) consisting of all
+arrows with codomain #{x}; equivalently, the sieve associated to the
+[contravariant hom-functor](rs-000R).}
+

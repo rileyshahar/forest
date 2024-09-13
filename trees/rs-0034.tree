@@ -21,7 +21,7 @@ easy to map out of, while limits are easy to map into](rs-0035).}
  #{\lim_J F(i, -)\to F(i, j)}, while the #{i}th coleg of the colimiting
  [cocone](rs-001X) is a map #{F(i, j)\to \colim_ F(-, j)}. The composite defines
  the desired map. The commutativity properties are by construction: for
- instance, compatibility with maps #{j\xto{f} j'} in #{J} asserts that \tx{
+ instance, compatibility with maps #{j\xto{f} j'} in #{J} asserts that \texfig{
    \begin{tikzcd}
      & \lim_J F(i, -)\ar[dl, "\pi_j"']\ar[dr, "\pi_j'"] \\
      F(i, j)\ar[d, "\iota_i"']  && F(i, j')\ar[d, "\iota_i"] \\

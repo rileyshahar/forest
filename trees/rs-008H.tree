@@ -1,0 +1,16 @@
+\date{2024-09-08}
+\title{quasicategory}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Definition 1.1}
+
+\p{A \em{quasicategory}, \em{#{\infty}-category}, or \em{weak Kan complex} is a
+[simplicial set](rs-0080) in which every [inner horn](rs-008G) has a (not
+necessarily unique) [filler](rs-008D); in particular, every [composable
+pair](rs-008I) has a composite.}
+
+\p{The \em{category of quasicategories} is the [full](rs-0017)
+[subcategory](rs-004X) of \scat{sSet} spanned by quasicategories.}
+

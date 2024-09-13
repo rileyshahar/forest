@@ -1,0 +1,12 @@
+\date{2024-09-05}
+\title{simplex category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2008-simplicial-sets}{Riehl}{p. 2}
+
+\p{The \em{abstract simplex} #{\Delta} (also called the \em{simplex category}),
+is the [category](rs-0001) whose objects are the non-negative integers, thought
+of as [finite](rs-0057) [ordinals](rs-001E), and whose morphisms are the
+non-decreasing functions between them.}

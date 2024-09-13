@@ -1,0 +1,12 @@
+\date{2024-09-11}
+\title{the counit of the nerve adjunction is an isomorphism}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Example 1.29}
+
+\p{Because the [nerve functor is fully faithful](rs-008N), the [counit of the
+adjunction between the nerve and homotopy category](rs-008O) [is](rs-003R) an
+[isomorphism](rs-0002) #{h(N(C))\cong C}.}
+

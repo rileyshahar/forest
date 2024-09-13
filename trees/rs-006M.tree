@@ -1,0 +1,16 @@
+\date{2024-06-19}
+\title{semilattice}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{abramsky-jung-1994}{Abramsky & Jung}{Definition 2.1.3(6)}
+
+\p{A \em{meet-semilattice} is a [poset](rs-005U) with all [finite](rs-0058)
+[meets](rs-006J); in particular, it is a [meet-pseudosemilattice](rs-006L) with
+[bottom](rs-006K). [Dually](rs-0009), a \em{join-semilattice} is a poset with
+all finite joins.}
+
+\p{Equivalently, a meet-semilattice is a posetal finitely [complete category](rs-002C), while a
+join-semilattice is a posetal finitely [cocomplete category](rs-002D).}
+

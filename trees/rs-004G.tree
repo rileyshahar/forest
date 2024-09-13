@@ -10,7 +10,7 @@
 [category of resolutions](rs-004B) of a [monad](rs-0041). [Explicitly](rs-0020-up), for a
 [resolution](rs-004A) \adjd{C}{D}{F}{U}{\,} of that monad, there exists a unique
 functor #{D\xto{K} C^T} commuting with the adjunctions, in that both the left
-and right squares of \tx{
+and right squares of \texfig{
   \begin{tikzcd}
     D\ar[rr, "K", dashed, "\exists!"']\ar[dd, bend left, "U"] && C^T\ar[dd, bend left, "U^T"] \\
     \dashv && \dashv \\
@@ -22,7 +22,7 @@ and right squares of \tx{
   \p{Given an object #{d\in D}, since #{Ud = U^TKd}, #{K} must define an
   [algebra](rs-0047) structure on the object #{Ud}, i.e. a map #{TUd\xto{\gamma}
   Ud}. The [counit](rs-0039) #{UFUd\xto{U\epsilon_d} Ud} of the adjunction
-  #{F\adj U} is such an algebra. Indeed, the diagrams \tx{
+  #{F\adj U} is such an algebra. Indeed, the diagrams \texfig{
     \begin{tikzcd}
       Ud\ar[r, "\eta_{Ud}"]\ar[dr, "1_{Ud}"'] & UFUd\ar[d, "U\epsilon_d"]\\
       & Ud
@@ -35,7 +35,7 @@ and right squares of \tx{
   } commute; the left is one [triangle identity](rs-003A), while the right is
   the fact that #{\mu_{Ud} = U\epsilon FUd}.}
 
-  \p{Now given a map #{d\xto{f}d'}, the diagram \tx{
+  \p{Now given a map #{d\xto{f}d'}, the diagram \texfig{
     \begin{tikzcd}
       UFUd\ar[r, "UFUf"]\ar[d, "U\epsilon_d"'] & UFUd'\ar[d, "U\epsilon_{d'}"] \\
       Ud\ar[r, "Uf"'] & Ud'

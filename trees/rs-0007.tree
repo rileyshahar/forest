@@ -24,7 +24,7 @@ category} or \em{over category} #{C/c} is:}
 \ul{
   \li{as objects, morphisms #{x\xto{f} c} in #{C};}
 	\li{as morphisms #{(x\xto{f} c)\to (x\xto{g}c)} , commutative triangles
-	  \tx{
+	  \texfig{
 	    \begin{tikzcd}
 	  		x\ar[rr, "h"]\ar[dr, "f"'] && y\ar[dl, "g"]\\
 	  	  & c\punctuation{;}

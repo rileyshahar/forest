@@ -1,0 +1,29 @@
+\title{definition of a quasicategory}
+\taxon{notes}
+\date{2024-09-08}
+\author{rileyshahar}
+
+
+\p{Inspired by the example of a [nerve of a category](rs-0088), we define:}
+\transclude{rs-008I}
+\transclude{rs-008H}
+\transclude{rs-008K}
+\transclude{rs-008L}
+\transclude{rs-008M}
+
+\p{Note that the proof of the previous proposition looks very much like a
+traditional, #{1}-categorical diagram chase.}
+
+\subtree{
+  \title{homotopy categories}
+  \taxon{Construction}
+  \put\transclude/heading{false}
+  \transclude{rs-008N}
+  \transclude{rs-008O}
+  \transclude{rs-008Q}
+}
+\transclude{rs-008J}
+\transclude{rs-008R}
+\put\transclude/taxon{Example}
+\transclude{rs-008S}
+\put\transclude/taxon{}

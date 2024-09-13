@@ -8,7 +8,7 @@
 
 \p{An \em{algebra} over a [monad](rs-0041) #{(T, \eta, \mu)} on a category #{C} is
 an [endofunctor algebra](rs-0046) #{Tx\xto{f} x} which is additionally compatible with
-the monad structure, in that \tx{
+the monad structure, in that \texfig{
   \begin{tikzcd}
     x\ar[r, "\eta_x"]\ar[dr, "1_x"'] & Tx\ar[d, "f"]\\
     & x

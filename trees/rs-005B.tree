@@ -4,6 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
+\cite{maclane-1978}{Mac Lane}{p. 19}
 
 \p{[Sections](rs-000J) are [monomorphisms](rs-000A). Dually, [retracts](rs-000K)
 are [epimorphisms](rs-000B).}

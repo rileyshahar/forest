@@ -1,0 +1,9 @@
+\date{2024-08-28}
+\title{magma}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{magma} is a [set](rs-005L) together with a [binary
+operation](rs-007N).}

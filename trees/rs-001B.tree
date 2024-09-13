@@ -1,12 +1,12 @@
-\title{monoid}
+\title{monoids as categories}
 \date{2024-04-03}
-\taxon{definition}
+\taxon{connection}
 \author{rileyshahar}
 
 \import{macros01}
 \tag{property:rs-0001}
 \cite{riehl-2017}{Riehl}{Example 1.1.4(ii)}
 
-\p{A \em{monoid} is a [category](rs-0001) with one object. Explicitly, this
-means that it has a collection of elements (its morphisms) and an [associative](TODO),
-[unital](TODO) [binary operation](TODO).}
+\p{A [monoid](rs-007W) can be thought of as a [category](rs-0001) with one object,
+whose morphisms are the elements of the monoid and whoses composition is the
+operation.}

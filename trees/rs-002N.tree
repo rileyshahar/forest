@@ -8,7 +8,7 @@
 
 \p{Let #{A} be a [small category](rs-002B). Then where #{\obj C} is the
 [discrete category](rs-001H) of objects, the [forgetful functor](rs-001I)
-#{\link{rs-000Y}{C^A}\to C^{\obj A}}
+#{\link{rs-000Y.xml}{C^A}\to C^{\obj A}}
  strictly [creates](rs-002J) all [limits](rs-001Y) and
 [colimits](rs-001Z) in #{C}. For each #{a\in A}, the [evaluation at #{a}
 functor](rs-005J) #{C^A\to C} [preserves](rs-002H) all limits and colimits which
