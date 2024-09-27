@@ -1,0 +1,18 @@
+\date{2024-09-24}
+\title{functors of quasicategories}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{gallauer-2023}{Gallauer}{Definition 2.5}
+
+\p{Let #{K} be a [simplicial set](rs-0080) and #{C} a
+[quasicategory](rs-008H). Then the \em{category of #{\infty}-functors} is
+the [internal hom](rs-006E) in [simplicial sets](rs-0080). Explicitly, it is
+given by ##{\Fun(K, C)_n := \Hom_{\scat{sSet}}(K\times\Delta^n, C),} where
+#{\Delta^n} is the [standard #{n}-simplex](rs-0084).}
+
+\p{An [object](rs-008I) of #{\Fun(K, C)} is a \em{functor}, while a
+morphism is a \em{natural transformation}, and an [isomorphism](rs-008J) is a
+\em{natural isomorphism}.}
+

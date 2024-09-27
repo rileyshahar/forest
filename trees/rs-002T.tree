@@ -13,8 +13,8 @@
   \p{By the [cocompleteness criterion](rs-002F), it suffices to give
   [coproducts](rs-0024) and [coequalizers](rs-0026). Coproducts are given by the
   [disjoint union](rs-002U). The coequalizer of functions #{A\xtos{f,g} B} is
-  ##{B / \sim,} where #{\sim} is the [equivalence relation](TODO)
+  ##{B / \sim,} where #{\sim} is the [equivalence relation](rs-0096)
   [generated](TODO) by #{f(a) \sim g(a)} for all #{a \in A}, and #{/} denotes the
-  [quotient](TODO) of sets.}
+  [quotient](rs-0099) of sets.}
 }
 

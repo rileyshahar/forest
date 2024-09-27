@@ -1,0 +1,26 @@
+\date{2024-09-23}
+\title{congruence}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1993}{Borceux}{Definition II.2.5.2}
+
+\p{An [internal relation](rs-0093) #{r\xinto{(r_1, r_2)} x^2} is an \em{equivalence relation} or
+\em{congruence} if it is:}
+
+\ul{
+  \li{[reflexive](rs-005Q), i.e. there is a map #{x\xto{s} r} which is a
+  [section](rs-000J) of both #{r_1} and #{r_2};}
+  \li{[symmetric](rs-0095), i.e. there is a map #{r\xto{\sigma} r} which exchanges
+  #{r_1} and #{r_2};}
+  \li{[transitive](rs-005R), i.e. there is map #{r\times_{x} r\xto{\tau} r}
+  from the [pullback](rs-0027) of #{r_1} and #{r_2} which factors the pair of
+  maps \texfig{
+    \begin{tikzcd}
+      r\times_{x} r\ar[r]\ar[d]\pullback & r\ar[d, "r_1"] \\ r\ar[r, "r_2"'] &
+      x\punctuation{.}
+    \end{tikzcd}
+  }}
+}
+

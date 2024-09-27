@@ -1,0 +1,11 @@
+\date{2024-09-23}
+\title{equivalence relation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{An \em{equivalence relation} is a [congruence](rs-0094) in
+[\scat{Set}](rs-0097). Explicitly, it is a [reflexive](rs-005Q),
+[symmetric](rs-0095), and [transitive](rs-005R) [relation](rs-005O).}
+

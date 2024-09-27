@@ -1,0 +1,19 @@
+\date{2024-09-23}
+\title{congruences of groups are equivalently normal subgroups}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{G} be a [group](rs-007X). Then the data of a [congruence](rs-0094) on #{G} is
+equivalent to the data of a [normal subgroup](rs-009L) of #{G}.}
+
+\proof{
+  \p{Given a normal subgroup #{N}, define the relation #{g\sim h} if and only if
+  #{gh^{-1} \in N}, i.e. if and only if their [left cosets](rs-009W) agree. This
+  is a congruence, i.e., a [subgroup](rs-009J) of the [product](rs-0023)
+  #{G\times G}, by normality of #{N}. Conversely, given a congruence #{\sim},
+  define the subgroup #{N} consisting of those #{g\in G} such that #{g\sim e},
+  where #{e} is the unit of #{G}. These constructions are inverses.} 
+}
+

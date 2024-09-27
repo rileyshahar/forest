@@ -1,0 +1,12 @@
+\date{2024-09-13}
+\title{symmetric group}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Definition II.2.1}
+
+\p{Let #{A} be a [set](rs-005L). Then the \em{symmetric group} #{S_A} is the
+group of [automorphisms](rs-0004) of #{A} under composition. The symmetric group
+of a [finite](rs-0058) [ordinal](rs-001E) #{n} is denoted #{S_n}.}
+

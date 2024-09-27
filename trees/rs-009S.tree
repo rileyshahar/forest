@@ -1,0 +1,11 @@
+\date{2024-09-24}
+\title{groups as categories}
+\taxon{connection}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Example 1.1.4(ii)}
+
+\p{By the [connection between monoids and categories](rs-001B), a
+[group](rs-007X) is a [groupoid](rs-000G) with one object.}
+

@@ -1,0 +1,14 @@
+\date{2024-09-23}
+\title{characterization of normal subgroups}
+\taxon{proposition}
+\author{rileyshahar}
+
+\cite{aluffi-2007}{Aluffi}{Section II.7.6}
+\import{macros01}
+
+\p{A [subgroup](rs-009J) #{N} is [normal](rs-009K), i.e. the [kernel](rs-00A4)
+of a map #{f}, if and only if it is closed under [conjugation](rs-009P). We
+write #{N\unlhd G}.}
+
+\p{Most authors take this latter condition as the definition of normal
+subgroups.}

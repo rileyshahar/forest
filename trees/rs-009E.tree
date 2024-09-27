@@ -1,0 +1,48 @@
+\date{2024-09-23}
+\title{\scat{Grp} is monadic over \scat{Set}}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Corollary 5.5.3}
+
+\p{By the [monadicity theorem](rs-004R), the [free-forgetful adjunction](rs-009D) between
+\scat{Set} and \scat{Grp} is [monadic](rs-004J).}
+
+\proof{
+  \p{We must show that the forgetful functor #{U} [creates](rs-001L) [#{U}-split
+  coequalizers](rs-004Q). Let #{G\xto{f, g} H} be a pair of
+  [homomorphisms](rs-009A) that admit a [split coequalizer](rs-004N) \texfig{
+    \begin{tikzcd}
+      G\ar[r, "f", shift left=.2em]\ar[r, "g"', shift right=.2em] &
+      H\ar[r, "h"]\ar[l, "t", bend left=50] &
+      E\ar[l, "s", bend left]
+    \end{tikzcd}
+  } in \scat{Set}. Then we must show that there is a unique group structure on
+  #{E} so that #{h} is a homomorphism, and moreover so that #{h} is the
+  [coequalizer](rs-0026) of #{f} and #{g} in \scat{Grp}.}
+
+  \p{Since [group homomorphisms preserve units](TODO), the only choice for unit
+  of #{E} is #{h(e_H)}. Since [split coequalizers are absolute
+  coequalizers](rs-004P), the diagram \texfig{
+    \begin{tikzcd}
+      G^2\ar[r, "f^2", shift left=.2em]\ar[r, "g^2"', shift right=.2em] &
+      H^2\ar[r, "h^2"] &
+      E^2
+    \end{tikzcd}
+  } is a coequalizer, and so by the [universal property](rs-0026-up), we have a
+  unique map \texfig{
+    \begin{tikzcd}
+      G^2\ar[r, "f^2", shift left=.2em]\ar[r, "g^2"', shift right=.2em]\ar[d,
+      "\bullet"'] &
+      H^2\ar[r, "h^2"]\ar[d, "\bullet"'] &
+      E^2\ar[d, dashed, "\exists!"] \\
+      G\ar[r, "f", shift left=.2em]\ar[r, "g"', shift right=.2em] &
+      H\ar[r, "h"] &
+      E\punctuation{.}
+    \end{tikzcd}
+  } Now the square on the right asserts exactly that this map makes #{h} a
+  homomorphism. Inverses are similarly induced from #{H}, and moreover this data
+  forms a group structure.}
+}
+

@@ -1,0 +1,18 @@
+\date{2024-09-15}
+\title{elementary topos}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Definition IV.1}
+
+\p{An \em{elementary topos} is a [category](rs-0001) which:}
+
+\ul{
+  \li{is [finitely](rs-0058) [complete](rs-002D) and [cocomplete](rs-002D);}
+  \li{is [cartesian closed](rs-005K);}
+  \li{has a [subobject classifier](rs-005V).}
+}
+
+\p{This is not a minimal definition; many of these pieces of structure imply
+each other.}

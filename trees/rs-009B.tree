@@ -1,0 +1,12 @@
+\date{2024-09-23}
+\title{category of groups}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Definition II.3.2}
+
+\p{The \em{category of groups} \scat{Grp} is the [category](rs-0001) whose
+objects are [groups](rs-007X) and whose morphisms are [homomorphisms](rs-009A).}
+
+

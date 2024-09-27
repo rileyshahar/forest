@@ -1,0 +1,13 @@
+\date{2024-09-23}
+\title{internal relation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Definition II.2.5.1}
+
+\p{A \em{relation} in a [category](rs-0001) #{C} on objects #{x} and #{y} is a [monormorphism](rs-000A)
+into the [product](rs-0023) #{x\times y}; more generally, it consists of a pair of of \em{jointly
+monic} arrows #{r\xinto{r_1} x}, #{r\xinto{r_2} y} so that for any pair of parallel arrows
+#{z\xinto{f, g} r}, #{r_1g = r_1h} and #{r_2g = r_2h} implies #{g = h}.}
+

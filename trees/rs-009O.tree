@@ -1,0 +1,11 @@
+\date{2024-09-23}
+\title{translation action}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2007}{Aluffi}{Example 9.3}
+
+\p{The \em{(left) translation action} of a [group](rs-007X) on itself is the
+[action](rs-009M) given by multiplication, #{g\cdot h = gh}.}
+

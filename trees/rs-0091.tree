@@ -1,0 +1,11 @@
+\date{2024-09-15}
+\title{external axiom of choice}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 275}
+
+\p{A [topos](rs-008Y) #{E} satisfies the \em{(external) axiom of choice} if every
+[epimorphism](rs-000B) has a [section](rs-000J).}
+

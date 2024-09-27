@@ -1,0 +1,12 @@
+\date{2024-09-23}
+\title{trivial group}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2007}{Aluffi}{Proposition II.3.3}
+
+\p{The \em{trivial group} is the [zero object](rs-005D) in
+[\scat{Grp}](rs-009B). Explicitly, it is the unique [group](rs-007X) on the
+[singleton](TODO). The associated [zero map](rs-005E) is called the \em{trivial
+map}; explicitly, it is the constant [homomorphism](rs-009A) at the identity.}

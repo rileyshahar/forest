@@ -1,0 +1,10 @@
+\date{2024-09-23}
+\title{\scat{Grp} is complete}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{[As for any](rs-004Z) [monadic category](rs-009E), [\scat{Grp}](rs-009B) is
+[complete](rs-002C), and moreover its limits are [created](rs-002J) from
+[\scat{Set}](rs-000C).}

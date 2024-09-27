@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-scripts/build.sh
+# scripts/build.sh
 commit=$(git rev-parse --short HEAD)
 cd output
 git add .

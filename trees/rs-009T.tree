@@ -1,0 +1,11 @@
+\date{2024-09-24}
+\title{transitive action}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2007}{Aluffi}{Definition II.9.6}
+
+\p{A [group action](rs-009M) of #{G} on #{A} is \em{transitive} if it has a
+single [orbit](rs-009U).}
+

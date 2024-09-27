@@ -1,0 +1,11 @@
+\date{2024-09-23}
+\title{group homomorphism}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Definition II.3.1}
+
+\p{A \em{group homomorphism} #{G\xto{f} H} is a [set-function](rs-005M) #{f} so
+that, for any #{g, h\in G}, ##{f(gh) = f(g)f(h).}}
+

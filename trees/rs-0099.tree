@@ -1,0 +1,11 @@
+\date{2024-09-23}
+\title{quotient of sets}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The [quotient](rs-0098) of a [set](rs-005L) #{X} by an [equivalence
+relation](rs-0096) #{\sim} is the set of \em{equivalence classes} of #{\sim},
+i.e. ##{\{\{x: x\sim x_0\}: x_0\in X\}.}}
+

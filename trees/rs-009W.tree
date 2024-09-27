@@ -1,0 +1,12 @@
+\date{2024-09-24}
+\title{coset}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{(left) coset} of a [subgroup](rs-009J) #{H\leq G} is an
+[orbit](rs-009U) of the [(right) translation action](rs-009O) of #{H} on #{G}.
+Explicitly, a coset #{gH} is the set ##{\{gh: h\in H\}.} The set of cosets of
+#{H} in #{G} is written #{G/H}.}
+

@@ -1,0 +1,23 @@
+\date{2024-09-24}
+\title{orbit-stabilizer theorem}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2007}{Aluffi}{Corollary 9.10}
+
+\p{Let #{A} be a [#{G}-set](rs-009M) and #{a\in A}. Then there is an equation of
+[cardinalities](rs-009Z) ##{|\stab_G(a)||Ga| = |G|,} where the former is the
+[stabilizer](rs-009V) and the latter is the [orbit](rs-009U).}
+
+\proof{
+  \p{We construct a [bijection](rs-000E) #{Ga\cong G/\stab_G(a)}, whence the
+  result follows from [Lagrange's theorem](rs-00A0). Given an element #{b = ga\in Ga},
+  identify it with the [coset](rs-009W) #{g\stab_G(a)}. This is well-defined: if
+  #{b = ga = ha}, then #{gh^{-1}\in\stab_G(a)}, so that #{g\stab_G(a) =
+  h\stab_G(a)}. Moreover, it is [injective](rs-000H): if #{g\stab_G(a) =
+  h\stab_G(a)}, then #{gh^{-1} \in \stab_G(a)}, so that #{ga = ha}. Finally, it
+  is [surjective](rs-000I): given some #{g\stab_G(a)}, it is the image of
+  #{ga\in Ga}.}
+}
+

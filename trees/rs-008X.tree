@@ -1,0 +1,11 @@
+\date{2024-09-13}
+\title{cyclic group}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Section II.2.3}
+
+\p{The \em{cyclic group} #{C_n} is the group of [integers](TODO) under the
+[relation](TODO) #{a\sim n} whenever #{a - b} [divides](TODO) #{n}.}
+

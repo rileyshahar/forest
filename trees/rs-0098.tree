@@ -1,0 +1,29 @@
+\date{2024-09-23}
+\title{quotient object}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{quotient object} #{x/r} is the [coequalizer](rs-0026) of a
+[congruence](rs-0094) #{r\xto{r_1,r_2} x}.}
+
+\put\transclude/toc{false}
+\subtree[rs-0098-up]{
+  \taxon{Proposition}
+  \title{universal property of quotients}
+  
+  \p{The [universal property](rs-001Z-up) of the [quotient](rs-0098) #{x/r} of a
+  [congruence](rs-0094) #{r\xto{r_1,r_2} x} is that, for any object #{z}
+  equipped with a morphism #{x\xto{f} z} which is constant on equivalence classes,
+  in that #{fr_1 = fr_2}, there exists a unique factorization of #{x/r\to z} of
+  #{f}:
+  \texfig{
+    \begin{tikzcd}
+      r\ar[r, "r_1", shift left=.2em]\ar[r, "r_2"', shift right=.2em] & x\ar[r,
+      "e"]\ar[dr, "f"'] & x/r\ar[d, dashed, "\exists !"]\\
+      & & z\punctuation{.}
+    \end{tikzcd}
+  }}
+}
+

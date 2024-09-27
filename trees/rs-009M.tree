@@ -1,0 +1,14 @@
+\date{2024-09-23}
+\title{group action}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2007}{Aluffi}{Section II.9.1}
+
+\p{A \em{(left) action} of a [group](rs-007X) #{G} on a [set](rs-005L) #{X} is a
+[homomorphism](rs-009A) from #{G} to the [automorphism group](rs-008V) of #{X}.
+By [uncurrying](rs-009N) in [\scat{Set}](rs-000C), this is equivalently a map
+#{G\times X\xto{\cdot} X} so that ##{e\cdot x = x \text{ and }(gh)\cdot x =
+g\cdot(h\cdot x).} A set equipped with a #{G}-action is called a \em{#{G}-set}.}
+

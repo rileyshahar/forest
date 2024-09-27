@@ -1,0 +1,17 @@
+\date{2024-09-27}
+\title{towards linear topoi}
+\taxon{talk}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Penn Graduate Logic Seminar}
+
+\p{Topos theory plays a central role in geometry and categorical logic. For
+instance, topoi yield a natural semantic theory of intuitionistic dependent type
+theories. One important step in this theory is the observation that topoi are
+Heyting categories, i.e. that propositions in the internal logic of a topos can
+be refined along intuitionistic predicates. In this talk, I will attempt to give
+an accessible outline of this classical story and motivate the study of "linear
+topoi", categories which exhibit topos-like behavior with respect to a linear
+internal logic. I will conclude with a discussion of some progress towards an
+axiomatic presentation of these categories.}

@@ -1,0 +1,28 @@
+\date{2024-09-23}
+\title{sets}
+\taxon{notes}
+\author{rileyshahar}
+
+\import{macros01}
+
+\subtree{
+  \title{Basic definitions}
+  \taxon{Section}
+
+  \transclude{rs-005L}
+  \transclude{rs-005M}
+  \transclude{rs-000C}
+  \transclude{rs-0092}
+}
+
+\subtree{
+  \title{Constructions}
+  \taxon{Section}
+  \transclude{rs-005N}
+  \transclude{rs-002S}
+  \transclude{rs-002U}
+  \transclude{rs-0096}
+  \transclude{rs-0099}
+  \transclude{rs-002E}
+  \transclude{rs-002T}
+}

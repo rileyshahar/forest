@@ -1,0 +1,12 @@
+\date{2024-09-23}
+\title{kernel}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1993}{Borceux}{Definition II.1.1.5}
+
+\p{The \em{kernel} of a map #{f} is the [equalizer](rs-0025) of #{f} and the
+[zero map](rs-005E), when this data exists. The \em{cokernel} is the
+[coequalizer](rs-0026) of #{f} and the zero map.}
+

@@ -1,0 +1,11 @@
+\date{2024-09-13}
+\title{dihedral group}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Section II.2.2}
+
+\p{The \em{dihedral group} #{D_n} is the group of [symmetries](TODO) of a
+[regular #{n}-gon](TODO).}
+

@@ -1,0 +1,10 @@
+\date{2024-09-23}
+\title{symmetric relation}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{An [endo](rs-0003)[relation](rs-005O) #{A\sim A} is \em{symmetric} if, for
+all #{a,b\in A}, #{a\sim b} implies #{b\sim A}.}
+

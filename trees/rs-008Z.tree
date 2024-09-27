@@ -1,0 +1,11 @@
+\date{2024-09-15}
+\title{well-pointed topos}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 236}
+
+\p{An [elementary topos](rs-008Y) is \em{well-pointed} if the [terminal
+object](rs-0020) is a [separator](rs-004T).}
+

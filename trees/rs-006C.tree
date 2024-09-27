@@ -1,6 +1,6 @@
 \date{2024-06-17}
 \title{the category of presheaves is the free cocompletion}
-\taxon{definition}
+\taxon{proposition}
 \author{rileyshahar}
 
 \import{macros01}

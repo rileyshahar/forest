@@ -1,0 +1,77 @@
+\title{group theory}
+\taxon{notes}
+\author{rileyshahar}
+
+\import{macros01}
+
+\subtree{
+  \title{the basics}
+  \taxon{Section}
+
+  \transclude{rs-007X}
+
+  \put\transclude/taxon{Example}
+  \transclude{rs-008V}
+  \transclude{rs-008W}
+  \transclude{rs-008X}
+  \put\transclude/taxon{}
+
+  \transclude{rs-009J}
+  \transclude{rs-009S}
+}
+
+\subtree{
+  \title{The category of groups}
+  \taxon{Section}
+
+  \transclude{rs-009A}
+  \transclude{rs-009B}
+  \transclude{rs-009D}
+  \transclude{rs-009C}
+  \transclude{rs-009E}
+  \put\transclude/taxon{Corollary}
+  \transclude{rs-009F}
+  \put\transclude/taxon{}
+  \transclude{rs-008U}
+  \transclude{rs-009H}
+
+  \transclude{rs-00A4}
+  \transclude{rs-00A5}
+}
+
+\subtree{
+  \title{group actions}
+  \taxon{Section}
+
+  \transclude{rs-009M}
+  \put\transclude/taxon{Example}
+  \transclude{rs-009O}
+  \transclude{rs-009P}
+  \put\transclude/taxon{}
+
+  \transclude{rs-009R}
+  \transclude{rs-009U}
+
+  \put\transclude/taxon{Example}
+  \transclude{rs-009W}
+  \put\transclude/taxon{}
+
+  \transclude{rs-009T}
+  \transclude{rs-009V}
+
+  \put\transclude/taxon{Lemma}
+  \transclude{rs-00A0}
+  \put\transclude/taxon{}
+  \transclude{rs-009X}
+  \transclude{rs-009Y}
+}
+
+\subtree{
+  \title{quotient groups}
+  \taxon{Section}
+
+  \transclude{rs-009L}
+  \transclude{rs-009I}
+  \transclude{rs-00A2}
+  \transclude{rs-00A3}
+}

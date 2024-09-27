@@ -1,0 +1,25 @@
+\date{2024-09-24}
+\title{quotient group}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2007}{Aluffi}{Definition II.7.11}
+
+\p{Let [#{N\unlhd G}](rs-009L). Then the \em{quotient group} #{G/N} is
+the [quotient object](rs-0098) of the [induced congruence](rs-009I); explicitly,
+it is the set of [cosets](rs-009W) of #{N} in #{G} with the operation ##{(gN)(hN) =
+(gh)N.}}
+
+\proof{
+  \p{To show that this defines a group, note that the induced equivalence
+  relation is a congruence, hence compatible with the group multiplication, so
+  that the multiplication is well-defined. The group axioms are direct from
+  those of #{G}.}
+
+  \p{To exhibit the universal property, let #{G\xto{f} H} be any
+  [homomorphism](rs-009A) which is constant on equivalence classes. Since #{G/N}
+  is also the [quotient set](rs-0099), It suffices
+  to show that the induced set-function #{\tilde{f}} is a homomorphism:
+  ##{\tilde{f}(ghN) = f(gh) = f(g)f(h) = \tilde{f}(g)\tilde{f}(h).}}
+}

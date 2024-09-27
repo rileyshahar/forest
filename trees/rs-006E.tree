@@ -1,6 +1,6 @@
 \date{2024-06-18}
 \title{presheaf categories are cartesian closed}
-\taxon{definition}
+\taxon{proposition}
 \author{rileyshahar}
 
 \import{macros01}

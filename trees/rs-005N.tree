@@ -5,4 +5,6 @@
 
 \import{macros01}
 
-\p{A \em{subset} is a [subobject](rs-002Z) in [\scat{Set}](rs-000C).}
+\p{A \em{subset} is a [subobject](rs-002Z) in [\scat{Set}](rs-000C).
+Notationally, it is specified as #{\{x\in X: \phi(x)\}}, where #{\phi(x)} is the
+[classifying map](rs-0062) of the subobject.}

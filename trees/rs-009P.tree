@@ -1,0 +1,10 @@
+\date{2024-09-23}
+\title{conjugation action}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2007}{Aluffi}{Example 9.3}
+
+\p{The \em{conjugation action} of a [group](rs-007X) on itself is the
+[action](rs-009M) given by \em{conjugation}, ##{g\cdot h = h^g := ghg^{-1}.}}

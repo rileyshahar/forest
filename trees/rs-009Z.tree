@@ -1,0 +1,10 @@
+\date{2024-09-24}
+\title{cardinality}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{cardinality} #{|X|} of a [set](rs-005L) #{X} is its
+[bijection](rs-000E) [equivalence class](rs-0096).}
+

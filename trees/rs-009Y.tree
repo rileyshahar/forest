@@ -1,0 +1,11 @@
+\date{2024-09-24}
+\title{group actions as functors}
+\taxon{connection}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{An [action](rs-009M) of #{G} on #{A} is equivalently a [functor](rs-000L)
+from the [associated category](rs-009S) to #{G} to [\scat{Set}](rs-000C) which
+sends the unique object of #{G} to #{A}.}
+

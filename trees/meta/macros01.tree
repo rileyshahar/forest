@@ -135,6 +135,7 @@
 \def\dom{\operatorname*{dom}}
 \def\cod{\operatorname*{cod}}
 \def\Hom{\operatorname{Hom}}
+\def\Fun{\operatorname{Fun}}
 \def\Cone{\operatorname*{Cone}}
 \def\Cocone{\operatorname*{Cocone}}
 \def\Sub{\operatorname{Sub}}
@@ -142,6 +143,7 @@
 \def\el[arg]{\text{el}(\arg)}
 \def\Lan{\operatorname*{Lan}}
 \def\Ran{\operatorname*{Ran}}
+\def\stab{\operatorname{stab}}
 
 \def\true{\text{true}}
 

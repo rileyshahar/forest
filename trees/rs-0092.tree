@@ -1,0 +1,11 @@
+\date{2024-09-15}
+\title{elementary theory of the category of sets}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+% \cite{}{}{}
+
+\p{Lawvere's \em{elementary theory of the category of sets} asserts that the
+[category of sets](rs-000C) is the [well-pointed](rs-008Z) [topos](rs-008Y) with
+[choice](rs-0091) and a [natural numbers object](rs-0090).}

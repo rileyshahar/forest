@@ -7,5 +7,5 @@
 \tag{ex:rs-0023}
 
 \p{The \em{cartesian product} is the [product](rs-0023) in [\scat{Set}](rs-000C).
-Explicitly, the product of [sets](TODO) #{A} and #{B} is ##{A\times B = \{(a,
+Explicitly, the product of sets #{A} and #{B} is ##{A\times B = \{(a,
 b) \mid a\in A, b\in B\}.}}

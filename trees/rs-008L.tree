@@ -6,7 +6,8 @@
 \import{macros01}
 \cite{gallauer-2023}{Gallauer}{}
 
-\p{[Equivalence of morphisms](rs-008K) in a [quasicategory](rs-008H) is an [equivalence relation](TODO).}
+\p{[Equivalence of morphisms](rs-008K) in a [quasicategory](rs-008H) is an
+[equivalence relation](rs-0096).}
 
 % \proof{
 %   \p{To show [reflexivity](rs-005Q), note that #{s_1(f)} is a homotopy #{f\simeq

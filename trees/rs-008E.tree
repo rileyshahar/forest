@@ -1,4 +1,3 @@
-\date{2024-09-08}
 \title{quasicategories}
 \taxon{notes}
 \author{rileyshahar}
@@ -6,7 +5,18 @@
 \import{macros01}
 
 \put\transclude/expanded{false}
-\put\transclude/taxon{Section}
+\scope{
+\put\transclude/taxon{section}
 \transclude{rs-0083}
+\scope{
 \put\transclude/title{the definition}
 \transclude{rs-008F}
+}
+}
+\put\transclude/expanded{true}
+\subtree{
+  \title{functors}
+  \taxon{section}
+
+  \transclude{rs-00A6}
+}

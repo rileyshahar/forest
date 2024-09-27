@@ -4,6 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
+\cite{aluffi-2009}{Aluffi}{Definition 1.2}
 
 \p{A \em{group} is a [set](rs-005L) equipped with an [associative](rs-007P),
 [unital](rs-007Q) [binary operation](rs-007N) and [inverses](rs-007R).}

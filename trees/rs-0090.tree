@@ -1,0 +1,20 @@
+\date{2024-09-15}
+\title{natural numbers object}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 269}
+
+\p{A \em{natural numbers object} in a [topos](rs-008Y) is an [initial](rs-0021)
+[algebra](rs-0046) of the [functor](rs-000L) #{X\mapsto X + 1}; explicitly, it
+is an object #{\NN} equipped with maps #{*\xto{z} \NN} and #{\NN\xto{s} \NN},
+called \em{zero} and \em{successor}, so that for any other object #{A} equipped
+with maps #{*\xto{q}A\xto{f}A}, there exists a unique map #{\NN\to A} so that \texfig{
+  \begin{tikzcd}
+  *\ar[r, "z"]\ar[dr, "q"'] & \NN\ar[r, "s"]\ar[d, dashed, "\exists !"] &
+  \NN\ar[d, dashed, "\exists !"] \\
+  & A\ar[r, "f"'] & A
+  \end{tikzcd}
+} commutes. The \em{natural number #{n}} is the [element](rs-006F) #{s^n z}.}
+

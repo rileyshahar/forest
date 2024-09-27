@@ -1,0 +1,33 @@
+\title{categorical homotopy theory}
+\taxon{reference}
+\author{Emily Riehl}
+\date{2014}
+\meta{isbn}{9781107261457}
+\meta{external}{https://math.jhu.edu/~eriehl/cathtpy.pdf}
+\meta{bibtex}{\startverb
+@book{riehl-2013,
+  place={Cambridge},
+  series={New Mathematical Monographs},
+  title={Categorical Homotopy Theory},
+  publisher={Cambridge University Press},
+  author={Riehl,
+  Emily},
+  year={2014},
+  collection={New Mathematical Monographs}
+}\stopverb}
+
+\p{This book develops abstract homotopy theory from the categorical perspective
+with a particular focus on examples. Part I discusses two competing perspectives
+by which one typically first encounters homotopy (co)limits: either as derived
+functors definable when the appropriate diagram categories admit a compatible
+model structure, or through particular formulae that give the right notion in
+certain examples. Emily Riehl unifies these seemingly rival perspectives and
+demonstrates that model structures on diagram categories are irrelevant.
+Homotopy (co)limits are explained to be a special case of weighted (co)limits, a
+foundational topic in enriched category theory. In Part II, Riehl further
+examines this topic, separating categorical arguments from homotopical ones.
+Part III treats the most ubiquitous axiomatic framework for homotopy theory -
+Quillen's model categories. Here, Riehl simplifies familiar model categorical
+lemmas and definitions by focusing on weak factorization systems. Part IV
+introduces quasi-categories and homotopy coherence.}
+

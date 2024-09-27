@@ -1,9 +1,9 @@
 \title{definition of a quasicategory}
 \taxon{notes}
-\date{2024-09-08}
 \author{rileyshahar}
 
 
+\put\transclude/expanded{false}
 \p{Inspired by the example of a [nerve of a category](rs-0088), we define:}
 \transclude{rs-008I}
 \transclude{rs-008H}
