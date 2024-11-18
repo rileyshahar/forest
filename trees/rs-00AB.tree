@@ -1,0 +1,9 @@
+\date{2024-10-03}
+\title{singleton set}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{singleton set} #{*} is the [terminal object](rs-0020) in
+[\scat{Set}](rs-000C). Explicitly, it is the [set](rs-005L) with one element.}

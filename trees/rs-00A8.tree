@@ -1,0 +1,25 @@
+\date{2024-10-03}
+\title{monomorphism of groups}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The following are equivalent for a [homomorphism](rs-009A) #{G\xto{f}H} of
+[groups](rs-009B):
+
+\ul{
+  \li{#{f} is a [monomorphism](rs-000A);}
+  \li{#{f} is [injective](rs-000H);}
+  \li{#{f} has [trivial](rs-008U) [kernel](rs-00A4).}
+}}
+
+\proof{
+  \p{To show the first two, note that [monos are limits](rs-005F) and [limits
+  are created in \scat{Set}](rs-009F).}
+
+  \p{To show the kernel result, note that if #{f} is injective, then the kernel
+  is automatically trivial, whereas if #{f} has trivial kernel, then for any
+  #{x, y\in G} with #{f(x) = f(y)}, #{f(xy^{-1}) = e}, so #{xy^{-1}\in\ker(f)},
+  meaning #{xy^{-1} = e}, and now #{x = y}.}
+}

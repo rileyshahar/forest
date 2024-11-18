@@ -1,0 +1,13 @@
+\date{2024-10-12}
+\title{orthogonal class}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{p. 134}
+
+\p{Let #{M} be a class of maps in a [category](rs-0001). Its \em{left
+orthgonal class} #{{}^\perp M} is the class of maps with the
+[left lifting property](rs-00AG) against #{M}; dually, its \em{right
+orthogonal class} #{M^\perp} is those with the right lifting property
+against #{M}.}

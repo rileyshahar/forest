@@ -1,0 +1,36 @@
+\date{2024-10-03}
+\title{epimorphism of groups}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{maclane-1978}{Mac Lane}{Exercise I.5.5}
+
+\p{An [epimorphism](rs-000B) of [groups](rs-009B) is just a
+[surjective](rs-000I) [homomorphism](rs-009A).}
+
+\proof{
+  \p{First, if #{G\xto{e} H} is a surjective homomorphism, then given
+  homomorphisms #{H\xtos{f, g} K}, we have that #{f = g} because #{e} is an epi
+  in \scat{Set}, so #{e} is an epi.}
+
+  \p{Second, let #{G\xto{e} H} be an epi in \scat{Grp}. We wish to find a group
+  #{K} and two maps #{H\xtos{f, g} K} which agree on the [image](rs-00A5) of
+  #{e}, hence are equal, in such a way that their equality allows us to conclude
+  surjectivity of #{e}. Let #{K} be the [symmetric group](rs-008V) of the set of
+  [cosets](rs-009W) #{H/e(G)} with an [adjoined](rs-002U) [point](rs-00AB)
+  #{*}.}
+
+  \p{Let #{H\xto{f} K} be the map which sends #{h\in H} to the associated
+  permutation acting on #{kH} by [left translation](rs-009O) and fixing #{*}.
+  Let #{\sigma\in K} be the permutation which exchanges #{e(G)} and #{*}; let
+  #{g} be #{f} composed with the [inner automorphism](rs-009P) associated to
+  #{\sigma}.}
+
+  \p{We finally claim that #{f(e(a)) = g(e(a))} for each #{a\in G}. Indeed, since
+  #{e(a)\in e(G)}, #{e(a)} fixes #{e(G)} and #{*}, so is fixed under conjugation
+  by #{\sigma}. Now since #{e} is an epi, #{f = g}. Thus for each #{b\in H},
+  #{f(b) = g(b)}, so that #{g(b)} fixes #{f(H)}, i.e. #{bf(H) = f(H)}, so #{b\in
+  f(H)}, as desired.}
+}
+

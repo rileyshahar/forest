@@ -1,0 +1,18 @@
+\date{2024-10-11}
+\title{lifting problem}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{Section 11.1}
+% \tag{ex:}
+
+
+\p{A \em{lifting problem} between maps #{l} and #{r} in a [category](rs-0001) #{C} is a commutative square
+\texfig{
+  \begin{tikzcd}
+    \bullet\ar[r]\ar[d, "l"'] & \bullet\ar[d, "r"] \\
+    \bullet\ar[r]\ar[ur, dashed] & \bullet.
+  \end{tikzcd}
+} A \em{solution} or \em{lift} is a filler as depicted so that both
+triangles commute.}

@@ -1,0 +1,12 @@
+\date{2024-11-18}
+\title{category of abelian groups}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{Aluffi}{aluffi-2009}{Section II.3.5}
+
+\p{The \em{category of abelian groups} \scat{Ab} is the [full](rs-0017)
+[subcategory](rs-004X) of [\scat{Grp}](rs-009B) spanned by the [abelian
+groups](rs-007Y).}
+

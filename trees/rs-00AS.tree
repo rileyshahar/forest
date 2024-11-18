@@ -1,0 +1,30 @@
+\date{2024-11-04}
+\title{enriched functor}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Definition II.6.2.3}
+
+\p{Let #{V} be a [monoidal category](rs-003X). A #{V}-functor #{C\xto{F} D}
+between [#{V}-categories](rs-00AR) #{C} and #{D} consists of the following
+data:
+\ul{
+  \li{for each object #{x\in C}, an object #{Fx\in D};}
+  \li{for each pair of objects #{x, y\in C}, a morphism #{F_{x,y}: C(x, y)\to
+  D(Fx, Fy)} in #{V}.}
+}}
+
+\p{This data must preserve composition and identities, in that \texfig{
+  \begin{tikzcd}
+    I\ar[r, "1_x"]\ar[dr, "1_{Fx}"'] & C(x, x)\ar[d, "F_{x,x}"] \\
+    & D(Fx, Fx)
+  \end{tikzcd}
+} and \texfig{
+  \begin{tikzcd}
+    C(y, z)\otimes C(x, y)\ar[r, "\circ_{x, y, z}"]\ar[d, "F_{y, z}\otimes F_{x,
+    y}"'] & C(x, z)\ar[d, "F_{x, z}"] \\
+    D(Fy, Fz)\otimes D(Fx, Fy)\ar[r, "\circ_{Fx, Fy, Fz}"'] & D(Fx, Fz)
+  \end{tikzcd}
+} commute.}
+

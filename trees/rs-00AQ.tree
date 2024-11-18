@@ -1,0 +1,34 @@
+\date{2024-11-04}
+\title{filtered colimits commute with finite limits in \scat{Set}}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Theorem 3.8.9}
+
+\p{[Filtered](rs-004K) [colimits](rs-001Z) commute with [finite](rs-0058) [limits](rs-001Y) in
+[\scat{Set}](rs-000C) (and the result extends to #{\kappa}-filtered and
+#{\kappa}-small limits).}
+
+\proof{
+  [TODO](TODO)
+  % \p{Let #{I} and #{J} be [categories](rs-0001) with #{J} filtered, and
+  % #{I\times J\xto{F}} \scat{Set} a [diagram](rs-001U). We want to
+  % show that the canonical [comparison map](rs-0034) ##{\colim_J \lim_I F \to
+  % \lim_I \colim_J F} is a [bijection](rs-000E). By the [construction of limits
+  % in \scat{Set}](rs-002E-construction), the right-hand side consists of those
+  % cones over #{\colim_J F} with summit [#{*}](rs-00AB), which are
+  % [equivalently](rs-006F) finite (#{I}-indexed) collections of elements of the
+  % colimit satisfying finitely many equations.}
+  %
+  % \p{Now by the [construction of colimits in cocomplete categories](rs-002F),
+  % for each #{i}, #{\colim_J F(i, -)} is a certain [quotient](rs-0099) of the
+  % [coproduct](rs-0024) of the #{F(i, j)}, where we identify #{x\in F(i, j)} and
+  % #{y\in F(i, j')} if there is #{j\xto{f} t} and #{j'\xto{f'} t} so that #{F(i,
+  % f)(x) = F(i, f')(y)}. Because #{J} is filtered, the list of elements
+  % #{\lambda_i} 
+  %
+  % \p{Now because #{J} is filtered, this cone #{\lambda_i} 
+  % represented by }
+}
+

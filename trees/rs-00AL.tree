@@ -1,0 +1,11 @@
+\date{2024-10-14}
+\title{regular epimorphism}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Definition I.4.3.1}
+
+\p{An [epimorphism](rs-000B) is \em{regular} if it is a [coequalizer](rs-0026).
+Dually, a [monomorphism](rs-000A) is regular if it is an [equalizer](rs-0025).}
+

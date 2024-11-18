@@ -37,6 +37,8 @@
 
   \transclude{rs-00A4}
   \transclude{rs-00A5}
+  \transclude{rs-00A8}
+  \transclude{rs-00A9}
 }
 
 \subtree{
@@ -73,5 +75,8 @@
   \transclude{rs-009L}
   \transclude{rs-009I}
   \transclude{rs-00A2}
+  \transclude{rs-00AW}
+  \transclude{rs-00AX}
   \transclude{rs-00A3}
+  \transclude{rs-00AY}
 }

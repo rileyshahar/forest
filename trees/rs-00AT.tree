@@ -1,0 +1,9 @@
+\date{2024-11-04}
+\title{regular image}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{regular image} #{\im f} of a [map](rs-0001) #{x\xto{f}y} is the
+[equalizer](rs-0025) of its [cokernel pair](rs-002Y), when this exists.}

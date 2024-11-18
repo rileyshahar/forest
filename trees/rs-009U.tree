@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Definition 9.7}
+\cite{aluffi-2009}{Aluffi}{Definition 9.7}
 
 \p{The \em{orbit} of an element #{a\in A} of a [#{G}-set](rs-009M) #{A} is the
 [image](TODO) of #{a} under #{G}, i.e. ##{Ga := \{g\cdot a: g\in G\};} by

@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Definition II.6.5}
+\cite{aluffi-2009}{Aluffi}{Definition II.6.5}
 
 \p{The [kernel](rs-009G) of a [group homomorphism](rs-009A) #{G\xto{f} H} is the
 [inverse image](rs-000O) of the identity #{e\in H}.}

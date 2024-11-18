@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Definition 9.8}
+\cite{aluffi-2009}{Aluffi}{Definition 9.8}
 
 \p{The \em{stabiliizer} of an element #{a} of a [#{G}-set](rs-009M) #{A} is the
 [subgroup](rs-009J) of #{G} which fixes #{a}, i.e. ##{\stab_G(a) := \{g\in G:

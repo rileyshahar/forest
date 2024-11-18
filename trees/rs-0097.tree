@@ -13,12 +13,17 @@
   \transclude{rs-005M}
   \transclude{rs-000C}
   \transclude{rs-0092}
+  \transclude{rs-000H}
+  \transclude{rs-000I}
+  \transclude{rs-000E}
 }
 
 \subtree{
   \title{Constructions}
   \taxon{Section}
   \transclude{rs-005N}
+  \transclude{rs-00AA}
+  \transclude{rs-00AB}
   \transclude{rs-002S}
   \transclude{rs-002U}
   \transclude{rs-0096}

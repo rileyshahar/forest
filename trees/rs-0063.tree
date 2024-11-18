@@ -9,7 +9,7 @@
 \p{Let #{\psh{C}} be a [presheaf category](rs-0015). Let #{C^\op\xto{\Omega}}
 \scat{Set} be the \em{sieve functor}, which sends an object #{x} to the set of
 [sieves on #{x}](rs-0061), and a map #{y\xto{f}x} to its action on sieves by restriction: ##{(\Omega f)(S) = \{g: fg\in S\}.} Let #{*\xinto{\top} \Omega}
-(where #{*} is the [constant functor](rs-001V) at the [singleton](TODO))
+(where #{*} is the [constant functor](rs-001V) at the [singleton](rs-00AB))
 identify for each #{x\in C} the [maximal sieve](rs-007D). Then #{\top} is a
 [subobject classifier](rs-005V) in #{\psh{C}}.}
 

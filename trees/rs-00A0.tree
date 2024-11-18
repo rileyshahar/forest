@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Corollary 8.14}
+\cite{aluffi-2009}{Aluffi}{Corollary 8.14}
 
 \p{Let #{H\leq G} be a [subgroup](rs-009J), and #{G/H} the set of
 [cosets](rs-009W) of #{G}. Then there is an equation of [cardinalities](rs-009Z)
@@ -13,6 +13,6 @@
 \proof{
   \p{The cosets partition #{G}, so it suffices to show that all cosets have
   cardinality #{|H|}. The map ##{H\to gH,\quad h\mapsto gh} is a
-  [bijection](rs-000E).}
+  [bijection](rs-000E), with inverse #{x\mapsto g^{-1}x}.}
 }
 

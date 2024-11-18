@@ -1,0 +1,52 @@
+\date{2024-10-15}
+\title{(Regular epi, mono)-factorization in regular categories}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Theorem II.2.1.3}
+% \tag{ex:}
+
+\p{[Regular categories](rs-00AM) have a ([regular epi](rs-00AL),
+[mono](rs-000A)) [factorization system](rs-00AJ).}
+
+\proof{
+  \p{Let #{x\xto{f} y} be any map. Then because the [quotient](rs-00AU) of #{f}
+  exists, we have a diagram \texfig{
+    \begin{tikzcd}
+      \ker(f)\ar[r, shift left=.2em]\ar[r, shift right=.2em] &
+      x\ar[r, "f"]\ar[d, two heads] & y\punctuation{,} \\
+      & x/\ker(f)\ar[ur, hookrightarrow]
+    \end{tikzcd}
+  } where the map #{x/\ker(f)\into y} is induced by the [universal property of
+  the quotient](rs-0098-up). Uniqueness of this factorization comes from the
+  fact that [regular epimorphisms are strong](rs-00AN), so that regular epis [are
+  the orthgonal class to monos](rs-00AP). It now remains to show that the map
+  #{x/\ker(f)\xinto{i} y} is actually a monomorphism. Call this map #{i}; the
+  idea is to show that the [legs of the kernel pair of #{i} agree](rs-005F).}
+
+  \p{Let #{\ker(i)\tos x/\ker(f)} be the kernel pair of #{i}. By
+  commutativity of the above diagram, the [universal property of the
+  pullback](rs-0027-up) induces a map #{\ker(f)\xto{q} \ker(i)}: \texfig{
+    \begin{tikzcd}
+      \ker(f)\ar[r, shift left=.2em]\ar[r, shift right=.2em]\ar[d, "q"'] &
+      x\ar[r, "f"]\ar[d, two heads] & y\punctuation{.} \\
+      \ker(i)\ar[r, shift left=.2em]\ar[r, shift right=.2em] & x/\ker(f)\ar[ur,
+      hookrightarrow, "i"']
+    \end{tikzcd}
+  } We claim this map is in fact an epimorphism. Indeed, the [pasting law for
+  pullbacks](rs-005G) lets us construct #{\ker(f)} via four pullbacks:
+  \texfig{
+    \begin{tikzcd}
+      \ker(f)\ar[r, two heads]\ar[d, two heads]\pullback & \bullet\ar[r]\ar[d, two heads]\pullback & x\ar[d, two heads] \\
+      \bullet\pullback\ar[d]\ar[r, two heads] & \ker(i)\pullback\ar[d]\ar[r] & x/\ker(f)\ar[d, "i"] \\
+      x\ar[r, two heads] & x/\ker(f)\ar[r, "i"'] & y\punctuation{.}
+    \end{tikzcd}
+  } Indeed, the bottom-left square is a kernel pair, while the other three
+  squares are pullbacks of regular epimorphisms, so the regularity of the
+  category implies the data of this diagram. But now the map from
+  #{\ker(f)\to\ker(i)} in this diagram is a (regular) epimorphism, and moreover
+  agrees with #{q} by uniqueness from the universal property which constructed
+  #{q}, so #{q} is an epimorphism. But since #{q} equalizes the legs of
+  #{\ker(i)}, this implies that the legs agree, as desired.}
+}

@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Corollary 9.10}
+\cite{aluffi-2009}{Aluffi}{Corollary 9.10}
 
 \p{Let #{A} be a [#{G}-set](rs-009M) and #{a\in A}. Then there is an equation of
 [cardinalities](rs-009Z) ##{|\stab_G(a)||Ga| = |G|,} where the former is the

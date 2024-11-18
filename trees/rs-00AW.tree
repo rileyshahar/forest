@@ -1,0 +1,27 @@
+\date{2024-11-05}
+\title{\scat{Grp} is regular}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Example II.2.4.3}
+
+\p{[\scat{Grp}](rs-009B) is [regular](rs-00AM).}
+
+\proof{
+  \p{Pullbacks, hence [kernel pairs](rs-002Y), [exist](rs-009F) and [their coequalizers are quotient
+  groups](rs-00A2). It remains to show that [regular epis](rs-00AL) are stable
+  under [pullback](rs-0027). Since [epis are surjections](rs-00A9) and every
+  surjection is the coequalizer of its kernel pair, it in particular remains to show that
+  surjections are stable under pullback. Consider a diagram \texfig{
+    \begin{tikzcd}
+      K\times_G H\ar[r]\ar[d]\pullback & H\ar[d, "\psi"] \\
+      K\ar[r, two heads, "\varphi"'] & G
+    \end{tikzcd}
+  } with #{\varphi} surjective. Then by the [characterization of limits in
+  \scat{Set}](rs-002E-construction), #{K\times_G H} has underlying set those
+  #{(k, h)} such that #{\varphi(k) = \psi(h)}; for any #{h\in H}, by
+  surjectivity of #{\varphi} there is a #{k\in K} so that #{(k, h)\in K\times_G
+  H}, completing the proof.}
+}
+

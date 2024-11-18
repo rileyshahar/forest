@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Definition II.6.11}
+\cite{aluffi-2009}{Aluffi}{Definition II.6.11}
 
 \p{A \em{subgroup} is a [subobject](rs-002Z) in [\scat{Grp}](rs-009B), written
 #{H\leq G}; equivalently, it is a [subset](rs-005N) [closed](TODO) under the

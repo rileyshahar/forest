@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{borceux-1993}{Borceux}{Definition II.2.5.2}
+\cite{borceux-1994}{Borceux}{Definition II.2.5.2}
 
 \p{An [internal relation](rs-0093) #{r\xinto{(r_1, r_2)} x^2} is an \em{equivalence relation} or
 \em{congruence} if it is:}

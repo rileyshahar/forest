@@ -1,0 +1,13 @@
+\date{2024-10-14}
+\title{strong epimorphism}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Definition I.4.3.5}
+
+\p{An [epimorphism](rs-000B) is \em{strong} if it has the (necessarily strong)
+[left lifting property](rs-00AG) against any [monomorphism](rs-000A); dually, a
+monomorphism is strong if it has the right lifting property against any
+epimorphism.}
+

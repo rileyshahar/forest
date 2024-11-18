@@ -1,0 +1,14 @@
+\date{2024-10-12}
+\title{weakly orthogonal class}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{p. 134}
+
+\p{Let #{M} be a class of maps in a [category](rs-0001). Its \em{weakly left
+orthgonal class} #{{}^\lifts M} is the class of maps with the
+[weak left lifting property](rs-00AD) against #{M}; dually, its \em{right
+orthogonal class} #{M^\lifts} is those with the weak right lifting property
+against #{M}.}
+

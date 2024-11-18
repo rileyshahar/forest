@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{borceux-1993}{Borceux}{Definition II.1.1.5}
+\cite{borceux-1994}{Borceux}{Definition II.1.1.5}
 
 \p{The \em{kernel} of a map #{f} is the [equalizer](rs-0025) of #{f} and the
 [zero map](rs-005E), when this data exists. The \em{cokernel} is the

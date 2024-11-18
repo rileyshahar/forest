@@ -1,0 +1,13 @@
+\date{2024-11-04}
+\title{coimages are quotients}
+\taxon{moral}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The [regular coimage](rs-00AT) of a map #{x\xto{f} y} is always a
+[quotient](rs-0098), which we write #{x/\ker f}. The inuition is that the
+[kernel pair](rs-002Y) is (in [\scat{Set}](rs-000C)-like settings) like the set
+of pairs of elements of #{x} which agree in #{y}, and so the
+[coequalizer](rs-0026) is like the set of nonempty fibers of #{f}.}
+

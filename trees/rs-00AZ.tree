@@ -1,0 +1,24 @@
+\date{2024-11-11}
+\title{localization of a category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{Kashiwara & Schapira}{kashiwara-schapira-2005}{Definition 7.1.1}
+% \tag{ex:}
+
+\p{Let #{S} be a class of morphisms in a [category](rs-0001) #{C}. Then the
+\em{localization} of #{C} at #{S} is a category #{C[S^{-1}]} equipped with a
+[functor](rs-000L) #{C\xto{Q}C[S^{-1}]} which inverts #{S}, in that all the maps
+#{Q(S)} are [isomorphisms](rs-0002). Moreover , this data is
+[universal](rs-001P) with this property, in that for any category #{D} any
+functor #{C\xto{F} D} which inverts #{S}, there exists a functor #{F_S:
+C[S^{-1}]\to A} and a [natural isomorphism](rs-0010) \texfig{
+  \begin{tikzcd}
+    C[S^{-1}]\ar[r, "F_S", dashed, ""{name=S}] & D\punctuation{,}\\
+    C\ar[u, "Q"]\ar[ur, "F"', ""{name=F}, bend right]
+    \ar[from=F, to=S, draw=none, "\cong", pos=.3, sloped]
+  \end{tikzcd}
+} and this #{F_S} is unique up to unique isomorphism, in that the map
+##{\Hom_{D^{C_S}}(-, -)\to \Hom_{D^C}(-\circ Q, -\circ Q)} given by
+[whiskering](rs-003B) is [bijective](rs-000E).}

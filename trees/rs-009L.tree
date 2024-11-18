@@ -3,7 +3,7 @@
 \taxon{proposition}
 \author{rileyshahar}
 
-\cite{aluffi-2007}{Aluffi}{Section II.7.6}
+\cite{aluffi-2009}{Aluffi}{Section II.7.6}
 \import{macros01}
 
 \p{A [subgroup](rs-009J) #{N} is [normal](rs-009K), i.e. the [kernel](rs-00A4)

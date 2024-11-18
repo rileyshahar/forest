@@ -1,0 +1,37 @@
+\date{2024-10-15}
+\title{factorization systems are orthgonal iff strong}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{I.4.4.5}
+
+\p{Let #{C} have [#{(L, R)}-factorizations](rs-00AF). Then #{L} and #{R} are
+the respective [orthogonal classes](rs-00AH) if and only if #{(L, R)} forms a [(strong) factorization
+system](rs-00AJ).}
+
+\proof{
+  \p{First let #{L\perp R}. Let #{x\xto{f} y} be any map and let
+  #{x\xto{l}z\xto{r} y} and #{x\xto{l'} z'\xto{r'} y} be factorizations, i.e. so
+  we have a [lifting problem](rs-00AG) \texfig{
+    \begin{tikzcd}
+      x\ar[r, "l"]\ar[d, "l'"'] & z\ar[d, "r"] \\
+      z'\ar[r, "r'"']\ar[ur, dashed, "\exists!"] & y\punctuation{.}
+    \end{tikzcd}
+  } By orthogonality, there is a unique lift #{z'\to z}, and symmetrically a
+  unique lift #{z\to z'}. This uniqueness means that the desired isomorphisms, if they
+  exist, will be unique; to show that these lifts are inveres, consider
+  that the identity is a (hence unique) solution to the trivial lifting problem
+  \texfig{
+    \begin{tikzcd}
+      x\ar[r, "l"]\ar[d, "l"'] & z\ar[d, "r"] \\
+      z'\ar[r, "r"'] & y\punctuation{,}
+    \end{tikzcd}
+  } but that the composite #{z\to z'\to z} also solves this problem. Thus this
+  composite is the identity, and the same works in the other direction.
+  Moreover, since the orthgonal classes always contain the isomorphisms and are
+  closed under composition, #{(L, R)} forms a factorization system.}
+
+  \p{Conversely, [TODO](TODO).}
+}
+

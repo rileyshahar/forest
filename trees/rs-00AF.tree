@@ -1,0 +1,17 @@
+\date{2024-10-12}
+\title{factorization}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{L} and #{R} be classes of maps in a [category](rs-0001) and #{x\xto{f} y} a map.
+Then an \em{(L, R)-factorization} of #{f} is a pair #{x\xto{l} z\in L} and
+#{z\xto{r} y\in R} so
+that \texfig{
+  \begin{tikzcd}
+    x\ar[rr, "f"]\ar[dr, "l"'] && y \\
+    & z\ar[ur, "r"']
+  \end{tikzcd}
+} commutes.}
+

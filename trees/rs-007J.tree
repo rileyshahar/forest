@@ -12,7 +12,7 @@ objects #{x} and covering families #{S}, each [natural transformation](rs-000V)
 
 \texfig{
   \begin{tikzcd}
-    S\ar[r, "\alpha"]\ar[d, hookrightarrow] & P \\
+    S\ar[r, "\alpha"]\ar[d, hookrightarrow] & P\punctuation{.} \\
     C(-, x)\ar[ur, dashed, "\exists!"']
   \end{tikzcd}
 }

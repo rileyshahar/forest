@@ -144,6 +144,9 @@
 \def\Lan{\operatorname*{Lan}}
 \def\Ran{\operatorname*{Ran}}
 \def\stab{\operatorname{stab}}
+\def\inn{\operatorname*{inn}}
+\def\im{\operatorname{im}}
+\def\coim{\operatorname{coim}}
 
 \def\true{\text{true}}
 
@@ -176,6 +179,7 @@
 \def\xsto[arg]{\overset{\arg}{\rightsquigarrow}}
 \def\lto{\multimap}
 \def\xlto[arg]{\overset{\arg}{\multimap}}
+\def\lifts{\rightthreetimes}
 
 \def\cA{\mathcal{A}}
 \def\cB{\mathcal{B}}

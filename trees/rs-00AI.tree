@@ -1,0 +1,16 @@
+\date{2024-10-12}
+\title{weak factorization system}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{Definition 11.2.1}
+
+\p{A \em{weak factorization system} in a [category](rs-0001) #{C} consists of
+two classes of maps #{L} and #{R} so that:
+\ul{
+  \li{every map admits an [#{(L, R)}-factorization](rs-00AF);}
+  \li{#{L} is the [weakly left orthgonal class](rs-00AE) #{{}^\lifts R} and similarly
+  #{R} is #{L^\lifts}.}
+}}
+

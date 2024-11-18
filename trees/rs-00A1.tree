@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Definition II.1.9}
+\cite{aluffi-2009}{Aluffi}{Definition II.1.9}
 
 \p{The \em{order} of an element #{g\in G} of a [group](rs-007X) #{G} is the
 smallest #{n} such that #{g^n = e}; equivalently, it is the

@@ -25,7 +25,7 @@
   \taxon{construction}
   \p{Let #{J\xto{D}} \scat{Set} be a [small](rs-002B) [diagram](rs-001U). We define #{\lim D =
   \Cone_D(*) = \Hom(*, D)}, where #{*} is the [constant functor](rs-001V) at the
-  [singleton](TODO) and #{\Cone} is the [cone functor](rs-001W). Note that this
+  [singleton](rs-00AB) and #{\Cone} is the [cone functor](rs-001W). Note that this
   is indeed a set, because #{J} is small. An element of this set is a natural
   transformation #{*\xto{\mu} D}, which consists of a morphism #{*\xto{\mu_j}
   Dj} for each #{j\in J}, hence canonically identifies a #{J}-tuple of

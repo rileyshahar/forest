@@ -1,0 +1,24 @@
+\date{2024-10-14}
+\title{regular epimorphisms are strong}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Proposition 4.3.6(iv)}
+% \tag{ex:}
+
+\p{Every [regular epimorphism](rs-00AL) is [strong](rs-00AK).}
+
+\proof{
+  \p{Let #{e} be the [coequalizer](rs-0026) of #{a} and #{b} and consider a lifting problem \texfig{
+    \begin{tikzcd}
+    m\ar[r, "a", shift left=.2em]\ar[r, "b"', shift right=.2em] &
+    w\ar[r, "f"]\ar[d, "e"', two heads] & x\ar[d, "m",
+    hookrightarrow] \\
+    & y\ar[r, "g"'] & z\punctuation{.}
+    \end{tikzcd}
+  } Since #{e} coequalizes #{a} and #{b}, #{mfa = gea = geb = mfb}, so since
+  #{m} is a [monomorphism](rs-000A), #{fa = fb}. Now #{f} coequalizes #{a} and
+  #{b}, so there is a lift #{y\to x} which factors #{f} through #{e}. Since #{e}
+  is an epi, further this lift factors #{g} through #{m}.}
+}

@@ -1,0 +1,17 @@
+\date{2024-11-05}
+\title{correspondence theorem for groups}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Proposition II.8.10}
+
+\p{Let #{G} be a [group](rs-007X) and [#{N\unlhd G}](rs-009L). Then there is a [lattice](rs-006N)
+[isomorphism](rs-0002) between the lattice of [subgroups](rs-009J) of #{G}
+containing #{N} and the lattice of subgroups of the [quotient](rs-00A2) #{G/N},
+which sends #{N\leq A\leq G} to #{A/N}. Moreover, this assignment
+[preserves](rs-001K) and [reflects](rs-001J) normality.}
+
+\proof{
+  [TODO](TODO)
+}

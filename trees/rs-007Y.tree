@@ -4,6 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
+\cite{Aluffi}{aluffi-2009}{Section II.3.5}
 
 \p{An \em{abelian group} is a [commutative](rs-007O) [group](rs-007X).}
 

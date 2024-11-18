@@ -1,0 +1,18 @@
+\date{2024-10-12}
+\title{weak lifting property}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{11.1}
+
+\p{A class of [maps](rs-0001) #{L} has the \em{weak left lifting property} against
+a class of maps #{R}, and #{R} has the
+\em{weak right lifting property} against #{L}, if any
+[lifting problem](rs-00AC) \texfig{
+  \begin{tikzcd}
+    \bullet\ar[r]\ar[d, "l"'] & \bullet\ar[d, "r"] \\
+    \bullet\ar[r]\ar[ur, dashed] & \bullet.
+  \end{tikzcd}
+} between #{l\in L} and #{r\in R} admits a solution. We write #{L\lifts R}.}
+

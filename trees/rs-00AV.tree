@@ -1,0 +1,18 @@
+\date{2024-11-04}
+\title{strong epis are regular in regular categories}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Proposition II.2.1.4}
+% \tag{ex:}
+
+\p{In a [regular category](rs-00AM), a map is a [strong epis](rs-00AK) iff it is
+a [regular epi](rs-00AL).}
+
+\proof{
+  \p{The backwards direction is [always true](rs-00AN). To show the forwards
+  direction, [factor](rs-00AO) #{f = mr} for #{m} a mono and #{e} a regular epi,
+  but note that #{m} remains a strong epi, so [is an isomorphism](rs-00AP).}
+}
+

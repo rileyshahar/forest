@@ -1,0 +1,13 @@
+\date{2024-10-12}
+\title{lifting property}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A class of [maps](rs-0001) #{L} has the \em{left lifting property} against
+(or is \em{left orthogonal to}) a class of maps #{R}, and #{R} has the \em{right
+lifting property} (is \em{right orthogonal to}) against #{L}, if they have the
+appropriate [weak lifting properties](rs-00AD) and moreover solutions to the
+appropriate [lifting problems](rs-00AC) are unique. We write #{L\perp R}.}
+

@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Definition II.9.1}
+\cite{aluffi-2009}{Aluffi}{Definition II.9.1}
 
 \p{A [group action](rs-009M) of #{G} on #{A} is \em{faithful} if the map
 #{G\to S_A} is a [monomorphism](rs-000A).}

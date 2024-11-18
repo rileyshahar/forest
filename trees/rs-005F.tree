@@ -1,20 +1,21 @@
 \date{2024-06-14}
-\title{monics are characterized by pullbacks}
+\title{monos are characterized by pullbacks}
 \taxon{definition}
 \author{rileyshahar}
 
 \import{macros01}
 \cite{borceux-1994}{Borceux}{Proposition I.2.5.6}
 
-\p{A map #{x\xto{f} y} is [monic](rs-000A) if and only if its [kernel
-pair](rs-002Y) is #{1_x}, i.e. if and only if \texfig{
-  \begin{tikzcd}
-    x\ar[r, "1_x"]\ar[d, "1_x"']\pullback & x\ar[d, "f"]\\
-    x\ar[r, "f"'] & y
-  \end{tikzcd}
-} is a [pullback](rs-0027).}
+\p{Let #{x\xto{f}y} be a [map](rs-0001). Then the following are equivalent:
+  \ul{
+    \li{#{f} is [monic](rs-000A);}
+    \li{the [kernel pair](rs-002Y) of #{f} is #{(1_x, 1_x)};}
+    \li{the kernel pair #{(P, \alpha, \beta)} of #{f} is such that #{\alpha =
+    \beta}.}
+  }
+}
 
-\p{Conversely, #{f} is [epic](rs-000B) if and only if its cokernel pair is #{1_y}.}
+\p{Dually, #{f} is [epic](rs-000B) if and only if its cokernel pair is #{1_y}.}
 
 \proof{
   \p{Suppose #{f} is monic; then for any pair of maps #{z\xtos{g, h} x} such that

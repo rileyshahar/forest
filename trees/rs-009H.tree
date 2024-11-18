@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Proposition 3.4}
+\cite{aluffi-2009}{Aluffi}{Proposition 3.4}
 
 \p{The \em{product group} is the [product](rs-0023) in [\scat{Grp}](rs-009B).
 [Explicitly](rs-009F), its underlying set is the [cartesian product](rs-002S),

@@ -1,0 +1,12 @@
+\date{2024-10-03}
+\title{copower}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{p. 6}
+
+\p{The \em{copower}  or \em{tensor} #{E\cdot x} of an [object](rs-0001) #{x} by
+a [discrete category](rs-001H) #{E} is the #{E}-indexed [coproduct](rs-0024) of
+copies of #{x}.}
+

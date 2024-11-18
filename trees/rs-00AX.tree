@@ -1,0 +1,17 @@
+\date{2024-11-05}
+\title{first isomorphism theorem for groups}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{G\xto{\varphi} H} be a [group homomorphism](rs-009A). Then there is an
+[isomorphism](rs-0002)
+##{G/\ker(\varphi) \cong \im(\varphi).} of the [quotient](rs-00A2) of the
+[kernel](rs-00A4) and the [image](rs-00A5).}
+
+\proof{
+  \p{[\scat{Grp} is regular](rs-00AW); this is the statement of [(regular epi,
+  mono) factorization](rs-00AO).}
+}
+

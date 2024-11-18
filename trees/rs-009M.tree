@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Section II.9.1}
+\cite{aluffi-2009}{Aluffi}{Section II.9.1}
 
 \p{A \em{(left) action} of a [group](rs-007X) #{G} on a [set](rs-005L) #{X} is a
 [homomorphism](rs-009A) from #{G} to the [automorphism group](rs-008V) of #{X}.

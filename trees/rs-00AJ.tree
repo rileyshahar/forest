@@ -1,0 +1,15 @@
+\date{2024-10-12}
+\title{factorization system}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{factorization system} in a [category](rs-0001) #{C} consists of
+two classes of maps #{L} and #{R} so that:
+\ul{
+  \li{every map admits an [#{(L, R)}-factorization](rs-00AF);}
+  \li{this factorization is unique up to unique [isomorphism](rs-0002);}
+  \li{#{L} and #{R} are closed under composition and contain the isomorphisms.}
+}}
+

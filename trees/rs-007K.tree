@@ -10,7 +10,7 @@
 
 \subtree{
   \title{Basics}
-  \taxon{Section}
+  \taxon{section}
   \subtree[cat-definition]{
     \title{Categories}
     \transclude{rs-0001}
@@ -20,6 +20,7 @@
       \transclude{rs-000C}
       \transclude{rs-005P}
       \transclude{rs-000D}
+      \transclude{rs-009B}
     }
     \p{We call these examples \em{concrete}. However, as the following examples
     show, not all categories look like this.}
@@ -30,6 +31,7 @@
       \transclude{rs-005T}
       \transclude{rs-001E}
       \transclude{rs-001B}
+      \transclude{rs-009S}
 
       % \transclude{rs-0026}
       % \transclude{rs-0021}
@@ -56,5 +58,6 @@
   % }
 }
 
+\put\transclude/taxon{section}
 \transclude{rs-0044}
 \transclude{rs-0043}

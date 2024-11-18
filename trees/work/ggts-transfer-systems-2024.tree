@@ -1,0 +1,18 @@
+\date{2024-10-25}
+\title{saturated transfer systems on cylinders}
+\taxon{talk}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Penn Graduate Geometry-Topology Seminar}
+
+\p{Transfer systems are relatively simple combinatorial objects which classify
+the homotopy types of N-infty operads, an equivariant analogue of E-infty
+operads. In this talk, we informally present this homotopy-theoretic story so as
+to motivate the combinatorial study of saturated transfer systems, which in good
+cases classify linear isometries operads. We then give a novel method for
+enumerating saturated transfer systems on cylindrical modular lattices, for
+instance the subgroup lattices of finite cyclic groups, and tightly characterize
+the asymptotic behavior in the height of the cylinder. This talk presents joint
+work with several Reed College students along with Angélica Osorno and Kyle
+Ormsby}

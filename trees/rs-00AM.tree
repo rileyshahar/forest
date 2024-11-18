@@ -1,0 +1,17 @@
+\date{2024-10-14}
+\title{regular category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{borceux-1994}{Borceux}{Definition II.2.1.1}
+
+\p{A [category](rs-0001) is \em{regular} if:}
+
+\ul{
+  \li{all [kernel pairs](rs-002Y) exist;}
+  \li{all kernel pairs have [coequalizers](rs-0026);}
+  \li{[regular epimorphisms](rs-00AL) have [pullbacks](rs-0027) and their
+  pullbacks are regular.}
+}
+

@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Definition II.7.11}
+\cite{aluffi-2009}{Aluffi}{Definition II.7.11}
 
 \p{Let [#{N\unlhd G}](rs-009L). Then the \em{quotient group} #{G/N} is
 the [quotient object](rs-0098) of the [induced congruence](rs-009I); explicitly,

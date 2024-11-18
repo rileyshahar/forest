@@ -1,15 +1,42 @@
 \date{2024-06-13}
-\title{projection from comma categories}
+\title{universal property of the comma category}
 \taxon{proposition}
 \author{rileyshahar}
 
 \import{macros01}
-\cite{riehl-2017}{Riehl}{Exercise 1.4.v}
+\cite{borceux-1994}{Borceux}{Proposition 1.6.3}
 
 \p{Let #{D\xto{F} C} and #{E\xto{G} C} be [functors](rs-000L). There are two
 canonical projection functors #{F\downarrow G\xto{\Pi_D} D} and
 #{F\downarrow G\xto{\Pi_E} E} from the [comma category](rs-001T) which forget
 the rest of the structure. Moreover, there is a canonical [natural
 transformation](rs-000V) #{F\Pi_D\to G\Pi_E} which, at an object #{d\in D, e\in
-E, Fd\xto{f} Gd\in C}, has component #{f}.}
+E, Fd\xto{f} Gd\in C}, has component #{f}. Finally, the comma category is
+(strictly) [universal](rs-001P) with this property, in that for any pair of functors
+#{Z\xto{U} D} and #{Z\xto{V} E} equipped with a natural transformation
+#{U\xto{\alpha} V}, there is a unique functor #{Z\to F\downarrow G} so that
+  \texfig{
+    \begin{tikzcd}
+      Z\ar[dr, "\exists !", dashed]\ar[ddr, bend right, "U"']\ar[drr, bend left,
+      "V"] \\
+      & F\downarrow G\ar[r, "\Pi_E"]\ar[d, "\Pi_D"'] & E\ar[d, "G"] \\
+      & D\ar[r, "F"'] & C
+    \end{tikzcd}
+  } commutes and there is an equality of [whiskered composites](rs-003B) \texfig{
+    \begin{tikzcd}
+      Z\ar[ddr, bend right, "U"', ""' {name=U}]\ar[drr, bend left,
+      "V", "" {name=V}] \\
+      & F\downarrow G\ar[r, "\Pi_E"]\ar[d, "\Pi_D"'] & E\ar[d, "G"] \\
+      & D\ar[r, "F"'] & C
+      \ar[Rightarrow, "\alpha", from=U, to=V, shorten >= 1em, shorten <= 1em]
+      \ar[Rightarrow, from=3-2, to=2-3]
+    \end{tikzcd} \quad = 
+    \begin{tikzcd}
+      Z\ar[dr] \\
+      & F\downarrow G\ar[r, "\Pi_E"]\ar[d, "\Pi_D"'] & E\ar[d, "G"] \\
+      & D\ar[r, "F"'] & C\punctuation{.}
+      \ar[Rightarrow, from=3-2, to=2-3]
+    \end{tikzcd}
+  }
+}
 

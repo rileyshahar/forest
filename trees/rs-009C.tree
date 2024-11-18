@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{aluffi-2007}{Aluffi}{Section II.5.3}
+\cite{aluffi-2009}{Aluffi}{Section II.5.3}
 
 \p{The [free group](rs-009D) on a [set](rs-005L) #{X} is the [group](rs-007X) whose
 elements are \em{group words} in #{X}, i.e. finite strings #{x_1^{\epsilon_1}\dots
