@@ -1,0 +1,23 @@
+\date{2024-12-15}
+\title{images and kernels}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Proposition 8.3.4}
+
+\p{Let #{x\xto{f} y} be a map in a category with [zero](rs-005D). Then the
+[image](rs-00AT) of #{f} is [isomorphic](rs-0002) to the [kernel](rs-009G) of the
+cokernel of #{f}. Dually, the coimage of #{f} is isomorphic to the cokernel of
+the kernel of #{f}.}
+
+\p{In particular, there is a [natural map](rs-0034) #{\coim{f}\to\im{f}} making
+the square
+\texfig{
+  \begin{tikzcd}
+  x\ar[r, "f"]\ar[d, two heads] & y \\
+  \coim f\ar[r, dashed] & \im f\ar[u, hookrightarrow]
+  \end{tikzcd}
+}
+commute.}
+

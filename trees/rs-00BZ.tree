@@ -1,0 +1,14 @@
+\date{2024-12-16}
+\title{two-of-three property}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{Remark 2.1.3}
+% \tag{ex:}
+
+\p{A collection of morphisms #{W} in a [category](rs-0001) satisfy the
+\em{two-of-three property} if, for any composable pair #{\bullet\xto{f}
+\bullet\xto{g} \bullet}, then whenever two of #{f}, #{g}, and #{gf} are in
+#{W}, so is the third.}
+

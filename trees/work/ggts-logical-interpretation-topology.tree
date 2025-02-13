@@ -1,0 +1,15 @@
+\date{2025-02-07}
+\title{the logical interpretation of topology}
+\taxon{talk}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Penn Graduate Geometry-Topology Seminar}
+
+\p{Our standard intuition for abstract topology is geometric: the notion of open
+set axiomatized the properties of open balls in metric spaces. Maybe
+surprisingly, there is an equally applicable, and in some sense formally dual,
+logical interpretation of topological spaces. In this interpretation, open sets
+behave like "propositions subject to finite proof." This talk---which assumes no
+knowledge of mathematical logic---will explore this perspective, in particular
+as it relates to point-free topology and sheaves.}

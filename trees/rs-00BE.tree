@@ -1,0 +1,13 @@
+\date{2024-12-04}
+\title{abelian groups as #{\ZZ}-modules}
+\taxon{connection}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Since [#{\ZZ} is the initial ring](rs-00BC), there is a unique ring
+homomorphism from #{\ZZ} to [#{\End(A)}](rs-00B7) for any [abelian
+group](rs-007Y) #{A}. This defines an [isomorphism](rs-0002) of
+[categories](rs-002V) [\scat{Ab}](rs-00B1) #{\cong} #{\ZZ}\scat{Mod}.}
+
+

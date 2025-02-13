@@ -1,0 +1,18 @@
+\date{2024-12-03}
+\title{free abelian group}
+\taxon{definition}
+\author{rileyshahar}
+
+\cite{aluffi-2009}{Aluffi}{Section II.5.4}
+\import{macros01}
+
+\p{The [forgetful functor](rs-001I) [\scat{Ab}](rs-00B1) #{\xto{U}}
+[\scat{Set}](rs-000C) admits a [left adjoint](rs-0043), called the \em{free
+abelian group functor}.}
+
+\proof{
+  \p{An explicit construction is as follows: given a set #{A}, we let #{\cF A}
+  be the set of [finitely supported](TODO) formal [#{\ZZ}](rs-00BA)-[linear
+  combinations](TODO) #{\sum_{a\in A} c_a a} in #{A}, with pointwise addition.}
+}
+

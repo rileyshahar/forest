@@ -1,0 +1,15 @@
+\date{2024-12-03}
+\title{bilinear map of modules}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{bilinear map} of [#{R}-modules](rs-00B8) from #{M} and #{N} to #{O} is a
+[set-function](rs-005M) #{M\times N\xto{f} O} from the [cartesian product](rs-002S)
+such that it is a homomorphism in each argument separately, i.e. for
+each #{m\in M} and each #{n\in N}, #{f(m, -)} and #{f(-, n)} are module
+homomorphisms. Explicitly, this means that ##{
+f(m_1 + m_2, n) = f(m_1, n) + f(m_2, n),}##{
+f(m, n_1 + n_2) = f(m, n_1) + f(m, n_2),\quad\text{and}}##{
+f(rm, n) = rf(m, n) = f(m, rn).}}

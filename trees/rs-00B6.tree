@@ -1,0 +1,15 @@
+\date{2024-12-03}
+\title{ring}
+\taxon{definition}
+\author{rileyshahar}
+
+\cite{aluffi-2009}{Aluffi}{Definitoin III.1.1}
+\import{macros01}
+
+\p{A \em{ring} is an [abelian group](rs-007Y) #{(R, +)} together with a
+[monoid](rs-007W) #{(R, \cdot)} satisfying the (two-sided) [distributive law](rs-007S)
+##{r(s + t) = rs + rt\quad\text{and}\quad (s + t)r = sr + tr.}}
+
+\p{A \em{ring homomorphism} is an [additive homomorphism](rs-009A) that
+preserves multiplication and the unit; the \em{category of rings} \scat{Ring} is
+the category of rings and ring homomorphisms.}

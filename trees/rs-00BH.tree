@@ -1,0 +1,18 @@
+\date{2024-12-04}
+\title{closed symmetric monoidal structure on modules}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The [category of #{R}-modules](rs-00B8) is [closed symmetric
+monoidal](rs-005J), with the [tensor product](rs-00B4) and [internal
+hom](rs-00BG).}
+
+\proof{
+  \p{Notice that this is exactly the universal property of the tensor
+  product: a homomorphism #{M\otimes N\to O} is the same as a bilinear map
+  #{M\times N\to O}, which by definition is the same as a module homomorphism
+  #{M\to [N, O]}.}
+}
+

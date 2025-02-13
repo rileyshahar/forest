@@ -1,0 +1,11 @@
+\date{2024-12-16}
+\title{saturated class of morphisms}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{Remark 2.1.9}
+
+\p{A class of morphisms #{S} is \em{saturated} if it [creates](rs-001L) [isomorphisms](rs-0002) under
+[localization](rs-00AZ) #{C\xto{Q} C[S^{-1}]}.}
+

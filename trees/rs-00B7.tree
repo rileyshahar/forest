@@ -1,0 +1,16 @@
+\date{2024-12-03}
+\title{endomorphisms of an abelian group form a ring}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Section III.2.5}
+
+\p{For any [abelian group](rs-00B1) #{A}, the [endomorphisms](rs-0003) #{\End(A)} of #{A}
+form a [ring](rs-00B6), with pointwise addition and composition as
+multiplication.}
+
+\proof{
+  The distributive law expresses exactly the linearity of the endomorphisms.
+}
+

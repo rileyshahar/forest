@@ -7,5 +7,5 @@
 \cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{p. 52(8)}
 
 \p{In a [Heyting algebra](rs-006V), the \em{negation} of an element #{x} is
-##{\lnot x := x \Rightarrow 0.}}
+##{\lnot x := x \Rightarrow \bot.}}
 

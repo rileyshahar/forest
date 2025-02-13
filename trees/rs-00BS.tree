@@ -1,0 +1,12 @@
+\date{2024-12-15}
+\title{abelian category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 8.3.5}
+
+\p{A [preabelian category](rs-00BR) is \em{abelian} if every morphism is
+[strict](rs-00BQ), i.e. if the [natural map from its coimage to its
+image](rs-00BP) is an [isomorphism](rs-0002).}
+

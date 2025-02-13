@@ -1,0 +1,12 @@
+\date{2024-12-03}
+\title{direct sum of modules}
+\taxon{definition}
+\author{rileyshahar}
+
+\cite{aluffi-2009}{Aluffi}{Section III.6.1}
+\import{macros01}
+
+\p{The \em{direct sum} #{M\oplus N} of two [#{R}-modules](rs-00B8) #{M} and #{N}
+is the [biproduct](rs-00B2) in #{R}\scat{Mod}. Explicitly, the underlying
+[abelian group](rs-007Y) is the [product](rs-009H), with #{R}-action
+componentwise: ##{r(m, n) = (rm, rn).}} 

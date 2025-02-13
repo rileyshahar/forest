@@ -1,0 +1,16 @@
+\date{2025-02-10}
+\title{artin gluing in logic}
+\taxon{talk}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Penn Graduate Logic Seminar}
+
+\p{A standard approach to proving meta-theoretic properties of a proof system or
+type theory is to first define a stronger dependent predicate R---often called a
+logical relation---by induction on syntax, and prove the desired property by
+showing that every well-formed term satisfies this stronger property. In
+categorical semantics, this technique looks like an Artin gluing of the
+syntactic category along a hom-functor. This talk will introduce this technique,
+at least in the special case of so-called "sconing," and utilize it for a
+categorical proof of the existence property of intuitionistic logic.}

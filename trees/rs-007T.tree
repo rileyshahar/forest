@@ -34,3 +34,9 @@
   \transclude{rs-007Y}
 }
 
+\subtree{
+  \title{Ring-like structures}
+  \taxon{Section}
+
+  \transclude{rs-00B6}
+}

@@ -1,0 +1,17 @@
+\date{2024-12-17}
+\title{pullbacks in abelian categories}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{p. 179}
+
+\p{A square \texfig{
+  \begin{tikzcd}
+    p\ar[r, "\pi_b"]\ar[d, "\pi_c"'] & b\ar[d, "f"] \\
+    c\ar[r, "g"'] & a
+  \end{tikzcd}
+} in an [abelian category](rs-00BS) is a [pullback](rs-0027) if and only if
+##{0\to p\xto{(\pi_b, \pi_c)} b\oplus c\xto{(f, -g)}a}
+is [exact](rs-00BU).}
+

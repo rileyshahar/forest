@@ -1,0 +1,13 @@
+\date{2024-12-16}
+\title{homotopy category of a homotopical category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Definition 2.1.6}
+
+\p{The \em{homotopy category} #{\o{Ho} M} of a [homotopical category](rs-00BX) #{M} with weak
+equivalences #{W} is the [localization](rs-00AZ) of #{M} at #{W}. By the
+universal property of localization, this extends to a [functor](rs-000L)
+#{\o{Ho}} from homotopical categories to [categories](rs-002V).}
+

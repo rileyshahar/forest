@@ -1,0 +1,11 @@
+\date{2024-12-16}
+\title{isomorphisms satisfy two-of-six}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{Example 2.1.4}
+
+\p{The [isomorphisms](rs-0002) in any [category](rs-0001) satisfy the
+[two-of-six property](rs-00BY), hence form the \em{minimal [homotopical
+structure](rs-00BX)} on that category.}

@@ -1,0 +1,9 @@
+\date{2024-12-03}
+\title{natural numbers}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{natural numbers} #{\NN = \{0, 1, \dots\}} are the [natural numbers object](rs-0090) in
+[\scat{Set}](rs-0092).}

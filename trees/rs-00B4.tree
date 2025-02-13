@@ -1,0 +1,20 @@
+\date{2024-12-03}
+\title{tensor product of modules}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{tensor product} #{M\otimes N} of [modules](rs-00B8) #{M} and #{N}
+[represents](rs-0013) the [functor](rs-000L) that takes #{O} to the set of
+[bilinear maps](rs-00B3) #{M\times N\to O}; in other words, it has the following
+[universal property](rs-001P): there is a bilinear map
+#{M\times N\to M\otimes N} such that any bilinear #{M\times N\to O} extends
+uniquely to a module homomorphism #{M\otimes N\to O}:
+\texfig{
+  \begin{tikzcd}
+    M\times N\ar[rr, "\text{bilinear}"]\ar[dr, "\text{bilinear}"'] && M\otimes N\ar[dl, dashed, "\exists!"] \\
+    & O\punctuation{.}
+  \end{tikzcd}
+}}
+

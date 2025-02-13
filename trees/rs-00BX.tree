@@ -1,0 +1,15 @@
+\date{2024-12-16}
+\title{homotopical category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{Definition 2.1.1}
+
+\p{A \em{homotopical category} is a [category](rs-0001) equipped with a
+collection of morphisms #{W}, called the \em{weak equivalences}, which contains
+the [isomorphisms](rs-0002) and satisfies the [two-of-six property](rs-00BY)
+([hence](rs-00C0) is closed under composition and so forms a [wide
+subcategory](TODO)). A \em{homotopical functor} is a
+[functor](rs-000L) which [preserves](rs-001K) weak equivalences; the
+\em{category of homotopical categories} is so defined.}

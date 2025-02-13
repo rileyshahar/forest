@@ -12,7 +12,7 @@ of #{f} along itself:}
 \texfig{
   \begin{tikzcd}
     \ker(f)\ar[r]\ar[d]\pullback & x \ar[d, "f"] \\
-    x \ar[r, "f"'] & y
+    x \ar[r, "f"'] & y\punctuation{.}
   \end{tikzcd}
 }
 

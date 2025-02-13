@@ -1,0 +1,10 @@
+\date{2024-12-03}
+\title{integers}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\p{The \em{integers} #{\ZZ = \{\dots, -1, 0, 1, \dots\}} are the [quotient](rs-0099) of the [square](rs-002S)
+#{\NN\times \NN} of the [natural numbers](rs-00B9) by the [relation](rs-0096)
+##{(n, m)\sim (n', m') \text{ iff } n + m' = n' + m.}}
+

@@ -1,0 +1,12 @@
+\date{2024-12-03}
+\title{rational numbers}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{rational numbers} #{\QQ} are the [quotient](rs-0098) of the
+[product](rs-002S) #{\ZZ\times \ZZ\setminus 0} of the [integers](rs-00BA)
+with the integers without zero by the [relation](rs-005O) ##{(p, q)\sim (p',
+q')\text{ iff } pq' = qp'.}}
+

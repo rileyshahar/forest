@@ -8,8 +8,8 @@
 % \tag{ex:}
 
 \p{By the [general adjoint functor theorem](rs-003W), the [forgetful
-functor](rs-001I) \scat{Set} #{\xto{U}} \scat{Grp} admits a [left
-adjoint](rs-0043), called the \em{free group functor}.}
+functor](rs-001I) [\scat{Grp}](rs-009B) #{\xto{U}} [\scat{Set}](rs-000C) admits
+a [left adjoint](rs-0043), called the \em{free group functor}.}
 
 \proof{
   \p{The forgetful functor [creates limits](rs-002J), by a straightforward

@@ -1,0 +1,14 @@
+\date{2024-12-15}
+\title{exact sequence}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 8.3.8(b)}
+
+\p{A sequence #{\dots\xto{\d_{i + 1}} x_i\xto{\d_{i}} x_{i - 1}\xto{\d_{i - 1}}
+\dots} in a [preabelian category](rs-00BR) is \em{exact} if #{\ker \d_{i - 1}
+\cong \im \d_i} for each #{i}. In particular, the sequence is a [chain
+complex](rs-00BO); if the category is [abelian](rs-00BS), this
+equivalently means its [chain homology](rs-00BT) [vanishes](rs-005D).}
+

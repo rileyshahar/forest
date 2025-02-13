@@ -1,0 +1,20 @@
+\date{2024-12-12}
+\title{chain complex}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 8.2.18}
+
+\p{A \em{chain complex} in an [additive category](rs-00BM) is a
+[#{\ZZ}](rs-00BA)-[graded](TODO) sequence of objects #{\{x_i\}} equipped with maps
+#{x_i\xto{\d_i} x_{i-1}}, called \em{differentials}, so that
+#{x_{i+1}\xto{\d_{i+1}}x_i\xto{\d_i}x_{i-1} = 0}. We often omit the index on the
+differentials, so that the equation asks simply #{\d^2 = 0}.}
+
+\p{Dually, a \em{cochain complex} has differentials written in the opposite
+direction, i.e. so #{x_i\xto{\d_i} x_{i+1}}.}
+
+\p{If a chain complex is graded in some connected subset of #{\ZZ}, for
+instance [#{\NN}](rs-00B9), then it extends to a chain complex in a unique way
+by filling in with [zero objects](rs-005D).}

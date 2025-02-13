@@ -1,0 +1,12 @@
+\date{2024-12-04}
+\title{additive functor}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 8.2.7}
+
+\p{An \em{additive functor} is an [enriched functor](rs-00AS) between
+[preadditive categories](rs-00BI). Explicitly, this means it is a
+[functor](rs-000L) which acts on hom-sets by [homomorphisms](rs-009A).}
+

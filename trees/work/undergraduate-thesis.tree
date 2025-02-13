@@ -3,6 +3,8 @@
 \author{rileyshahar}
 \date{2024-05-09}
 
+\meta{institution}{Reed College}
+
 \p{We present introductory material on cryptography and category theory, focused on
 the prerequisites to cryptographic composability. We then present the approach
 to cryptographic composability of Broadbent & Karvonen. We give

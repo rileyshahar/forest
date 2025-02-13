@@ -1,0 +1,16 @@
+\date{2024-12-12}
+\title{additive functors are those that commute with direct sums}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Proposition 8.2.15}
+
+\p{A [functor](rs-000L) #{A\xto{F} B} of [additive categories](rs-00BM) is
+[additive](rs-00BJ) if and only if it [preserves](rs-002H) [direct
+sums](rs-00BL).}
+
+\proof{
+  \p{[Hom-set addition can equivalently be defined by taking direct sums.](rs-00BL)}
+}
+

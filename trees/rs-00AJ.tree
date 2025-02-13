@@ -5,7 +5,7 @@
 
 \import{macros01}
 
-\p{A \em{factorization system} in a [category](rs-0001) #{C} consists of
+\p{A (strong, compare to [weak](rs-00AI)) \em{factorization system} in a [category](rs-0001) #{C} consists of
 two classes of maps #{L} and #{R} so that:
 \ul{
   \li{every map admits an [#{(L, R)}-factorization](rs-00AF);}

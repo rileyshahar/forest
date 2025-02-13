@@ -1,0 +1,36 @@
+\date{2024-12-16}
+\title{monos and epis in preabelian categories}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{x\xto{f} y} be a map in a [preabelian category](rs-00BR). Then the
+following are equivalent:
+\ul{
+  \li{#{f} is a [monomorphism](rs-000A);}
+  \li{#{f} has [trivial](rs-005D) [kernel](rs-009G);}
+  \li{#{f} has [coimage](rs-00AT) #{x};}
+  \li{#{0\to x\xto{f} y} is [exact](rs-00BU).}
+}}
+
+\p{Dually, the following are equivalent:
+\ul{
+  \li{#{f} is an [epimorphism](rs-000B);}
+  \li{#{f} has image #{y};}
+  \li{#{f} has trivial cokernel;}
+  \li{#{x\xto{f} y\to 0} is exact.}
+}}
+
+\proof{
+  \p{Given that #{f} is a mono, and noting that the [zero map](rs-005E)
+  #{z\xto{0} x} equalizes #{f} and #{x\xto{0} y}, any other map #{x\to z} which
+  equalizes these maps must also be #{0}. The zero map factors uniquely through
+  the object #{0}, so that #{0} satisfies the universal property of the kernel.}
+
+  \p{The coimage is now the [cokernel of the kernel](rs-00BP), hence the cokernel of
+  the zero map #{0\to x}, hence the coequalizer of the zero map with itself,
+  hence just the identity at #{x}.}
+
+  \p{Exactness follows from the definition of an exact sequence.}
+}

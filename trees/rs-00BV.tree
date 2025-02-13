@@ -1,0 +1,11 @@
+\date{2024-12-16}
+\title{short exact sequence}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{p. 179}
+
+\p{A \em{short exact sequence} #{0\to x\xinto{f} y\xonto{g} z\to 0} is an [exact
+sequence](rs-00BU) with all but three objects [zero](rs-005D), i.e. so that
+#{\ker g = \im f}, #{\ker f = 0}, and #{\im g = z}.}

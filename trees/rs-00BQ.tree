@@ -1,0 +1,12 @@
+\date{2024-12-15}
+\title{strict morphism}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 5.1.4}
+% \tag{ex:}
+
+\p{A map #{x\xto{f} y}, say in a [complete](rs-002C) and [cocomplete](rs-002D)
+category, is \em{strict} if the [comparison map from its coimage to its
+image](rs-00BP) is an [isomorphism](rs-0002).}

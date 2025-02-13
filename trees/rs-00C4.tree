@@ -1,0 +1,14 @@
+\date{2024-12-16}
+\title{saturated morphisms satisfy two-of-six}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2014}{Riehl}{Lemma 2.1.10}
+
+\p{Any [saturated](rs-00C3) class of morphisms #{W} satisfies
+[two-of-six](rs-00BY), hence forms a [homotopical category](rs-00BX).}
+
+\proof{
+  [The isomorphisms satisfy two-of-six](rs-00C2) and are [created](rs-001L) by #{W}.
+}

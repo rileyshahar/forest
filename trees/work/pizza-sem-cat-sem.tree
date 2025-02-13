@@ -1,0 +1,13 @@
+\date{2025-02-10}
+\title{categorical semantics, via vibes}
+\taxon{talk}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Penn Pizza Seminar}
+
+\p{You might have heard of "categorical semantics" or "internal logics," or of
+the relationship between topoi and intuitionistic logic, perhaps in Jin and
+Carmine's pizza seminar talks from last semester. You also might not have!
+Regardless, this talk aims to explain the big picture of what these terms mean,
+how they relate, and why non-logicians might care.}

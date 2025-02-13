@@ -1,0 +1,34 @@
+\date{2024-12-15}
+\title{chain homology}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 8.3.8(a)}
+
+\p{Let #{\{x_i \xto{\d_i} x_{i - 1}\}} be a [chain
+complex](rs-00BO) in an [abelian category](rs-00BS) #{A}. The #{n}th chain
+homology is the "quotient of the #{n}-cycles by the #{n}-boundaries".}
+
+\p{More precisely, for each #{n}, there is a canonical diagram \texfig{
+  \begin{tikzcd}
+    & \operatorname{im} \d_{n+1}\ar[rr, hookrightarrow]\ar[dr, hookrightarrow]
+    && \operatorname{ker} \d_n\ar[dl, hookrightarrow] \\
+    x_{n + 1}\ar[rr, "\d_{n+1}"]\ar[ur, two heads] && x_n\ar[rr, "\d_n"]\ar[dl, two heads]\ar[dr, two
+    heads] && x_{n - 1}\punctuation{.} \\
+    & \operatorname{coker} \d_{n+1}\ar[rr, two heads] && \operatorname{im}
+    \d_n\ar[ur, hookrightarrow]
+  \end{tikzcd}
+} Indeed, since #{x_{n + 1}\onto\im \d_{n + 1}\to x_{n - 1}} is zero and the first
+map is an [epi](rs-000B), we have that #{\im \d_{n + 1}\to x_{n - 1}} is zero, so it factors
+through #{\ker \d_n}, and similarly on the other side. The \em{#{n}th chain
+homology} #{H_n(x)} of the complex is any of the following isomorphic objects of
+#{A}:
+##{H_n(x) = \coker(\im \d_{n + 1}\to \ker \d_n) = \ker (\coker \d_{n + 1}\to \im
+\d_n) = \im(\ker \d_i\to\coker \d_{i + 1}).}}
+
+\p{Thinking of the kernel of #{\d_n} as the #{n}-cycles and the image of
+#{\d_{n + 1}} as the #{n}-boundaries, reading the cokernel as the
+[quotient](rs-00AU) #{\im\d_{n + 1} / \ker \d_n} explains the slogan.}
+
+\p{The \em{cohomology} of a cochain complex is defined dually.}

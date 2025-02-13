@@ -1,0 +1,12 @@
+\date{2024-12-04}
+\title{diagonal map}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{Let #{C} be a [category](rs-0001) and let #{x} have a [square](rs-0023)
+#{x\times x}. Then the \em{diagonal} #{x\xto{\Delta_x} x\times x} is the map
+[induced by](rs-0023-up) #{1_x} and #{1_x}. Dually, if #{x} has a
+[coproduct](rs-0024) #{x + x} with itself, then the \em{codiagonal}
+#{x + x\xto{\nabla_x} x} is similarly [induced by](rs-0024-up) #{1_x} and #{1_x}.}

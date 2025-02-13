@@ -1,0 +1,12 @@
+\date{2024-12-12}
+\title{additive category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 8.2.8}
+
+\p{An \em{additive category} is a [preadditive category](rs-00BI) with
+[finite](rs-0058) [direct sums](rs-00BL). (In particular, it has [nullary](TODO)
+direct sums, hence a [zero object](rs-005D).)}
+

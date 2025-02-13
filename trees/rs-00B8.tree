@@ -1,0 +1,23 @@
+\date{2024-12-03}
+\title{module of a ring}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Definition III.5.1}
+
+\p{A (left-) \em{module} of a [ring](rs-00B8) #{R} is an [abelian group](rs-007Y) #{M}
+together with a homomorphism from #{R} to the [endomorphism ring](rs-00B7) of
+#{M}. By [uncurrying](rs-009N), this is equivalently a map #{R\times A\to A} so
+that:
+
+##{
+  r(a + b) = ra + rb,\quad
+  (r + s)a = ra + sa,\quad
+  (rs)a = r(sa),\quad\text{and}\quad
+  1a = a.
+}}
+
+\p{A \em{module homomorphism} is a [group homomorphism](rs-009A) that commutes
+with the action, in that ##{rf(a) = f(ra);} the \em{category of (left-)
+#{R}-modules} #{R}\scat{Mod} is the category of modules and homomorphisms.}

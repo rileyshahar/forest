@@ -1,0 +1,11 @@
+\date{2024-12-04}
+\title{internal hom of modules}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The set #{R}\scat{Mod}#{(M, N)} of homomorphisms between [modules](rs-00B8)
+#{M} and #{N} forms a module, with pointwise addition and action. (Notice that,
+since module homomorphisms commute with the action, it does not matter if we
+act in the domain or the codomain.)}

@@ -1,0 +1,15 @@
+\date{2024-11-22}
+\title{girard's paradox for set theorists, via hurkens}
+\taxon{talk}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Penn Graduate Logic Seminar}
+
+\p{Girard's paradox is an analogue of Russell's paradox which demonstrates the
+inconsistency of a sufficiently rich type theory with a "type of all types." In
+this talk, I will present a simplified version of the paradox due to Hurkens
+(1995), which in particular has a nice analogue in naive set theory. After
+treating this classical intuition and the type-theoretic argument, if we have
+time we will implement the paradox in Lean. }
+

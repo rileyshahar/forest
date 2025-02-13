@@ -1,0 +1,16 @@
+\date{2024-12-15}
+\title{preabelian category}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{preabelian category} is an [additive category](rs-00BM) which has all
+[kernels](rs-009G) and cokernels; hence is [finitely](rs-0058)
+[complete](rs-002C) and [cocomplete](rs-002D).}
+
+\namedproof{of (co)completeness}{
+  Since additive categories have biproducts, it [suffices to show](rs-0057) that
+  kernels and cokernels give equalizers and coequalizers; the equalizer of #{f}
+  and #{g} is the same as the kernel of #{f - g}, and dually for coequalizers.
+}

@@ -1,0 +1,25 @@
+\date{2024-12-16}
+\title{two-of-six implies two-of-three}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{riehl-2017}{Riehl}{Remark 2.1.3}
+
+\p{If a collection of morphisms #{W} satisfies the [two-of-six
+property](rs-00BY), then it satisfies the [two-of-three property](rs-00BZ).}
+
+\proof{
+  \p{If #{f} and #{g} are in #{W}, then applying two-of-six to
+  #{\bullet\xto{f}\bullet\xto{1}\bullet\xto{g}\bullet} shows that #{gf} is
+  in #{W}.}
+
+  \p{If #{f} and #{gf} are in #{W}, then applying two-of-six to
+  #{\bullet\xto{1}\bullet\xto{f}\bullet\xto{g}\bullet} shows that #{g} is in
+  #{W}.}
+
+  \p{If #{g} and #{gf} are in #{W}, then applying two-of-six to
+  #{\bullet\xto{f}\bullet\xto{g}\bullet\xto{1}\bullet} shows that #{f} is in
+  #{W}.}
+}
+

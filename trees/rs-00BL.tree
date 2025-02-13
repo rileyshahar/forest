@@ -1,0 +1,39 @@
+\date{2024-12-12}
+\title{direct sums in preadditive categories}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Lemma 8.2.3}
+
+\p{In [preadditive categories](rs-00BI), [finite](rs-0058) [products](rs-0023)
+and [coproducts](rs-0024) coincide as [biproducts](rs-00B2), called \em{direct
+sums} and written #{\oplus}. Moreover, if the direct sums #{x\oplus x} and
+#{y\oplus y} exist and given #{x\xtos{f, g} y}, the sum #{f + g} coincides with
+the map ##{
+  x\xto{\Delta_x}x\oplus x\xto{f\oplus g} y\oplus y\xto{\nabla_y} y.
+}
+
+Finally, the diagram 
+\texfig{
+  \begin{tikzcd}
+    x\ar[dr, "\iota_x"] && x \\
+    & x\oplus y\ar[ur, "\pi_x"]\ar[dr, "\pi_y"'] \\
+    y\ar[ur, "\iota_y"'] && y
+  \end{tikzcd}
+} displays a direct sum if and only if the diagrams
+\texfig{
+  \begin{tikzcd}
+    x\ar[dr, "\iota_x"']\ar[rr, equals] && x \\
+    & x\oplus y\ar[ur, "\pi_x"']\ar[dr, "\pi_y"] \\
+    y\ar[ur, "\iota_y"]\ar[rr, equals] && y
+  \end{tikzcd}
+  \quad\text{ and }\quad
+  \begin{tikzcd}
+    x\ar[dr, "\iota_x"']\ar[rr, "0"] && y \\
+    & x\oplus y\ar[ur, "\pi_y"']\ar[dr, "\pi_x"] \\
+    y\ar[ur, "\iota_y"]\ar[rr, "0"'] && x
+  \end{tikzcd}
+} commute and the sum of
+##{x\oplus y\xto{\pi_x}x\xto{\iota_x} x\oplus y\text{ and }x\oplus
+y\xto{\pi_y}y\xto{\iota_y} x\oplus y} is the identity #{1_{x\oplus y}}.}

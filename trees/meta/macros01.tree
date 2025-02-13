@@ -127,6 +127,9 @@
 
 \def\psh[arg]{\hat{\arg}}
 
+\def\o{\operatorname}
+\def\oo{\operatorname*}
+
 \def\op{\text{op}}
 \def\obj{\operatorname*{obj}}
 \def\arr{\operatorname*{arr}}
@@ -135,6 +138,7 @@
 \def\dom{\operatorname*{dom}}
 \def\cod{\operatorname*{cod}}
 \def\Hom{\operatorname{Hom}}
+\def\End{\operatorname{End}}
 \def\Fun{\operatorname{Fun}}
 \def\Cone{\operatorname*{Cone}}
 \def\Cocone{\operatorname*{Cocone}}
@@ -147,8 +151,11 @@
 \def\inn{\operatorname*{inn}}
 \def\im{\operatorname{im}}
 \def\coim{\operatorname{coim}}
+\def\coker{\operatorname{coker}}
+\def\Hm{\operatorname{Ho}}
 
 \def\true{\text{true}}
+\def\d{\text{d}}
 
 \def\ev{\operatorname{ev}}
 

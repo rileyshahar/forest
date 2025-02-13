@@ -1,0 +1,10 @@
+\date{2024-11-18}
+\title{biproduct}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{biproduct} #{x\oplus y} in a [category](rs-0001) is simultaneously a
+[product](rs-0023) and [coproduct](rs-0024).}
+
