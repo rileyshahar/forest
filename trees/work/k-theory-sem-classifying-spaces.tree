@@ -5,6 +5,7 @@
 
 \import{macros01}
 \meta{venue}{Penn Kan Seminar on Algebraic K-Theory}
+\tag{expository-talk}
 
 \p{We motivate and define the classifying space of a category and discuss
 Quillen's Theorems A and B, which give powerful tools for computing homotopical

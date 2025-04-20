@@ -1,0 +1,81 @@
+\date{2024-04-06}
+\title{computer science as a liberal art}
+\taxon{opinion}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Reed College Quest}
+\meta{external}{https://www.reedquest.org/articles/2024/04/06/computer-science-as-a-liberal-art}
+\tag{nonmath-work}
+
+\p{What place does computer science have at a liberal arts college? This question
+seems urgent to me, a senior math-CS major at Reed, as our young department
+seeks to establish its place in the college at large and as it struggles within
+itself over the nature of its subject. I think that many of the concerns about
+the role of computer science stem from misunderstandings over its nature, both
+as a subject and as taught at Reed. Computer science, as practiced at Reed and
+throughout the academy, is not solely vocational training but is additionally an
+essential intellectual pursuit with broad applications to humanistic inquiry.}
+
+\p{A rough definition: computer science is something like \em{the study of
+computation}. Computations—algorithmic processes for solving problems—are likely
+as old as thought; their structure has been studied at least since the invention
+of the abacus in Sumer in the third millennium BCE. Computer science, in this
+sense, cannot be understood merely as the study of computers, as in the literal
+physical devices we all use every day. Instead, it is the study of the very idea
+of mechanistic problem-solving. Modern computers are an important example of
+such tools, so inevitably feature centrally in the discipline as both method and
+object, but the stakes of the discipline must be understood as far older. Of
+course, as with all academic disciplines, its modern borders are historically
+contingent—computer science is entangled with mathematics and philosophy, with
+physics and linguistics, with sociology and political science. Any field with
+something to say about computers, the artifacts; or computation, the process; or
+which uses computers or computations as tools for studying its own objects,
+ought to be a natural ally.}
+
+\p{Indeed, the study of computation addresses numerous fundamental, humanistic
+inquiries. In CS 382 (Algorithms and Data Structures) and 387 (Computability and
+Complexity), we discuss which questions can possibly be answered by rote
+computation—and by contrast, which questions require genuine creative thought.
+In CS 315 (Ethics and Public Policy) and 386 (Private and Fair Data Analysis),
+we question the role of computer technology and algorithmic decision-making in
+society, asking when the state ought to act with discretion and when it ought to
+act by mere procedure. In CS 378 (Deep Learning), 384 (Programming Language
+Design and Implementation), and 394 (Principles of Compiler Design), we study
+different means of representing processes of computation, and hence processes of
+thought—and the limits that any such translation must inevitably have. I think
+no one would doubt that these questions and many more like them have a place in
+the liberal arts.}
+
+\p{In the \em{Republic}, Plato says that education should be "the art of
+orientation"—aimed not to impart knowledge onto students, but to orient them so
+that they can seek knowledge for themselves. By this standard, too, computer
+science has a clear place in the liberal arts. At its best, it teaches us to
+precisely communicate our thoughts and arguments, to reason rigorously and
+creatively about deep questions, and to critically evaluate tradeoffs between
+conflicting arguments or design choices. At times we are able to work with
+mathematical precision, and at times we have to make subjective or even
+philosophical judgments. That the methods of the field are so varied is evidence
+of the naturality of its object: questions about computation reward you for
+studying them from different perspectives, with as many tools as you can muster.}
+
+\p{In this light, we must understand that computer science is not just coding or
+software engineering. Certainly, coding is one of the central tools of the
+discipline—analogous to the role of ethnography in anthropology, or primary
+source analysis in history. It is a tool we use to express computational
+patterns, either to specify how a computer should behave or to communicate our
+ideas precisely to other computer scientists. Many computer scientists spend
+much of their time coding, but so too do many anthropologists spend much of
+their time performing fieldwork. I do not mean to denigrate the importance of
+coding to the discipline—computer science is enormously valuable for software
+engineers, in the same way that anthropology is valuable for journalists—but
+software engineering is not its \em{raison d'etre}.}
+
+\p{Computation is as natural an object of study as matter, or life, or politics,
+or literature; the methods of computer science are as valuable as those of
+chemistry, or biology, or political science, or English. Ada Lovelace, the
+author of the first modern computer program and hence one of the originators of
+the modern discipline of computer science, wrote that "the Analytical Engine
+weaves algebraical patterns just as the Jacquard loom weaves flowers and
+leaves". Computer science is nothing more or less than the study of the weaving
+of such patterns.}

@@ -1,9 +1,10 @@
 \title{categories for cryptographic composability}
-\taxon{thesis}
+\taxon{undergraduate thesis}
 \author{rileyshahar}
 \date{2024-05-09}
 
 \meta{institution}{Reed College}
+\tag{math-work}
 
 \p{We present introductory material on cryptography and category theory, focused on
 the prerequisites to cryptographic composability. We then present the approach

@@ -5,6 +5,7 @@
 
 \import{macros01}
 \meta{venue}{Penn Kan Seminar on Algebraic K-Theory}
+\tag{expository-talk}
 
 \p{We give a high-level intuition for why spaces with highly-coherent homotopy-commutative
 and associative multiplications should model infinite loop spaces. We discuss

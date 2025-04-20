@@ -5,6 +5,7 @@
 
 \import{macros01}
 \meta{venue}{Penn Graduate Geometry-Topology Seminar}
+\tag{expository-talk}
 
 \p{Our standard intuition for abstract topology is geometric: the notion of open
 set axiomatized the properties of open balls in metric spaces. Maybe

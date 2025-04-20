@@ -1,22 +1,30 @@
 \title{My Work}
 \author{rileyshahar}
 
-\put\transclude/numbered{false}
-
-\scope{
+\subtree{
+  \title{Mathematical Work}
   \query{
-    \query/isect{
-      \query/author{rileyshahar}
-    }{
-      \query/union{
-        \query/taxon{talk}
-      }{
-        \query/taxon{paper}
-      }{
-        \query/taxon{exposition}
-      }{
-        \query/taxon{thesis}
-      }
-    }
+    \query/tag{math-work}
+  }
+}
+
+\subtree{
+  \title{Research Talks}
+  \query{
+    \query/tag{research-talk}
+  }
+}
+
+\subtree{
+  \title{Expository Talks}
+  \query{
+    \query/tag{expository-talk}
+  }
+}
+
+\subtree{
+  \title{Published Nonmathematical Writing}
+  \query{
+    \query/tag{nonmath-work}
   }
 }

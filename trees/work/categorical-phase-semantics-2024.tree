@@ -1,8 +1,9 @@
 \title{Categorical phase semantics for linear logic}
-\date{2024-05-02}
-\taxon{paper}
+\taxon{draft paper}
 \author{rileyshahar}
 \author{Steve Zdancewic}
+
+\tag{math-work}
 
 \p{We introduce the generalized phase semantics of linear logic, a categorical
 framework for constructing provability-sound models of linear logic from the

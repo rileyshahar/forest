@@ -5,6 +5,7 @@
 
 \import{macros01}
 \meta{venue}{Penn Graduate Logic Seminar}
+\tag{expository-talk}
 
 \p{Girard's paradox is an analogue of Russell's paradox which demonstrates the
 inconsistency of a sufficiently rich type theory with a "type of all types." In

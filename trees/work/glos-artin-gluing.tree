@@ -5,6 +5,7 @@
 
 \import{macros01}
 \meta{venue}{Penn Graduate Logic Seminar}
+\tag{expository-talk}
 
 \p{A standard approach to proving meta-theoretic properties of a proof system or
 type theory is to first define a stronger dependent predicate R---often called a

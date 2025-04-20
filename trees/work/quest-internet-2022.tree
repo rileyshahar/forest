@@ -1,0 +1,148 @@
+\date{2022-11-11}
+\title{"protocols, not platforms": a mantra for the (we can only hope)
+post-Twitter internet}
+\taxon{opinion}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Reed College Quest}
+\meta{external}{https://www.reedquest.org/articles/2022/11/11/rkjjsnoikkjvwf597qvlvkidmn2yi7}
+\tag{nonmath-work}
+
+\p{\em{Content warning - briefly mentions misgendering & deadnaming}}
+
+\p{\em{Disclaimer - the author does not use social media and may just be spewing
+nonsense}}
+
+\p{Sooo, Twitter's a hot mess. I think we all kinda know the modern internet sucks
+in a lot of ways; privacy is dead, objectivity is dead, customizability and
+user-friendly design are dead, competition is dead, democracy is dead (not that
+it was ever really alive). If you're a Twitter user fed up with Twitter and with
+Elon Musk doing asshole billionaire things, you might be thinking about
+switching social networks. You might also be finding it hard to leave your
+friends on the site. It probably feels like there's nowhere to go. What if I
+told you the internet didn't have to be like this? There is a better way, a
+better ethos for a more open, collaborative, secure, and user-focused internet:
+\em{protocols, not platforms}.}
+
+\p{Let's start at the beginning. In 1990, Tim Berners-Lee invented three new
+technologies which would become the basis of the World Wide Web. First was
+Hypertext Markup Language (HTML), an easy-to-use language for representing
+textual content with hyperlinks and formatting (markup). Next was the Hypertext
+Transfer Protocol (HTTP), which described how to transfer HTML documents from a
+server which stored them to a client who wanted to view them. Finally, there
+were Uniform Resource Locators (URLs), which described how to find the right
+server storing the specific HTML page the client wanted.}
+
+\p{Here's the key: these technologies were open protocols. Berners-Lee could have
+created a program which read opaque files that only he and his program
+understood and communicated with servers that he controlled. Instead, he
+carefully described what HTML files were and how to host them, send and receive
+them, and author them. This meant that anyone who wanted to create and publish
+content for this new thing called the internet could do so, easily. It also
+meant that anyone who wanted to read content could do so in any manner they
+chose. Think about Firefox, Chrome, and Safari. You can choose which browser to
+use precisely because HTML and HTTP are open standards, so multiple interfaces
+know how to read them; a browser is just a fancy name for an interface to these
+protocols. Their openness means you can consume web content in a huge variety of
+ways. For example, you can choose not to load content from advertiser or
+content-tracking URLs, you can override websites’ color-schemes, and you can
+choose to load no images from any page ever. All of this is only possible
+because Berners-Lee wrote open protocols.}
+
+\p{That's all a protocol is: a standard that describes how to do something, so that
+it can be implemented by multiple different interfaces, each with different
+features, business models, etc. We're used to that with browsers, but think
+about how different it is from modern social media. Imagine if there was a
+standard Social Media Protocol which described how to represent data like posts,
+likes, and friends. Then, different companies (or open-source developers) could
+implement various user interfaces for interacting with that protocol. So if I
+want to just see a simple list of my friends' posts, but you want to see an
+algorithmically curated set of posts based on your interaction history, we could
+both do so, by selecting different interfaces for the same protocol. If I wanted
+a lot of fancy features, I could pay for an interface with a professional
+development team, modern look, integration with a hypothetical open calendar
+protocol, whatever; whereas you might pay less or even nothing for a basic
+implementation with none of those bells and whistles.}
+
+\p{You might have heard of people leaving Twitter to something called Mastodon.
+Mastodon is exactly what I just described: an interface which implements an open
+social networking protocol called ActivityPub. If someone doesn't want to use
+Mastodon, they can use other implementers of this protocol, and still
+communicate with their friends' posts from Mastodon. Compare that to Twitter,
+where you \em{have} to be on Twitter to talk to others on Twitter, and therefore you
+are always subject to their algorithm, spam, questionable moderation, data
+collection, targeted advertising, terrible UI choices, etc. etc. etc. If
+Mastodon makes a change to their UI — or their privacy policy — which you
+dislike, you can leave it for another interface. If Twitter makes such a change,
+you're kind of stuck, unless you want to lose touch with a bunch of friends.}
+
+\p{Email is built on a number of open protocols, including the Simple Mail Transfer
+Protocol (SMTP). I use a text-based email client from 1995 called Mutt. That's
+weird, but I love its customizability, its keyboard shortcuts, its 90s feel, the
+fact that I can read its source code, the fact that it doesn't steal all my
+data. And even though I make this weird choice, I can still email people who are
+using modern gmail.com, because email is built on open protocols. I have a
+filter that runs some code to scan emails for my deadname and send them to a
+separate folder, where I don’t look at them until I know I have the energy. The
+emails still get sent along the protocol — SMTP knows nothing at all about
+filtering — I just change how the interface interprets them. I can do that
+because the interface I use happens to support custom filtering. You can imagine
+the applications to social media, for example. Content filters could be
+implemented without needing to wait for a monolith like Twitter to add the
+feature, and if a smaller interface added the feature before larger ones, it
+would be much easier to pull users from the larger interface. Users could also
+add filters for triggers in private, without even the company making the
+interface knowing. This is not a silver bullet, but it would certainly help with
+the content moderation issue on social media today — trans people could much
+more easily filter out misgendering and deadnaming, for instance.}
+
+\p{You know how texting between Androids and iPhones is horrible? Group chats
+randomly get created and recreated, people sometimes just don't get messages,
+etc? Texting was originally based on a protocol called the Short Messaging
+Service (SMS), which is very outdated and not up to modern standards for group
+chats, security, reliability, embedded content, and more. Modern Android texts
+use a newer open protocol called Rich Communication Services (RCS). Modern
+iPhone texts use a closed platform called iMessage. Because Apple refuses to use
+the modern open protocol, instead preferring a walled-off platform for only
+iPhone users, the old SMS protocol becomes the fallback when messaging between
+platforms. And SMS is terrible, so messaging between iPhones and Androids is
+terrible. If Apple implemented the modern, open protocol, or if they made their
+proprietary platform open, the mess would go away.}
+
+\p{So maybe you're convinced this model is at least interesting. But who would take
+on the expensive task of data storage, without the financial benefits of a
+closed shop? Since data would also be stored in open formats like HTML, there'd
+be no need for it to be stored on servers owned by the platform you happen to
+use. Instead, there would be dedicated data store companies, who could
+(presumably for a cost) store your data completely encrypted, so even they
+cannot access it, but you still can. (I currently use such a service, called
+Tarsnap, for backups of my computer, my non-Gmail email data, etc.) Privacy and
+encryption could be segmented and sandboxed; these cryptographic problems are
+pretty well-studied. For example, your social network data could be open to
+anyone who's online identity (based on something called a private key) is on
+your friends list, so they can see your posts, but completely private to anyone
+else. Those who want cheaper services and algorithmically selected content could
+opt in to data collection by the interfaces they use, while still communicating
+with their more privacy-focused friends. Again, the cryptography here is pretty
+solid, unless you think the NSA has broken the RSA encryption protocol; the
+problem is finding user-friendly ways to implement it.}
+
+\p{The examples I’ve discussed here are mostly related to communication and social
+media, but I hope you can see a little bit about how they generalize. There are
+also a lot more details to work out that I didn't have space (or expertise) for
+here. If you want more, check out a 2019 article by Mike Masnick called
+"Protocols, Not Platforms: A Technological Approach to Free Speech." I don't
+agree with everything he says (especially the cryptocurrency nonsense), but it's
+mostly very well explained, and covers issues like competition, free speech,
+moderation, harassment, partisan bubbles, and processes for updating these
+protocols.}
+
+\p{The key point, though, is that closed-shop platforms prevent user choice by
+forcing users who want the benefits of collaboration and communication to
+participate in whichever platform happens to be dominant, regardless of its
+subjective features like web design and of its more serious issues like privacy.
+And yeah, I don't really have a great plan to get from here to there. But we
+should remember that there is a better way, the philosophy that made the
+internet the open sandbox that let Twitter and Gmail overtake MySpace and AOL in
+the first place: open protocols, not platforms.}

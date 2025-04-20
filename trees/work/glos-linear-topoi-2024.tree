@@ -5,6 +5,7 @@
 
 \import{macros01}
 \meta{venue}{Penn Graduate Logic Seminar}
+\tag{research-talk}
 
 \p{Topos theory plays a central role in geometry and categorical logic. For
 instance, topoi yield a natural semantic theory of intuitionistic dependent type
