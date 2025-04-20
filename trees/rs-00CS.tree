@@ -1,0 +1,18 @@
+\date{2025-02-28}
+\title{coproduct topology}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Section 1.5}
+
+\p{Let #{\coprod X_\alpha} be a [coproduct](rs-002S) of a family of
+[spaces](rs-00CA) #{X_\alpha}. Then the
+\em{coproduct topology} on #{\coprod X_\alpha} is the [final topology](rs-00CN) with
+respect to the inclusions #{X_\beta\xto{\iota_\beta}\coprod X_\alpha}. It thus
+has the following universal property: a [set-function](rs-005M)
+#{\coprod X_\alpha\xto{f} Z} is [continuous](rs-00CD) if and only if each of
+the composites #{X_\beta\xto{\iota_\beta} \coprod X_\alpha \xto{f} Z} are.}
+
+\p{Explicitly, the [open subsets](rs-00CE) of #{\coprod X_\alpha} are exactly the subsets
+#{\prod U_\alpha} for #{U_\alpha\subseteq X_\alpha} open.}

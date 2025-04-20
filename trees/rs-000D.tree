@@ -9,6 +9,6 @@
 \tag{ex:rs-0001}
 
 \p{The \em{category of topological spaces} \scat{Top} is the [category](rs-0001)
-whose objects are [topological spaces](TODO) and whose morphisms are [continuous
-functions](TODO).}
+whose objects are [topological spaces](rs-00CA) and whose morphisms are [continuous
+functions](rs-00CD).}
 

@@ -1,0 +1,13 @@
+\date{2025-02-28}
+\title{topological circle}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Example 1.16}
+
+\p{The \em{topological circle} #{S^1} is the [quotient](rs-00CQ) of the
+[interval](rs-00CT) #{I} by the [relation](rs-0096) which identifes its
+endpoints #{0\sim 1}.}
+
+

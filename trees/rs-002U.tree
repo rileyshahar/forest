@@ -9,5 +9,4 @@
 \p{The \em{disjoint union} is the [coproduct](rs-0024) in [\scat{Set}](rs-0003).
 Explicitly, the disjoint union of sets #{A} and #{B} is ##{A \sqcup B = \{(a, 0) \mid
 a \in A\} \cup \{(b, 1) \mid b \in B\},} where #{\cup} denotes the
-[union](TODO).}
-
+[union](rs-00C6).}

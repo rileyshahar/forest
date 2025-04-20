@@ -1,0 +1,17 @@
+\date{2025-02-18}
+\title{quotient topology}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Section 1.3}
+
+\p{Let #{X/\sim} be a [quotient](rs-0099) of a [space](rs-00CA) #{X}. Then the
+\em{quotient topology} on #{X/\sim} is the [final topology](rs-00CN) with
+respect to the projection #{X\xonto{\pi} X/\sim}. It thus has the following
+universal property: a [set-function](rs-005M) #{X/\sim\,\xto{f} Z} is
+[continuous](rs-00CD) if and only if the composite #{X\xto{\pi}X/\sim\,\xto{f}Z}
+is.}
+
+\p{Explicitly, the [open subsets](rs-00CE) of #{X/\sim} are exactly the subsets
+#{U\subseteq X/\sim} so that #{\pi^{-1}(U)} is open in #{X}.}

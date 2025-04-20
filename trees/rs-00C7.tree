@@ -1,0 +1,9 @@
+\date{2025-02-13}
+\title{intersection of subsets}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{intersection} #{A \cup B} of two [subsets](rs-005N) #{A,B\subseteq X} is the
+subset ##{\{x\in X: x\in A\text{ and }x\in B\}.}}

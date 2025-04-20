@@ -8,5 +8,5 @@
 \tag{ex:rs-0002}
 
 \p{A \em{homeomorphism} is an [isomorphism](rs-0002) in [\scat{Top}](rs-000D).
-Explicitly, it is a [continuous](TODO) [bijection](rs-000E) with continuous
+Explicitly, it is a [continuous](rs-00CD) [bijection](rs-000E) with continuous
 inverse.}

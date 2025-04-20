@@ -1,0 +1,15 @@
+\date{2025-04-04}
+\title{a connectivity toolbox}
+\taxon{talk}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Atlantic Meeting on Topology, Representation theory, and K-theory
+(AMTRaK): Homological Stability}
+\meta{external}{https://web.sas.upenn.edu/callem/amtrak/}
+
+\p{This talk will elaborate on the connectivity arguments that were swept under
+the rug during pre-talk 1. In particular, we will focus on tools and techniques
+coming from discrete Morse theory. After introducing the basics of discrete
+Morse theory, we will use it to prove the Solomon-Tits Theorem.}
+

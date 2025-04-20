@@ -1,0 +1,10 @@
+\date{2025-02-28}
+\title{concatenation of paths}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{p. 6}
+
+\p{Given [paths](rs-00CX) #{x\xsto{p}y\xsto{q} z}, their \em{concatenation}
+#{p\cdot q} is the path which traverses #{p} and then #{q}.}

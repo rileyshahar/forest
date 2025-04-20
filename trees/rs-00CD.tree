@@ -1,0 +1,12 @@
+\date{2025-02-17}
+\title{continuous map}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Definition 0.3}
+
+\p{A [function](rs-005M) #{f: X\to Y} between [spaces](rs-00CA) is
+\em{continuous} if it induces a [frame homormorphism](rs-00CB) via the [inverse
+image](rs-000O): if #{U\subseteq Y} is [open](rs-00CE), then so is #{f^{-1}(U)}.}
+

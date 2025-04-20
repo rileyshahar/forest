@@ -1,0 +1,10 @@
+\date{2025-02-13}
+\title{union of subsets}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{union} #{A \cup B} of two [subsets](rs-005N) #{A,B\subseteq X} is the
+subset ##{\{x\in X: x\in A\text{ or }x\in B\}.}}
+

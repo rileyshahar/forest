@@ -1,0 +1,17 @@
+\date{2025-02-18}
+\title{subspace topology}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Section 1.2}
+
+\p{Let #{Y\subseteq X} be a [subset](rs-005N) of a [space](rs-00CA) #{X}. Then
+the \em{subspace topology} on #{Y} is the [initial topology](rs-00CN) with respect
+to the inclusion #{Y\xinto{\iota} X}. It thus has the following universal
+property: a [set-function](rs-005M) #{Z\xto{f} Y} is [continuous](rs-00CD) if and
+only if the composite #{Z\xto{f}Y\xto{\iota}X} is.}
+
+\p{Explicitly, the [open subsets](rs-00CE) of #{Y} are exactly the
+[intersections](rs-00C7) #{U\cap Y}, where #{U\subseteq X} is open.}
+

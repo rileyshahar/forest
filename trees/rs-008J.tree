@@ -8,4 +8,4 @@
 
 \p{A [morphism](rs-008I) #{x\xto{f} y} in a [quasicategory](rs-008H) is an
 \em{isomorphism} if there exists an \em{inverse morphism} #{y\xto{g} x} together
-with [equivalences](rs-008K) #{g\circ f\cong 1_x}, #{f\circ g\cong 1_y}.}
+with [equivalences](rs-008K) #{g\circ f\simeq 1_x}, #{f\circ g\simeq 1_y}.}

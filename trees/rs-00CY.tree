@@ -1,0 +1,22 @@
+\date{2025-02-28}
+\title{path homotopy}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{p. 6}
+
+\p{A \em{path homotopy} is a [homotopy](rs-00CW) between [paths](rs-00CX) which
+fixes start and endpoints. Explicitly, given paths #{x\xsto{p, q} y} in #{X}, a
+path homotopy is a continuous map #{I\times I\xto{H} X} so that ##{H(-, 0) =
+p,\quad H(-, 1) = q,\quad H(0, -) = x,\quad H(1, -) = y.} In pictures, we draw
+the square as
+\texfig{
+  \begin{tikzpicture}
+    \draw (0,0) -- (1,0) node[midway, below] {$p$} -- (1,1) node[midway, right] {$y$}
+    -- (0,1) node[midway, above] {$q$} -- (0,0) node[midway, left] {$x$};
+  \end{tikzpicture}.
+}
+We say #{p} and #{q} are \em{path homotopic}, written #{p\simeq_p q}; this is an
+[equivalence relation](rs-0096).}
+

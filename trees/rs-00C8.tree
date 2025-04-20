@@ -1,0 +1,11 @@
+\date{2025-02-13}
+\title{function set}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{function set} is the [exponential](rs-005K) in [\scat{Set}](rs-000C).
+Explicitly, the function set of sets #{A} and #{B} is the set of
+[functions](rs-005M) ##{B^A := \{f: A\to B\}.}}
+

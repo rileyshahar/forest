@@ -1,0 +1,12 @@
+\date{2025-02-13}
+\title{topological space}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Definition 0.1}
+
+\p{A \em{topological space} is a set #{X} together with a \em{topology}, i.e. a
+[sub](rs-005N)[frame](rs-00CB) #{\cT\subseteq 2^X} of its [power set](rs-00CG):
+it contains #{X} and the [empty set](rs-00AA) and is closed under arbitrary
+[unions](rs-00C6) and [finite](rs-0058) [intersections](rs-00C7).}

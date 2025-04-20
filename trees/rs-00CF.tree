@@ -1,0 +1,10 @@
+\date{2025-02-17}
+\title{complement of a subset}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+% \tag{ex:}
+
+\p{The \em{complement} #{A^c} of a [subset](rs-005N) #{A\subseteq X} is the
+subset ##{\{x\in X: x\notin A\}.}}

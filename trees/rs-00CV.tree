@@ -1,0 +1,11 @@
+\date{2025-02-28}
+\title{Euclidean space}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Example 1.19}
+
+\p{\em{Euclidean space} #{\RR^n} is topologized as the [product](rs-0023) of
+[#{\RR}](rs-00CM).}
+

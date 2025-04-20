@@ -1,0 +1,11 @@
+\date{2025-02-28}
+\title{path in a topological space}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{p. 6}
+
+\p{A \em{path} in a [space](rs-00CA) #{X} is a [continuous map](rs-00CD)
+#{I\xto{p} X} from the [interval](rs-00CT). Its \em{startpoint} is #{p(0)} and
+its \em{endpoint} is #{p(1)}; we write #{p(0)\xsto{p} p(1).}}

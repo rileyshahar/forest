@@ -1,0 +1,15 @@
+\date{2025-02-17}
+\title{open and closed sets}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{p. 2}
+
+\p{A subset #{A\subseteq X} of a [space](rs-00CA) #{X} is:
+\ul{
+  \li{\em{open} if it is in the topology;}
+  \li{\em{closed} if its [complement](rs-00CF) in the topology;}
+  \li{\em{clopen} if it is open and closed.}
+}
+}

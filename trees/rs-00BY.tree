@@ -9,6 +9,6 @@
 
 \p{A collection of morphisms #{W} in a [category](rs-0001) satisfy the
 \em{two-of-six property} if, for any composable triple #{\bullet\xto{f}
-\bullet\xto{g} \bullet\xto{h} \bullet}, if #{gf\in W} and #{hg\inW}, then so
+\bullet\xto{g} \bullet\xto{h} \bullet}, if #{gf\in W} and #{hg\in W}, then so
 are #{f}, #{g}, #{h}, and #{hgf}.}
 

@@ -1,0 +1,19 @@
+\date{2025-02-17}
+\title{comparison of topologies}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{p. 2}
+
+\p{Let #{\cT} and #{\cT'} be [topologies](rs-00CA) on the same underlying
+set #{X}. Then the following conditions are equivalent:}
+
+\ul{
+  \li{#{\cT \subseteq \cT'};}
+  \li{the identity #{1_X} forms a [continuous map](rs-00CD) #{(X, \cT)\to (X,
+  \cT')}.}
+}
+
+\p{We say that #{\cT} is \em{coarser} than #{\cT'} and #{\cT'} is \em{finer}
+than #{\cT}.}

@@ -1,0 +1,13 @@
+\date{2025-02-17}
+\title{discrete topology}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Definition 0.3}
+
+\p{The \em{discrete topology} on a [set](rs-005L) #{X} is the
+[topology](rs-00CA) consisting of all [subsets](rs-005N) of #{X}; this forms a
+[functor](rs-000L) [\scat{Set}](rs-000C)#{\to} [\scat{Top}](rs-00CA) which is [left
+adjoint](rs-0043) to the [forgetful functor](rs-001I).}
+

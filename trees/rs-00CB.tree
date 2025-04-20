@@ -1,0 +1,10 @@
+\date{2025-02-17}
+\title{frame}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A \em{frame} is a [distributive lattice](rs-006T) with arbitrary
+[joins](rs-006J) and the infinitary distributive law ##{x\meet \bigvee y_i =
+\bigvee (x\meet y_i).}}

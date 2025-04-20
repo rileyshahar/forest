@@ -1,0 +1,12 @@
+\date{2025-02-28}
+\title{naive homotopy category of spaces}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A [continuous map](rs-00CD) #{f: X\to Y} is a \em{homotopy equivalence} if
+there is a \em{weak inverse} #{g: Y\to X} and [homotopies](rs-00CW) #{1_X\simeq
+g\circ f} and #{1_Y\simeq f\circ g}. This gives [\scat{Top}](rs-000D) the
+structure of a [homotopical category](rs-00BX); its associated [homotopy
+category](rs-00C1) is the \em{naive homotopy category of spaces}.}

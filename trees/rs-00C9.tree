@@ -1,0 +1,12 @@
+\date{2025-02-13}
+\title{power set}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{power set} is the [power object](TODO) in [\scat{Set}](rs-000C).
+Explicitly, the power set of a set #{A} is the set of [subsets](rs-005N) ##{2^A
+:= \{B\subseteq A\}.} This is thus the [subobject functor](rs-005W) on
+\scat{Set}.}
+

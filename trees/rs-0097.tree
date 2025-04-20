@@ -26,10 +26,20 @@
   \transclude{rs-00AB}
   \transclude{rs-002S}
   \transclude{rs-002U}
+  \transclude{rs-00C8}
   \transclude{rs-0096}
   \transclude{rs-0099}
   \transclude{rs-002E}
   \transclude{rs-002T}
+}
+
+\subtree{
+  \title{The Power Set}
+  \taxon{Section}
+  \transclude{rs-00C6}
+  \transclude{rs-00C7}
+  \transclude{rs-00CF}
+  \transclude{rs-00CG}
 }
 
 \subtree{
@@ -38,4 +48,5 @@
   \transclude{rs-00B9}
   \transclude{rs-00BA}
   \transclude{rs-00BB}
+  \transclude{rs-00CK}
 }

@@ -1,0 +1,13 @@
+\date{2025-02-28}
+\title{fundamental groupoid}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{Section 1.5}
+
+\p{The \em{fundamental groupoid} #{\Pi_1 X} of a [space](rs-00CA) #{X} is the
+[groupoid](rs-000G) whose objects are points in #{X} and whose morphisms are
+[homotopy classes](rs-00CY) of [paths](rs-00CX), with composition
+[concatenation](rs-00CZ). This extends to a [homotopy invariant](rs-00D1)
+[functor](rs-000L) from [spaces](rs-000D) to groupoids.}

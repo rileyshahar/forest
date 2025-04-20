@@ -1,0 +1,10 @@
+\date{2025-02-28}
+\title{topological interval}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Example 1.14}
+
+\p{The \em{topological interval} #{I} is [closed interval](TODO) #{[0, 1]}
+topologized as a [subspace](rs-00CP) of [#{\RR}](rs-00CM).}

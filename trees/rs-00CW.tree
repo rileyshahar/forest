@@ -1,0 +1,13 @@
+\date{2025-02-28}
+\title{homotopy of continuous maps}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Section 1.6}
+
+\p{A \em{homotopy} of [continuous maps](rs-00CD) #{X\xtos{f, g} Y} is a function
+#{H: X\times I\to Y} from the [product](rs-00CR) with the [interval](rs-00CT) so
+that #{H(-, 0) = f} and #{H(-, 1) = g}. Two maps are \em{homotopic} if there is
+a homotopy between them; we write #{f\simeq g} and observe that this is an
+[equivalence relation](rs-0096) on hom-sets between spaces.}

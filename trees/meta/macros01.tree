@@ -27,7 +27,7 @@
 %   }
 % }
 
-% \def\link[note][body]{\href{\note}{\body}}
+% \def\link[note][body]{\<html:a>[href]{\note}{\body}}
 \def\link[note][body]{\body}
 
 \def\cite[note][name][at]{

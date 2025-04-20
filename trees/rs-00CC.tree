@@ -1,0 +1,10 @@
+\date{2025-02-17}
+\title{locale}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The category \scat{Loc} of \em{locales} is [formally dual](rs-0008) to the
+category \scat{Frm} of [frames](rs-00CB).}
+

@@ -1,0 +1,11 @@
+\date{2025-02-17}
+\title{complete Boolean algebra structure on power sets}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The [power set](rs-00C9) #{2^X} of a [set](rs-005L) #{X} forms a
+[complete](rs-006O) [Boolean algebra](rs-006X) under [union](rs-00C6),
+[intersection](rs-00C7), and [complement](rs-00CF).}
+
