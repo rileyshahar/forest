@@ -1,0 +1,13 @@
+\date{2025-04-24}
+\title{the K-theory of Lawvere theories}
+\taxon{talk}
+\author{rileyshahar}
+
+\import{macros01}
+\meta{venue}{Penn Kan Seminar on Algebraic K-Theory}
+\tag{expository-talk}
+
+\p{We introduce Lawvere theories and then discuss Bohmann-Szymik's work on their
+K-theory. From the K-theoretic perspective, Lawvere theories are a convenient
+generalization of rings in which Quillen's +=Q theorem still holds, enabling a
+more computationally tractable K-theory than more general settings.}
