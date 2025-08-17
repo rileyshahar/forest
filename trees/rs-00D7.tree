@@ -1,0 +1,15 @@
+\date{2025-05-13}
+\title{pointed object}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+% \cite{}{}{}
+% \tag{ex:}
+
+\p{Let #{C} be a [category](rs-0001) with [terminal object](rs-0020) (or more
+generally any designated object) #{*}. Then in analogy with the philosophy of
+[global elements](rs-006F), the \em{category of pointed objects} in #{C} is the
+[under category](rs-0007) #{*/C}. This extends to a [homotopy
+invariant](rs-00D1) [functor](rs-000L) from pointed [spaces](rs-000D) to
+[groups](rs-009B).}

@@ -8,7 +8,8 @@
 
 \p{Let #{H\leq G} be a [subgroup](rs-009J), and #{G/H} the set of
 [cosets](rs-009W) of #{G}. Then there is an equation of [cardinalities](rs-009Z)
-##{|H||G/H| = |G|.}}
+##{|H||G/H| = |G|.} We write #{[G:H] := |G/H|} and call it the \em{index} of
+#{H} in #{G}.}
 
 \proof{
   \p{The cosets partition #{G}, so it suffices to show that all cosets have

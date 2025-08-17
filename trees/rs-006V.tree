@@ -7,7 +7,7 @@
 \cite{maclane-moerdijk-1994}{Mac Lane & Moerdijk}{Section I.8}
 
 \p{A \em{Heyting algebra} is a [posetal](rs-005U) [bicartesian closed
-category](rs-006R). In particular, this means it has all [finite](rs-0058)
+category](rs-006R). In particular, this means it has all [finite](rs-00D4)
 [meets and joins](rs-006J) (is a [lattice](rs-006N)), along with an operation
 #{\To}, called \em{implication}, such that ##{z\leq x\To y\text{ if and only if
 } z\meet x\leq y.}}

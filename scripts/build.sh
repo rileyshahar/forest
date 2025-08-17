@@ -1,3 +1,7 @@
 #!/bin/bash
 
-forester build forest.toml "$1"
+if [ $# -gt 0 ]; then
+  forester build forest.toml "$1"
+else
+  forester build forest.toml
+fi

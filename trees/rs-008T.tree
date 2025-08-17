@@ -48,7 +48,6 @@
   \transclude{rs-009M}
   \put\transclude/taxon{Example}
   \transclude{rs-009O}
-  \transclude{rs-009P}
   \put\transclude/taxon{}
 
   \transclude{rs-009R}
@@ -66,6 +65,7 @@
   \put\transclude/taxon{}
   \transclude{rs-009X}
   \transclude{rs-009Y}
+  \transclude{rs-00DD}
 }
 
 \subtree{
@@ -79,4 +79,11 @@
   \transclude{rs-00AX}
   \transclude{rs-00A3}
   \transclude{rs-00AY}
+}
+
+\subtree{
+  \title{conjugation}
+  \taxon{Section}
+
+  \transclude{rs-009P}
 }

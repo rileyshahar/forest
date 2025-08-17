@@ -1,0 +1,11 @@
+\date{2025-05-01}
+\title{automorphism group}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{automorphism group} #{\Aut_C(x)} of an object #{x} in a
+[category](rs-0001) #{C} is the [group](rs-007X) of [automorphisms](rs-0004) of
+#{x} under composition.}
+

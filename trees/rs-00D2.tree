@@ -7,5 +7,6 @@
 \cite{bradley-et-al-2020}{Bradley et al}{Definition 2.2}
 
 \p{A [space](rs-00CA) #{X} is \em{path-connected} if any two points are
-connected by a [path](rs-00CX).}
+connected by a [path](rs-00CX); equivalently if its [fundamental
+groupoid](rs-00D0) is [connected](rs-002M).}
 

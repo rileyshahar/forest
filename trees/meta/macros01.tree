@@ -93,6 +93,7 @@
 \def\acts{\curvearrowright}
 \def\xcong[arg]{\overset{\arg}{\cong}}
 \def\xsimeq[arg]{\overset{\arg}{\simeq}}
+\def\finset[arg]{\underline{\arg}}
 
 \def\join{\vee}
 \def\Join{\bigvee}
@@ -139,6 +140,7 @@
 \def\cod{\operatorname*{cod}}
 \def\Hom{\operatorname{Hom}}
 \def\End{\operatorname{End}}
+\def\Aut{\operatorname{Aut}}
 \def\Fun{\operatorname{Fun}}
 \def\Cone{\operatorname*{Cone}}
 \def\Cocone{\operatorname*{Cocone}}

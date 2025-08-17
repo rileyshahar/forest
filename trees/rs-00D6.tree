@@ -1,0 +1,14 @@
+\date{2025-05-13}
+\title{fundamental group}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{Section 2.2}
+% \tag{ex:}
+
+\p{The \em{fundamental group} #{\pi_1(X; x)} of a [space](rs-00CA) #{X} with
+choisen basepoint #{x} is the [automorphism group](rs-00D5) of #{x} in the [fundamental
+groupoid](rs-00D0) #{\Pi_1(X)}; equivalently, it is the group of
+[pointed](rs-00D7) [maps](rs-00CD) from the [circle](rs-00CU) to #{X}. When #{X}
+is [path connected](rs-00D2) or canonically pointed, we write #{\pi_1(X)}.}

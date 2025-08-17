@@ -1,0 +1,18 @@
+\date{2025-05-13}
+\title{properties of automorphism groups of covering groupoids}
+\taxon{proposition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{Section 3.3}
+
+\p{Let #{E\xto{p} B} be a [covering groupoid](rs-00DA). Let #{b\in B} and let
+#{e,e'} be in the [fiber](TODO) #{F_b}. Then on [automorphism groups](rs-00D5):}
+\ul{
+  \li{the map #{p: \Aut_E(e)\into \Aut_B(b)} is [monic](rs-00A8);}
+  \li{the subgroups #{p(\Aut_E(e))} and #{p(\Aut_E(e'))} are
+  [conjugate](rs-00DC) in #{\Aut_B(b)};}
+  \li{all conjugates of #{p(\Aut_E(e))} are realized as #{p(\Aut_E(e'))} for
+  some #{e'\in F_b}.}
+}
+

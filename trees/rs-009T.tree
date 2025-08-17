@@ -6,6 +6,6 @@
 \import{macros01}
 \cite{aluffi-2009}{Aluffi}{Definition II.9.6}
 
-\p{A [group action](rs-009M) of #{G} on #{A} is \em{transitive} if it has a
+\p{A [group action](rs-009M) is \em{transitive} if it has a
 single [orbit](rs-009U).}
 

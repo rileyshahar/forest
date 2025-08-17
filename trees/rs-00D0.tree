@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{may-concise-course}{May}{Section 1.5}
+\cite{may-concise-course}{May}{Section 2.5}
 
 \p{The \em{fundamental groupoid} #{\Pi_1 X} of a [space](rs-00CA) #{X} is the
 [groupoid](rs-000G) whose objects are points in #{X} and whose morphisms are

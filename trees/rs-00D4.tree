@@ -1,0 +1,11 @@
+\date{2025-05-01}
+\title{finite set}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{A set #{X} is \em{finite} if there is a [natural number](rs-00B9) #{n} so
+that #{X} is in [bijection](rs-000E) with the \em{finite set
+with #{n} elements}, #{\finset{n} := \{1, \dots, n\}.}}
+

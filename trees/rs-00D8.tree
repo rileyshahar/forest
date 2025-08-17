@@ -1,0 +1,16 @@
+\date{2025-05-13}
+\title{van Kampen theorem}
+\taxon{theorem}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{Section 2.7}
+
+\p{Let a [space](rs-00CA) #{X} be [covered](TODO) by a set #{\cO} of
+[path connected](rs-00D2) [open subspaces](rs-00CP) which is closed under
+[finite](rs-00D4) [intersections](rs-00C7). Then we may compute the [fundamental
+groupoid](rs-00D0) as a [colimit](rs-001Z) ##{\Pi_1 X \cong \colim_\cO
+\Pi_1|_\cO.} As a formal corollary, an analogous statement holds for the
+[fundamental group](rs-00D6), so long as the basepoint is in each member of
+#{\cO}.}
+

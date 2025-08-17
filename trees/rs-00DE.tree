@@ -1,0 +1,11 @@
+\date{2025-05-13}
+\title{fixed points of an action}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+
+\p{The \em{set of #{G}-fixed points} of an [action](rs-009M) #{G\acts A} is
+##{A^G := \{a\in A: ga = a\text{ for all }g\in G\};} in other words, a point is
+#{G}-fixed if and only if its [orbit](rs-009U) is itself.}
+

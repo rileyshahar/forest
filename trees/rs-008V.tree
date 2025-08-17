@@ -6,7 +6,7 @@
 \import{macros01}
 \cite{aluffi-2009}{Aluffi}{Definition II.2.1}
 
-\p{Let #{A} be a [set](rs-005L). Then the \em{symmetric group} #{S_A} is the
-group of [automorphisms](rs-0004) of #{A} under composition. The symmetric group
-of a [finite](rs-0058) [ordinal](rs-001E) #{n} is denoted #{S_n}.}
+\p{Let #{A} be a [set](rs-005L). Then the \em{symmetric group} #{S_A} is its
+[automorphism group](rs-00D5) in [\scat{Set}](rs-000C). The symmetric group of a
+[finite set](rs-00D4) #{\finset{n}} is denoted #{S_n}.}
 

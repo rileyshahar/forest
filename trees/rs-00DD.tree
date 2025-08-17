@@ -1,0 +1,11 @@
+\date{2025-05-13}
+\title{free action}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Section II.9.2}
+
+\p{A [group action](rs-009M) is \em{free} if all [stabilizers](rs-009V) are
+[trivial](rs-008U), i.e. if #{ga = a} implies #{g = e}.}
+

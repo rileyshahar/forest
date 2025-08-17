@@ -1,0 +1,11 @@
+\date{2025-05-13}
+\title{star of a groupoid}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{Section 3.3}
+
+\p{The \em{star} #{\operatorname{St}_C(x)} of an object #{x} in a
+[groupoid](rs-000G) #{C} is the set #{\{x\to z: z\in C\}.}}
+

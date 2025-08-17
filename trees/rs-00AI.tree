@@ -14,3 +14,9 @@ two classes of maps #{L} and #{R} so that:
   #{R} is #{L^\lifts}.}
 }}
 
+\p{Equivalently, the second condition may be replaced with:
+\ul{
+  \li{#{L\lifts R};}
+  \li{#{L} and #{R} are closed under [retracts](rs-000J).}
+}}
+

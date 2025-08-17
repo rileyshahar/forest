@@ -1,0 +1,28 @@
+\date{2025-05-14}
+\title{split short exact sequence}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 8.3.15}
+
+\p{A [short exact sequence](rs-00BV) #{0\to x\xto{f}y\xto{g}z\to 0} in an
+[abelian category](rs-00BS) is \em{split} if any of the following equivalent
+conditions hold:}
+
+\ul{
+  \li{#{g} admits a [section](rs-000J);}
+  \li{#{f} admits a [retract](rs-000K);}
+  \li{there is an [isomorphism](rs-0002) of sequences with the canonical
+  sequence #{0\to x\to x\oplus z\to z\to 0}.}
+}
+
+\namedproof{of equivalence}{
+  \p{The only difficulty is to show that the first condition (and by duality the
+  second) implies the third. By the [characterization of direct sums](rs-00BL),
+  it suffices to find maps #{z\xto{h} y} and #{y\xto{k} x} so that
+  ##{y\xto{k}x\xto{f}y + y\xto{g}z\xto{h}y = 1_y.} Let #{s} be the section of
+  #{g}; then let #{h = -s}. Since #{g = gsg}, #{1_y - sg} factors through #{\ker
+  g \cong \im f}, hence through #{f}. Let #{k} be the map by which this
+  difference factors.}
+}

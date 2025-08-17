@@ -4,7 +4,7 @@
 \author{rileyshahar}
 
 \import{macros01}
-\cite{Kashiwara & Schapira}{kashiwara-schapira-2005}{Definition 7.1.1}
+\cite{kashiwara-schapira-2005}{Kashiwara & Schapira}{Definition 7.1.1}
 % \tag{ex:}
 
 \p{Let #{S} be a class of morphisms in a [category](rs-0001) #{C}. Then the

@@ -1,0 +1,33 @@
+\title{algebraic theories}
+\taxon{reference}
+\author{Jiří Adámek}
+\author{Jiří Rosický}
+\author{Enrico Vitale}
+\date{2011}
+\meta{isbn}{9780511760754}
+\meta{external}{https://www.cambridge.org/core/books/algebraic-theories/D6055CE69E527DE387FB557DA7264E80}
+\meta{bibtex}{\startverb
+@book{adamek-rosicky-vitale-2011,
+  place={Cambridge},
+  series={Cambridge Tracts in Mathematics},
+  title={Algebraic Theories: A Categorical Introduction to General Algebra},
+  publisher={Cambridge University Press},
+  author={Adámek, J. and Rosický, J. and Vitale, E. M.},
+  year={2010},
+  collection={Cambridge Tracts in Mathematics}
+}\stopverb}
+
+\p{Algebraic theories, introduced as a concept in the 1960s, have been a
+fundamental step towards a categorical view of general algebra. Moreover, they
+have proved very useful in various areas of mathematics and computer science.
+This carefully developed book gives a systematic introduction to algebra based
+on algebraic theories that is accessible to both graduate students and
+researchers. It will facilitate interactions of general algebra, category theory
+and computer science. A central concept is that of sifted colimits - that is,
+those commuting with finite products in sets. The authors prove the duality
+between algebraic categories and algebraic theories and discuss Morita
+equivalence between algebraic theories. They also pay special attention to
+one-sorted algebraic theories and the corresponding concrete algebraic
+categories over sets, and to S-sorted algebraic theories, which are important in
+program semantics. The final chapter is devoted to finitary localizations of
+algebraic categories, a recent research area.}

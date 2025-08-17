@@ -1,0 +1,20 @@
+\date{2025-05-01}
+\title{connected space}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{bradley-et-al-2020}{Bradley et al}{Definition 2.2}
+
+\p{A [space](rs-00CA) #{X} is \em{connected} if either of the following equivalent
+conditions holds:}
+
+\ul{
+  \li{#{X} is not the [coproduct](rs-00CS) of two nonempty open
+  [subspaces](rs-00CP);}
+  \li{every [continuous map](rs-00CD) from #{X} to the [discrete space](rs-00CI)
+  [#{\finset{2}}](rs-00D4) is constant;}
+  \li{the [functor represented by #{X}](rs-0013) [preserves](rs-002H)
+  [coproducts](rs-0024).}
+}
+

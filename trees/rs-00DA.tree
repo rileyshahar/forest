@@ -1,0 +1,12 @@
+\date{2025-05-13}
+\title{covering groupoid}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{may-concise-course}{May}{Section 3.3}
+
+\p{A \em{covering groupoid} #{E\xto{p} B} is a [functor](rs-000L) between
+[connected](rs-002M) [groupoids](rs-000G) with is [surjective](rs-000I) on
+objects and acts by a [bijection](rs-000E) on [stars](rs-00D9).}
+

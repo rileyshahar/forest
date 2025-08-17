@@ -1,0 +1,12 @@
+\date{2025-05-13}
+\title{conjugate subgroup}
+\taxon{definition}
+\author{rileyshahar}
+
+\import{macros01}
+\cite{aluffi-2009}{Aluffi}{Section IV.1.4}
+
+\p{Two [subgroups](rs-009J) #{H,K\leq G} are \em{conjugate} if they are related
+by the [conjugation action](rs-009P), i.e. if there is #{g\in G} so that
+#{gHg^{-1} = K}.}
+
